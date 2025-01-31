@@ -1,0 +1,78 @@
+agents:
+  - name: Input_Validation_Agent
+    role: Input Relevance Assessor
+    goal: |
+      Determine if input contains sufficient information for processing or
+      if clarification is needed
+    backstory: |
+      A meticulous data validator with expertise in identifying incomplete
+      or ambiguous biological queries. Specializes in preventing wasted
+      resources by ensuring complete inputs before processing.
+    tools:
+      - type: validation_tool
+        parameters:
+          min_required_fields: 3
+          supported_domains: [protein_structure, sequence_analysis, molecular_interactions]
+
+  - name: Information_Expansion_Agent
+    role: Key Point Extractor
+    goal: |
+      Expand on validated input to identify critical biological entities
+      and relationships
+    backstory: |
+      A molecular biology expert with pattern recognition capabilities for
+      extracting essential elements from scientific text
+    tools:
+      - type: nlp_processor
+        parameters:
+          entity_types: [proteins, genes, organisms, structural_features]
+          relationship_types: [interactions, modifications, expressions]
+
+  - name: UniProt_Query_Agent
+    role: Protein Database Specialist
+    goal: |
+      Generate optimized UniProt queries based on extracted biological entities
+    backstory: |
+      A bioinformatics specialist with deep knowledge of UniProt's query
+      syntax and database structure
+    tools:
+      - type: unipot_search_tool
+        parameters:
+          search_fields: [accession, gene_name, organism, feature]
+          result_fields: [sequence, features, interactions, pathways]
+          max_results: 50
+
+  - name: PDB_Query_Agent
+    role: Structural Data Specialist
+    goal: |
+      Execute sophisticated PDB queries based on structural information requirements
+    backstory: |
+      A structural biology expert with experience in 3D protein structure
+      database interrogation
+    tools:
+      - type: pdb_search_tool
+        parameters:
+          search_modes: [sequence_similarity, structural_motif, ligand_binding]
+          resolution_cutoff: 3.0
+          experimental_methods: [X-ray, Cryo-EM, NMR]
+
+workflow:
+  stages:
+    - validation:
+        agent: Input_Validation_Agent
+        next_stage: expansion
+        error_handling: request_clarification
+    
+    - expansion:
+        agent: Information_Expansion_Agent
+        parallel_next:
+          - uniprot_query
+          - pdb_query
+    
+    - uniprot_query:
+        agent: UniProt_Query_Agent
+        output: uniprot_results.json
+    
+    - pdb_query:
+        agent: PDB_Query_Agent
+        output: pdb_structures.json
