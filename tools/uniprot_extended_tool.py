@@ -3,6 +3,7 @@ import urllib.parse
 from crewai.tools.structured_tool import CrewStructuredTool
 from pydantic import BaseModel, Field
 from typing import List, Literal
+import alpha_fold_fetch
 
 # Define allowed key names as Literals
 AllowedKeys = Literal["cc_function", "organism_id"]  # Adjust as needed
@@ -50,7 +51,10 @@ def get_uniprot(query_data: APIQuery):
     if not data:
         print("No UniProt entries found for query:", combined_query)
         return None
-
+    try:
+        alpha_fold_fetch.fetch_from_alphafolddb(data['results'][0]['uniProtKBCrossReferences'][11]["id"])
+    except: 
+        print("No AlphaFoldDB entry found for the given entry ID.")
     return data
 
 # Wrapper function that calls the get_uniprot function
