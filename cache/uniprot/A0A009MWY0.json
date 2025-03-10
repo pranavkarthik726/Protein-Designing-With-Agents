@@ -1,0 +1,1491 @@
+{
+    "results": [
+        {
+            "entryType": "UniProtKB unreviewed (TrEMBL)",
+            "primaryAccession": "A0A009MWY0",
+            "uniProtkbId": "A0A009MWY0_9GAMM",
+            "entryAudit": {
+                "firstPublicDate": "2014-06-11",
+                "lastAnnotationUpdateDate": "2025-02-05",
+                "lastSequenceUpdateDate": "2014-06-11",
+                "entryVersion": 57,
+                "sequenceVersion": 1
+            },
+            "annotationScore": 5.0,
+            "organism": {
+                "scientificName": "Acinetobacter sp. 1475718",
+                "taxonId": 1310652,
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000313",
+                        "source": "EMBL",
+                        "id": "EXB75494.1"
+                    },
+                    {
+                        "evidenceCode": "ECO:0000313",
+                        "source": "Proteomes",
+                        "id": "UP000019943"
+                    }
+                ],
+                "lineage": [
+                    "Bacteria",
+                    "Pseudomonadota",
+                    "Gammaproteobacteria",
+                    "Moraxellales",
+                    "Moraxellaceae",
+                    "Acinetobacter",
+                    "Acinetobacter calcoaceticus/baumannii complex"
+                ]
+            },
+            "proteinExistence": "3: Inferred from homology",
+            "proteinDescription": {
+                "recommendedName": {
+                    "fullName": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000256",
+                                "source": "HAMAP-Rule",
+                                "id": "MF_01485"
+                            }
+                        ],
+                        "value": "RecBCD enzyme subunit RecB"
+                    },
+                    "ecNumbers": [
+                        {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000256",
+                                    "source": "HAMAP-Rule",
+                                    "id": "MF_01485"
+                                }
+                            ],
+                            "value": "3.1.11.5"
+                        },
+                        {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000256",
+                                    "source": "HAMAP-Rule",
+                                    "id": "MF_01485"
+                                }
+                            ],
+                            "value": "5.6.2.4"
+                        }
+                    ]
+                },
+                "alternativeNames": [
+                    {
+                        "fullName": {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000256",
+                                    "source": "HAMAP-Rule",
+                                    "id": "MF_01485"
+                                }
+                            ],
+                            "value": "DNA 3'-5' helicase subunit RecB"
+                        }
+                    },
+                    {
+                        "fullName": {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000256",
+                                    "source": "HAMAP-Rule",
+                                    "id": "MF_01485"
+                                }
+                            ],
+                            "value": "Exonuclease V subunit RecB"
+                        },
+                        "shortNames": [
+                            {
+                                "evidences": [
+                                    {
+                                        "evidenceCode": "ECO:0000256",
+                                        "source": "HAMAP-Rule",
+                                        "id": "MF_01485"
+                                    }
+                                ],
+                                "value": "ExoV subunit RecB"
+                            }
+                        ]
+                    },
+                    {
+                        "fullName": {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000256",
+                                    "source": "HAMAP-Rule",
+                                    "id": "MF_01485"
+                                }
+                            ],
+                            "value": "Helicase/nuclease RecBCD subunit RecB"
+                        }
+                    }
+                ]
+            },
+            "genes": [
+                {
+                    "geneName": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000256",
+                                "source": "HAMAP-Rule",
+                                "id": "MF_01485"
+                            }
+                        ],
+                        "value": "recB"
+                    },
+                    "orfNames": [
+                        {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000313",
+                                    "source": "EMBL",
+                                    "id": "EXB75494.1"
+                                }
+                            ],
+                            "value": "J551_2965"
+                        }
+                    ]
+                }
+            ],
+            "comments": [
+                {
+                    "texts": [
+                        {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000256",
+                                    "source": "HAMAP-Rule",
+                                    "id": "MF_01485"
+                                }
+                            ],
+                            "value": "A helicase/nuclease that prepares dsDNA breaks (DSB) for recombinational DNA repair. Binds to DSBs and unwinds DNA via a highly rapid and processive ATP-dependent bidirectional helicase activity. Unwinds dsDNA until it encounters a Chi (crossover hotspot instigator) sequence from the 3' direction. Cuts ssDNA a few nucleotides 3' to the Chi site. The properties and activities of the enzyme are changed at Chi. The Chi-altered holoenzyme produces a long 3'-ssDNA overhang and facilitates RecA-binding to the ssDNA for homologous DNA recombination and repair. Holoenzyme degrades any linearized DNA that is unable to undergo homologous recombination. In the holoenzyme this subunit contributes ATPase, 3'-5' helicase, exonuclease activity and loads RecA onto ssDNA"
+                        }
+                    ],
+                    "commentType": "FUNCTION"
+                },
+                {
+                    "commentType": "CATALYTIC ACTIVITY",
+                    "reaction": {
+                        "name": "ATP + H2O = ADP + phosphate + H(+)",
+                        "reactionCrossReferences": [
+                            {
+                                "database": "Rhea",
+                                "id": "RHEA:13065"
+                            },
+                            {
+                                "database": "ChEBI",
+                                "id": "CHEBI:15377"
+                            },
+                            {
+                                "database": "ChEBI",
+                                "id": "CHEBI:15378"
+                            },
+                            {
+                                "database": "ChEBI",
+                                "id": "CHEBI:30616"
+                            },
+                            {
+                                "database": "ChEBI",
+                                "id": "CHEBI:43474"
+                            },
+                            {
+                                "database": "ChEBI",
+                                "id": "CHEBI:456216"
+                            }
+                        ],
+                        "ecNumber": "5.6.2.4",
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000256",
+                                "source": "ARBA",
+                                "id": "ARBA00048988"
+                            },
+                            {
+                                "evidenceCode": "ECO:0000256",
+                                "source": "HAMAP-Rule",
+                                "id": "MF_01485"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "commentType": "CATALYTIC ACTIVITY",
+                    "reaction": {
+                        "name": "Couples ATP hydrolysis with the unwinding of duplex DNA by translocating in the 3'-5' direction.",
+                        "ecNumber": "5.6.2.4",
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000256",
+                                "source": "HAMAP-Rule",
+                                "id": "MF_01485"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "commentType": "CATALYTIC ACTIVITY",
+                    "reaction": {
+                        "name": "Exonucleolytic cleavage (in the presence of ATP) in either 5'- to 3'- or 3'- to 5'-direction to yield 5'-phosphooligonucleotides.",
+                        "ecNumber": "3.1.11.5",
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000256",
+                                "source": "HAMAP-Rule",
+                                "id": "MF_01485"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "commentType": "COFACTOR",
+                    "cofactors": [
+                        {
+                            "name": "Mg(2+)",
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000256",
+                                    "source": "HAMAP-Rule",
+                                    "id": "MF_01485"
+                                }
+                            ],
+                            "cofactorCrossReference": {
+                                "database": "ChEBI",
+                                "id": "CHEBI:18420"
+                            }
+                        }
+                    ],
+                    "note": {
+                        "texts": [
+                            {
+                                "evidences": [
+                                    {
+                                        "evidenceCode": "ECO:0000256",
+                                        "source": "HAMAP-Rule",
+                                        "id": "MF_01485"
+                                    }
+                                ],
+                                "value": "Binds 1 Mg(2+) ion per subunit."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "texts": [
+                        {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000256",
+                                    "source": "HAMAP-Rule",
+                                    "id": "MF_01485"
+                                }
+                            ],
+                            "value": "Heterotrimer of RecB, RecC and RecD. All subunits contribute to DNA-binding. Interacts with RecA"
+                        }
+                    ],
+                    "commentType": "SUBUNIT"
+                },
+                {
+                    "texts": [
+                        {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000256",
+                                    "source": "HAMAP-Rule",
+                                    "id": "MF_01485"
+                                }
+                            ],
+                            "value": "The C-terminal domain has nuclease activity and interacts with RecD. It interacts with RecA, facilitating its loading onto ssDNA"
+                        }
+                    ],
+                    "commentType": "DOMAIN"
+                },
+                {
+                    "texts": [
+                        {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000256",
+                                    "source": "HAMAP-Rule",
+                                    "id": "MF_01485"
+                                }
+                            ],
+                            "value": "The N-terminal DNA-binding domain is a ssDNA-dependent ATPase and has ATP-dependent 3'-5' helicase function. This domain interacts with RecC"
+                        }
+                    ],
+                    "commentType": "DOMAIN"
+                },
+                {
+                    "texts": [
+                        {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000256",
+                                    "source": "HAMAP-Rule",
+                                    "id": "MF_01485"
+                                }
+                            ],
+                            "value": "In the RecBCD complex, RecB has a slow 3'-5' helicase, an exonuclease activity and loads RecA onto ssDNA, RecD has a fast 5'-3' helicase activity, while RecC stimulates the ATPase and processivity of the RecB helicase and contributes to recognition of the Chi site"
+                        }
+                    ],
+                    "commentType": "MISCELLANEOUS"
+                },
+                {
+                    "texts": [
+                        {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000256",
+                                    "source": "HAMAP-Rule",
+                                    "id": "MF_01485"
+                                }
+                            ],
+                            "value": "Belongs to the helicase family. UvrD subfamily"
+                        }
+                    ],
+                    "commentType": "SIMILARITY"
+                },
+                {
+                    "texts": [
+                        {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000313",
+                                    "source": "EMBL",
+                                    "id": "EXB75494.1"
+                                }
+                            ],
+                            "value": "The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data"
+                        }
+                    ],
+                    "commentType": "CAUTION"
+                }
+            ],
+            "features": [
+                {
+                    "type": "Domain",
+                    "location": {
+                        "start": {
+                            "value": 4,
+                            "modifier": "EXACT"
+                        },
+                        "end": {
+                            "value": 488,
+                            "modifier": "EXACT"
+                        }
+                    },
+                    "description": "UvrD-like helicase ATP-binding",
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000259",
+                            "source": "PROSITE",
+                            "id": "PS51198"
+                        }
+                    ]
+                },
+                {
+                    "type": "Domain",
+                    "location": {
+                        "start": {
+                            "value": 504,
+                            "modifier": "EXACT"
+                        },
+                        "end": {
+                            "value": 774,
+                            "modifier": "EXACT"
+                        }
+                    },
+                    "description": "UvrD-like helicase C-terminal",
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000259",
+                            "source": "PROSITE",
+                            "id": "PS51217"
+                        }
+                    ]
+                },
+                {
+                    "type": "Region",
+                    "location": {
+                        "start": {
+                            "value": 1,
+                            "modifier": "EXACT"
+                        },
+                        "end": {
+                            "value": 900,
+                            "modifier": "EXACT"
+                        }
+                    },
+                    "description": "DNA-binding and helicase activity, interacts with RecC",
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "HAMAP-Rule",
+                            "id": "MF_01485"
+                        }
+                    ]
+                },
+                {
+                    "type": "Region",
+                    "location": {
+                        "start": {
+                            "value": 922,
+                            "modifier": "EXACT"
+                        },
+                        "end": {
+                            "value": 1232,
+                            "modifier": "EXACT"
+                        }
+                    },
+                    "description": "Nuclease activity, interacts with RecD and RecA",
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "HAMAP-Rule",
+                            "id": "MF_01485"
+                        }
+                    ]
+                },
+                {
+                    "type": "Active site",
+                    "location": {
+                        "start": {
+                            "value": 1132,
+                            "modifier": "EXACT"
+                        },
+                        "end": {
+                            "value": 1132,
+                            "modifier": "EXACT"
+                        }
+                    },
+                    "description": "For nuclease activity",
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "HAMAP-Rule",
+                            "id": "MF_01485"
+                        }
+                    ]
+                },
+                {
+                    "type": "Binding site",
+                    "location": {
+                        "start": {
+                            "value": 25,
+                            "modifier": "EXACT"
+                        },
+                        "end": {
+                            "value": 32,
+                            "modifier": "EXACT"
+                        }
+                    },
+                    "description": "",
+                    "featureCrossReferences": [
+                        {
+                            "database": "ChEBI",
+                            "id": "CHEBI:30616"
+                        }
+                    ],
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "PROSITE-ProRule",
+                            "id": "PRU00560"
+                        }
+                    ],
+                    "ligand": {
+                        "name": "ATP",
+                        "id": "ChEBI:CHEBI:30616"
+                    }
+                },
+                {
+                    "type": "Binding site",
+                    "location": {
+                        "start": {
+                            "value": 990,
+                            "modifier": "EXACT"
+                        },
+                        "end": {
+                            "value": 990,
+                            "modifier": "EXACT"
+                        }
+                    },
+                    "description": "",
+                    "featureCrossReferences": [
+                        {
+                            "database": "ChEBI",
+                            "id": "CHEBI:18420"
+                        }
+                    ],
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "HAMAP-Rule",
+                            "id": "MF_01485"
+                        }
+                    ],
+                    "ligand": {
+                        "name": "Mg(2+)",
+                        "id": "ChEBI:CHEBI:18420"
+                    }
+                },
+                {
+                    "type": "Binding site",
+                    "location": {
+                        "start": {
+                            "value": 1119,
+                            "modifier": "EXACT"
+                        },
+                        "end": {
+                            "value": 1119,
+                            "modifier": "EXACT"
+                        }
+                    },
+                    "description": "",
+                    "featureCrossReferences": [
+                        {
+                            "database": "ChEBI",
+                            "id": "CHEBI:18420"
+                        }
+                    ],
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "HAMAP-Rule",
+                            "id": "MF_01485"
+                        }
+                    ],
+                    "ligand": {
+                        "name": "Mg(2+)",
+                        "id": "ChEBI:CHEBI:18420"
+                    }
+                },
+                {
+                    "type": "Binding site",
+                    "location": {
+                        "start": {
+                            "value": 1132,
+                            "modifier": "EXACT"
+                        },
+                        "end": {
+                            "value": 1132,
+                            "modifier": "EXACT"
+                        }
+                    },
+                    "description": "",
+                    "featureCrossReferences": [
+                        {
+                            "database": "ChEBI",
+                            "id": "CHEBI:18420"
+                        }
+                    ],
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "HAMAP-Rule",
+                            "id": "MF_01485"
+                        }
+                    ],
+                    "ligand": {
+                        "name": "Mg(2+)",
+                        "id": "ChEBI:CHEBI:18420"
+                    }
+                }
+            ],
+            "keywords": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "ARBA",
+                            "id": "ARBA00022840"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "HAMAP-Rule",
+                            "id": "MF_01485"
+                        }
+                    ],
+                    "id": "KW-0067",
+                    "category": "Ligand",
+                    "name": "ATP-binding"
+                },
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "ARBA",
+                            "id": "ARBA00022763"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "HAMAP-Rule",
+                            "id": "MF_01485"
+                        }
+                    ],
+                    "id": "KW-0227",
+                    "category": "Biological process",
+                    "name": "DNA damage"
+                },
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "ARBA",
+                            "id": "ARBA00023204"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "HAMAP-Rule",
+                            "id": "MF_01485"
+                        }
+                    ],
+                    "id": "KW-0234",
+                    "category": "Biological process",
+                    "name": "DNA repair"
+                },
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "ARBA",
+                            "id": "ARBA00023125"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "HAMAP-Rule",
+                            "id": "MF_01485"
+                        }
+                    ],
+                    "id": "KW-0238",
+                    "category": "Molecular function",
+                    "name": "DNA-binding"
+                },
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "ARBA",
+                            "id": "ARBA00022839"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "HAMAP-Rule",
+                            "id": "MF_01485"
+                        }
+                    ],
+                    "id": "KW-0269",
+                    "category": "Molecular function",
+                    "name": "Exonuclease"
+                },
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "ARBA",
+                            "id": "ARBA00022806"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "HAMAP-Rule",
+                            "id": "MF_01485"
+                        }
+                    ],
+                    "id": "KW-0347",
+                    "category": "Molecular function",
+                    "name": "Helicase"
+                },
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "ARBA",
+                            "id": "ARBA00022801"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "HAMAP-Rule",
+                            "id": "MF_01485"
+                        }
+                    ],
+                    "id": "KW-0378",
+                    "category": "Molecular function",
+                    "name": "Hydrolase"
+                },
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "ARBA",
+                            "id": "ARBA00023235"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "HAMAP-Rule",
+                            "id": "MF_01485"
+                        }
+                    ],
+                    "id": "KW-0413",
+                    "category": "Molecular function",
+                    "name": "Isomerase"
+                },
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "ARBA",
+                            "id": "ARBA00022842"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "HAMAP-Rule",
+                            "id": "MF_01485"
+                        }
+                    ],
+                    "id": "KW-0460",
+                    "category": "Ligand",
+                    "name": "Magnesium"
+                },
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "ARBA",
+                            "id": "ARBA00022723"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "HAMAP-Rule",
+                            "id": "MF_01485"
+                        }
+                    ],
+                    "id": "KW-0479",
+                    "category": "Ligand",
+                    "name": "Metal-binding"
+                },
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "ARBA",
+                            "id": "ARBA00022722"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "HAMAP-Rule",
+                            "id": "MF_01485"
+                        }
+                    ],
+                    "id": "KW-0540",
+                    "category": "Molecular function",
+                    "name": "Nuclease"
+                },
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "ARBA",
+                            "id": "ARBA00022741"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "HAMAP-Rule",
+                            "id": "MF_01485"
+                        }
+                    ],
+                    "id": "KW-0547",
+                    "category": "Ligand",
+                    "name": "Nucleotide-binding"
+                }
+            ],
+            "references": [
+                {
+                    "referenceNumber": 1,
+                    "citation": {
+                        "id": "CI-535P53GOM2MOP",
+                        "citationType": "submission",
+                        "authors": [
+                            "Harris A.D.",
+                            "Johnson K.J.",
+                            "George J.",
+                            "Shefchek K.",
+                            "Daugherty S.C.",
+                            "Parankush S.",
+                            "Sadzewicz L.",
+                            "Tallon L.",
+                            "Sengamalay N.",
+                            "Hazen T.H.",
+                            "Rasko D.A."
+                        ],
+                        "title": "Comparative genomics and transcriptomics to identify genetic mechanisms underlying the emergence of carbapenem resistant Acinetobacter baumannii (CRAb).",
+                        "publicationDate": "FEB-2014",
+                        "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+                    },
+                    "referencePositions": [
+                        "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+                    ],
+                    "referenceComments": [
+                        {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000313",
+                                    "source": "EMBL",
+                                    "id": "EXB75494.1"
+                                },
+                                {
+                                    "evidenceCode": "ECO:0000313",
+                                    "source": "Proteomes",
+                                    "id": "UP000019943"
+                                }
+                            ],
+                            "value": "1475718",
+                            "type": "STRAIN"
+                        }
+                    ],
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "EMBL",
+                            "id": "EXB75494.1"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "Proteomes",
+                            "id": "UP000019943"
+                        }
+                    ]
+                }
+            ],
+            "uniProtKBCrossReferences": [
+                {
+                    "database": "EMBL",
+                    "id": "JEWU01000040",
+                    "properties": [
+                        {
+                            "key": "ProteinId",
+                            "value": "EXB75494.1"
+                        },
+                        {
+                            "key": "Status",
+                            "value": "-"
+                        },
+                        {
+                            "key": "MoleculeType",
+                            "value": "Genomic_DNA"
+                        }
+                    ]
+                },
+                {
+                    "database": "RefSeq",
+                    "id": "WP_005804160.1",
+                    "properties": [
+                        {
+                            "key": "NucleotideSequenceId",
+                            "value": "NZ_JEWU01000040.1"
+                        }
+                    ]
+                },
+                {
+                    "database": "AlphaFoldDB",
+                    "id": "A0A009MWY0",
+                    "properties": [
+                        {
+                            "key": "Description",
+                            "value": "-"
+                        }
+                    ]
+                },
+                {
+                    "database": "PATRIC",
+                    "id": "fig|1310652.3.peg.2864",
+                    "properties": [
+                        {
+                            "key": "GeneDesignation",
+                            "value": "-"
+                        }
+                    ]
+                },
+                {
+                    "database": "Proteomes",
+                    "id": "UP000019943",
+                    "properties": [
+                        {
+                            "key": "Component",
+                            "value": "Unassembled WGS sequence"
+                        }
+                    ]
+                },
+                {
+                    "database": "GO",
+                    "id": "GO:0005829",
+                    "properties": [
+                        {
+                            "key": "GoTerm",
+                            "value": "C:cytosol"
+                        },
+                        {
+                            "key": "GoEvidenceType",
+                            "value": "IEA:TreeGrafter"
+                        }
+                    ]
+                },
+                {
+                    "database": "GO",
+                    "id": "GO:0009338",
+                    "properties": [
+                        {
+                            "key": "GoTerm",
+                            "value": "C:exodeoxyribonuclease V complex"
+                        },
+                        {
+                            "key": "GoEvidenceType",
+                            "value": "IEA:TreeGrafter"
+                        }
+                    ]
+                },
+                {
+                    "database": "GO",
+                    "id": "GO:0005524",
+                    "properties": [
+                        {
+                            "key": "GoTerm",
+                            "value": "F:ATP binding"
+                        },
+                        {
+                            "key": "GoEvidenceType",
+                            "value": "IEA:UniProtKB-UniRule"
+                        }
+                    ]
+                },
+                {
+                    "database": "GO",
+                    "id": "GO:0016887",
+                    "properties": [
+                        {
+                            "key": "GoTerm",
+                            "value": "F:ATP hydrolysis activity"
+                        },
+                        {
+                            "key": "GoEvidenceType",
+                            "value": "IEA:RHEA"
+                        }
+                    ]
+                },
+                {
+                    "database": "GO",
+                    "id": "GO:0140849",
+                    "properties": [
+                        {
+                            "key": "GoTerm",
+                            "value": "F:ATP-dependent H2AZ histone chaperone activity"
+                        },
+                        {
+                            "key": "GoEvidenceType",
+                            "value": "IEA:RHEA"
+                        }
+                    ]
+                },
+                {
+                    "database": "GO",
+                    "id": "GO:0140665",
+                    "properties": [
+                        {
+                            "key": "GoTerm",
+                            "value": "F:ATP-dependent H3-H4 histone complex chaperone activity"
+                        },
+                        {
+                            "key": "GoEvidenceType",
+                            "value": "IEA:RHEA"
+                        }
+                    ]
+                },
+                {
+                    "database": "GO",
+                    "id": "GO:0140584",
+                    "properties": [
+                        {
+                            "key": "GoTerm",
+                            "value": "F:chromatin extrusion motor activity"
+                        },
+                        {
+                            "key": "GoEvidenceType",
+                            "value": "IEA:RHEA"
+                        }
+                    ]
+                },
+                {
+                    "database": "GO",
+                    "id": "GO:0061775",
+                    "properties": [
+                        {
+                            "key": "GoTerm",
+                            "value": "F:cohesin loader activity"
+                        },
+                        {
+                            "key": "GoEvidenceType",
+                            "value": "IEA:RHEA"
+                        }
+                    ]
+                },
+                {
+                    "database": "GO",
+                    "id": "GO:0003677",
+                    "properties": [
+                        {
+                            "key": "GoTerm",
+                            "value": "F:DNA binding"
+                        },
+                        {
+                            "key": "GoEvidenceType",
+                            "value": "IEA:UniProtKB-UniRule"
+                        }
+                    ]
+                },
+                {
+                    "database": "GO",
+                    "id": "GO:0003689",
+                    "properties": [
+                        {
+                            "key": "GoTerm",
+                            "value": "F:DNA clamp loader activity"
+                        },
+                        {
+                            "key": "GoEvidenceType",
+                            "value": "IEA:RHEA"
+                        }
+                    ]
+                },
+                {
+                    "database": "GO",
+                    "id": "GO:0036121",
+                    "properties": [
+                        {
+                            "key": "GoTerm",
+                            "value": "F:double-stranded DNA helicase activity"
+                        },
+                        {
+                            "key": "GoEvidenceType",
+                            "value": "IEA:UniProtKB-EC"
+                        }
+                    ]
+                },
+                {
+                    "database": "GO",
+                    "id": "GO:0008854",
+                    "properties": [
+                        {
+                            "key": "GoTerm",
+                            "value": "F:exodeoxyribonuclease V activity"
+                        },
+                        {
+                            "key": "GoEvidenceType",
+                            "value": "IEA:UniProtKB-EC"
+                        }
+                    ]
+                },
+                {
+                    "database": "GO",
+                    "id": "GO:0061749",
+                    "properties": [
+                        {
+                            "key": "GoTerm",
+                            "value": "F:forked DNA-dependent helicase activity"
+                        },
+                        {
+                            "key": "GoEvidenceType",
+                            "value": "IEA:UniProtKB-EC"
+                        }
+                    ]
+                },
+                {
+                    "database": "GO",
+                    "id": "GO:0009378",
+                    "properties": [
+                        {
+                            "key": "GoTerm",
+                            "value": "F:four-way junction helicase activity"
+                        },
+                        {
+                            "key": "GoEvidenceType",
+                            "value": "IEA:UniProtKB-EC"
+                        }
+                    ]
+                },
+                {
+                    "database": "GO",
+                    "id": "GO:0016853",
+                    "properties": [
+                        {
+                            "key": "GoTerm",
+                            "value": "F:isomerase activity"
+                        },
+                        {
+                            "key": "GoEvidenceType",
+                            "value": "IEA:UniProtKB-KW"
+                        }
+                    ]
+                },
+                {
+                    "database": "GO",
+                    "id": "GO:0000287",
+                    "properties": [
+                        {
+                            "key": "GoTerm",
+                            "value": "F:magnesium ion binding"
+                        },
+                        {
+                            "key": "GoEvidenceType",
+                            "value": "IEA:UniProtKB-UniRule"
+                        }
+                    ]
+                },
+                {
+                    "database": "GO",
+                    "id": "GO:1990518",
+                    "properties": [
+                        {
+                            "key": "GoTerm",
+                            "value": "F:single-stranded 3'-5' DNA helicase activity"
+                        },
+                        {
+                            "key": "GoEvidenceType",
+                            "value": "IEA:UniProtKB-EC"
+                        }
+                    ]
+                },
+                {
+                    "database": "GO",
+                    "id": "GO:0000724",
+                    "properties": [
+                        {
+                            "key": "GoTerm",
+                            "value": "P:double-strand break repair via homologous recombination"
+                        },
+                        {
+                            "key": "GoEvidenceType",
+                            "value": "IEA:UniProtKB-UniRule"
+                        }
+                    ]
+                },
+                {
+                    "database": "CDD",
+                    "id": "cd22352",
+                    "properties": [
+                        {
+                            "key": "EntryName",
+                            "value": "RecB_C-like"
+                        },
+                        {
+                            "key": "MatchStatus",
+                            "value": "1"
+                        }
+                    ]
+                },
+                {
+                    "database": "Gene3D",
+                    "id": "3.90.320.10",
+                    "properties": [
+                        {
+                            "key": "EntryName",
+                            "value": "-"
+                        },
+                        {
+                            "key": "MatchStatus",
+                            "value": "1"
+                        }
+                    ]
+                },
+                {
+                    "database": "Gene3D",
+                    "id": "3.40.50.300",
+                    "properties": [
+                        {
+                            "key": "EntryName",
+                            "value": "P-loop containing nucleotide triphosphate hydrolases"
+                        },
+                        {
+                            "key": "MatchStatus",
+                            "value": "2"
+                        }
+                    ]
+                },
+                {
+                    "database": "Gene3D",
+                    "id": "1.10.486.10",
+                    "properties": [
+                        {
+                            "key": "EntryName",
+                            "value": "PCRA, domain 4"
+                        },
+                        {
+                            "key": "MatchStatus",
+                            "value": "1"
+                        }
+                    ]
+                },
+                {
+                    "database": "Gene3D",
+                    "id": "1.10.3170.10",
+                    "properties": [
+                        {
+                            "key": "EntryName",
+                            "value": "Recbcd, chain B, domain 2"
+                        },
+                        {
+                            "key": "MatchStatus",
+                            "value": "1"
+                        }
+                    ]
+                },
+                {
+                    "database": "HAMAP",
+                    "id": "MF_01485",
+                    "properties": [
+                        {
+                            "key": "EntryName",
+                            "value": "RecB"
+                        },
+                        {
+                            "key": "MatchStatus",
+                            "value": "1"
+                        }
+                    ]
+                },
+                {
+                    "database": "InterPro",
+                    "id": "IPR014017",
+                    "properties": [
+                        {
+                            "key": "EntryName",
+                            "value": "DNA_helicase_UvrD-like_C"
+                        }
+                    ]
+                },
+                {
+                    "database": "InterPro",
+                    "id": "IPR000212",
+                    "properties": [
+                        {
+                            "key": "EntryName",
+                            "value": "DNA_helicase_UvrD/REP"
+                        }
+                    ]
+                },
+                {
+                    "database": "InterPro",
+                    "id": "IPR027417",
+                    "properties": [
+                        {
+                            "key": "EntryName",
+                            "value": "P-loop_NTPase"
+                        }
+                    ]
+                },
+                {
+                    "database": "InterPro",
+                    "id": "IPR011604",
+                    "properties": [
+                        {
+                            "key": "EntryName",
+                            "value": "PDDEXK-like_dom_sf"
+                        }
+                    ]
+                },
+                {
+                    "database": "InterPro",
+                    "id": "IPR038726",
+                    "properties": [
+                        {
+                            "key": "EntryName",
+                            "value": "PDDEXK_AddAB-type"
+                        }
+                    ]
+                },
+                {
+                    "database": "InterPro",
+                    "id": "IPR004586",
+                    "properties": [
+                        {
+                            "key": "EntryName",
+                            "value": "RecB"
+                        }
+                    ]
+                },
+                {
+                    "database": "InterPro",
+                    "id": "IPR011335",
+                    "properties": [
+                        {
+                            "key": "EntryName",
+                            "value": "Restrct_endonuc-II-like"
+                        }
+                    ]
+                },
+                {
+                    "database": "InterPro",
+                    "id": "IPR014016",
+                    "properties": [
+                        {
+                            "key": "EntryName",
+                            "value": "UvrD-like_ATP-bd"
+                        }
+                    ]
+                },
+                {
+                    "database": "PANTHER",
+                    "id": "PTHR11070:SF23",
+                    "properties": [
+                        {
+                            "key": "EntryName",
+                            "value": "RECBCD ENZYME SUBUNIT RECB"
+                        },
+                        {
+                            "key": "MatchStatus",
+                            "value": "1"
+                        }
+                    ]
+                },
+                {
+                    "database": "PANTHER",
+                    "id": "PTHR11070",
+                    "properties": [
+                        {
+                            "key": "EntryName",
+                            "value": "UVRD / RECB / PCRA DNA HELICASE FAMILY MEMBER"
+                        },
+                        {
+                            "key": "MatchStatus",
+                            "value": "1"
+                        }
+                    ]
+                },
+                {
+                    "database": "Pfam",
+                    "id": "PF12705",
+                    "properties": [
+                        {
+                            "key": "EntryName",
+                            "value": "PDDEXK_1"
+                        },
+                        {
+                            "key": "MatchStatus",
+                            "value": "1"
+                        }
+                    ]
+                },
+                {
+                    "database": "Pfam",
+                    "id": "PF00580",
+                    "properties": [
+                        {
+                            "key": "EntryName",
+                            "value": "UvrD-helicase"
+                        },
+                        {
+                            "key": "MatchStatus",
+                            "value": "1"
+                        }
+                    ]
+                },
+                {
+                    "database": "Pfam",
+                    "id": "PF13361",
+                    "properties": [
+                        {
+                            "key": "EntryName",
+                            "value": "UvrD_C"
+                        },
+                        {
+                            "key": "MatchStatus",
+                            "value": "1"
+                        }
+                    ]
+                },
+                {
+                    "database": "SUPFAM",
+                    "id": "SSF52540",
+                    "properties": [
+                        {
+                            "key": "EntryName",
+                            "value": "P-loop containing nucleoside triphosphate hydrolases"
+                        },
+                        {
+                            "key": "MatchStatus",
+                            "value": "1"
+                        }
+                    ]
+                },
+                {
+                    "database": "SUPFAM",
+                    "id": "SSF52980",
+                    "properties": [
+                        {
+                            "key": "EntryName",
+                            "value": "Restriction endonuclease-like"
+                        },
+                        {
+                            "key": "MatchStatus",
+                            "value": "1"
+                        }
+                    ]
+                },
+                {
+                    "database": "PROSITE",
+                    "id": "PS51198",
+                    "properties": [
+                        {
+                            "key": "EntryName",
+                            "value": "UVRD_HELICASE_ATP_BIND"
+                        },
+                        {
+                            "key": "MatchStatus",
+                            "value": "1"
+                        }
+                    ]
+                },
+                {
+                    "database": "PROSITE",
+                    "id": "PS51217",
+                    "properties": [
+                        {
+                            "key": "EntryName",
+                            "value": "UVRD_HELICASE_CTER"
+                        },
+                        {
+                            "key": "MatchStatus",
+                            "value": "1"
+                        }
+                    ]
+                }
+            ],
+            "sequence": {
+                "value": "MNSRVQVSYQPIIDIEFSGLHLIEASAGTGKTYTLSSLMVRIFLEKYLPRQVIATTFTRAAAAELKSRIRARLVETYRYLDAKRSFTEHELITQAEQEPDLLLQHILKHFATRIAYACERLKLVIDQLDELFVGTLDSFSQKLLREFAFESGKIERAQITDDAKTYSRQLIHDVLREWIQSQPQTVIDALYLAGELKSVDSFVKLVEDSLNFSSAHFKLPEKPTIQFEELTQLKQLAAEIDISLLEAYYLLDGEHYKYVSGTVFRNGAFNKLFSECLPQLLQVLTQSDSILVFDGSLTAQRELVFKFLGQLADQKVFKKCPAEISDGFYQHPCIQQIQQLFGVLKNYAEQFDQLHIFLKAYLCVEVKKRLPQVLQNKGETTFSQQIRTLSEALKGEQGQRFAVFVQARYPLILVDEFQDTNQDQDDMLASIWRHPERYQKGCMIMVGDRKQAIYGFRGGDMLTFLNAYKDIQAKHGREYKLIHNHRSVADLVDVVDALFQRQIDFGEEVQYDPIRAGTRPHPVLIEQNNHNPHPLRWLMLKDKETEAQQVAWKIRDLLNQSHAGQLYFQKDAQTQVLNEDDIAVLSRNHDGLDKVQFELERLGIRVNRPSKRSVFDCTIAQDVGALLTAILHPYDEAKVKRALISRLFAMDLKQLLQLEQTAEGLSQFMTGFDTIRELWSAQGFLVAWQQCLIQFDIWQNLVVAQSKDNERVVVNLRHLTEILSQHSEKYSGAQNLYHWYLKQLRSPLDRDWELERKLSSEAGVQLMTIHQSKGLEFKIVFLLGADKPFRENNKTLNFSTQDIVKPDSNQTLTQRVVAIADKTYLNEIELKQHEERALAEQNRLWYVALTRASHRVYAVLQDIDGKSVSGLAFWKNRAEPFQHRCCTDEMVLEQIPQAIHLTKQTSVIEIQAKRFPEQRFYSRGKTSFSYLAQHLKHKAGTDLLASQSNDAVLAEDELDLINTAEAISAQPIDWIKNNFPRGTLAGNFLHEIFEHIDFQCSDDWVIEIRRRFKNDYSSLWQDLLSKYNESFPEEEDAENLLYQSVAEWLKDILRTPLSQGFRLNQLQQDQYLSEFPFYLALSDRVLAMTRIQQLFAEYGLNMPELLEARSARYLNGSIDLVYFDGQRYHIADYKSNYLGDDLADYRSDSIAQSMSLASYWLQAGLYLVALHRYLQVKMQDYQIEQHLGGATYLYLRGMNGEAEQGYYYWEPSVEFILRLDAILGYFAEDKIA",
+                "length": 1232,
+                "molWeight": 142674,
+                "crc64": "AD8671E725825652",
+                "md5": "A59AD79CA52A99587A1E58F35C4233E9"
+            },
+            "extraAttributes": {
+                "countByCommentType": {
+                    "FUNCTION": 1,
+                    "CATALYTIC ACTIVITY": 3,
+                    "COFACTOR": 1,
+                    "SUBUNIT": 1,
+                    "DOMAIN": 2,
+                    "MISCELLANEOUS": 1,
+                    "SIMILARITY": 1,
+                    "CAUTION": 1
+                },
+                "countByFeatureType": {
+                    "Domain": 2,
+                    "Region": 2,
+                    "Active site": 1,
+                    "Binding site": 4
+                },
+                "uniParcId": "UPI0001CF8006"
+            }
+        }
+    ]
+}

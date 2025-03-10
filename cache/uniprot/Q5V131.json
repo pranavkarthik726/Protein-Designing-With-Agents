@@ -1,0 +1,603 @@
+{
+    "results": [
+        {
+            "entryType": "UniProtKB unreviewed (TrEMBL)",
+            "primaryAccession": "Q5V131",
+            "uniProtkbId": "Q5V131_HALMA",
+            "entryAudit": {
+                "firstPublicDate": "2004-12-07",
+                "lastAnnotationUpdateDate": "2025-02-05",
+                "lastSequenceUpdateDate": "2004-12-07",
+                "entryVersion": 70,
+                "sequenceVersion": 1
+            },
+            "annotationScore": 1.0,
+            "organism": {
+                "scientificName": "Haloarcula marismortui (strain ATCC 43049 / DSM 3752 / JCM 8966 / VKM B-1809)",
+                "commonName": "Halobacterium marismortui",
+                "taxonId": 272569,
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000313",
+                        "source": "EMBL",
+                        "id": "AAV46772.1"
+                    },
+                    {
+                        "evidenceCode": "ECO:0000313",
+                        "source": "Proteomes",
+                        "id": "UP000001169"
+                    }
+                ],
+                "lineage": [
+                    "Archaea",
+                    "Methanobacteriati",
+                    "Methanobacteriota",
+                    "Stenosarchaea group",
+                    "Halobacteria",
+                    "Halobacteriales",
+                    "Haloarculaceae",
+                    "Haloarcula"
+                ]
+            },
+            "proteinExistence": "4: Predicted",
+            "proteinDescription": {
+                "submissionNames": [
+                    {
+                        "fullName": {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000313",
+                                    "source": "EMBL",
+                                    "id": "AAV46772.1"
+                                }
+                            ],
+                            "value": "DNA binding"
+                        }
+                    },
+                    {
+                        "fullName": {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000313",
+                                    "source": "EMBL",
+                                    "id": "QCP91479.1"
+                                }
+                            ],
+                            "value": "DNA-binding protein"
+                        }
+                    }
+                ]
+            },
+            "genes": [
+                {
+                    "orderedLocusNames": [
+                        {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000313",
+                                    "source": "EMBL",
+                                    "id": "AAV46772.1"
+                                }
+                            ],
+                            "value": "rrnAC1895"
+                        }
+                    ],
+                    "orfNames": [
+                        {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000313",
+                                    "source": "EMBL",
+                                    "id": "QCP91479.1"
+                                }
+                            ],
+                            "value": "E6P14_11690"
+                        }
+                    ]
+                }
+            ],
+            "features": [
+                {
+                    "type": "Domain",
+                    "location": {
+                        "start": {
+                            "value": 6,
+                            "modifier": "EXACT"
+                        },
+                        "end": {
+                            "value": 133,
+                            "modifier": "EXACT"
+                        }
+                    },
+                    "description": "Bacterioopsin transcriptional activator GAF and HTH associated",
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000259",
+                            "source": "Pfam",
+                            "id": "PF15915"
+                        }
+                    ]
+                },
+                {
+                    "type": "Domain",
+                    "location": {
+                        "start": {
+                            "value": 154,
+                            "modifier": "EXACT"
+                        },
+                        "end": {
+                            "value": 205,
+                            "modifier": "EXACT"
+                        }
+                    },
+                    "description": "HTH bat-type",
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000259",
+                            "source": "Pfam",
+                            "id": "PF04967"
+                        }
+                    ]
+                }
+            ],
+            "keywords": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "EMBL",
+                            "id": "QCP91479.1"
+                        }
+                    ],
+                    "id": "KW-0238",
+                    "category": "Molecular function",
+                    "name": "DNA-binding"
+                },
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "Proteomes",
+                            "id": "UP000001169"
+                        }
+                    ],
+                    "id": "KW-1185",
+                    "category": "Technical term",
+                    "name": "Reference proteome"
+                },
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "ARBA",
+                            "id": "ARBA00023163"
+                        }
+                    ],
+                    "id": "KW-0804",
+                    "category": "Biological process",
+                    "name": "Transcription"
+                },
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "ARBA",
+                            "id": "ARBA00023015"
+                        }
+                    ],
+                    "id": "KW-0805",
+                    "category": "Biological process",
+                    "name": "Transcription regulation"
+                }
+            ],
+            "references": [
+                {
+                    "referenceNumber": 1,
+                    "citation": {
+                        "id": "15520287",
+                        "citationType": "journal article",
+                        "authors": [
+                            "Baliga N.S.",
+                            "Bonneau R.",
+                            "Facciotti M.T.",
+                            "Pan M.",
+                            "Glusman G.",
+                            "Deutsch E.W.",
+                            "Shannon P.",
+                            "Chiu Y.",
+                            "Weng R.S.",
+                            "Gan R.R.",
+                            "Hung P.",
+                            "Date S.V.",
+                            "Marcotte E.",
+                            "Hood L.",
+                            "Ng W.V."
+                        ],
+                        "citationCrossReferences": [
+                            {
+                                "database": "PubMed",
+                                "id": "15520287"
+                            },
+                            {
+                                "database": "DOI",
+                                "id": "10.1101/gr.2700304"
+                            }
+                        ],
+                        "title": "Genome sequence of Haloarcula marismortui: a halophilic archaeon from the Dead Sea.",
+                        "publicationDate": "2004",
+                        "journal": "Genome Res.",
+                        "firstPage": "2221",
+                        "lastPage": "2234",
+                        "volume": "14"
+                    },
+                    "referencePositions": [
+                        "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+                    ],
+                    "referenceComments": [
+                        {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000313",
+                                    "source": "EMBL",
+                                    "id": "AAV46772.1"
+                                }
+                            ],
+                            "value": "ATCC 43049",
+                            "type": "STRAIN"
+                        },
+                        {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000313",
+                                    "source": "Proteomes",
+                                    "id": "UP000001169"
+                                }
+                            ],
+                            "value": "ATCC 43049 / DSM 3752 / JCM 8966 / VKM B-1809",
+                            "type": "STRAIN"
+                        }
+                    ],
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "EMBL",
+                            "id": "AAV46772.1"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "Proteomes",
+                            "id": "UP000001169"
+                        }
+                    ]
+                },
+                {
+                    "referenceNumber": 2,
+                    "citation": {
+                        "id": "CI-964VNOUE0901T",
+                        "citationType": "submission",
+                        "authors": [
+                            "DasSarma S.",
+                            "DasSarma P.",
+                            "DasSarma S.",
+                            "Fomenkov A.",
+                            "Vincze T.",
+                            "Anton B.P.",
+                            "Roberts R.J."
+                        ],
+                        "title": "Methylomes of two halophilic Archaea, Haloarcula marismortui and Haloferax mediterranei.",
+                        "publicationDate": "APR-2019",
+                        "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+                    },
+                    "referencePositions": [
+                        "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+                    ],
+                    "referenceComments": [
+                        {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000313",
+                                    "source": "EMBL",
+                                    "id": "QCP91479.1"
+                                },
+                                {
+                                    "evidenceCode": "ECO:0000313",
+                                    "source": "Proteomes",
+                                    "id": "UP000298722"
+                                }
+                            ],
+                            "value": "ATCC 43049",
+                            "type": "STRAIN"
+                        }
+                    ],
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "EMBL",
+                            "id": "QCP91479.1"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "Proteomes",
+                            "id": "UP000298722"
+                        }
+                    ]
+                }
+            ],
+            "uniProtKBCrossReferences": [
+                {
+                    "database": "EMBL",
+                    "id": "AY596297",
+                    "properties": [
+                        {
+                            "key": "ProteinId",
+                            "value": "AAV46772.1"
+                        },
+                        {
+                            "key": "Status",
+                            "value": "-"
+                        },
+                        {
+                            "key": "MoleculeType",
+                            "value": "Genomic_DNA"
+                        }
+                    ]
+                },
+                {
+                    "database": "EMBL",
+                    "id": "CP039138",
+                    "properties": [
+                        {
+                            "key": "ProteinId",
+                            "value": "QCP91479.1"
+                        },
+                        {
+                            "key": "Status",
+                            "value": "-"
+                        },
+                        {
+                            "key": "MoleculeType",
+                            "value": "Genomic_DNA"
+                        }
+                    ]
+                },
+                {
+                    "database": "RefSeq",
+                    "id": "WP_011223910.1",
+                    "properties": [
+                        {
+                            "key": "NucleotideSequenceId",
+                            "value": "NZ_CP039138.1"
+                        }
+                    ]
+                },
+                {
+                    "database": "AlphaFoldDB",
+                    "id": "Q5V131",
+                    "properties": [
+                        {
+                            "key": "Description",
+                            "value": "-"
+                        }
+                    ]
+                },
+                {
+                    "database": "STRING",
+                    "id": "272569.rrnAC1895",
+                    "properties": [
+                        {
+                            "key": "Description",
+                            "value": "-"
+                        }
+                    ]
+                },
+                {
+                    "database": "PaxDb",
+                    "id": "272569-rrnAC1895",
+                    "properties": [
+                        {
+                            "key": "Description",
+                            "value": "-"
+                        }
+                    ]
+                },
+                {
+                    "database": "EnsemblBacteria",
+                    "id": "AAV46772",
+                    "properties": [
+                        {
+                            "key": "ProteinId",
+                            "value": "AAV46772"
+                        },
+                        {
+                            "key": "GeneId",
+                            "value": "rrnAC1895"
+                        }
+                    ]
+                },
+                {
+                    "database": "GeneID",
+                    "id": "40152827",
+                    "properties": [
+                        {
+                            "key": "Description",
+                            "value": "-"
+                        }
+                    ]
+                },
+                {
+                    "database": "KEGG",
+                    "id": "hma:rrnAC1895",
+                    "properties": [
+                        {
+                            "key": "Description",
+                            "value": "-"
+                        }
+                    ]
+                },
+                {
+                    "database": "PATRIC",
+                    "id": "fig|272569.17.peg.2556",
+                    "properties": [
+                        {
+                            "key": "GeneDesignation",
+                            "value": "-"
+                        }
+                    ]
+                },
+                {
+                    "database": "eggNOG",
+                    "id": "arCOG02272",
+                    "properties": [
+                        {
+                            "key": "ToxonomicScope",
+                            "value": "Archaea"
+                        }
+                    ]
+                },
+                {
+                    "database": "HOGENOM",
+                    "id": "CLU_076274_1_0_2",
+                    "properties": [
+                        {
+                            "key": "Description",
+                            "value": "-"
+                        }
+                    ]
+                },
+                {
+                    "database": "Proteomes",
+                    "id": "UP000001169",
+                    "properties": [
+                        {
+                            "key": "Component",
+                            "value": "Chromosome I"
+                        }
+                    ]
+                },
+                {
+                    "database": "Proteomes",
+                    "id": "UP000298722",
+                    "properties": [
+                        {
+                            "key": "Component",
+                            "value": "Chromosome"
+                        }
+                    ]
+                },
+                {
+                    "database": "GO",
+                    "id": "GO:0003677",
+                    "properties": [
+                        {
+                            "key": "GoTerm",
+                            "value": "F:DNA binding"
+                        },
+                        {
+                            "key": "GoEvidenceType",
+                            "value": "IEA:UniProtKB-KW"
+                        }
+                    ]
+                },
+                {
+                    "database": "InterPro",
+                    "id": "IPR052540",
+                    "properties": [
+                        {
+                            "key": "EntryName",
+                            "value": "Anaerobic_Resp_Reg"
+                        }
+                    ]
+                },
+                {
+                    "database": "InterPro",
+                    "id": "IPR031803",
+                    "properties": [
+                        {
+                            "key": "EntryName",
+                            "value": "BAT_GAF/HTH-assoc"
+                        }
+                    ]
+                },
+                {
+                    "database": "InterPro",
+                    "id": "IPR007050",
+                    "properties": [
+                        {
+                            "key": "EntryName",
+                            "value": "HTH_bacterioopsin"
+                        }
+                    ]
+                },
+                {
+                    "database": "PANTHER",
+                    "id": "PTHR34236",
+                    "properties": [
+                        {
+                            "key": "EntryName",
+                            "value": "DIMETHYL SULFOXIDE REDUCTASE TRANSCRIPTIONAL ACTIVATOR"
+                        },
+                        {
+                            "key": "MatchStatus",
+                            "value": "1"
+                        }
+                    ]
+                },
+                {
+                    "database": "PANTHER",
+                    "id": "PTHR34236:SF1",
+                    "properties": [
+                        {
+                            "key": "EntryName",
+                            "value": "DIMETHYL SULFOXIDE REDUCTASE TRANSCRIPTIONAL ACTIVATOR"
+                        },
+                        {
+                            "key": "MatchStatus",
+                            "value": "1"
+                        }
+                    ]
+                },
+                {
+                    "database": "Pfam",
+                    "id": "PF15915",
+                    "properties": [
+                        {
+                            "key": "EntryName",
+                            "value": "BAT"
+                        },
+                        {
+                            "key": "MatchStatus",
+                            "value": "1"
+                        }
+                    ]
+                },
+                {
+                    "database": "Pfam",
+                    "id": "PF04967",
+                    "properties": [
+                        {
+                            "key": "EntryName",
+                            "value": "HTH_10"
+                        },
+                        {
+                            "key": "MatchStatus",
+                            "value": "1"
+                        }
+                    ]
+                }
+            ],
+            "sequence": {
+                "value": "MSVICEFELQSADMPLCAVAAELNTRLIVDTVVSGTTDEPALVFSATGVEPDALESALLGDESVVEFVAMDSAIVESRYRVVLDTDYVEMYTQLVDRQTYPMGALVTEHGWKVSTQFADRADLEAFRDTCQSSSVTFRPHRLCETEHGGDDYGLTAPQREALLAAHRLGYFTVPRGADLTDLSAELDATTSAISERLRRGTDRLIDHTIASSEQ",
+                "length": 214,
+                "molWeight": 23457,
+                "crc64": "1BCAD36864C34A9D",
+                "md5": "15DE7B6098BEC6BFF7F94234BDDDFEC9"
+            },
+            "extraAttributes": {
+                "countByFeatureType": {
+                    "Domain": 2
+                },
+                "uniParcId": "UPI000045533A"
+            }
+        }
+    ]
+}
