@@ -1,48 +1,56 @@
-
-from crewai.tools import tool
-from tools import alpha_fold_fetch
 import json
+import os
 import requests
-def uniprot_extended_tool():
-    dir = r"/home/bharath-sooryaa-m/Documents/BIO/proj/Protein-Designing-With-Agents"
-    @tool(name="uniprot_fetch_tool", platform="protein_designing_with_agents", description="This tool provides an acces to fetch data from.")
-    def uniprot_fetch_tool(self,query:json, format="json"):
+from pathlib import Path
+from tools import alpha_fold_fetch #importing tools alpha_fold_fetch
+#change to parent directory
+current_path = Path.cwd()
+parent_path = current_path.parent
+os.chdir(parent_path)
+
+class toolset:
+    def get_protein__site_info(protein_id: str) -> str:
+        """Fetches the protein site information from cache."""
+        loc = r"{parent_path}/cache/uniprot/{protein_id}.json".format(parent_path=parent_path, protein_id=protein_id)
+        with open(loc, 'r') as f:
+            data = json.load(f)
+            print("used")
+            return str(data['results'][0]['features'])
+        return "No data found"
+    def uniprot_fetch_tool(query: str) -> str:
+        """This tool provides an acces to fetch data from UniProtKB using the UniProt REST API.
+        the input has to be strictly a string """
         url = "https://rest.uniprot.org/uniprotkb/search"
         params = {
             "query": query,
             "format": "json",
-            "size": 500 #adjust as needed.
+            "size": 1 #adjust as needed.
         }
 
         try:
             response = requests.get(url, params=params)
-            response.raise_for_status()  # Raise HTTPError for bad responses (4xx or 5xx)
+            response.raise_for_status() 
             data = response.json()
             filename = f"cache/uniprot/{data['results'][0]['primaryAccession'].replace(' ', '_')}.json"
             with open(filename, "w") as f:
                 json.dump(data, f, indent=4)
             print(f"Data saved to {filename}")
             try:
-                alpha_fold_fetch.fetch_from_alphafolddb(data['results'][0]['uniProtKBCrossReferences'][11]["id"])
+                apha_f_id =0
+                for i in data['results'][0]['uniProtKBCrossReferences']:
+                    if i.get('database') == 'AlphaFoldDB':
+                        apha_f_id = i.get('id')
+                        break
+                print(apha_f_id)
+                alpha_fold_fetch.fetch_from_alphafolddb(apha_f_id)
             except: 
                 print("No AlphaFoldDB entry found for the given entry ID.")
-            return data
+                return "No AlphaFoldDB entry found for the given entry ID.,provide a query with take protein with structure"
+            return data['results'][0]['primaryAccession']
 
         except requests.exceptions.RequestException as e:
             print(f"Error during UniProt API request: {e}")
-            return None
+            return "Error during UniProt API request: {e}".format(e=e)
         except ValueError as e: # Catch JSON decoding errors.
             print(f"Error decoding JSON: {e}")
-            return None
-
-
-    @tool("get_protein__site_info")
-    def get_protein__site_info(self,protein_id: str) -> str:
-        """Fetches the protein site information from cache."""
-        loc = r"{dir}/cache/uniprot/{protein_id}.json".format(protein_id=protein_id,dir=self.dir)
-        with open(loc, 'r') as f:
-            data = json.load(f)
-            print("used")
-            return str(data['results'][0]['features'])
-        print("No data found")
-        return None
+            return "Error decoding JSON: {e}".format(e=e)
