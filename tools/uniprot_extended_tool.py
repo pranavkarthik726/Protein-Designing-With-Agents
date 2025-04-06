@@ -60,12 +60,20 @@ class toolset:
             return "Error decoding JSON: {e}".format(e=e)
     def get_all_sequence(self)->list:
         """Fetches the protein sequence information from cache."""
-        loc = r"{parent_path}/uniprot/sequence.json".format(parent_path=self.dir)
-        with open(loc, 'r') as f:
-            data = json.load(f)
-            print("used")
-            return data['results'][0]['sequence']
-        return "No data found"
+        loc = r"{parent_path}/uniprot".format(parent_path=self.dir)
+        seqlist = []
+        for filename in os.listdir(loc):
+            if filename.endswith('.json'):
+                with open(os.path.join(loc, filename), 'r') as f:
+                    data = json.load(f)
+                    try:
+                        sequence = (data['sequence']['value'])
+                        seqlist.append(sequence)
+                    except KeyError:
+                        print(f"Sequence not found in {filename}.")
+        if seqlist:
+            return seqlist
+        return ["No sequence found"]
     def Multiple_sequence_alignment(self) -> str:
         """Performs multiple sequence alignment using Clustal Omega."""
         proteins = self.get_all_sequence()
