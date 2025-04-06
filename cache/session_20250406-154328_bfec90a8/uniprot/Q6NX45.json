@@ -1,0 +1,2962 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q6NX45",
+    "secondaryAccessions": [
+        "A8K020"
+    ],
+    "uniProtkbId": "ZN774_HUMAN",
+    "entryAudit": {
+        "firstPublicDate": "2006-12-12",
+        "lastAnnotationUpdateDate": "2025-02-05",
+        "lastSequenceUpdateDate": "2010-11-30",
+        "entryVersion": 167,
+        "sequenceVersion": 2
+    },
+    "annotationScore": 5.0,
+    "organism": {
+        "scientificName": "Homo sapiens",
+        "commonName": "Human",
+        "taxonId": 9606,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Mammalia",
+            "Eutheria",
+            "Euarchontoglires",
+            "Primates",
+            "Haplorrhini",
+            "Catarrhini",
+            "Hominidae",
+            "Homo"
+        ]
+    },
+    "proteinExistence": "1: Evidence at protein level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "value": "Zinc finger protein 774"
+            }
+        }
+    },
+    "genes": [
+        {
+            "geneName": {
+                "value": "ZNF774"
+            }
+        }
+    ],
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250"
+                        }
+                    ],
+                    "value": "May be involved in transcriptional regulation"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "commentType": "INTERACTION",
+            "interactions": [
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q9UBB4",
+                        "geneName": "ATXN10",
+                        "intActId": "EBI-702390"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q9BYV9",
+                        "geneName": "BACH2",
+                        "intActId": "EBI-1642333"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q9BUH8",
+                        "geneName": "BEGAIN",
+                        "intActId": "EBI-742722"
+                    },
+                    "numberOfExperiments": 6,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "P51451",
+                        "geneName": "BLK",
+                        "intActId": "EBI-2105445"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "A0A087WZT3",
+                        "geneName": "BOLA2-SMG1P6",
+                        "intActId": "EBI-12006120"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q13895",
+                        "geneName": "BYSL",
+                        "intActId": "EBI-358049"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q9NPB3",
+                        "geneName": "CABP2",
+                        "intActId": "EBI-12011224"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q13137",
+                        "geneName": "CALCOCO2",
+                        "intActId": "EBI-739580"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q9H257-2",
+                        "geneName": "CARD9",
+                        "intActId": "EBI-11530605"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q8NEC5",
+                        "geneName": "CATSPER1",
+                        "intActId": "EBI-744545"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q68D86",
+                        "geneName": "CCDC102B",
+                        "intActId": "EBI-10171570"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q16204",
+                        "geneName": "CCDC6",
+                        "intActId": "EBI-1045350"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q8TD31-3",
+                        "geneName": "CCHCR1",
+                        "intActId": "EBI-10175300"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q07002",
+                        "geneName": "CDK18",
+                        "intActId": "EBI-746238"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "P55273",
+                        "geneName": "CDKN2D",
+                        "intActId": "EBI-745859"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q96MT8-3",
+                        "geneName": "CEP63",
+                        "intActId": "EBI-11522539"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q96Q77",
+                        "geneName": "CIB3",
+                        "intActId": "EBI-10292696"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "P27658",
+                        "geneName": "COL8A1",
+                        "intActId": "EBI-747133"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q9UBL6-2",
+                        "geneName": "CPNE7",
+                        "intActId": "EBI-12012272"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q86UW9",
+                        "geneName": "DTX2",
+                        "intActId": "EBI-740376"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q92997",
+                        "geneName": "DVL3",
+                        "intActId": "EBI-739789"
+                    },
+                    "numberOfExperiments": 6,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "O95967",
+                        "geneName": "EFEMP2",
+                        "intActId": "EBI-743414"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "P50402",
+                        "geneName": "EMD",
+                        "intActId": "EBI-489887"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q9H0I2",
+                        "geneName": "ENKD1",
+                        "intActId": "EBI-744099"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q9H5Z6-2",
+                        "geneName": "FAM124B",
+                        "intActId": "EBI-11986315"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q9NW38",
+                        "geneName": "FANCL",
+                        "intActId": "EBI-2339898"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "A1L4K1",
+                        "geneName": "FSD2",
+                        "intActId": "EBI-5661036"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "P60520",
+                        "geneName": "GABARAPL2",
+                        "intActId": "EBI-720116"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "P55040",
+                        "geneName": "GEM",
+                        "intActId": "EBI-744104"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "P14136",
+                        "geneName": "GFAP",
+                        "intActId": "EBI-744302"
+                    },
+                    "numberOfExperiments": 9,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "O76003",
+                        "geneName": "GLRX3",
+                        "intActId": "EBI-374781"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q92805",
+                        "geneName": "GOLGA1",
+                        "intActId": "EBI-6164177"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q08379",
+                        "geneName": "GOLGA2",
+                        "intActId": "EBI-618309"
+                    },
+                    "numberOfExperiments": 7,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "P28799",
+                        "geneName": "GRN",
+                        "intActId": "EBI-747754"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q969Y2",
+                        "geneName": "GTPBP3",
+                        "intActId": "EBI-740290"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "P13807",
+                        "geneName": "GYS1",
+                        "intActId": "EBI-740553"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "P51124",
+                        "geneName": "GZMM",
+                        "intActId": "EBI-12119998"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "P49639",
+                        "geneName": "HOXA1",
+                        "intActId": "EBI-740785"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "P09067",
+                        "geneName": "HOXB5",
+                        "intActId": "EBI-3893317"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "O75031",
+                        "geneName": "HSF2BP",
+                        "intActId": "EBI-7116203"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q14005-2",
+                        "geneName": "IL16",
+                        "intActId": "EBI-17178971"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "O15397",
+                        "geneName": "IPO8",
+                        "intActId": "EBI-358808"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q8WXH2",
+                        "geneName": "JPH3",
+                        "intActId": "EBI-1055254"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q63ZY3",
+                        "geneName": "KANK2",
+                        "intActId": "EBI-2556193"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q9BVG8-5",
+                        "geneName": "KIFC3",
+                        "intActId": "EBI-14069005"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "P60371",
+                        "geneName": "KRTAP10-6",
+                        "intActId": "EBI-12012928"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "P60409",
+                        "geneName": "KRTAP10-7",
+                        "intActId": "EBI-10172290"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "P60411",
+                        "geneName": "KRTAP10-9",
+                        "intActId": "EBI-10172052"
+                    },
+                    "numberOfExperiments": 6,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q9BYR2",
+                        "geneName": "KRTAP4-5",
+                        "intActId": "EBI-11993254"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "O95751",
+                        "geneName": "LDOC1",
+                        "intActId": "EBI-740738"
+                    },
+                    "numberOfExperiments": 5,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q17RB8",
+                        "geneName": "LONRF1",
+                        "intActId": "EBI-2341787"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q96A72",
+                        "geneName": "MAGOHB",
+                        "intActId": "EBI-746778"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q9UJV3-2",
+                        "geneName": "MID2",
+                        "intActId": "EBI-10172526"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q8IVT2",
+                        "geneName": "MISP",
+                        "intActId": "EBI-2555085"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "P40692",
+                        "geneName": "MLH1",
+                        "intActId": "EBI-744248"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q5JR59-3",
+                        "geneName": "MTUS2",
+                        "intActId": "EBI-11522433"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q96JP2",
+                        "geneName": "MYO15B",
+                        "intActId": "EBI-7950783"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q9UHB4",
+                        "geneName": "NDOR1",
+                        "intActId": "EBI-10249760"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q9HC98-4",
+                        "geneName": "NEK6",
+                        "intActId": "EBI-11750983"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q8IV28",
+                        "geneName": "NID2",
+                        "intActId": "EBI-10261509"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q4G0R1",
+                        "geneName": "PIBF1",
+                        "intActId": "EBI-14066006"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q9NRD5",
+                        "geneName": "PICK1",
+                        "intActId": "EBI-79165"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q8WWY3",
+                        "geneName": "PRPF31",
+                        "intActId": "EBI-1567797"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "P20618",
+                        "geneName": "PSMB1",
+                        "intActId": "EBI-372273"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q15276",
+                        "geneName": "RABEP1",
+                        "intActId": "EBI-447043"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "O75771",
+                        "geneName": "RAD51D",
+                        "intActId": "EBI-1055693"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "P57052",
+                        "geneName": "RBM11",
+                        "intActId": "EBI-741332"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q9BWG6",
+                        "geneName": "SCNM1",
+                        "intActId": "EBI-748391"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q9H788",
+                        "geneName": "SH2D4A",
+                        "intActId": "EBI-747035"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "P84022",
+                        "geneName": "SMAD3",
+                        "intActId": "EBI-347161"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q7Z699",
+                        "geneName": "SPRED1",
+                        "intActId": "EBI-5235340"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "O75716",
+                        "geneName": "STK16",
+                        "intActId": "EBI-749295"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q12933",
+                        "geneName": "TRAF2",
+                        "intActId": "EBI-355744"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q5T7W7",
+                        "geneName": "TSTD2",
+                        "intActId": "EBI-8994397"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q70CQ1-2",
+                        "geneName": "USP49",
+                        "intActId": "EBI-12133829"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q2TAL6",
+                        "geneName": "VWC2",
+                        "intActId": "EBI-11957238"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "O76024",
+                        "geneName": "WFS1",
+                        "intActId": "EBI-720609"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "P13994",
+                        "geneName": "YJU2B",
+                        "intActId": "EBI-716093"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "P49910",
+                        "geneName": "ZNF165",
+                        "intActId": "EBI-741694"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q8TAU3",
+                        "geneName": "ZNF417",
+                        "intActId": "EBI-740727"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q96MX3",
+                        "geneName": "ZNF48",
+                        "intActId": "EBI-12006434"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q8TF50",
+                        "geneName": "ZNF526",
+                        "intActId": "EBI-11035148"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q7Z3I7",
+                        "geneName": "ZNF572",
+                        "intActId": "EBI-10172590"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q6NX45",
+                        "intActId": "EBI-10251462"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q96SQ5",
+                        "geneName": "ZNF587",
+                        "intActId": "EBI-6427977"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                }
+            ]
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000305"
+                            }
+                        ],
+                        "value": "Nucleus",
+                        "id": "SL-0191"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Belongs to the krueppel C2H2-type zinc-finger protein family"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        }
+    ],
+    "features": [
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 483,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Zinc finger protein 774",
+            "featureId": "PRO_0000263653"
+        },
+        {
+            "type": "Domain",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 64,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "KRAB"
+        },
+        {
+            "type": "Zinc finger",
+            "location": {
+                "start": {
+                    "value": 151,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 173,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "C2H2-type 1",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU00042"
+                }
+            ]
+        },
+        {
+            "type": "Zinc finger",
+            "location": {
+                "start": {
+                    "value": 179,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 201,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "C2H2-type 2",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU00042"
+                }
+            ]
+        },
+        {
+            "type": "Zinc finger",
+            "location": {
+                "start": {
+                    "value": 207,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 229,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "C2H2-type 3",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU00042"
+                }
+            ]
+        },
+        {
+            "type": "Zinc finger",
+            "location": {
+                "start": {
+                    "value": 235,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 257,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "C2H2-type 4",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU00042"
+                }
+            ]
+        },
+        {
+            "type": "Zinc finger",
+            "location": {
+                "start": {
+                    "value": 263,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 285,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "C2H2-type 5",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU00042"
+                }
+            ]
+        },
+        {
+            "type": "Zinc finger",
+            "location": {
+                "start": {
+                    "value": 291,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 313,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "C2H2-type 6",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU00042"
+                }
+            ]
+        },
+        {
+            "type": "Zinc finger",
+            "location": {
+                "start": {
+                    "value": 319,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 341,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "C2H2-type 7",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU00042"
+                }
+            ]
+        },
+        {
+            "type": "Zinc finger",
+            "location": {
+                "start": {
+                    "value": 347,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 369,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "C2H2-type 8",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU00042"
+                }
+            ]
+        },
+        {
+            "type": "Zinc finger",
+            "location": {
+                "start": {
+                    "value": 375,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 397,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "C2H2-type 9",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU00042"
+                }
+            ]
+        },
+        {
+            "type": "Zinc finger",
+            "location": {
+                "start": {
+                    "value": 403,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 425,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "C2H2-type 10",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU00042"
+                }
+            ]
+        },
+        {
+            "type": "Zinc finger",
+            "location": {
+                "start": {
+                    "value": 431,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 453,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "C2H2-type 11",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU00042"
+                }
+            ]
+        },
+        {
+            "type": "Zinc finger",
+            "location": {
+                "start": {
+                    "value": 459,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 481,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "C2H2-type 12",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU00042"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 81,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 101,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Disordered",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Compositional bias",
+            "location": {
+                "start": {
+                    "value": 81,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 95,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Polar residues",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 65,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 65,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in dbSNP:rs16944267",
+            "featureCrossReferences": [
+                {
+                    "database": "dbSNP",
+                    "id": "rs16944267"
+                }
+            ],
+            "featureId": "VAR_029596",
+            "alternativeSequence": {
+                "originalSequence": "P",
+                "alternativeSequences": [
+                    "L"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 83,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 83,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in dbSNP:rs2589957",
+            "featureCrossReferences": [
+                {
+                    "database": "dbSNP",
+                    "id": "rs2589957"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "15489334"
+                }
+            ],
+            "featureId": "VAR_029597",
+            "alternativeSequence": {
+                "originalSequence": "N",
+                "alternativeSequences": [
+                    "S"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 147,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 147,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in dbSNP:rs11854320",
+            "featureCrossReferences": [
+                {
+                    "database": "dbSNP",
+                    "id": "rs11854320"
+                }
+            ],
+            "featureId": "VAR_029598",
+            "alternativeSequence": {
+                "originalSequence": "V",
+                "alternativeSequences": [
+                    "I"
+                ]
+            }
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0238",
+            "category": "Molecular function",
+            "name": "DNA-binding"
+        },
+        {
+            "id": "KW-0479",
+            "category": "Ligand",
+            "name": "Metal-binding"
+        },
+        {
+            "id": "KW-0539",
+            "category": "Cellular component",
+            "name": "Nucleus"
+        },
+        {
+            "id": "KW-1267",
+            "category": "Technical term",
+            "name": "Proteomics identification"
+        },
+        {
+            "id": "KW-1185",
+            "category": "Technical term",
+            "name": "Reference proteome"
+        },
+        {
+            "id": "KW-0677",
+            "category": "Domain",
+            "name": "Repeat"
+        },
+        {
+            "id": "KW-0804",
+            "category": "Biological process",
+            "name": "Transcription"
+        },
+        {
+            "id": "KW-0805",
+            "category": "Biological process",
+            "name": "Transcription regulation"
+        },
+        {
+            "id": "KW-0862",
+            "category": "Ligand",
+            "name": "Zinc"
+        },
+        {
+            "id": "KW-0863",
+            "category": "Domain",
+            "name": "Zinc-finger"
+        }
+    ],
+    "references": [
+        {
+            "referenceNumber": 1,
+            "citation": {
+                "id": "14702039",
+                "citationType": "journal article",
+                "authors": [
+                    "Ota T.",
+                    "Suzuki Y.",
+                    "Nishikawa T.",
+                    "Otsuki T.",
+                    "Sugiyama T.",
+                    "Irie R.",
+                    "Wakamatsu A.",
+                    "Hayashi K.",
+                    "Sato H.",
+                    "Nagai K.",
+                    "Kimura K.",
+                    "Makita H.",
+                    "Sekine M.",
+                    "Obayashi M.",
+                    "Nishi T.",
+                    "Shibahara T.",
+                    "Tanaka T.",
+                    "Ishii S.",
+                    "Yamamoto J.",
+                    "Saito K.",
+                    "Kawai Y.",
+                    "Isono Y.",
+                    "Nakamura Y.",
+                    "Nagahari K.",
+                    "Murakami K.",
+                    "Yasuda T.",
+                    "Iwayanagi T.",
+                    "Wagatsuma M.",
+                    "Shiratori A.",
+                    "Sudo H.",
+                    "Hosoiri T.",
+                    "Kaku Y.",
+                    "Kodaira H.",
+                    "Kondo H.",
+                    "Sugawara M.",
+                    "Takahashi M.",
+                    "Kanda K.",
+                    "Yokoi T.",
+                    "Furuya T.",
+                    "Kikkawa E.",
+                    "Omura Y.",
+                    "Abe K.",
+                    "Kamihara K.",
+                    "Katsuta N.",
+                    "Sato K.",
+                    "Tanikawa M.",
+                    "Yamazaki M.",
+                    "Ninomiya K.",
+                    "Ishibashi T.",
+                    "Yamashita H.",
+                    "Murakawa K.",
+                    "Fujimori K.",
+                    "Tanai H.",
+                    "Kimata M.",
+                    "Watanabe M.",
+                    "Hiraoka S.",
+                    "Chiba Y.",
+                    "Ishida S.",
+                    "Ono Y.",
+                    "Takiguchi S.",
+                    "Watanabe S.",
+                    "Yosida M.",
+                    "Hotuta T.",
+                    "Kusano J.",
+                    "Kanehori K.",
+                    "Takahashi-Fujii A.",
+                    "Hara H.",
+                    "Tanase T.-O.",
+                    "Nomura Y.",
+                    "Togiya S.",
+                    "Komai F.",
+                    "Hara R.",
+                    "Takeuchi K.",
+                    "Arita M.",
+                    "Imose N.",
+                    "Musashino K.",
+                    "Yuuki H.",
+                    "Oshima A.",
+                    "Sasaki N.",
+                    "Aotsuka S.",
+                    "Yoshikawa Y.",
+                    "Matsunawa H.",
+                    "Ichihara T.",
+                    "Shiohata N.",
+                    "Sano S.",
+                    "Moriya S.",
+                    "Momiyama H.",
+                    "Satoh N.",
+                    "Takami S.",
+                    "Terashima Y.",
+                    "Suzuki O.",
+                    "Nakagawa S.",
+                    "Senoh A.",
+                    "Mizoguchi H.",
+                    "Goto Y.",
+                    "Shimizu F.",
+                    "Wakebe H.",
+                    "Hishigaki H.",
+                    "Watanabe T.",
+                    "Sugiyama A.",
+                    "Takemoto M.",
+                    "Kawakami B.",
+                    "Yamazaki M.",
+                    "Watanabe K.",
+                    "Kumagai A.",
+                    "Itakura S.",
+                    "Fukuzumi Y.",
+                    "Fujimori Y.",
+                    "Komiyama M.",
+                    "Tashiro H.",
+                    "Tanigami A.",
+                    "Fujiwara T.",
+                    "Ono T.",
+                    "Yamada K.",
+                    "Fujii Y.",
+                    "Ozaki K.",
+                    "Hirao M.",
+                    "Ohmori Y.",
+                    "Kawabata A.",
+                    "Hikiji T.",
+                    "Kobatake N.",
+                    "Inagaki H.",
+                    "Ikema Y.",
+                    "Okamoto S.",
+                    "Okitani R.",
+                    "Kawakami T.",
+                    "Noguchi S.",
+                    "Itoh T.",
+                    "Shigeta K.",
+                    "Senba T.",
+                    "Matsumura K.",
+                    "Nakajima Y.",
+                    "Mizuno T.",
+                    "Morinaga M.",
+                    "Sasaki M.",
+                    "Togashi T.",
+                    "Oyama M.",
+                    "Hata H.",
+                    "Watanabe M.",
+                    "Komatsu T.",
+                    "Mizushima-Sugano J.",
+                    "Satoh T.",
+                    "Shirai Y.",
+                    "Takahashi Y.",
+                    "Nakagawa K.",
+                    "Okumura K.",
+                    "Nagase T.",
+                    "Nomura N.",
+                    "Kikuchi H.",
+                    "Masuho Y.",
+                    "Yamashita R.",
+                    "Nakai K.",
+                    "Yada T.",
+                    "Nakamura Y.",
+                    "Ohara O.",
+                    "Isogai T.",
+                    "Sugano S."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "14702039"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1038/ng1285"
+                    }
+                ],
+                "title": "Complete sequencing and characterization of 21,243 full-length human cDNAs.",
+                "publicationDate": "2004",
+                "journal": "Nat. Genet.",
+                "firstPage": "40",
+                "lastPage": "45",
+                "volume": "36"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Adrenal gland",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "referenceNumber": 2,
+            "citation": {
+                "id": "16572171",
+                "citationType": "journal article",
+                "authors": [
+                    "Zody M.C.",
+                    "Garber M.",
+                    "Sharpe T.",
+                    "Young S.K.",
+                    "Rowen L.",
+                    "O'Neill K.",
+                    "Whittaker C.A.",
+                    "Kamal M.",
+                    "Chang J.L.",
+                    "Cuomo C.A.",
+                    "Dewar K.",
+                    "FitzGerald M.G.",
+                    "Kodira C.D.",
+                    "Madan A.",
+                    "Qin S.",
+                    "Yang X.",
+                    "Abbasi N.",
+                    "Abouelleil A.",
+                    "Arachchi H.M.",
+                    "Baradarani L.",
+                    "Birditt B.",
+                    "Bloom S.",
+                    "Bloom T.",
+                    "Borowsky M.L.",
+                    "Burke J.",
+                    "Butler J.",
+                    "Cook A.",
+                    "DeArellano K.",
+                    "DeCaprio D.",
+                    "Dorris L. III",
+                    "Dors M.",
+                    "Eichler E.E.",
+                    "Engels R.",
+                    "Fahey J.",
+                    "Fleetwood P.",
+                    "Friedman C.",
+                    "Gearin G.",
+                    "Hall J.L.",
+                    "Hensley G.",
+                    "Johnson E.",
+                    "Jones C.",
+                    "Kamat A.",
+                    "Kaur A.",
+                    "Locke D.P.",
+                    "Madan A.",
+                    "Munson G.",
+                    "Jaffe D.B.",
+                    "Lui A.",
+                    "Macdonald P.",
+                    "Mauceli E.",
+                    "Naylor J.W.",
+                    "Nesbitt R.",
+                    "Nicol R.",
+                    "O'Leary S.B.",
+                    "Ratcliffe A.",
+                    "Rounsley S.",
+                    "She X.",
+                    "Sneddon K.M.B.",
+                    "Stewart S.",
+                    "Sougnez C.",
+                    "Stone S.M.",
+                    "Topham K.",
+                    "Vincent D.",
+                    "Wang S.",
+                    "Zimmer A.R.",
+                    "Birren B.W.",
+                    "Hood L.",
+                    "Lander E.S.",
+                    "Nusbaum C."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "16572171"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1038/nature04601"
+                    }
+                ],
+                "title": "Analysis of the DNA sequence and duplication history of human chromosome 15.",
+                "publicationDate": "2006",
+                "journal": "Nature",
+                "firstPage": "671",
+                "lastPage": "675",
+                "volume": "440"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ]
+        },
+        {
+            "referenceNumber": 3,
+            "citation": {
+                "id": "15489334",
+                "citationType": "journal article",
+                "authoringGroup": [
+                    "The MGC Project Team"
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "15489334"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1101/gr.2596504"
+                    }
+                ],
+                "title": "The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).",
+                "publicationDate": "2004",
+                "journal": "Genome Res.",
+                "firstPage": "2121",
+                "lastPage": "2127",
+                "volume": "14"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]",
+                "VARIANT SER-83"
+            ],
+            "referenceComments": [
+                {
+                    "value": "PNS",
+                    "type": "TISSUE"
+                }
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "EMBL",
+            "id": "AK289385",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "BAF82074.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AC018946",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "-"
+                },
+                {
+                    "key": "Status",
+                    "value": "NOT_ANNOTATED_CDS"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "BC067279",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAH67279.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "CCDS",
+            "id": "CCDS32330.1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "RefSeq",
+            "id": "NP_001004309.2",
+            "properties": [
+                {
+                    "key": "NucleotideSequenceId",
+                    "value": "NM_001004309.2"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "Q6NX45",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "Q6NX45",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "BioGRID",
+            "id": "131165",
+            "properties": [
+                {
+                    "key": "Interactions",
+                    "value": "79"
+                }
+            ]
+        },
+        {
+            "database": "IntAct",
+            "id": "Q6NX45",
+            "properties": [
+                {
+                    "key": "Interactions",
+                    "value": "84"
+                }
+            ]
+        },
+        {
+            "database": "STRING",
+            "id": "9606.ENSP00000346348",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GlyGen",
+            "id": "Q6NX45",
+            "properties": [
+                {
+                    "key": "glycosylation",
+                    "value": "1 site, 1 O-linked glycan (1 site)"
+                }
+            ]
+        },
+        {
+            "database": "iPTMnet",
+            "id": "Q6NX45",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PhosphoSitePlus",
+            "id": "Q6NX45",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "BioMuta",
+            "id": "ZNF774",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "DMDM",
+            "id": "313104065",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "jPOST",
+            "id": "Q6NX45",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "MassIVE",
+            "id": "Q6NX45",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PaxDb",
+            "id": "9606-ENSP00000346348",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PeptideAtlas",
+            "id": "Q6NX45",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Antibodypedia",
+            "id": "28795",
+            "properties": [
+                {
+                    "key": "antibodies",
+                    "value": "90 antibodies from 17 providers"
+                }
+            ]
+        },
+        {
+            "database": "DNASU",
+            "id": "342132",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Ensembl",
+            "id": "ENST00000354377.8",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "ENSP00000346348.3"
+                },
+                {
+                    "key": "GeneId",
+                    "value": "ENSG00000196391.11"
+                }
+            ]
+        },
+        {
+            "database": "GeneID",
+            "id": "342132",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "KEGG",
+            "id": "hsa:342132",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "MANE-Select",
+            "id": "ENST00000354377.8",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "ENSP00000346348.3"
+                },
+                {
+                    "key": "RefSeqNucleotideId",
+                    "value": "NM_001004309.3"
+                },
+                {
+                    "key": "RefSeqProteinId",
+                    "value": "NP_001004309.2"
+                }
+            ]
+        },
+        {
+            "database": "UCSC",
+            "id": "uc002bpk.5",
+            "properties": [
+                {
+                    "key": "OrganismName",
+                    "value": "human"
+                }
+            ]
+        },
+        {
+            "database": "AGR",
+            "id": "HGNC:33108",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "CTD",
+            "id": "342132",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "DisGeNET",
+            "id": "342132",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GeneCards",
+            "id": "ZNF774",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "HGNC",
+            "id": "HGNC:33108",
+            "properties": [
+                {
+                    "key": "GeneName",
+                    "value": "ZNF774"
+                }
+            ]
+        },
+        {
+            "database": "HPA",
+            "id": "ENSG00000196391",
+            "properties": [
+                {
+                    "key": "ExpressionPatterns",
+                    "value": "Low tissue specificity"
+                }
+            ]
+        },
+        {
+            "database": "neXtProt",
+            "id": "NX_Q6NX45",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OpenTargets",
+            "id": "ENSG00000196391",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PharmGKB",
+            "id": "PA162410358",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "VEuPathDB",
+            "id": "HostDB:ENSG00000196391",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "eggNOG",
+            "id": "KOG1721",
+            "properties": [
+                {
+                    "key": "ToxonomicScope",
+                    "value": "Eukaryota"
+                }
+            ]
+        },
+        {
+            "database": "GeneTree",
+            "id": "ENSGT00940000163116",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "HOGENOM",
+            "id": "CLU_002678_57_0_1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "InParanoid",
+            "id": "Q6NX45",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OMA",
+            "id": "YACLECH",
+            "properties": [
+                {
+                    "key": "Fingerprint",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OrthoDB",
+            "id": "6591996at2759",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PhylomeDB",
+            "id": "Q6NX45",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "TreeFam",
+            "id": "TF336942",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PathwayCommons",
+            "id": "Q6NX45",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-HSA-212436",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Generic Transcription Pathway"
+                }
+            ]
+        },
+        {
+            "database": "SignaLink",
+            "id": "Q6NX45",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SIGNOR",
+            "id": "Q6NX45",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "BioGRID-ORCS",
+            "id": "342132",
+            "properties": [
+                {
+                    "key": "hits",
+                    "value": "13 hits in 1174 CRISPR screens"
+                }
+            ]
+        },
+        {
+            "database": "GenomeRNAi",
+            "id": "342132",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Pharos",
+            "id": "Q6NX45",
+            "properties": [
+                {
+                    "key": "DevelopmentLevel",
+                    "value": "Tdark"
+                }
+            ]
+        },
+        {
+            "database": "PRO",
+            "id": "PR:Q6NX45",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Proteomes",
+            "id": "UP000005640",
+            "properties": [
+                {
+                    "key": "Component",
+                    "value": "Chromosome 15"
+                }
+            ]
+        },
+        {
+            "database": "RNAct",
+            "id": "Q6NX45",
+            "properties": [
+                {
+                    "key": "moleculeType",
+                    "value": "protein"
+                }
+            ]
+        },
+        {
+            "database": "Bgee",
+            "id": "ENSG00000196391",
+            "properties": [
+                {
+                    "key": "ExpressionPatterns",
+                    "value": "Expressed in skeletal muscle tissue and 101 other cell types or tissues"
+                }
+            ]
+        },
+        {
+            "database": "ExpressionAtlas",
+            "id": "Q6NX45",
+            "properties": [
+                {
+                    "key": "ExpressionPatterns",
+                    "value": "baseline and differential"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005634",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:nucleus"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0000981",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:DNA-binding transcription factor activity, RNA polymerase II-specific"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0046872",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:metal ion binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0000978",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:RNA polymerase II cis-regulatory region sequence-specific DNA binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0006357",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:regulation of transcription by RNA polymerase II"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ]
+        },
+        {
+            "database": "FunFam",
+            "id": "3.30.160.60:FF:000056",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Zinc finger and SCAN domain-containing 20"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "FunFam",
+            "id": "3.30.160.60:FF:002716",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Zinc finger protein 212"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "FunFam",
+            "id": "3.30.160.60:FF:002343",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Zinc finger protein 33A"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "2"
+                }
+            ]
+        },
+        {
+            "database": "FunFam",
+            "id": "3.30.160.60:FF:000277",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Zinc finger protein 48"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "FunFam",
+            "id": "3.30.160.60:FF:000418",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "zinc finger protein 48"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "FunFam",
+            "id": "3.30.160.60:FF:000360",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "zinc finger protein 572"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "FunFam",
+            "id": "3.30.160.60:FF:000862",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "zinc finger protein 697"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "FunFam",
+            "id": "3.30.160.60:FF:000176",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "zinc finger protein 70"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "FunFam",
+            "id": "3.30.160.60:FF:001714",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Zinc finger protein 774"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "FunFam",
+            "id": "3.30.160.60:FF:001385",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "zinc finger protein 774"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "FunFam",
+            "id": "3.30.160.60:FF:001450",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "zinc finger protein 774"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "3.30.160.60",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Classic Zinc Finger"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "12"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR036236",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Znf_C2H2_sf"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR013087",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Znf_C2H2_type"
+                }
+            ]
+        },
+        {
+            "database": "PANTHER",
+            "id": "PTHR24394",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "ZINC FINGER PROTEIN"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PANTHER",
+            "id": "PTHR24394:SF48",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "ZINC FINGER PROTEIN 771"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF00096",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "zf-C2H2"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "11"
+                }
+            ]
+        },
+        {
+            "database": "SMART",
+            "id": "SM00355",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "ZnF_C2H2"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "12"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57667",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "beta-beta-alpha zinc fingers"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "8"
+                }
+            ]
+        },
+        {
+            "database": "PROSITE",
+            "id": "PS00028",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "ZINC_FINGER_C2H2_1"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "12"
+                }
+            ]
+        },
+        {
+            "database": "PROSITE",
+            "id": "PS50157",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "ZINC_FINGER_C2H2_2"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "12"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MWLGTSGKSGLPGHCLENPLQECHPAQLEEWALKGISRPSVISQPEQKEEPWVLPLQNFEARKIPRESHTDCEHQVAKLNQDNSETAEQCGTSSERTNKDLSHTLSWGGNWEQGLELEGQHGTLPGEGQLESFSQERDLNKLLDGYVGEKPMCAECGKSFNQSSYLIRHLRTHTGERPYTCIECGKGFKQSSDLVTHRRTHTGEKPYQCKGCEKKFSDSSTLIKHQRTHTGERPYECPECGKTFGRKPHLIMHQRTHTGEKPYACLECHKSFSRSSNFITHQRTHTGVKPYRCNDCGESFSQSSDLIKHQRTHTGERPFKCPECGKGFRDSSHFVAHMSTHSGERPFSCPDCHKSFSQSSHLVTHQRTHTGERPFKCENCGKGFADSSALIKHQRIHTGERPYKCGECGKSFNQSSHFITHQRIHLGDRPYRCPECGKTFNQRSHFLTHQRTHTGEKPFHCSKCNKSFRQKAHLLCHQNTHLI",
+        "length": 483,
+        "molWeight": 55068,
+        "crc64": "88C98561DA99E7A5",
+        "md5": "6BBC309B06E1D998893B09FD529A5767"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "INTERACTION": 84,
+            "SUBCELLULAR LOCATION": 1,
+            "SIMILARITY": 1
+        },
+        "countByFeatureType": {
+            "Chain": 1,
+            "Domain": 1,
+            "Zinc finger": 12,
+            "Region": 1,
+            "Compositional bias": 1,
+            "Natural variant": 3
+        },
+        "uniParcId": "UPI00001A73D8"
+    }
+}

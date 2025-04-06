@@ -1,0 +1,1835 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q9UGY1",
+    "uniProtkbId": "NOL12_HUMAN",
+    "entryAudit": {
+        "firstPublicDate": "2007-01-09",
+        "lastAnnotationUpdateDate": "2025-02-05",
+        "lastSequenceUpdateDate": "2000-05-01",
+        "entryVersion": 158,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 5.0,
+    "organism": {
+        "scientificName": "Homo sapiens",
+        "commonName": "Human",
+        "taxonId": 9606,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Mammalia",
+            "Eutheria",
+            "Euarchontoglires",
+            "Primates",
+            "Haplorrhini",
+            "Catarrhini",
+            "Hominidae",
+            "Homo"
+        ]
+    },
+    "proteinExistence": "1: Evidence at protein level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "value": "Nucleolar protein 12"
+            }
+        }
+    },
+    "genes": [
+        {
+            "geneName": {
+                "value": "NOL12"
+            }
+        }
+    ],
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "29069457"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "30988155"
+                        }
+                    ],
+                    "value": "Multifunctional RNA binding protein that plays a role in RNA metabolism and DNA maintenance. Participates in the resolution of DNA stress and the maintenance of genome integrity by localizing to sites of DNA insults (PubMed:29069457). Plays also a role in proper nucleolar organization by limiting nucleolar size and regulating nucleolar number. Mechanistically, regulates the nucleolar levels of fibrillarin and nucleolin, two key players in pre-rRNA processing and ribosome assembly (PubMed:30988155)"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "21153684"
+                        }
+                    ],
+                    "value": "Interacts with KIAA1191"
+                }
+            ],
+            "commentType": "SUBUNIT"
+        },
+        {
+            "commentType": "INTERACTION",
+            "interactions": [
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q9UGY1",
+                        "intActId": "EBI-716098"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q8N7W2-2",
+                        "geneName": "BEND7",
+                        "intActId": "EBI-10181188"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q9UGY1",
+                        "intActId": "EBI-716098"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q96GN5",
+                        "geneName": "CDCA7L",
+                        "intActId": "EBI-5278764"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q9UGY1",
+                        "intActId": "EBI-716098"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q8NHQ1",
+                        "geneName": "CEP70",
+                        "intActId": "EBI-739624"
+                    },
+                    "numberOfExperiments": 4,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q9UGY1",
+                        "intActId": "EBI-716098"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q92997",
+                        "geneName": "DVL3",
+                        "intActId": "EBI-739789"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q9UGY1",
+                        "intActId": "EBI-716098"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "P60371",
+                        "geneName": "KRTAP10-6",
+                        "intActId": "EBI-12012928"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q9UGY1",
+                        "intActId": "EBI-716098"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "P60409",
+                        "geneName": "KRTAP10-7",
+                        "intActId": "EBI-10172290"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q9UGY1",
+                        "intActId": "EBI-716098"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "P23508",
+                        "geneName": "MCC",
+                        "intActId": "EBI-307531"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q9UGY1",
+                        "intActId": "EBI-716098"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q9UGY1",
+                        "geneName": "NOL12",
+                        "intActId": "EBI-716098"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q9UGY1",
+                        "intActId": "EBI-716098"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q5MJ10",
+                        "geneName": "SPANXN2",
+                        "intActId": "EBI-12023934"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q9UGY1",
+                        "intActId": "EBI-716098"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q9Y2D8",
+                        "geneName": "SSX2IP",
+                        "intActId": "EBI-2212028"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q9UGY1",
+                        "intActId": "EBI-716098"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "P54274",
+                        "geneName": "TERF1",
+                        "intActId": "EBI-710997"
+                    },
+                    "numberOfExperiments": 2,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q9UGY1",
+                        "intActId": "EBI-716098"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q9H2G4",
+                        "geneName": "TSPYL2",
+                        "intActId": "EBI-947459"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                }
+            ]
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "29069457"
+                            },
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "30988155"
+                            }
+                        ],
+                        "value": "Nucleus, nucleolus",
+                        "id": "SL-0188"
+                    }
+                },
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "29069457"
+                            }
+                        ],
+                        "value": "Nucleus",
+                        "id": "SL-0191"
+                    }
+                },
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "29069457"
+                            }
+                        ],
+                        "value": "Cytoplasm",
+                        "id": "SL-0086"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Belongs to the RRP17 family"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        }
+    ],
+    "features": [
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 213,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Nucleolar protein 12",
+            "featureId": "PRO_0000271207"
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 118,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 213,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Disordered",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Coiled coil",
+            "location": {
+                "start": {
+                    "value": 33,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 96,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255"
+                }
+            ]
+        },
+        {
+            "type": "Compositional bias",
+            "location": {
+                "start": {
+                    "value": 170,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 182,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Basic residues",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Compositional bias",
+            "location": {
+                "start": {
+                    "value": 198,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 213,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Basic residues",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 21,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 21,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Loss of DNA damage response pathway activation.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "29069457"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "S",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 23,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 23,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Loss of DNA damage response pathway activation.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "29069457"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "D",
+                "alternativeSequences": [
+                    "L"
+                ]
+            }
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0175",
+            "category": "Domain",
+            "name": "Coiled coil"
+        },
+        {
+            "id": "KW-0963",
+            "category": "Cellular component",
+            "name": "Cytoplasm"
+        },
+        {
+            "id": "KW-0539",
+            "category": "Cellular component",
+            "name": "Nucleus"
+        },
+        {
+            "id": "KW-1267",
+            "category": "Technical term",
+            "name": "Proteomics identification"
+        },
+        {
+            "id": "KW-1185",
+            "category": "Technical term",
+            "name": "Reference proteome"
+        },
+        {
+            "id": "KW-0694",
+            "category": "Molecular function",
+            "name": "RNA-binding"
+        },
+        {
+            "id": "KW-0699",
+            "category": "Molecular function",
+            "name": "rRNA-binding"
+        }
+    ],
+    "references": [
+        {
+            "referenceNumber": 1,
+            "citation": {
+                "id": "12529303",
+                "citationType": "journal article",
+                "authors": [
+                    "Collins J.E.",
+                    "Goward M.E.",
+                    "Cole C.G.",
+                    "Smink L.J.",
+                    "Huckle E.J.",
+                    "Knowles S.",
+                    "Bye J.M.",
+                    "Beare D.M.",
+                    "Dunham I."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "12529303"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1101/gr.695703"
+                    }
+                ],
+                "title": "Reevaluating human gene annotation: a second-generation analysis of chromosome 22.",
+                "publicationDate": "2003",
+                "journal": "Genome Res.",
+                "firstPage": "27",
+                "lastPage": "36",
+                "volume": "13"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]"
+            ]
+        },
+        {
+            "referenceNumber": 2,
+            "citation": {
+                "id": "15461802",
+                "citationType": "journal article",
+                "authors": [
+                    "Collins J.E.",
+                    "Wright C.L.",
+                    "Edwards C.A.",
+                    "Davis M.P.",
+                    "Grinham J.A.",
+                    "Cole C.G.",
+                    "Goward M.E.",
+                    "Aguado B.",
+                    "Mallya M.",
+                    "Mokrab Y.",
+                    "Huckle E.J.",
+                    "Beare D.M.",
+                    "Dunham I."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "15461802"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1186/gb-2004-5-10-r84"
+                    }
+                ],
+                "title": "A genome annotation-driven approach to cloning the human ORFeome.",
+                "publicationDate": "2004",
+                "journal": "Genome Biol.",
+                "firstPage": "R84.1",
+                "lastPage": "R84.11",
+                "volume": "5"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]"
+            ]
+        },
+        {
+            "referenceNumber": 3,
+            "citation": {
+                "id": "10591208",
+                "citationType": "journal article",
+                "authors": [
+                    "Dunham I.",
+                    "Hunt A.R.",
+                    "Collins J.E.",
+                    "Bruskiewich R.",
+                    "Beare D.M.",
+                    "Clamp M.",
+                    "Smink L.J.",
+                    "Ainscough R.",
+                    "Almeida J.P.",
+                    "Babbage A.K.",
+                    "Bagguley C.",
+                    "Bailey J.",
+                    "Barlow K.F.",
+                    "Bates K.N.",
+                    "Beasley O.P.",
+                    "Bird C.P.",
+                    "Blakey S.E.",
+                    "Bridgeman A.M.",
+                    "Buck D.",
+                    "Burgess J.",
+                    "Burrill W.D.",
+                    "Burton J.",
+                    "Carder C.",
+                    "Carter N.P.",
+                    "Chen Y.",
+                    "Clark G.",
+                    "Clegg S.M.",
+                    "Cobley V.E.",
+                    "Cole C.G.",
+                    "Collier R.E.",
+                    "Connor R.",
+                    "Conroy D.",
+                    "Corby N.R.",
+                    "Coville G.J.",
+                    "Cox A.V.",
+                    "Davis J.",
+                    "Dawson E.",
+                    "Dhami P.D.",
+                    "Dockree C.",
+                    "Dodsworth S.J.",
+                    "Durbin R.M.",
+                    "Ellington A.G.",
+                    "Evans K.L.",
+                    "Fey J.M.",
+                    "Fleming K.",
+                    "French L.",
+                    "Garner A.A.",
+                    "Gilbert J.G.R.",
+                    "Goward M.E.",
+                    "Grafham D.V.",
+                    "Griffiths M.N.D.",
+                    "Hall C.",
+                    "Hall R.E.",
+                    "Hall-Tamlyn G.",
+                    "Heathcott R.W.",
+                    "Ho S.",
+                    "Holmes S.",
+                    "Hunt S.E.",
+                    "Jones M.C.",
+                    "Kershaw J.",
+                    "Kimberley A.M.",
+                    "King A.",
+                    "Laird G.K.",
+                    "Langford C.F.",
+                    "Leversha M.A.",
+                    "Lloyd C.",
+                    "Lloyd D.M.",
+                    "Martyn I.D.",
+                    "Mashreghi-Mohammadi M.",
+                    "Matthews L.H.",
+                    "Mccann O.T.",
+                    "Mcclay J.",
+                    "Mclaren S.",
+                    "McMurray A.A.",
+                    "Milne S.A.",
+                    "Mortimore B.J.",
+                    "Odell C.N.",
+                    "Pavitt R.",
+                    "Pearce A.V.",
+                    "Pearson D.",
+                    "Phillimore B.J.C.T.",
+                    "Phillips S.H.",
+                    "Plumb R.W.",
+                    "Ramsay H.",
+                    "Ramsey Y.",
+                    "Rogers L.",
+                    "Ross M.T.",
+                    "Scott C.E.",
+                    "Sehra H.K.",
+                    "Skuce C.D.",
+                    "Smalley S.",
+                    "Smith M.L.",
+                    "Soderlund C.",
+                    "Spragon L.",
+                    "Steward C.A.",
+                    "Sulston J.E.",
+                    "Swann R.M.",
+                    "Vaudin M.",
+                    "Wall M.",
+                    "Wallis J.M.",
+                    "Whiteley M.N.",
+                    "Willey D.L.",
+                    "Williams L.",
+                    "Williams S.A.",
+                    "Williamson H.",
+                    "Wilmer T.E.",
+                    "Wilming L.",
+                    "Wright C.L.",
+                    "Hubbard T.",
+                    "Bentley D.R.",
+                    "Beck S.",
+                    "Rogers J.",
+                    "Shimizu N.",
+                    "Minoshima S.",
+                    "Kawasaki K.",
+                    "Sasaki T.",
+                    "Asakawa S.",
+                    "Kudoh J.",
+                    "Shintani A.",
+                    "Shibuya K.",
+                    "Yoshizaki Y.",
+                    "Aoki N.",
+                    "Mitsuyama S.",
+                    "Roe B.A.",
+                    "Chen F.",
+                    "Chu L.",
+                    "Crabtree J.",
+                    "Deschamps S.",
+                    "Do A.",
+                    "Do T.",
+                    "Dorman A.",
+                    "Fang F.",
+                    "Fu Y.",
+                    "Hu P.",
+                    "Hua A.",
+                    "Kenton S.",
+                    "Lai H.",
+                    "Lao H.I.",
+                    "Lewis J.",
+                    "Lewis S.",
+                    "Lin S.-P.",
+                    "Loh P.",
+                    "Malaj E.",
+                    "Nguyen T.",
+                    "Pan H.",
+                    "Phan S.",
+                    "Qi S.",
+                    "Qian Y.",
+                    "Ray L.",
+                    "Ren Q.",
+                    "Shaull S.",
+                    "Sloan D.",
+                    "Song L.",
+                    "Wang Q.",
+                    "Wang Y.",
+                    "Wang Z.",
+                    "White J.",
+                    "Willingham D.",
+                    "Wu H.",
+                    "Yao Z.",
+                    "Zhan M.",
+                    "Zhang G.",
+                    "Chissoe S.",
+                    "Murray J.",
+                    "Miller N.",
+                    "Minx P.",
+                    "Fulton R.",
+                    "Johnson D.",
+                    "Bemis G.",
+                    "Bentley D.",
+                    "Bradshaw H.",
+                    "Bourne S.",
+                    "Cordes M.",
+                    "Du Z.",
+                    "Fulton L.",
+                    "Goela D.",
+                    "Graves T.",
+                    "Hawkins J.",
+                    "Hinds K.",
+                    "Kemp K.",
+                    "Latreille P.",
+                    "Layman D.",
+                    "Ozersky P.",
+                    "Rohlfing T.",
+                    "Scheet P.",
+                    "Walker C.",
+                    "Wamsley A.",
+                    "Wohldmann P.",
+                    "Pepin K.",
+                    "Nelson J.",
+                    "Korf I.",
+                    "Bedell J.A.",
+                    "Hillier L.W.",
+                    "Mardis E.",
+                    "Waterston R.",
+                    "Wilson R.",
+                    "Emanuel B.S.",
+                    "Shaikh T.",
+                    "Kurahashi H.",
+                    "Saitta S.",
+                    "Budarf M.L.",
+                    "McDermid H.E.",
+                    "Johnson A.",
+                    "Wong A.C.C.",
+                    "Morrow B.E.",
+                    "Edelmann L.",
+                    "Kim U.J.",
+                    "Shizuya H.",
+                    "Simon M.I.",
+                    "Dumanski J.P.",
+                    "Peyrard M.",
+                    "Kedra D.",
+                    "Seroussi E.",
+                    "Fransson I.",
+                    "Tapia I.",
+                    "Bruder C.E.",
+                    "O'Brien K.P.",
+                    "Wilkinson P.",
+                    "Bodenteich A.",
+                    "Hartman K.",
+                    "Hu X.",
+                    "Khan A.S.",
+                    "Lane L.",
+                    "Tilahun Y.",
+                    "Wright H."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "10591208"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1038/990031"
+                    }
+                ],
+                "title": "The DNA sequence of human chromosome 22.",
+                "publicationDate": "1999",
+                "journal": "Nature",
+                "firstPage": "489",
+                "lastPage": "495",
+                "volume": "402"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ]
+        },
+        {
+            "referenceNumber": 4,
+            "citation": {
+                "id": "15489334",
+                "citationType": "journal article",
+                "authoringGroup": [
+                    "The MGC Project Team"
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "15489334"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1101/gr.2596504"
+                    }
+                ],
+                "title": "The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).",
+                "publicationDate": "2004",
+                "journal": "Genome Res.",
+                "firstPage": "2121",
+                "lastPage": "2127",
+                "volume": "14"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Lymph",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "referenceNumber": 5,
+            "citation": {
+                "id": "21153684",
+                "citationType": "journal article",
+                "authors": [
+                    "Mishra M.",
+                    "Inoue N.",
+                    "Heese K."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "21153684"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1007/s11010-010-0690-4"
+                    }
+                ],
+                "title": "Characterizing the novel protein p33MONOX.",
+                "publicationDate": "2011",
+                "journal": "Mol. Cell. Biochem.",
+                "firstPage": "127",
+                "lastPage": "134",
+                "volume": "350"
+            },
+            "referencePositions": [
+                "INTERACTION WITH KIAA1191"
+            ]
+        },
+        {
+            "referenceNumber": 6,
+            "citation": {
+                "id": "29069457",
+                "citationType": "journal article",
+                "authors": [
+                    "Scott D.D.",
+                    "Trahan C.",
+                    "Zindy P.J.",
+                    "Aguilar L.C.",
+                    "Delubac M.Y.",
+                    "Van Nostrand E.L.",
+                    "Adivarahan S.",
+                    "Wei K.E.",
+                    "Yeo G.W.",
+                    "Zenklusen D.",
+                    "Oeffinger M."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "29069457"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1093/nar/gkx963"
+                    }
+                ],
+                "title": "Nol12 is a multifunctional RNA binding protein at the nexus of RNA and DNA metabolism.",
+                "publicationDate": "2017",
+                "journal": "Nucleic Acids Res.",
+                "firstPage": "12509",
+                "lastPage": "12528",
+                "volume": "45"
+            },
+            "referencePositions": [
+                "FUNCTION",
+                "SUBCELLULAR LOCATION",
+                "MUTAGENESIS OF SER-21 AND ASP-23"
+            ]
+        },
+        {
+            "referenceNumber": 7,
+            "citation": {
+                "id": "30988155",
+                "citationType": "journal article",
+                "authors": [
+                    "Pinho M.",
+                    "Macedo J.C.",
+                    "Logarinho E.",
+                    "Pereira P.S."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "30988155"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1128/mcb.00099-19"
+                    }
+                ],
+                "title": "NOL12 Repression Induces Nucleolar Stress-Driven Cellular Senescence and Is Associated with Normative Aging.",
+                "publicationDate": "2019",
+                "journal": "Mol. Cell. Biol.",
+                "firstPage": "0",
+                "lastPage": "0",
+                "volume": "39"
+            },
+            "referencePositions": [
+                "FUNCTION",
+                "SUBCELLULAR LOCATION"
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "EMBL",
+            "id": "AL160132",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "CAB77148.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "CR456463",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "CAG30349.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "Z83844",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "-"
+                },
+                {
+                    "key": "Status",
+                    "value": "NOT_ANNOTATED_CDS"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "BC002808",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAH02808.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "CCDS",
+            "id": "CCDS13955.1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "RefSeq",
+            "id": "NP_077289.1",
+            "properties": [
+                {
+                    "key": "NucleotideSequenceId",
+                    "value": "NM_024313.2"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "Q9UGY1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "Q9UGY1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "BioGRID",
+            "id": "122577",
+            "properties": [
+                {
+                    "key": "Interactions",
+                    "value": "228"
+                }
+            ]
+        },
+        {
+            "database": "IntAct",
+            "id": "Q9UGY1",
+            "properties": [
+                {
+                    "key": "Interactions",
+                    "value": "113"
+                }
+            ]
+        },
+        {
+            "database": "MINT",
+            "id": "Q9UGY1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "STRING",
+            "id": "9606.ENSP00000352021",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GlyGen",
+            "id": "Q9UGY1",
+            "properties": [
+                {
+                    "key": "glycosylation",
+                    "value": "1 site, 1 O-linked glycan (1 site)"
+                }
+            ]
+        },
+        {
+            "database": "iPTMnet",
+            "id": "Q9UGY1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PhosphoSitePlus",
+            "id": "Q9UGY1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "BioMuta",
+            "id": "NOL12",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "DMDM",
+            "id": "74761951",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "jPOST",
+            "id": "Q9UGY1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "MassIVE",
+            "id": "Q9UGY1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PaxDb",
+            "id": "9606-ENSP00000352021",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PeptideAtlas",
+            "id": "Q9UGY1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "ProteomicsDB",
+            "id": "84270",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Pumba",
+            "id": "Q9UGY1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Antibodypedia",
+            "id": "73215",
+            "properties": [
+                {
+                    "key": "antibodies",
+                    "value": "107 antibodies from 22 providers"
+                }
+            ]
+        },
+        {
+            "database": "DNASU",
+            "id": "79159",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Ensembl",
+            "id": "ENST00000359114.9",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "ENSP00000352021.4"
+                },
+                {
+                    "key": "GeneId",
+                    "value": "ENSG00000273899.5"
+                }
+            ]
+        },
+        {
+            "database": "Ensembl",
+            "id": "ENST00000438329.5",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "ENSP00000403059.1"
+                },
+                {
+                    "key": "GeneId",
+                    "value": "ENSG00000273899.5"
+                }
+            ]
+        },
+        {
+            "database": "Ensembl",
+            "id": "ENST00000611699.1",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "ENSP00000482349.1"
+                },
+                {
+                    "key": "GeneId",
+                    "value": "ENSG00000273899.5"
+                }
+            ]
+        },
+        {
+            "database": "GeneID",
+            "id": "79159",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "KEGG",
+            "id": "hsa:79159",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "MANE-Select",
+            "id": "ENST00000359114.9",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "ENSP00000352021.4"
+                },
+                {
+                    "key": "RefSeqNucleotideId",
+                    "value": "NM_024313.3"
+                },
+                {
+                    "key": "RefSeqProteinId",
+                    "value": "NP_077289.1"
+                }
+            ]
+        },
+        {
+            "database": "UCSC",
+            "id": "uc003ato.2",
+            "properties": [
+                {
+                    "key": "OrganismName",
+                    "value": "human"
+                }
+            ]
+        },
+        {
+            "database": "AGR",
+            "id": "HGNC:28585",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "CTD",
+            "id": "79159",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "DisGeNET",
+            "id": "79159",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GeneCards",
+            "id": "NOL12",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "HGNC",
+            "id": "HGNC:28585",
+            "properties": [
+                {
+                    "key": "GeneName",
+                    "value": "NOL12"
+                }
+            ]
+        },
+        {
+            "database": "HPA",
+            "id": "ENSG00000273899",
+            "properties": [
+                {
+                    "key": "ExpressionPatterns",
+                    "value": "Low tissue specificity"
+                }
+            ]
+        },
+        {
+            "database": "neXtProt",
+            "id": "NX_Q9UGY1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OpenTargets",
+            "id": "ENSG00000273899",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PharmGKB",
+            "id": "PA145148362",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "VEuPathDB",
+            "id": "HostDB:ENSG00000273899",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "eggNOG",
+            "id": "KOG4709",
+            "properties": [
+                {
+                    "key": "ToxonomicScope",
+                    "value": "Eukaryota"
+                }
+            ]
+        },
+        {
+            "database": "GeneTree",
+            "id": "ENSGT00390000015973",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "HOGENOM",
+            "id": "CLU_111183_0_0_1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "InParanoid",
+            "id": "Q9UGY1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OMA",
+            "id": "LHMHSRK",
+            "properties": [
+                {
+                    "key": "Fingerprint",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OrthoDB",
+            "id": "551633at2759",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PhylomeDB",
+            "id": "Q9UGY1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "TreeFam",
+            "id": "TF323855",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PathwayCommons",
+            "id": "Q9UGY1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-HSA-6791226",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Major pathway of rRNA processing in the nucleolus and cytosol"
+                }
+            ]
+        },
+        {
+            "database": "SignaLink",
+            "id": "Q9UGY1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "BioGRID-ORCS",
+            "id": "79159",
+            "properties": [
+                {
+                    "key": "hits",
+                    "value": "681 hits in 1164 CRISPR screens"
+                }
+            ]
+        },
+        {
+            "database": "ChiTaRS",
+            "id": "NOL12",
+            "properties": [
+                {
+                    "key": "OrganismName",
+                    "value": "human"
+                }
+            ]
+        },
+        {
+            "database": "GeneWiki",
+            "id": "NOL12",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GenomeRNAi",
+            "id": "79159",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Pharos",
+            "id": "Q9UGY1",
+            "properties": [
+                {
+                    "key": "DevelopmentLevel",
+                    "value": "Tbio"
+                }
+            ]
+        },
+        {
+            "database": "PRO",
+            "id": "PR:Q9UGY1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Proteomes",
+            "id": "UP000005640",
+            "properties": [
+                {
+                    "key": "Component",
+                    "value": "Chromosome 22"
+                }
+            ]
+        },
+        {
+            "database": "RNAct",
+            "id": "Q9UGY1",
+            "properties": [
+                {
+                    "key": "moleculeType",
+                    "value": "protein"
+                }
+            ]
+        },
+        {
+            "database": "Bgee",
+            "id": "ENSG00000273899",
+            "properties": [
+                {
+                    "key": "ExpressionPatterns",
+                    "value": "Expressed in sural nerve and 119 other cell types or tissues"
+                }
+            ]
+        },
+        {
+            "database": "ExpressionAtlas",
+            "id": "Q9UGY1",
+            "properties": [
+                {
+                    "key": "ExpressionPatterns",
+                    "value": "baseline and differential"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005737",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:cytoplasm"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-SubCell"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005730",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:nucleolus"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0042802",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:identical protein binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IPI:IntAct"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000353",
+                    "source": "PubMed",
+                    "id": "32296183"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0003723",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:RNA binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "HDA:UniProtKB"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007005",
+                    "source": "PubMed",
+                    "id": "22658674"
+                },
+                {
+                    "evidenceCode": "ECO:0007005",
+                    "source": "PubMed",
+                    "id": "22681889"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0019843",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:rRNA binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0003697",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:single-stranded DNA binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:Ensembl"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR019186",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Nucleolar_protein_12"
+                }
+            ]
+        },
+        {
+            "database": "PANTHER",
+            "id": "PTHR14577",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "NUCLEOLAR PROTEIN 12"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PANTHER",
+            "id": "PTHR14577:SF0",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "NUCLEOLAR PROTEIN 12"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF09805",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Nop25"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MGRNKKKKRDGDDRRPRLVLSFDEEKRREYLTGFHKRKVERKKAAIEEIKQRLKEEQRKLREERHQEYLKMLAEREEALEEADELDRLVTAKTESVQYDHPNHTVTVTTISDLDLSGARLLGLTPPEGGAGDRSEEEASSTEKPTKALPRKSRDPLLSQRISSLTASLHAHSRKKVKRKHPRRAQDSKKPPRAPRTSKAQRRRLTGKARHSGE",
+        "length": 213,
+        "molWeight": 24663,
+        "crc64": "86A4DFBD363179CA",
+        "md5": "276B171E1C319F2C474DF2FCD7F964B4"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "SUBUNIT": 1,
+            "INTERACTION": 12,
+            "SUBCELLULAR LOCATION": 1,
+            "SIMILARITY": 1
+        },
+        "countByFeatureType": {
+            "Chain": 1,
+            "Region": 1,
+            "Coiled coil": 1,
+            "Compositional bias": 2,
+            "Mutagenesis": 2
+        },
+        "uniParcId": "UPI0000073B12"
+    }
+}

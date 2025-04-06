@@ -7,7 +7,7 @@ from tools import alpha_fold_fetch #importing tools alpha_fold_fetch
 
 class toolset:
     dir = ""
-    def __init__(self,dir:str):
+    def __init__(self,dir):
         self.dir = dir
     def get_protein__site_info(self,protein_id: str) -> str:
         """Fetches the protein site information from cache."""
@@ -24,7 +24,7 @@ class toolset:
         params = {
             "query": query,
             "format": "json",
-            "size": 4 #adjust as needed.
+            "size": 20 #adjust as needed.
         }
 
         try:
@@ -58,17 +58,31 @@ class toolset:
         except ValueError as e: # Catch JSON decoding errors.
             print(f"Error decoding JSON: {e}")
             return "Error decoding JSON: {e}".format(e=e)
-    def get_all_sequence(self)->list:
+    def get_all_sequence(self)->dict:
         """Fetches the protein sequence information from cache."""
         loc = r"{parent_path}/uniprot".format(parent_path=self.dir)
-        seqlist = []
+        seqlist = {}
         for filename in os.listdir(loc):
             if filename.endswith('.json'):
                 with open(os.path.join(loc, filename), 'r') as f:
                     data = json.load(f)
                     try:
-                        sequence = (data['sequence']['value'])
-                        seqlist.append(sequence)
+                        seqlist.update({data['primaryAccession']: data['sequence']['value']})
+                    except KeyError:
+                        print(f"Sequence not found in {filename}.")
+        if seqlist:
+            return seqlist
+        return ["No sequence found"]
+    def get_all_function(self)->dict:
+        """Fetches the protein function information from cache."""
+        loc = r"{parent_path}/uniprot".format(parent_path=self.dir)
+        seqlist = {}
+        for filename in os.listdir(loc):
+            if filename.endswith('.json'):
+                with open(os.path.join(loc, filename), 'r') as f:
+                    data = json.load(f)
+                    try:
+                        seqlist.update({data['primaryAccession']: [func['texts'][0]['value'] for func in data['comments'] if func.get("commentType") == 'FUNCTION']})
                     except KeyError:
                         print(f"Sequence not found in {filename}.")
         if seqlist:
