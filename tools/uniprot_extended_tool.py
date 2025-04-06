@@ -15,7 +15,7 @@ class toolset:
         with open(loc, 'r') as f:
             data = json.load(f)
             print("used")
-            return str(data['results'][0]['features'])
+            return str(data['features'])
         return "No data found"
     def uniprot_fetch_tool(self,query: str) -> str:
         """This tool provides an acces to fetch data from UniProtKB using the UniProt REST API.
@@ -32,22 +32,25 @@ class toolset:
             print(response.url)
             response.raise_for_status() 
             data = response.json()
-            filename = r"{parent}/uniprot/{file_name}.json".format(parent=self.dir,file_name=data['results'][0]['primaryAccession'].replace(' ', '_'))
-            with open(filename, "w") as f:
-                json.dump(data, f, indent=4)
-            print(f"Data saved to {filename}")
+            for protien in data['results']:
+                filename = r"{parent}/uniprot/{file_name}.json".format(parent=self.dir,file_name=protien['primaryAccession'].replace(' ', '_'))
+                with open(filename, "w") as f:
+                    json.dump(protien, f, indent=4)
+                print(f"Data saved to {filename}")
             try:
                 apha_f_id =0
-                for i in data['results'][0]['uniProtKBCrossReferences']:
-                    if i.get('database') == 'AlphaFoldDB':
-                        apha_f_id = i.get('id')
-                        break
-                print(apha_f_id)
-                alpha_fold_fetch.fetch_from_alphafolddb(apha_f_id,self.dir)
+                for protien in data['results']:
+                    for i in protien['uniProtKBCrossReferences']:
+                        if i.get('database') == 'AlphaFoldDB':
+                            apha_f_id = i.get('id')
+                            break
+                    print(apha_f_id)
+                    alpha_fold_fetch.fetch_from_alphafolddb(apha_f_id,self.dir)
             except: 
                 print("No AlphaFoldDB entry found for the given entry ID.")
                 return "No AlphaFoldDB entry found for the given entry ID.,provide a query with take protein with structure"
-            return data['results'][0]['primaryAccession']
+            
+            return str([protein['primaryAccession'] for protein in data['results']])
 
         except requests.exceptions.RequestException as e:
             print(f"Error during UniProt API request: {e}")
