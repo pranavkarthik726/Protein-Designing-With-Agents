@@ -3,35 +3,36 @@ import os
 import requests
 from pathlib import Path
 from tools import alpha_fold_fetch #importing tools alpha_fold_fetch
-#change to parent directory
-current_path = Path.cwd()
-parent_path = current_path.parent
-os.chdir(parent_path)
+
 
 class toolset:
-    def get_protein__site_info(protein_id: str) -> str:
+    dir = ""
+    def __init__(self,dir:str):
+        self.dir = dir
+    def get_protein__site_info(self,protein_id: str) -> str:
         """Fetches the protein site information from cache."""
-        loc = r"{parent_path}/cache/uniprot/{protein_id}.json".format(parent_path=parent_path, protein_id=protein_id)
+        loc = r"{parent_path}/uniprot/{protein_id}.json".format(parent_path=self.dir, protein_id=protein_id)
         with open(loc, 'r') as f:
             data = json.load(f)
             print("used")
             return str(data['results'][0]['features'])
         return "No data found"
-    def uniprot_fetch_tool(query: str) -> str:
+    def uniprot_fetch_tool(self,query: str) -> str:
         """This tool provides an acces to fetch data from UniProtKB using the UniProt REST API.
         the input has to be strictly a string """
         url = "https://rest.uniprot.org/uniprotkb/search"
         params = {
             "query": query,
             "format": "json",
-            "size": 1 #adjust as needed.
+            "size": 4 #adjust as needed.
         }
 
         try:
             response = requests.get(url, params=params)
+            print(response.url)
             response.raise_for_status() 
             data = response.json()
-            filename = f"cache/uniprot/{data['results'][0]['primaryAccession'].replace(' ', '_')}.json"
+            filename = r"{parent}/uniprot/{file_name}.json".format(parent=self.dir,file_name=data['results'][0]['primaryAccession'].replace(' ', '_'))
             with open(filename, "w") as f:
                 json.dump(data, f, indent=4)
             print(f"Data saved to {filename}")
@@ -42,7 +43,7 @@ class toolset:
                         apha_f_id = i.get('id')
                         break
                 print(apha_f_id)
-                alpha_fold_fetch.fetch_from_alphafolddb(apha_f_id)
+                alpha_fold_fetch.fetch_from_alphafolddb(apha_f_id,self.dir)
             except: 
                 print("No AlphaFoldDB entry found for the given entry ID.")
                 return "No AlphaFoldDB entry found for the given entry ID.,provide a query with take protein with structure"
@@ -54,3 +55,14 @@ class toolset:
         except ValueError as e: # Catch JSON decoding errors.
             print(f"Error decoding JSON: {e}")
             return "Error decoding JSON: {e}".format(e=e)
+    def get_all_sequence(self)->list:
+        """Fetches the protein sequence information from cache."""
+        loc = r"{parent_path}/uniprot/sequence.json".format(parent_path=self.dir)
+        with open(loc, 'r') as f:
+            data = json.load(f)
+            print("used")
+            return data['results'][0]['sequence']
+        return "No data found"
+    def Multiple_sequence_alignment(self) -> str:
+        """Performs multiple sequence alignment using Clustal Omega."""
+        proteins = self.get_all_sequence()

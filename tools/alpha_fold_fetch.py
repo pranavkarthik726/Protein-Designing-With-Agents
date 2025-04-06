@@ -1,12 +1,7 @@
 import requests
 import os
-from pathlib import Path
 
-# Change working directory to parent directory
-current_path = Path.cwd()
-parent_path = current_path.parent
-os.chdir(parent_path)
-def fetch_from_alphafolddb(entry_id):
+def fetch_from_alphafolddb(entry_id,dir=""):
     api_url = "https://alphafold.ebi.ac.uk/api/prediction/{entry_id}".format(entry_id=entry_id)
     response = requests.get(api_url)
     result = response.json()
@@ -17,7 +12,7 @@ def fetch_from_alphafolddb(entry_id):
         pdbUrl = None
         print("No PDB file found for the given entry ID.")
         return'''
-    Dir=r"cache/pdb".format(dir=dir)
+    Dir=r"{dir}/pdb".format(dir=dir)
 
     response = requests.get(pdbUrl)
     if response.status_code == 200:
