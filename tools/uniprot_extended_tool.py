@@ -24,7 +24,7 @@ class toolset:
         params = {
             "query": query,
             "format": "json",
-            "size": 20 #adjust as needed.
+            "size": 5 #adjust as needed.
         }
 
         try:
@@ -38,13 +38,12 @@ class toolset:
                     json.dump(protien, f, indent=4)
                 print(f"Data saved to {filename}")
             try:
-                apha_f_id =0
                 for protien in data['results']:
                     for i in protien['uniProtKBCrossReferences']:
                         if i.get('database') == 'AlphaFoldDB':
                             apha_f_id = i.get('id')
                             break
-                    print(apha_f_id)
+                    print("Starting to search PDB file from AlphaFoldDB...")
                     alpha_fold_fetch.fetch_from_alphafolddb(apha_f_id,self.dir)
             except: 
                 print("No AlphaFoldDB entry found for the given entry ID.")
@@ -91,3 +90,36 @@ class toolset:
     def Multiple_sequence_alignment(self) -> str:
         """Performs multiple sequence alignment using Clustal Omega."""
         proteins = self.get_all_sequence()
+    def rfdifcom(self,script, pdb_id):
+        """
+        This function sends a request to the server to run a script with a PDB file.
+        The server is expected to be running on localhost at port 5000.
+        """
+        try:
+            SERVER_URL = "http://127.0.0.1:5000/run_script"  # Replace with actual server IP
+            pdb_file_path = r"{parent}/pdb/{pdb_id}.pdb".format(parent=self.dir, pdb_id=pdb_id)
+
+
+            with open(pdb_file_path, 'rb') as pdb_file:
+                files = {
+                    'script': script,
+                    'pdb_file': pdb_file
+                }
+                response = requests.post(SERVER_URL, files=files)
+
+            if response.status_code == 200:
+                with open("output.pdb", "wb") as f:
+                    f.write(response.content)
+                print("PDB file received and saved as output.pdb")
+            else:
+                print("Error:", response.json())
+        except requests.exceptions.RequestException as e:
+            print(f"Error during request: {e}")
+            return "Error during request: {e}".format(e=e)
+        except FileNotFoundError:
+            print(f"PDB file not found: {pdb_file_path}")
+            return "PDB file not found: {pdb_file_path}".format(pdb_file_path=pdb_file_path)
+        except Exception as e:
+            print(f"An error occurred: {e}")
+            return "An error occurred: {e}".format(e=e)
+            

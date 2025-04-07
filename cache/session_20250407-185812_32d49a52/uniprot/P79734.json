@@ -1,0 +1,2919 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P79734",
+    "secondaryAccessions": [
+        "Q7ZW62",
+        "Q90440"
+    ],
+    "uniProtkbId": "P53_DANRE",
+    "entryAudit": {
+        "firstPublicDate": "1997-11-01",
+        "lastAnnotationUpdateDate": "2025-02-05",
+        "lastSequenceUpdateDate": "1997-05-01",
+        "entryVersion": 184,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 5.0,
+    "organism": {
+        "scientificName": "Danio rerio",
+        "commonName": "Zebrafish",
+        "synonyms": [
+            "Brachydanio rerio"
+        ],
+        "taxonId": 7955,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Actinopterygii",
+            "Neopterygii",
+            "Teleostei",
+            "Ostariophysi",
+            "Cypriniformes",
+            "Danionidae",
+            "Danioninae",
+            "Danio"
+        ]
+    },
+    "proteinExistence": "1: Evidence at protein level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "value": "Cellular tumor antigen p53"
+            }
+        },
+        "alternativeNames": [
+            {
+                "fullName": {
+                    "value": "Tumor suppressor p53"
+                }
+            }
+        ]
+    },
+    "genes": [
+        {
+            "geneName": {
+                "value": "tp53"
+            },
+            "synonyms": [
+                {
+                    "value": "drp53"
+                }
+            ]
+        }
+    ],
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "12477391"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "15529176"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "15630097"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "22952453"
+                        }
+                    ],
+                    "value": "Multifunctional transcription factor that induces cell cycle arrest, DNA repair or apoptosis upon binding to its target DNA sequence. Acts as a tumor suppressor in many tumor types; induces growth arrest or apoptosis depending on the physiological circumstances and cell type. Negatively regulates cell division by controlling expression of a set of genes required for this process. One of the activated genes is an inhibitor of cyclin-dependent kinases. Apoptosis induction seems to be mediated either by stimulation of bax and fas antigen expression, or by repression of Bcl-2 expression. Positively regulates apoptosis in the early-stage embryo in response to UV irradiation (PubMed:15529176)"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "commentType": "COFACTOR",
+            "cofactors": [
+                {
+                    "name": "Zn(2+)",
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250"
+                        }
+                    ],
+                    "cofactorCrossReference": {
+                        "database": "ChEBI",
+                        "id": "CHEBI:29105"
+                    }
+                }
+            ],
+            "note": {
+                "texts": [
+                    {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000250"
+                            }
+                        ],
+                        "value": "Binds 1 zinc ion per subunit."
+                    }
+                ]
+            }
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250"
+                        }
+                    ],
+                    "value": "Binds DNA as a homotetramer"
+                }
+            ],
+            "commentType": "SUBUNIT"
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000250"
+                            }
+                        ],
+                        "value": "Cytoplasm",
+                        "id": "SL-0086"
+                    }
+                },
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000250"
+                            }
+                        ],
+                        "value": "Nucleus",
+                        "id": "SL-0191"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "P04637"
+                        }
+                    ],
+                    "value": "The N-terminal and C-terminal disordered regions undergo liquid-liquid phase separation (LLPS) following homotetramerization and activation. Post-translational modifications, such as phosphorylation or lactylation affect the ability to undergo LLPS"
+                }
+            ],
+            "commentType": "DOMAIN"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "P04637"
+                        }
+                    ],
+                    "value": "The nuclear export signal acts as a transcriptional repression domain. The TADI and TADII motifs (residues 17 to 25 and 48 to 56) correspond both to 9aaTAD motifs which are transactivation domains present in a large number of yeast and animal transcription factors"
+                }
+            ],
+            "commentType": "DOMAIN"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "15529176"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "22952453"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "27834691"
+                        }
+                    ],
+                    "value": "Morpholino knockdowns show a decrease in apoptosis in response to UV irradiation during late blastula stage embryos (4hpf) (PubMed:15529176). Loss of mdm2 transcription increase in response to UV irradiation (PubMed:15529176). No effect on expression of perp in the eyes, midbrain and gut at 36 hpf (PubMed:15529176). Decrease in endothelial cell apoptosis in the absence of blood flow (PubMed:27834691). In double morpholino knockdown of tp53 and yju2, tp53 deficiency rescues animals from developmental neurodegeneration observed on yju2 mutants and radiosensitivity"
+                }
+            ],
+            "commentType": "DISRUPTION PHENOTYPE"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Belongs to the p53 family"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        }
+    ],
+    "features": [
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 373,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Cellular tumor antigen p53",
+            "featureId": "PRO_0000185718"
+        },
+        {
+            "type": "DNA binding",
+            "location": {
+                "start": {
+                    "value": 70,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 260,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 31,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Transcription activation (acidic)"
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 52,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 80,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Disordered",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 241,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 248,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Interaction with DNA",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 250,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 301,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Disordered",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 301,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 332,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Oligomerization"
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 329,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 373,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Disordered",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 345,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 366,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Basic (repression of DNA-binding)"
+        },
+        {
+            "type": "Motif",
+            "location": {
+                "start": {
+                    "value": 274,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 296,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Bipartite nuclear localization signal",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250"
+                }
+            ]
+        },
+        {
+            "type": "Motif",
+            "location": {
+                "start": {
+                    "value": 315,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 326,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Nuclear export signal",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250"
+                }
+            ]
+        },
+        {
+            "type": "Compositional bias",
+            "location": {
+                "start": {
+                    "value": 250,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 265,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Basic and acidic residues",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Compositional bias",
+            "location": {
+                "start": {
+                    "value": 346,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 373,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Basic and acidic residues",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 144,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 144,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:29105"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250"
+                }
+            ],
+            "ligand": {
+                "name": "Zn(2+)",
+                "id": "ChEBI:CHEBI:29105"
+            }
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 147,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 147,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:29105"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250"
+                }
+            ],
+            "ligand": {
+                "name": "Zn(2+)",
+                "id": "ChEBI:CHEBI:29105"
+            }
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 206,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 206,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:29105"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250"
+                }
+            ],
+            "ligand": {
+                "name": "Zn(2+)",
+                "id": "ChEBI:CHEBI:29105"
+            }
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 210,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 210,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:29105"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250"
+                }
+            ],
+            "ligand": {
+                "name": "Zn(2+)",
+                "id": "ChEBI:CHEBI:29105"
+            }
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 88,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 88,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Interaction with DNA",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250"
+                }
+            ]
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 26,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 26,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "No effect on transactivation activity.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "15630097"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "S",
+                "alternativeSequences": [
+                    "F"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 168,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 168,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Loss of transactivation activity. Temperature-sensitive suppression of irradiation-induced apoptosis. No effect on embryonic development.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "15630097"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "N",
+                "alternativeSequences": [
+                    "K"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 214,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 214,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Loss of transactivation activity. Suppression of irradiation-induced apoptosis. Defective G1-phase but not G2-phase checkpoint response. Development of malignant peripheral nerve sheath tumors. No effect on embryonic development.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "15630097"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "M",
+                "alternativeSequences": [
+                    "K"
+                ]
+            }
+        },
+        {
+            "type": "Sequence conflict",
+            "location": {
+                "start": {
+                    "value": 276,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 280,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in Ref. 2; AAO85406",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "SLVKE",
+                "alternativeSequences": [
+                    "K"
+                ]
+            }
+        },
+        {
+            "type": "Sequence conflict",
+            "location": {
+                "start": {
+                    "value": 286,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 286,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in Ref. 2; AAO85406",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "L",
+                "alternativeSequences": [
+                    "S"
+                ]
+            }
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 303,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 310,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "4CZ5"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 311,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 326,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "4CZ5"
+                }
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0002",
+            "category": "Technical term",
+            "name": "3D-structure"
+        },
+        {
+            "id": "KW-0010",
+            "category": "Molecular function",
+            "name": "Activator"
+        },
+        {
+            "id": "KW-0053",
+            "category": "Biological process",
+            "name": "Apoptosis"
+        },
+        {
+            "id": "KW-0131",
+            "category": "Biological process",
+            "name": "Cell cycle"
+        },
+        {
+            "id": "KW-0963",
+            "category": "Cellular component",
+            "name": "Cytoplasm"
+        },
+        {
+            "id": "KW-0238",
+            "category": "Molecular function",
+            "name": "DNA-binding"
+        },
+        {
+            "id": "KW-0479",
+            "category": "Ligand",
+            "name": "Metal-binding"
+        },
+        {
+            "id": "KW-0539",
+            "category": "Cellular component",
+            "name": "Nucleus"
+        },
+        {
+            "id": "KW-0597",
+            "category": "PTM",
+            "name": "Phosphoprotein"
+        },
+        {
+            "id": "KW-1185",
+            "category": "Technical term",
+            "name": "Reference proteome"
+        },
+        {
+            "id": "KW-0804",
+            "category": "Biological process",
+            "name": "Transcription"
+        },
+        {
+            "id": "KW-0805",
+            "category": "Biological process",
+            "name": "Transcription regulation"
+        },
+        {
+            "id": "KW-0043",
+            "category": "Disease",
+            "name": "Tumor suppressor"
+        },
+        {
+            "id": "KW-0862",
+            "category": "Ligand",
+            "name": "Zinc"
+        }
+    ],
+    "references": [
+        {
+            "referenceNumber": 1,
+            "citation": {
+                "id": "9200835",
+                "citationType": "journal article",
+                "authors": [
+                    "Cheng R.",
+                    "Ford B.L.",
+                    "O'Neal P.E.",
+                    "Mathews C.Z.",
+                    "Bradford C.S.",
+                    "Thongtan T.",
+                    "Barnes D.W.",
+                    "Hendricks J.D.",
+                    "Bailey G.S."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "9200835"
+                    }
+                ],
+                "title": "Zebrafish (Danio rerio) p53 tumor suppressor gene: cDNA sequence and expression during embryogenesis.",
+                "publicationDate": "1997",
+                "journal": "Mol. Mar. Biol. Biotechnol.",
+                "firstPage": "88",
+                "lastPage": "97",
+                "volume": "6"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [MRNA]"
+            ]
+        },
+        {
+            "referenceNumber": 2,
+            "citation": {
+                "id": "CI-A0S6RI9OOEH35",
+                "citationType": "submission",
+                "authors": [
+                    "Bauer M.P.",
+                    "Goetz F.W."
+                ],
+                "title": "Isolation of p53 in the zebrafish.",
+                "publicationDate": "MAR-2001",
+                "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [MRNA]"
+            ]
+        },
+        {
+            "referenceNumber": 3,
+            "citation": {
+                "id": "CI-3IA9ER9E3BA5C",
+                "citationType": "submission",
+                "authors": [
+                    "Winge P."
+                ],
+                "publicationDate": "JAN-1996",
+                "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [MRNA] OF 140-212"
+            ]
+        },
+        {
+            "referenceNumber": 4,
+            "citation": {
+                "id": "12477391",
+                "citationType": "journal article",
+                "authors": [
+                    "Langheinrich U.",
+                    "Hennen E.",
+                    "Stott G.",
+                    "Vacun G."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "12477391"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/s0960-9822(02)01319-2"
+                    }
+                ],
+                "title": "Zebrafish as a model organism for the identification and characterization of drugs and genes affecting p53 signaling.",
+                "publicationDate": "2002",
+                "journal": "Curr. Biol.",
+                "firstPage": "2023",
+                "lastPage": "2028",
+                "volume": "12"
+            },
+            "referencePositions": [
+                "FUNCTION"
+            ]
+        },
+        {
+            "referenceNumber": 5,
+            "citation": {
+                "id": "15529176",
+                "citationType": "journal article",
+                "authors": [
+                    "Nowak M.",
+                    "Koester C.",
+                    "Hammerschmidt M."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "15529176"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1038/sj.cdd.4401519"
+                    }
+                ],
+                "title": "Perp is required for tissue-specific cell survival during zebrafish development.",
+                "publicationDate": "2005",
+                "journal": "Cell Death Differ.",
+                "firstPage": "52",
+                "lastPage": "64",
+                "volume": "12"
+            },
+            "referencePositions": [
+                "FUNCTION",
+                "DISRUPTION PHENOTYPE"
+            ]
+        },
+        {
+            "referenceNumber": 6,
+            "citation": {
+                "id": "15630097",
+                "citationType": "journal article",
+                "authors": [
+                    "Berghmans S.",
+                    "Murphey R.D.",
+                    "Wienholds E.",
+                    "Neuberg D.",
+                    "Kutok J.L.",
+                    "Fletcher C.D.M.",
+                    "Morris J.P.",
+                    "Liu T.X.",
+                    "Schulte-Merker S.",
+                    "Kanki J.P.",
+                    "Plasterk R.",
+                    "Zon L.I.",
+                    "Look A.T."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "15630097"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1073/pnas.0406252102"
+                    }
+                ],
+                "title": "tp53 mutant zebrafish develop malignant peripheral nerve sheath tumors.",
+                "publicationDate": "2005",
+                "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+                "firstPage": "407",
+                "lastPage": "412",
+                "volume": "102"
+            },
+            "referencePositions": [
+                "FUNCTION",
+                "MUTAGENESIS OF SER-26; ASN-168 AND MET-214"
+            ]
+        },
+        {
+            "referenceNumber": 7,
+            "citation": {
+                "id": "22952453",
+                "citationType": "journal article",
+                "authors": [
+                    "Sorrells S.",
+                    "Carbonneau S.",
+                    "Harrington E.",
+                    "Chen A.T.",
+                    "Hast B.",
+                    "Milash B.",
+                    "Pyati U.",
+                    "Major M.B.",
+                    "Zhou Y.",
+                    "Zon L.I.",
+                    "Stewart R.A.",
+                    "Look A.T.",
+                    "Jette C."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "22952453"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1371/journal.pgen.1002922"
+                    }
+                ],
+                "title": "Ccdc94 protects cells from ionizing radiation by inhibiting the expression of p53.",
+                "publicationDate": "2012",
+                "journal": "PLoS Genet.",
+                "firstPage": "E1002922",
+                "lastPage": "E1002922",
+                "volume": "8"
+            },
+            "referencePositions": [
+                "FUNCTION",
+                "DISRUPTION PHENOTYPE"
+            ]
+        },
+        {
+            "referenceNumber": 8,
+            "citation": {
+                "id": "27834691",
+                "citationType": "journal article",
+                "authors": [
+                    "Serbanovic-Canic J.",
+                    "de Luca A.",
+                    "Warboys C.",
+                    "Ferreira P.F.",
+                    "Luong L.A.",
+                    "Hsiao S.",
+                    "Gauci I.",
+                    "Mahmoud M.",
+                    "Feng S.",
+                    "Souilhol C.",
+                    "Bowden N.",
+                    "Ashton J.P.",
+                    "Walczak H.",
+                    "Firmin D.",
+                    "Krams R.",
+                    "Mason J.C.",
+                    "Haskard D.O.",
+                    "Sherwin S.",
+                    "Ridger V.",
+                    "Chico T.J.",
+                    "Evans P.C."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "27834691"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1161/atvbaha.116.308502"
+                    }
+                ],
+                "title": "Zebrafish Model for Functional Screening of Flow-Responsive Genes.",
+                "publicationDate": "2017",
+                "journal": "Arterioscler. Thromb. Vasc. Biol.",
+                "firstPage": "130",
+                "lastPage": "143",
+                "volume": "37"
+            },
+            "referencePositions": [
+                "DISRUPTION PHENOTYPE"
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "EMBL",
+            "id": "U60804",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAB40617.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AF365873",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAO85406.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "U46693",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAA97408.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "RefSeq",
+            "id": "NP_571402.1",
+            "properties": [
+                {
+                    "key": "NucleotideSequenceId",
+                    "value": "NM_131327.2"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "4CZ5",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "1.02 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A/B/C/D=301-330"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "4CZ6",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "1.53 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A/B/C/D=301-330"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "4CZ7",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "1.10 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A/B/C/D/E/F=301-330"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "4CZ5",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "4CZ6",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "4CZ7",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "P79734",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "P79734",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "BioGRID",
+            "id": "78756",
+            "properties": [
+                {
+                    "key": "Interactions",
+                    "value": "2"
+                }
+            ]
+        },
+        {
+            "database": "STRING",
+            "id": "7955.ENSDARP00000116736",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PaxDb",
+            "id": "7955-ENSDARP00000051548",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Ensembl",
+            "id": "ENSDART00000177458",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "ENSDARP00000144168"
+                },
+                {
+                    "key": "GeneId",
+                    "value": "ENSDARG00000035559"
+                }
+            ]
+        },
+        {
+            "database": "GeneID",
+            "id": "30590",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "KEGG",
+            "id": "dre:30590",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "AGR",
+            "id": "ZFIN:ZDB-GENE-990415-270",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "CTD",
+            "id": "7157",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "ZFIN",
+            "id": "ZDB-GENE-990415-270",
+            "properties": [
+                {
+                    "key": "GeneName",
+                    "value": "tp53"
+                }
+            ]
+        },
+        {
+            "database": "eggNOG",
+            "id": "ENOG502QVY3",
+            "properties": [
+                {
+                    "key": "ToxonomicScope",
+                    "value": "Eukaryota"
+                }
+            ]
+        },
+        {
+            "database": "InParanoid",
+            "id": "P79734",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OrthoDB",
+            "id": "5915660at2759",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-DRE-2559580",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Oxidative Stress Induced Senescence"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-DRE-2559585",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Oncogene Induced Senescence"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-DRE-349425",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Autodegradation of the E3 ubiquitin ligase COP1"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-DRE-5689880",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Ub-specific processing proteases"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-DRE-5689896",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Ovarian tumor domain proteases"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-DRE-6804754",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Regulation of TP53 Expression"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-DRE-6804756",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Regulation of TP53 Activity through Phosphorylation"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-DRE-6804757",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Regulation of TP53 Degradation"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-DRE-6804758",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Regulation of TP53 Activity through Acetylation"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-DRE-6804759",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Regulation of TP53 Activity through Association with Co-factors"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-DRE-6804760",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Regulation of TP53 Activity through Methylation"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-DRE-69481",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "G2/M Checkpoints"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-DRE-69541",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Stabilization of p53"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-DRE-8852276",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "The role of GTSE1 in G2/M progression after G2 checkpoint"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-DRE-8941855",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "RUNX3 regulates CDKN1A transcription"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-DRE-9833482",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "PKR-mediated signaling"
+                }
+            ]
+        },
+        {
+            "database": "EvolutionaryTrace",
+            "id": "P79734",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PRO",
+            "id": "PR:P79734",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Proteomes",
+            "id": "UP000000437",
+            "properties": [
+                {
+                    "key": "Component",
+                    "value": "Alternate scaffold 5"
+                }
+            ]
+        },
+        {
+            "database": "Proteomes",
+            "id": "UP000000437",
+            "properties": [
+                {
+                    "key": "Component",
+                    "value": "Chromosome 5"
+                }
+            ]
+        },
+        {
+            "database": "Bgee",
+            "id": "ENSDARG00000035559",
+            "properties": [
+                {
+                    "key": "ExpressionPatterns",
+                    "value": "Expressed in cleaving embryo and 25 other cell types or tissues"
+                }
+            ]
+        },
+        {
+            "database": "ExpressionAtlas",
+            "id": "P79734",
+            "properties": [
+                {
+                    "key": "ExpressionPatterns",
+                    "value": "baseline and differential"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0000785",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:chromatin"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "25698579"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005737",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:cytoplasm"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005739",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:mitochondrion"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005634",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:nucleus"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0003700",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:DNA-binding transcription factor activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "25698579"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0000981",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:DNA-binding transcription factor activity, RNA polymerase II-specific"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0046872",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:metal ion binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0140693",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:molecular condensate scaffold activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:1990841",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:promoter-specific chromatin binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0000978",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:RNA polymerase II cis-regulatory region sequence-specific DNA binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0043565",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:sequence-specific DNA binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "25668429"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0006915",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:apoptotic process"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IMP:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "21209837"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:1902262",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:apoptotic process involved in blood vessel morphogenesis"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IMP:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "27834691"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:1902742",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:apoptotic process involved in development"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IMP:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "27462426"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0006914",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:autophagy"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IGI:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000316",
+                    "source": "PubMed",
+                    "id": "24967584"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0071456",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:cellular response to hypoxia"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IMP:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "21792176"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0090398",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:cellular senescence"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IGI:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000316",
+                    "source": "PubMed",
+                    "id": "24967584"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0060216",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:definitive hemopoiesis"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IGI:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000316",
+                    "source": "PubMed",
+                    "id": "22299032"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0000077",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:DNA damage checkpoint signaling"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IMP:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "15630097"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0006974",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:DNA damage response"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0006978",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:DNA damage response, signal transduction by p53 class mediator resulting in transcription of p21 class mediator"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IMP:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "15630097"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0048730",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:epidermis morphogenesis"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IMP:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "24415949"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0048821",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:erythrocyte development"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IGI:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000316",
+                    "source": "PubMed",
+                    "id": "26109203"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0043249",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:erythrocyte maturation"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IGI:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000316",
+                    "source": "PubMed",
+                    "id": "27216296"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0061484",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:hematopoietic stem cell homeostasis"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IGI:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000316",
+                    "source": "PubMed",
+                    "id": "27151951"
+                },
+                {
+                    "evidenceCode": "ECO:0000316",
+                    "source": "PubMed",
+                    "id": "34611130"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0071425",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:hematopoietic stem cell proliferation"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IMP:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "27462426"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0060729",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:intestinal epithelial structure maintenance"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IGI:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000316",
+                    "source": "PubMed",
+                    "id": "23349637"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0097193",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:intrinsic apoptotic signaling pathway"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IMP:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "15529176"
+                },
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "18418056"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0042771",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:intrinsic apoptotic signaling pathway in response to DNA damage by p53 class mediator"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IMP:BHF-UCL"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "21252910"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0016525",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:negative regulation of angiogenesis"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IGI:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000316",
+                    "source": "PubMed",
+                    "id": "21949834"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0045786",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:negative regulation of cell cycle"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IMP:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "16322560"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0051782",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:negative regulation of cell division"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IMP:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "19954345"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0043065",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:positive regulation of apoptotic process"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IMP:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "15630097"
+                },
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "18514183"
+                },
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "20075382"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0045787",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:positive regulation of cell cycle"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IMP:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "20075382"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0045893",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:positive regulation of DNA-templated transcription"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "12015968"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0043525",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:positive regulation of neuron apoptotic process"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IGI:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000316",
+                    "source": "PubMed",
+                    "id": "16464238"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0045944",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:positive regulation of transcription by RNA polymerase II"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0010623",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:programmed cell death involved in cell development"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IMP:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "27462426"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0051262",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:protein tetramerization"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:InterPro"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0042127",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:regulation of cell population proliferation"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IGI:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000316",
+                    "source": "PubMed",
+                    "id": "35042909"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:2000779",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:regulation of double-strand break repair"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IMP:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "25698579"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:1902253",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:regulation of intrinsic apoptotic signaling pathway by p53 class mediator"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IGI:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000316",
+                    "source": "PubMed",
+                    "id": "34611130"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:1905879",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:regulation of oogenesis"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IGI:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000316",
+                    "source": "PubMed",
+                    "id": "35042909"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0031647",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:regulation of protein stability"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IGI:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000316",
+                    "source": "PubMed",
+                    "id": "25746004"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0006357",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:regulation of transcription by RNA polymerase II"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IMP:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "27462426"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0051597",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:response to methylmercury"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "15984772"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0009411",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:response to UV"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IMP:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "15529176"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0010165",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:response to X-ray"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IMP:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "18418056"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0007283",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:spermatogenesis"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IGI:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000316",
+                    "source": "PubMed",
+                    "id": "23349637"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0007179",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:transforming growth factor beta receptor signaling pathway"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IMP:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "28887217"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0010526",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:transposable element silencing"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IMP:ZFIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "26701264"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd08367",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "P53"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "FunFam",
+            "id": "2.60.40.720:FF:000003",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Cellular tumor antigen p53"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "FunFam",
+            "id": "4.10.170.10:FF:000005",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Cellular tumor antigen p53"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.60.40.720",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "4.10.170.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "p53-like tetramerisation domain"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR008967",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "p53-like_TF_DNA-bd_sf"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR012346",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "p53/RUNT-type_TF_DNA-bd_sf"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR011615",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "p53_DNA-bd"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR036674",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "p53_tetramer_sf"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR010991",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "p53_tetrameristn"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR002117",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "p53_tumour_suppressor"
+                }
+            ]
+        },
+        {
+            "database": "PANTHER",
+            "id": "PTHR11447",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "CELLULAR TUMOR ANTIGEN P53"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PANTHER",
+            "id": "PTHR11447:SF6",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "CELLULAR TUMOR ANTIGEN P53"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF00870",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "P53"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF07710",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "P53_tetramer"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PRINTS",
+            "id": "PR00386",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "P53SUPPRESSR"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF47719",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "p53 tetramerization domain"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF49417",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "p53-like transcription factors"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PROSITE",
+            "id": "PS00348",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "P53"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MAQNDSQEFAELWEKNLIIQPPGGGSCWDIINDEEYLPGSFDPNFFENVLEEQPQPSTLPPTSTVPETSDYPGDHGFRLRFPQSGTAKSVTCTYSPDLNKLFCQLAKTCPVQMVVDVAPPQGSVVRATAIYKKSEHVAEVVRRCPHHERTPDGDNLAPAGHLIRVEGNQRANYREDNITLRHSVFVPYEAPQLGAEWTTVLLNYMCNSSCMGGMNRRPILTIITLETQEGQLLGRRSFEVRVCACPGRDRKTEESNFKKDQETKTMAKTTTGTKRSLVKESSSATLRPEGSKKAKGSSSDEEIFTLQVRGRERYEILKKLNDSLELSDVVPASDAEKYRQKFMTKNKKENRESSEPKQGKKLMVKDEGRSDSD",
+        "length": 373,
+        "molWeight": 41899,
+        "crc64": "AC7AB724FA6B61FF",
+        "md5": "C9964E87282A975313C080F1F0B1379B"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "COFACTOR": 1,
+            "SUBUNIT": 1,
+            "SUBCELLULAR LOCATION": 1,
+            "DOMAIN": 2,
+            "DISRUPTION PHENOTYPE": 1,
+            "SIMILARITY": 1
+        },
+        "countByFeatureType": {
+            "Chain": 1,
+            "DNA binding": 1,
+            "Region": 7,
+            "Motif": 2,
+            "Compositional bias": 2,
+            "Binding site": 4,
+            "Site": 1,
+            "Mutagenesis": 3,
+            "Sequence conflict": 2,
+            "Beta strand": 1,
+            "Helix": 1
+        },
+        "uniParcId": "UPI0000131036"
+    }
+}

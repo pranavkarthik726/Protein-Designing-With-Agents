@@ -1,0 +1,3090 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P67939",
+    "secondaryAccessions": [
+        "Q29628",
+        "Q3ZCF1"
+    ],
+    "uniProtkbId": "P53_BOVIN",
+    "entryAudit": {
+        "firstPublicDate": "2004-10-11",
+        "lastAnnotationUpdateDate": "2025-02-05",
+        "lastSequenceUpdateDate": "2004-10-11",
+        "entryVersion": 185,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 5.0,
+    "organism": {
+        "scientificName": "Bos taurus",
+        "commonName": "Bovine",
+        "taxonId": 9913,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Mammalia",
+            "Eutheria",
+            "Laurasiatheria",
+            "Artiodactyla",
+            "Ruminantia",
+            "Pecora",
+            "Bovidae",
+            "Bovinae",
+            "Bos"
+        ]
+    },
+    "proteinExistence": "2: Evidence at transcript level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "value": "Cellular tumor antigen p53"
+            }
+        },
+        "alternativeNames": [
+            {
+                "fullName": {
+                    "value": "Tumor suppressor p53"
+                }
+            }
+        ]
+    },
+    "genes": [
+        {
+            "geneName": {
+                "value": "TP53"
+            }
+        }
+    ],
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "P02340"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "P04637"
+                        }
+                    ],
+                    "value": "Multifunctional transcription factor that induces cell cycle arrest, DNA repair or apoptosis upon binding to its target DNA sequence. Acts as a tumor suppressor in many tumor types; induces growth arrest or apoptosis depending on the physiological circumstances and cell type. Negatively regulates cell division by controlling expression of a set of genes required for this process. One of the activated genes is an inhibitor of cyclin-dependent kinases. Apoptosis induction seems to be mediated either by stimulation of BAX and FAS antigen expression, or by repression of Bcl-2 expression. Its pro-apoptotic activity is activated via its interaction with PPP1R13B/ASPP1 or TP53BP2/ASPP2 (By similarity). However, this activity is inhibited when the interaction with PPP1R13B/ASPP1 or TP53BP2/ASPP2 is displaced by PPP1R13L/iASPP (By similarity). In cooperation with mitochondrial PPIF is involved in activating oxidative stress-induced necrosis; the function is largely independent of transcription. Prevents CDK7 kinase activity when associated to CAK complex in response to DNA damage, thus stopping cell cycle progression. Induces the transcription of long intergenic non-coding RNA p21 (lincRNA-p21) and lincRNA-Mkln1. LincRNA-p21 participates in TP53-dependent transcriptional repression leading to apoptosis and seems to have an effect on cell-cycle regulation. Regulates the circadian clock by repressing CLOCK-BMAL1-mediated transcriptional activation of PER2"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "commentType": "COFACTOR",
+            "cofactors": [
+                {
+                    "name": "Zn(2+)",
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250"
+                        }
+                    ],
+                    "cofactorCrossReference": {
+                        "database": "ChEBI",
+                        "id": "CHEBI:29105"
+                    }
+                }
+            ],
+            "note": {
+                "texts": [
+                    {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000250"
+                            }
+                        ],
+                        "value": "Binds 1 zinc ion per subunit."
+                    }
+                ]
+            }
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "P02340"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "P04637"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "P10361"
+                        }
+                    ],
+                    "value": "Forms homodimers and homotetramers (By similarity). Binds DNA as a homotetramer. Interacts with AXIN1. Probably part of a complex consisting of TP53, HIPK2 and AXIN1. Interacts with histone acetyltransferases EP300 and methyltransferases HRMT1L2 and CARM1, and recruits them to promoters. Interacts (via C-terminus) with TAF1; when TAF1 is part of the TFIID complex. Interacts with ING4; this interaction may be indirect. Found in a complex with CABLES1 and TP73. Interacts with HIPK1, HIPK2, and TP53INP1. Interacts with WWOX. Interacts with USP7 and SYVN1. Interacts with HSP90AB1. Interacts with CHD8; leading to recruit histone H1 and prevent transactivation activity. Interacts with ARMC10, BANP, CDKN2AIP, NUAK1, STK11/LKB1, UHRF2 and E4F. Interacts with YWHAZ; the interaction enhances TP53 transcriptional activity. Phosphorylation of YWHAZ on 'Ser-58' inhibits this interaction. Interacts (via DNA-binding domain) with MAML1 (via N-terminus). Interacts with MKRN1. Interacts with PML (via C-terminus). Interacts with MDM2; leading to ubiquitination and proteasomal degradation of TP53. Directly interacts with FBXO42; leading to ubiquitination and degradation of TP53. Interacts (phosphorylated at Ser-15 by ATM) with the phosphatase PP2A-PPP2R5C holoenzyme; regulates stress-induced TP53-dependent inhibition of cell proliferation. Interacts with PPP2R2A. Interacts with AURKA, DAXX, BRD7 and TRIM24. Interacts (when monomethylated at Lys-375) with L3MBTL1. Interacts with GRK5. Binds to the CAK complex (CDK7, cyclin H and MAT1) in response to DNA damage. Interacts with CDK5 in neurons. Interacts with AURKB, SETD2, UHRF2 and NOC2L. Interacts (via N-terminus) with PTK2/FAK1; this promotes ubiquitination by MDM2. Interacts with PTK2B/PYK2; this promotes ubiquitination by MDM2. Interacts with PRKCG. Interacts with PPIF; the association implicates preferentially tetrameric TP53, is induced by oxidative stress and is impaired by cyclosporin A (CsA). Interacts with SNAI1; the interaction induces SNAI1 degradation via MDM2-mediated ubiquitination and inhibits SNAI1-induced cell invasion. Interacts with UBC9. Interacts with ZNF385B; the interaction is direct. Interacts (via DNA-binding domain) with ZNF385A; the interaction is direct and enhances p53/TP53 transactivation functions on cell-cycle arrest target genes, resulting in growth arrest (By similarity). Interacts with ANKRD2. Interacts with RFFL and RNF34; involved in p53/TP53 ubiquitination. Interacts with MTA1 and COP1. Interacts with CCAR2 (via N-terminus). Interacts with MORC3. Interacts (via C-terminus) with POU4F2 (via C-terminus). Interacts (via oligomerization region) with NOP53; the interaction is direct and may prevent the MDM2-mediated proteasomal degradation of TP53. Interacts with AFG1L; mediates mitochondrial translocation of TP53. Interacts with UBD (By similarity). Interacts with TAF6 (By similarity). Interacts with C10orf90/FATS; the interaction inhibits binding of TP53 and MDM2 (By similarity). Interacts with NUPR1; interaction is stress-dependent. Forms a complex with EP300 and NUPR1; this complex binds CDKN1A promoter leading to transcriptional induction of CDKN1A (By similarity). Interacts with PRMT5 in response to DNA damage; the interaction is TTC5/STRAP dependent (By similarity). Interacts with PPP1R13L (via SH3 domain and ANK repeats); the interaction inhibits pro-apoptotic activity of p53/TP53 (By similarity). Interacts with PPP1R13B/ASPP1 and TP53BP2/ASPP2; the interactions promotes pro-apoptotic activity (By similarity). When phosphorylated at Ser-15, interacts with DDX3X and gamma-tubulin (By similarity). Interacts with KAT7/HBO1; leading to inhibit histone acetyltransferase activity of KAT7/HBO1 (By similarity). Interacts with S100A4; this interaction promotes TP53 degradation (By similarity). Interacts with TTC5/STRAP; the interaction may result in increased mitochondrial-dependent apoptosis (By similarity). Interacts with NQO1; this interaction is NADH-dependent, stabilizes TP53 in response to oxidative stress and protects it from ubiquitin-independent degradation by the 20S proteasome (By similarity). Interacts with DAZAP2 at TP53 target gene promoters; the interaction is triggered by DNA damage and leads to modulation of the expression of a subset of TP53 target genes, reducing DNA damage-induced cell death by limiting the expression of cell death-mediating TP53 target genes (By similarity). Interacts (via N-terminus) with ZNF768 (via zinc-finger domains); interaction might be facilitated by TP53 oligomerization state (By similarity). Forms a ternary complex with ALDOB and G6PD; this interaction is direct. ALDOB stabilizes the complex inhibiting G6PD activity and keeping oxidative pentose phosphate metabolism in check. Interacts with MORN3; the interactions mediate post-transcriptional modifications of TP53 by MDM2 and SIRT1 (By similarity). Interacts with HSPA9/MOT-2; the interaction promotes the degradation of TP53 (By similarity). Interacts with FBXO22; this interaction promotes TP53 proteasomal degradation (By similarity)"
+                }
+            ],
+            "commentType": "SUBUNIT"
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "note": {
+                "texts": [
+                    {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000250",
+                                "source": "UniProtKB",
+                                "id": "P04637"
+                            }
+                        ],
+                        "value": "Interaction with BANP promotes nuclear localization. Recruited into PML bodies together with CHEK2. Translocates to mitochondria upon oxidative stress. Translocates to mitochondria in response to mitomycin C treatment (By similarity). Competitive inhibition of TP53 interaction with HSPA9/MOT-2 by UBXN2A results in increased protein abundance and subsequent translocation of TP53 to the nucleus (By similarity)"
+                    }
+                ]
+            },
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000250",
+                                "source": "UniProtKB",
+                                "id": "P04637"
+                            }
+                        ],
+                        "value": "Cytoplasm",
+                        "id": "SL-0086"
+                    }
+                },
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000250",
+                                "source": "UniProtKB",
+                                "id": "P04637"
+                            }
+                        ],
+                        "value": "Nucleus",
+                        "id": "SL-0191"
+                    }
+                },
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000250",
+                                "source": "UniProtKB",
+                                "id": "P04637"
+                            }
+                        ],
+                        "value": "Nucleus, PML body",
+                        "id": "SL-0465"
+                    }
+                },
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000250",
+                                "source": "UniProtKB",
+                                "id": "P04637"
+                            }
+                        ],
+                        "value": "Endoplasmic reticulum",
+                        "id": "SL-0095"
+                    }
+                },
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000250",
+                                "source": "UniProtKB",
+                                "id": "P04637"
+                            }
+                        ],
+                        "value": "Mitochondrion matrix",
+                        "id": "SL-0170"
+                    }
+                },
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000250",
+                                "source": "UniProtKB",
+                                "id": "P04637"
+                            }
+                        ],
+                        "value": "Cytoplasm, cytoskeleton, microtubule organizing center, centrosome",
+                        "id": "SL-0048"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "P04637"
+                        }
+                    ],
+                    "value": "The N-terminal and C-terminal disordered regions undergo liquid-liquid phase separation (LLPS) following homotetramerization and activation. Post-translational modifications, such as phosphorylation or lactylation affect the ability to undergo LLPS"
+                }
+            ],
+            "commentType": "DOMAIN"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "P04637"
+                        }
+                    ],
+                    "value": "The nuclear export signal acts as a transcriptional repression domain. The TADI and TADII motifs (residues 17 to 25 and 48 to 56) correspond both to 9aaTAD motifs which are transactivation domains present in a large number of yeast and animal transcription factors"
+                }
+            ],
+            "commentType": "DOMAIN"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "P04637"
+                        }
+                    ],
+                    "value": "Phosphorylation on Ser residues mediates transcriptional activation. Phosphorylated on Thr-18 by VRK1, which may prevent the interaction with MDM2. Phosphorylated on Ser-20 by CHEK2 in response to DNA damage, which prevents ubiquitination by MDM2. Phosphorylated on Ser-20 by PLK3 in response to reactive oxygen species (ROS), promoting p53/TP53-mediated apoptosis. Phosphorylated on Ser-33 by CDK7 in a CAK complex in response to DNA damage. Phosphorylated by HIPK1. Phosphorylated on Ser-385 following UV but not gamma irradiation. Stabilized by CDK5-mediated phosphorylation in response to genotoxic and oxidative stresses at Ser-15 and Ser-33, leading to accumulation of p53/TP53, particularly in the nucleus, thus inducing the transactivation of p53/TP53 target genes. Phosphorylated at Ser-308 and Ser-385 by CDK2 in response to DNA-damage (By similarity). Phosphorylation at Ser-15 is required for interaction with DDX3X and gamma-tubulin (By similarity). Phosphorylation at Ser-385 regulates its ability to undergo liquid-liquid phase separation by increasing fluidity of TP53/p53 condensates (By similarity)"
+                }
+            ],
+            "commentType": "PTM"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "P04637"
+                        }
+                    ],
+                    "value": "Monomethylated at Lys-365 by SETD7, leading to stabilization and increased transcriptional activation. Monomethylated at Lys-363 by SMYD2, leading to decreased DNA-binding activity and subsequent transcriptional regulation activity. Lys-365 monomethylation prevents interaction with SMYD2 and subsequent monomethylation at Lys-363. Dimethylated at Lys-366 by EHMT1 and EHMT2. Monomethylated at Lys-375 by KMT5A, promoting interaction with L3MBTL1 and leading to repress transcriptional activity. Demethylation of dimethylated Lys-363 by KDM1A prevents interaction with TP53BP1 and represses TP53-mediated transcriptional activation (By similarity). Monomethylated at Arg-326 and dimethylated at Arg-330 by PRMT5; methylation is increased after DNA damage and might possibly affect TP53 target gene specificity (By similarity)"
+                }
+            ],
+            "commentType": "PTM"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250"
+                        }
+                    ],
+                    "value": "Sumoylated with SUMO1. Sumoylated at Lys-379 by UBC9 (By similarity)"
+                }
+            ],
+            "commentType": "PTM"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "P02340"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "P04637"
+                        }
+                    ],
+                    "value": "Ubiquitinated by MDM2 and SYVN1, which leads to proteasomal degradation. Ubiquitinated by RFWD3, which works in cooperation with MDM2 and may catalyze the formation of short polyubiquitin chains on p53/TP53 that are not targeted to the proteasome. Ubiquitinated by MKRN1, which leads to proteasomal degradation. Deubiquitinated by USP10, leading to stabilize it. Ubiquitinated by TRIM24, RFFL, RNF34 and RNF125, which leads to proteasomal degradation. Ubiquitination by TOPORS induces degradation. Deubiquitination by USP7, leading to stabilize it. Ubiquitinated by COP1, which leads to proteasomal degradation (By similarity). Ubiquitination and subsequent proteasomal degradation is negatively regulated by CCAR2 (By similarity). Polyubiquitinated by C10orf90/FATS, polyubiquitination is 'Lys-48'-linkage independent and non-proteolytic, leading to TP53 stabilization (By similarity). Deubiquitinated by USP3, leading to stabilization (By similarity). Ubiquitinated by MSL2, promoting its cytoplasmic localization (By similarity). Also ubiquitinated by the SCF(FBXO22)-KDMA4A complex; leading to proteasomal degradation (By similarity)"
+                }
+            ],
+            "commentType": "PTM"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "P04637"
+                        }
+                    ],
+                    "value": "Acetylation of Lys-375 by CREBBP enhances transcriptional activity. Acetylation of Lys-375 by EP300. Deacetylation of Lys-375 by SIRT1 impairs its ability to induce proapoptotic program and modulate cell senescence. Deacetylation by SIRT2 impairs its ability to induce transcription activation in a AKT-dependent manner. Acetylation at Lys-374 increases stability. Deacetylation at Lys-374 by SIRT6 decreases its stability, thereby regulating cell senescence. Acetylated at Lys-112 by KAT5, KAT6A and KAT8; regulating its ability to induce proapoptotic program"
+                }
+            ],
+            "commentType": "PTM"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "P04637"
+                        }
+                    ],
+                    "value": "Lactylation by AARS1 prevents ability to undergo liquid-liquid phase separation (LLPS), thereby inhibiting transcription factor activity"
+                }
+            ],
+            "commentType": "PTM"
+        },
+        {
+            "commentType": "DISEASE",
+            "note": {
+                "texts": [
+                    {
+                        "value": "p53 is found in increased amounts in a wide variety of transformed cells. p53 is frequently mutated or inactivated in many types of cancer"
+                    }
+                ]
+            }
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Belongs to the p53 family"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        }
+    ],
+    "features": [
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 386,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Cellular tumor antigen p53",
+            "featureId": "PRO_0000185694"
+        },
+        {
+            "type": "DNA binding",
+            "location": {
+                "start": {
+                    "value": 94,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 285,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P04637"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 313,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Interaction with CCAR2",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P04637"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 44,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Transcription activation (acidic)"
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 56,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 83,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Disordered",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 63,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 102,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Interaction with WWOX",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 92,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 363,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Interaction with HIPK1",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 92,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 293,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Required for interaction with ZNF385A",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 105,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 229,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Required for interaction with FBXO42",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 108,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 285,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Interaction with AXIN1",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 249,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 287,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Interaction with E4F1",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 266,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 273,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Interaction with DNA",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 275,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 318,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Disordered",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 312,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 353,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Interaction with HIPK2",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 318,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 349,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Oligomerization"
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 348,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 386,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Disordered",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 352,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 356,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Interaction with USP7",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 361,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 380,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Basic (repression of DNA-binding)"
+        },
+        {
+            "type": "Motif",
+            "location": {
+                "start": {
+                    "value": 298,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 314,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Bipartite nuclear localization signal",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250"
+                }
+            ]
+        },
+        {
+            "type": "Motif",
+            "location": {
+                "start": {
+                    "value": 332,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 343,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Nuclear export signal",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250"
+                }
+            ]
+        },
+        {
+            "type": "Motif",
+            "location": {
+                "start": {
+                    "value": 363,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 365,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "[KR]-[STA]-K motif"
+        },
+        {
+            "type": "Compositional bias",
+            "location": {
+                "start": {
+                    "value": 63,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 77,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Pro residues",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Compositional bias",
+            "location": {
+                "start": {
+                    "value": 348,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 357,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Basic and acidic residues",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Compositional bias",
+            "location": {
+                "start": {
+                    "value": 358,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 377,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Basic residues",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 168,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 168,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:29105"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P04637"
+                }
+            ],
+            "ligand": {
+                "name": "Zn(2+)",
+                "id": "ChEBI:CHEBI:29105"
+            }
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 171,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 171,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:29105"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P04637"
+                }
+            ],
+            "ligand": {
+                "name": "Zn(2+)",
+                "id": "ChEBI:CHEBI:29105"
+            }
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 231,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 231,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:29105"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P04637"
+                }
+            ],
+            "ligand": {
+                "name": "Zn(2+)",
+                "id": "ChEBI:CHEBI:29105"
+            }
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 235,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 235,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:29105"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P04637"
+                }
+            ],
+            "ligand": {
+                "name": "Zn(2+)",
+                "id": "ChEBI:CHEBI:29105"
+            }
+        },
+        {
+            "type": "Site",
+            "location": {
+                "start": {
+                    "value": 112,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 112,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Interaction with DNA",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P04637"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 15,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 15,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine; by CDK5, PRPK, AMPK, NUAK1 and ATM",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P04637"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 18,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 18,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphothreonine; by CK1, VRK1 and VRK2",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P04637"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 20,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 20,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine; by CHEK2, CK1 and PLK3",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P04637"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 33,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 33,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine; by CDK5 and CDK7",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P04637"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 37,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 37,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine; by MAPKAPK5",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P04637"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 112,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 112,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "N6-acetyllysine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P04637"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 112,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 112,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "N6-lactoyllysine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P04637"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 131,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 131,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "N6-lactoyllysine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P04637"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 175,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 175,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine; by AURKB",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P04637"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 262,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 262,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine; by AURKB",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P04637"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 277,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 277,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphothreonine; by AURKB",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P04637"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 298,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 298,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "N6-acetyllysine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P04637"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 308,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 308,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine; by AURKA, CDK1 and CDK2",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P04637"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 314,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 314,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "N6-acetyllysine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P02340"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 326,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 326,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Omega-N-methylarginine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P04637"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 330,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 330,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Symmetric dimethylarginine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P04637"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 363,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 363,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "N6,N6-dimethyllysine; alternate",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P04637"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 363,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 363,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "N6-methyllysine; by SMYD2; alternate",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P04637"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 365,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 365,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "N6-methyllysine; by SETD7",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P04637"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 366,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 366,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "N6,N6-dimethyllysine; by EHMT1 and EHMT2; alternate",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P04637"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 366,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 366,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "N6-acetyllysine; alternate",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P04637"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 374,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 374,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "N6-acetyllysine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P04637"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 375,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 375,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "N6,N6-dimethyllysine; alternate",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P04637"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 375,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 375,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "N6-acetyllysine; alternate",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P04637"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 375,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 375,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "N6-methyllysine; by KMT5A; alternate",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P04637"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 385,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 385,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine; by CK2, CDK2 and NUAK1",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P04637"
+                }
+            ]
+        },
+        {
+            "type": "Cross-link",
+            "location": {
+                "start": {
+                    "value": 284,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 284,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P04637"
+                }
+            ]
+        },
+        {
+            "type": "Cross-link",
+            "location": {
+                "start": {
+                    "value": 285,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 285,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P04637"
+                }
+            ]
+        },
+        {
+            "type": "Cross-link",
+            "location": {
+                "start": {
+                    "value": 344,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 344,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P04637"
+                }
+            ]
+        },
+        {
+            "type": "Cross-link",
+            "location": {
+                "start": {
+                    "value": 379,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 379,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO)",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250"
+                }
+            ]
+        },
+        {
+            "type": "Sequence conflict",
+            "location": {
+                "start": {
+                    "value": 380,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 380,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in Ref. 4; BAA08629",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "R",
+                "alternativeSequences": [
+                    "T"
+                ]
+            }
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0007",
+            "category": "PTM",
+            "name": "Acetylation"
+        },
+        {
+            "id": "KW-0010",
+            "category": "Molecular function",
+            "name": "Activator"
+        },
+        {
+            "id": "KW-0053",
+            "category": "Biological process",
+            "name": "Apoptosis"
+        },
+        {
+            "id": "KW-0090",
+            "category": "Biological process",
+            "name": "Biological rhythms"
+        },
+        {
+            "id": "KW-0131",
+            "category": "Biological process",
+            "name": "Cell cycle"
+        },
+        {
+            "id": "KW-0963",
+            "category": "Cellular component",
+            "name": "Cytoplasm"
+        },
+        {
+            "id": "KW-0206",
+            "category": "Cellular component",
+            "name": "Cytoskeleton"
+        },
+        {
+            "id": "KW-0238",
+            "category": "Molecular function",
+            "name": "DNA-binding"
+        },
+        {
+            "id": "KW-0256",
+            "category": "Cellular component",
+            "name": "Endoplasmic reticulum"
+        },
+        {
+            "id": "KW-1017",
+            "category": "PTM",
+            "name": "Isopeptide bond"
+        },
+        {
+            "id": "KW-0479",
+            "category": "Ligand",
+            "name": "Metal-binding"
+        },
+        {
+            "id": "KW-0488",
+            "category": "PTM",
+            "name": "Methylation"
+        },
+        {
+            "id": "KW-0496",
+            "category": "Cellular component",
+            "name": "Mitochondrion"
+        },
+        {
+            "id": "KW-1210",
+            "category": "Biological process",
+            "name": "Necrosis"
+        },
+        {
+            "id": "KW-0539",
+            "category": "Cellular component",
+            "name": "Nucleus"
+        },
+        {
+            "id": "KW-0597",
+            "category": "PTM",
+            "name": "Phosphoprotein"
+        },
+        {
+            "id": "KW-1185",
+            "category": "Technical term",
+            "name": "Reference proteome"
+        },
+        {
+            "id": "KW-0678",
+            "category": "Molecular function",
+            "name": "Repressor"
+        },
+        {
+            "id": "KW-0804",
+            "category": "Biological process",
+            "name": "Transcription"
+        },
+        {
+            "id": "KW-0805",
+            "category": "Biological process",
+            "name": "Transcription regulation"
+        },
+        {
+            "id": "KW-0043",
+            "category": "Disease",
+            "name": "Tumor suppressor"
+        },
+        {
+            "id": "KW-0832",
+            "category": "PTM",
+            "name": "Ubl conjugation"
+        },
+        {
+            "id": "KW-0862",
+            "category": "Ligand",
+            "name": "Zinc"
+        }
+    ],
+    "references": [
+        {
+            "referenceNumber": 1,
+            "citation": {
+                "id": "7626789",
+                "citationType": "journal article",
+                "authors": [
+                    "Dequiedt F.",
+                    "Kettmann R.",
+                    "Burny A.",
+                    "Willems L."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "7626789"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.3109/10425179509030977"
+                    }
+                ],
+                "title": "Nucleotide sequence of the bovine P53 tumor-suppressor cDNA.",
+                "publicationDate": "1995",
+                "journal": "DNA Seq.",
+                "firstPage": "261",
+                "lastPage": "264",
+                "volume": "5"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [MRNA]"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Liver",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "referenceNumber": 2,
+            "citation": {
+                "id": "CI-3KPK9PHMN45JQ",
+                "citationType": "submission",
+                "authors": [
+                    "Haller D.",
+                    "Seitzer U.",
+                    "Ahmed J."
+                ],
+                "title": "p53 cDNA sequence of Theileria-transformed cell lines.",
+                "publicationDate": "MAY-2006",
+                "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [MRNA]"
+            ]
+        },
+        {
+            "referenceNumber": 3,
+            "citation": {
+                "id": "CI-BB3I87URM95J3",
+                "citationType": "submission",
+                "authoringGroup": [
+                    "NIH - Mammalian Gene Collection (MGC) project"
+                ],
+                "publicationDate": "AUG-2005",
+                "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Crossbred X Angus",
+                    "type": "STRAIN"
+                },
+                {
+                    "value": "Ileum",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "referenceNumber": 4,
+            "citation": {
+                "id": "8807776",
+                "citationType": "journal article",
+                "authors": [
+                    "Komori H.",
+                    "Ishiguro N.",
+                    "Horiuchi M.",
+                    "Shinagawa M.",
+                    "Aida Y."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "8807776"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/0165-2427(95)05538-x"
+                    }
+                ],
+                "title": "Predominant p53 mutations in enzootic bovine leukemic cell lines.",
+                "publicationDate": "1996",
+                "journal": "Vet. Immunol. Immunopathol.",
+                "firstPage": "53",
+                "lastPage": "63",
+                "volume": "52"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [MRNA] OF 13-386"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Holstein",
+                    "type": "STRAIN"
+                },
+                {
+                    "value": "Thymus",
+                    "type": "TISSUE"
+                }
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "EMBL",
+            "id": "X81704",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "CAA57348.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "DQ656490",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "ABG37911.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "BC102440",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAI02441.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "D49825",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "BAA08629.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "PIR",
+            "id": "S51648",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "S51648"
+                }
+            ]
+        },
+        {
+            "database": "RefSeq",
+            "id": "NP_776626.1",
+            "properties": [
+                {
+                    "key": "NucleotideSequenceId",
+                    "value": "NM_174201.2"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "P67939",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "P67939",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "STRING",
+            "id": "9913.ENSBTAP00000001420",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PaxDb",
+            "id": "9913-ENSBTAP00000001420",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Ensembl",
+            "id": "ENSBTAT00000001420.4",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "ENSBTAP00000001420.3"
+                },
+                {
+                    "key": "GeneId",
+                    "value": "ENSBTAG00000001069.5"
+                }
+            ]
+        },
+        {
+            "database": "GeneID",
+            "id": "281542",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "KEGG",
+            "id": "bta:281542",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "CTD",
+            "id": "7157",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "VEuPathDB",
+            "id": "HostDB:ENSBTAG00000001069",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "VGNC",
+            "id": "VGNC:36231",
+            "properties": [
+                {
+                    "key": "GeneName",
+                    "value": "TP53"
+                }
+            ]
+        },
+        {
+            "database": "eggNOG",
+            "id": "ENOG502QVY3",
+            "properties": [
+                {
+                    "key": "ToxonomicScope",
+                    "value": "Eukaryota"
+                }
+            ]
+        },
+        {
+            "database": "GeneTree",
+            "id": "ENSGT00950000183153",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "HOGENOM",
+            "id": "CLU_019621_0_0_1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "InParanoid",
+            "id": "P67939",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OMA",
+            "id": "HKKGEPC",
+            "properties": [
+                {
+                    "key": "Fingerprint",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OrthoDB",
+            "id": "5915660at2759",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "TreeFam",
+            "id": "TF106101",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-BTA-2559580",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Oxidative Stress Induced Senescence"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-BTA-2559586",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "DNA Damage/Telomere Stress Induced Senescence"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-BTA-349425",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Autodegradation of the E3 ubiquitin ligase COP1"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-BTA-5689880",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Ub-specific processing proteases"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-BTA-5689896",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Ovarian tumor domain proteases"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-BTA-5693565",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-BTA-6804754",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Regulation of TP53 Expression"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-BTA-6804756",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Regulation of TP53 Activity through Phosphorylation"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-BTA-6804757",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Regulation of TP53 Degradation"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-BTA-6804758",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Regulation of TP53 Activity through Acetylation"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-BTA-6804759",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Regulation of TP53 Activity through Association with Co-factors"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-BTA-6804760",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Regulation of TP53 Activity through Methylation"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-BTA-6811555",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "PI5P Regulates TP53 Acetylation"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-BTA-69473",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "G2/M DNA damage checkpoint"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-BTA-69481",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "G2/M Checkpoints"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-BTA-69541",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Stabilization of p53"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-BTA-69895",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Transcriptional activation of cell cycle inhibitor p21"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-BTA-8852276",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "The role of GTSE1 in G2/M progression after G2 checkpoint"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-BTA-8941855",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "RUNX3 regulates CDKN1A transcription"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-BTA-9833482",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "PKR-mediated signaling"
+                }
+            ]
+        },
+        {
+            "database": "Proteomes",
+            "id": "UP000009136",
+            "properties": [
+                {
+                    "key": "Component",
+                    "value": "Chromosome 19"
+                }
+            ]
+        },
+        {
+            "database": "Bgee",
+            "id": "ENSBTAG00000001069",
+            "properties": [
+                {
+                    "key": "ExpressionPatterns",
+                    "value": "Expressed in blood and 105 other cell types or tissues"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005813",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:centrosome"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005737",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:cytoplasm"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:AgBase"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "21543511"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005783",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:endoplasmic reticulum"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-SubCell"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005759",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:mitochondrial matrix"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-SubCell"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005739",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:mitochondrion"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005730",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:nucleolus"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005634",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:nucleus"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005886",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:plasma membrane"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:AgBase"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "21543511"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0016605",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:PML body"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-SubCell"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0036310",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:ATP-dependent DNA/DNA annealing activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005507",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:copper ion binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0003677",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:DNA binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0000981",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:DNA-binding transcription factor activity, RNA polymerase II-specific"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0140693",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:molecular condensate scaffold activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:1990841",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:promoter-specific chromatin binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0000978",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:RNA polymerase II cis-regulatory region sequence-specific DNA binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0090398",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:cellular senescence"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0048512",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:circadian behavior"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0006974",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:DNA damage response"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0043153",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:entrainment of circadian clock by photoperiod"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0030308",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:negative regulation of cell growth"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0045892",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:negative regulation of DNA-templated transcription"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0006289",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:nucleotide-excision repair"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0097252",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:oligodendrocyte apoptotic process"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0043065",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:positive regulation of apoptotic process"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:2001244",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:positive regulation of intrinsic apoptotic signaling pathway"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0045944",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:positive regulation of transcription by RNA polymerase II"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0051262",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:protein tetramerization"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:InterPro"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0006357",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:regulation of transcription by RNA polymerase II"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd08367",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "P53"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "FunFam",
+            "id": "2.60.40.720:FF:000003",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Cellular tumor antigen p53"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "FunFam",
+            "id": "4.10.170.10:FF:000003",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Cellular tumor antigen p53"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.60.40.720",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "6.10.50.20",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "4.10.170.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "p53-like tetramerisation domain"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR008967",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "p53-like_TF_DNA-bd_sf"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR012346",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "p53/RUNT-type_TF_DNA-bd_sf"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR011615",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "p53_DNA-bd"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR036674",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "p53_tetramer_sf"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR010991",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "p53_tetrameristn"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR013872",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "p53_transactivation_domain"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR002117",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "p53_tumour_suppressor"
+                }
+            ]
+        },
+        {
+            "database": "PANTHER",
+            "id": "PTHR11447",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "CELLULAR TUMOR ANTIGEN P53"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PANTHER",
+            "id": "PTHR11447:SF6",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "CELLULAR TUMOR ANTIGEN P53"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF00870",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "P53"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF08563",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "P53_TAD"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF07710",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "P53_tetramer"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PRINTS",
+            "id": "PR00386",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "P53SUPPRESSR"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF47719",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "p53 tetramerization domain"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF49417",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "p53-like transcription factors"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PROSITE",
+            "id": "PS00348",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "P53"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MEESQAELNVEPPLSQETFSDLWNLLPENNLLSSELSAPVDDLLPYTDVATWLDECPNEAPQMPEPSAPAAPPPATPAPATSWPLSSFVPSQKTYPGNYGFRLGFLQSGTAKSVTCTYSPSLNKLFCQLAKTCPVQLWVDSPPPPGTRVRAMAIYKKLEHMTEVVRRCPHHERSSDYSDGLAPPQHLIRVEGNLRAEYLDDRNTFRHSVVVPYESPEIDSECTTIHYNFMCNSSCMGGMNRRPILTIITLEDSCGNLLGRNSFEVRVCACPGRDRRTEEENLRKKGQSCPEPPPRSTKRALPTNTSSSPQPKKKPLDGEYFTLQIRGFKRYEMFRELNDALELKDALDGREPGESRAHSSHLKSKKRPSPSCHKKPMLKREGPDSD",
+        "length": 386,
+        "molWeight": 43256,
+        "crc64": "222473F28C548F31",
+        "md5": "E41A4CEB8A9F2AB2E0A9E4E360E9850F"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "COFACTOR": 1,
+            "SUBUNIT": 1,
+            "SUBCELLULAR LOCATION": 1,
+            "DOMAIN": 2,
+            "PTM": 6,
+            "DISEASE": 1,
+            "SIMILARITY": 1
+        },
+        "countByFeatureType": {
+            "Chain": 1,
+            "DNA binding": 1,
+            "Region": 16,
+            "Motif": 3,
+            "Compositional bias": 3,
+            "Binding site": 4,
+            "Site": 1,
+            "Modified residue": 26,
+            "Cross-link": 4,
+            "Sequence conflict": 1
+        },
+        "uniParcId": "UPI0000131035"
+    }
+}

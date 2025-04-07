@@ -1,0 +1,2981 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q6J6I9",
+    "secondaryAccessions": [
+        "O46487",
+        "Q28525"
+    ],
+    "uniProtkbId": "BRCA1_MACMU",
+    "entryAudit": {
+        "firstPublicDate": "2004-11-23",
+        "lastAnnotationUpdateDate": "2025-02-05",
+        "lastSequenceUpdateDate": "2004-07-05",
+        "entryVersion": 136,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 5.0,
+    "organism": {
+        "scientificName": "Macaca mulatta",
+        "commonName": "Rhesus macaque",
+        "taxonId": 9544,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Mammalia",
+            "Eutheria",
+            "Euarchontoglires",
+            "Primates",
+            "Haplorrhini",
+            "Catarrhini",
+            "Cercopithecidae",
+            "Cercopithecinae",
+            "Macaca"
+        ]
+    },
+    "proteinExistence": "3: Inferred from homology",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "value": "Breast cancer type 1 susceptibility protein homolog"
+            },
+            "ecNumbers": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "P38398"
+                        }
+                    ],
+                    "value": "2.3.2.27"
+                }
+            ]
+        },
+        "alternativeNames": [
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "RING-type E3 ubiquitin transferase BRCA1"
+                }
+            }
+        ]
+    },
+    "genes": [
+        {
+            "geneName": {
+                "value": "BRCA1"
+            }
+        }
+    ],
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "P38398"
+                        }
+                    ],
+                    "value": "E3 ubiquitin-protein ligase that specifically mediates the formation of 'Lys-6'-linked polyubiquitin chains and plays a central role in DNA repair by facilitating cellular responses to DNA damage. It is unclear whether it also mediates the formation of other types of polyubiquitin chains. The BRCA1-BARD1 heterodimer coordinates a diverse range of cellular pathways such as DNA damage repair, ubiquitination and transcriptional regulation to maintain genomic stability. Regulates centrosomal microtubule nucleation. Required for appropriate cell cycle arrests after ionizing irradiation in both the S-phase and the G2 phase of the cell cycle. Required for FANCD2 targeting to sites of DNA damage. Inhibits lipid synthesis by binding to inactive phosphorylated ACACA and preventing its dephosphorylation. Contributes to homologous recombination repair (HRR) via its direct interaction with PALB2, fine-tunes recombinational repair partly through its modulatory role in the PALB2-dependent loading of BRCA2-RAD51 repair machinery at DNA breaks. Component of the BRCA1-RBBP8 complex which regulates CHEK1 activation and controls cell cycle G2/M checkpoints on DNA damage via BRCA1-mediated ubiquitination of RBBP8. Acts as a transcriptional activator"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "commentType": "CATALYTIC ACTIVITY",
+            "reaction": {
+                "name": "S-ubiquitinyl-[E2 ubiquitin-conjugating enzyme]-L-cysteine + [acceptor protein]-L-lysine = [E2 ubiquitin-conjugating enzyme]-L-cysteine + N(6)-ubiquitinyl-[acceptor protein]-L-lysine.",
+                "ecNumber": "2.3.2.27",
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000250",
+                        "source": "UniProtKB",
+                        "id": "P38398"
+                    }
+                ]
+            }
+        },
+        {
+            "texts": [
+                {
+                    "value": "Protein modification; protein ubiquitination"
+                }
+            ],
+            "commentType": "PATHWAY"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "P38398"
+                        }
+                    ],
+                    "value": "Heterodimer with BARD1. Part of the BRCA1-associated genome surveillance complex (BASC), which contains BRCA1, MSH2, MSH6, MLH1, ATM, BLM, PMS2 and the MRE11-RAD50-NBN protein (MRN) complex. This association could be a dynamic process changing throughout the cell cycle and within subnuclear domains. Component of the BRCA1-A complex, at least composed of BRCA1, BARD1, UIMC1/RAP80, ABRAXAS1, BRCC3/BRCC36, BABAM2 and BABAM1/NBA1. Interacts (via the BRCT domains) with ABRAXAS1 (phosphorylated form); this is important for recruitment to sites of DNA damage. Can form a heterotetramer with two molecules of ABRAXAS1 (phosphorylated form). Component of the BRCA1-RBBP8 complex. Interacts (via the BRCT domains) with RBBP8 ('Ser-327' phosphorylated form); the interaction ubiquitinates RBBP8, regulates CHEK1 activation, and involves RBBP8 in BRCA1-dependent G2/M checkpoint control on DNA damage. Associates with RNA polymerase II holoenzyme. Interacts with SMC1A, NELFB, DCLRE1C, CLSPN. CHEK1, CHEK2, BAP1, BRCC3, UBXN1 and PCLAF. Interacts (via BRCT domains) with BRIP1 (phosphorylated form). Interacts with FANCD2 (ubiquitinated form). Interacts with H2AX (phosphorylated on 'Ser-140'). Interacts (via the BRCT domains) with ACACA (phosphorylated form); the interaction prevents dephosphorylation of ACACA. Part of a BRCA complex containing BRCA1, BRCA2 and PALB2. Interacts directly with PALB2; the interaction is essential for its function in HRR. Interacts directly with BRCA2; the interaction occurs only in the presence of PALB2 which serves as the bridging protein. Interacts (via the BRCT domains) with LMO4; the interaction represses the transcriptional activity of BRCA1. Interacts (via the BRCT domains) with CCAR2 (via N-terminus); the interaction represses the transcriptional activator activity of BRCA1 (By similarity). Interacts with EXD2 (By similarity). Interacts (via C-terminus) with DHX9; this interaction is direct and links BRCA1 to the RNA polymerase II holoenzyme (By similarity). Interacts with DNA helicase ZGRF1; the interaction is increased following DNA damage induction (By similarity)"
+                }
+            ],
+            "commentType": "SUBUNIT"
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "note": {
+                "texts": [
+                    {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000250",
+                                "source": "UniProtKB",
+                                "id": "P38398"
+                            }
+                        ],
+                        "value": "Localizes at sites of DNA damage at double-strand breaks (DSBs); recruitment to DNA damage sites is mediated by the BRCA1-A complex. Translocated to the cytoplasm during UV-induced apoptosis"
+                    }
+                ]
+            },
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000250",
+                                "source": "UniProtKB",
+                                "id": "P38398"
+                            }
+                        ],
+                        "value": "Nucleus",
+                        "id": "SL-0191"
+                    }
+                },
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000250",
+                                "source": "UniProtKB",
+                                "id": "P48754"
+                            }
+                        ],
+                        "value": "Chromosome",
+                        "id": "SL-0468"
+                    }
+                },
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000250",
+                                "source": "UniProtKB",
+                                "id": "P38398"
+                            }
+                        ],
+                        "value": "Cytoplasm",
+                        "id": "SL-0086"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "P38398"
+                        }
+                    ],
+                    "value": "The BRCT domains recognize and bind phosphorylated pSXXF motif on proteins. The interaction with the phosphorylated pSXXF motif of ABRAXAS1, recruits BRCA1 at DNA damage sites"
+                }
+            ],
+            "commentType": "DOMAIN"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "P38398"
+                        }
+                    ],
+                    "value": "The RING-type zinc finger domain interacts with BAP1"
+                }
+            ],
+            "commentType": "DOMAIN"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "P38398"
+                        }
+                    ],
+                    "value": "Phosphorylated in response to IR, UV, and various stimuli that cause checkpoint activation, probably by ATM or ATR. Phosphorylation at Ser-987 by CHEK2 regulates mitotic spindle assembly. Phosphorylation by AURKA regulates centrosomal microtubule nucleation"
+                }
+            ],
+            "commentType": "PTM"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "P38398"
+                        }
+                    ],
+                    "value": "Autoubiquitinated, undergoes 'Lys-6'-linked polyubiquitination. 'Lys-6'-linked polyubiquitination does not promote degradation"
+                }
+            ],
+            "commentType": "PTM"
+        }
+    ],
+    "features": [
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1863,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Breast cancer type 1 susceptibility protein homolog",
+            "featureId": "PRO_0000055831"
+        },
+        {
+            "type": "Domain",
+            "location": {
+                "start": {
+                    "value": 1642,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1736,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "BRCT 1",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU00033"
+                }
+            ]
+        },
+        {
+            "type": "Domain",
+            "location": {
+                "start": {
+                    "value": 1756,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1855,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "BRCT 2",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU00033"
+                }
+            ]
+        },
+        {
+            "type": "Zinc finger",
+            "location": {
+                "start": {
+                    "value": 24,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 65,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "RING-type",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU00175"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 231,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 266,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Disordered",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 305,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 336,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Disordered",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 653,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 699,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Disordered",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 886,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 914,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Disordered",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 1042,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1062,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Disordered",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 1323,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1397,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Disordered",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 1397,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1424,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Interaction with PALB2",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 1442,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1501,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Disordered",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 1540,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1618,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Disordered",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Compositional bias",
+            "location": {
+                "start": {
+                    "value": 231,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 240,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Basic and acidic residues",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Compositional bias",
+            "location": {
+                "start": {
+                    "value": 248,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 260,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Basic and acidic residues",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Compositional bias",
+            "location": {
+                "start": {
+                    "value": 318,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 334,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Polar residues",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Compositional bias",
+            "location": {
+                "start": {
+                    "value": 900,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 914,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Basic and acidic residues",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Compositional bias",
+            "location": {
+                "start": {
+                    "value": 1042,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1059,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Polar residues",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Compositional bias",
+            "location": {
+                "start": {
+                    "value": 1342,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1360,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Acidic residues",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Compositional bias",
+            "location": {
+                "start": {
+                    "value": 1373,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1397,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Polar residues",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Compositional bias",
+            "location": {
+                "start": {
+                    "value": 1445,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1470,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Polar residues",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Compositional bias",
+            "location": {
+                "start": {
+                    "value": 1607,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1618,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Polar residues",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "N-acetylmethionine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 114,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 114,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 394,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 394,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 397,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 397,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 422,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 422,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 433,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 433,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 550,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 550,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 693,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 693,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 707,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 707,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 724,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 724,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P48754"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 752,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 752,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 839,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 839,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P48754"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 987,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 987,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine; by CHEK2",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 1008,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1008,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 1143,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1143,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 1189,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1189,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 1191,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1191,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 1211,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1211,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 1217,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1217,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 1218,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1218,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 1280,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1280,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 1328,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1328,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 1336,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1336,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 1342,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1342,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 1387,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1387,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 1394,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1394,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphothreonine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 1423,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1423,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 1457,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1457,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 1524,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1524,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 1542,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1542,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Cross-link",
+            "location": {
+                "start": {
+                    "value": 109,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 109,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2)",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Cross-link",
+            "location": {
+                "start": {
+                    "value": 300,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 300,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2)",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Cross-link",
+            "location": {
+                "start": {
+                    "value": 338,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 338,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2)",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Cross-link",
+            "location": {
+                "start": {
+                    "value": 442,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 442,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2)",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Cross-link",
+            "location": {
+                "start": {
+                    "value": 458,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 458,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2)",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Cross-link",
+            "location": {
+                "start": {
+                    "value": 518,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 518,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2)",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Cross-link",
+            "location": {
+                "start": {
+                    "value": 582,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 582,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2)",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Cross-link",
+            "location": {
+                "start": {
+                    "value": 733,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 733,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2)",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Cross-link",
+            "location": {
+                "start": {
+                    "value": 738,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 738,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2)",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Cross-link",
+            "location": {
+                "start": {
+                    "value": 917,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 917,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2)",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Cross-link",
+            "location": {
+                "start": {
+                    "value": 986,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 986,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2)",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Cross-link",
+            "location": {
+                "start": {
+                    "value": 1079,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1079,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2)",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250",
+                    "source": "UniProtKB",
+                    "id": "P38398"
+                }
+            ]
+        },
+        {
+            "type": "Sequence conflict",
+            "location": {
+                "start": {
+                    "value": 366,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 366,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in Ref. 2; AAC39586",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "A",
+                "alternativeSequences": [
+                    "T"
+                ]
+            }
+        },
+        {
+            "type": "Sequence conflict",
+            "location": {
+                "start": {
+                    "value": 569,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 569,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in Ref. 2; AAC39586",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "A",
+                "alternativeSequences": [
+                    "P"
+                ]
+            }
+        },
+        {
+            "type": "Sequence conflict",
+            "location": {
+                "start": {
+                    "value": 717,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 717,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in Ref. 2; AAC39586",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305"
+                }
+            ],
+            "alternativeSequence": {}
+        },
+        {
+            "type": "Sequence conflict",
+            "location": {
+                "start": {
+                    "value": 750,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 750,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in Ref. 2; AAC39586",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "M",
+                "alternativeSequences": [
+                    "I"
+                ]
+            }
+        },
+        {
+            "type": "Sequence conflict",
+            "location": {
+                "start": {
+                    "value": 773,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 773,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in Ref. 2; AAC39586",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "D",
+                "alternativeSequences": [
+                    "G"
+                ]
+            }
+        },
+        {
+            "type": "Sequence conflict",
+            "location": {
+                "start": {
+                    "value": 913,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 913,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in Ref. 2; AAC39586",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "E",
+                "alternativeSequences": [
+                    "Q"
+                ]
+            }
+        },
+        {
+            "type": "Sequence conflict",
+            "location": {
+                "start": {
+                    "value": 1016,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1016,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in Ref. 2; AAC39586",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "E",
+                "alternativeSequences": [
+                    "K"
+                ]
+            }
+        },
+        {
+            "type": "Sequence conflict",
+            "location": {
+                "start": {
+                    "value": 1063,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1063,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in Ref. 2; AAC39586",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "P",
+                "alternativeSequences": [
+                    "S"
+                ]
+            }
+        },
+        {
+            "type": "Sequence conflict",
+            "location": {
+                "start": {
+                    "value": 1167,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1167,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in Ref. 2; AAC39586",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "A",
+                "alternativeSequences": [
+                    "E"
+                ]
+            }
+        },
+        {
+            "type": "Sequence conflict",
+            "location": {
+                "start": {
+                    "value": 1203,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1203,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in Ref. 2; AAC39586",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "Q",
+                "alternativeSequences": [
+                    "R"
+                ]
+            }
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0007",
+            "category": "PTM",
+            "name": "Acetylation"
+        },
+        {
+            "id": "KW-0010",
+            "category": "Molecular function",
+            "name": "Activator"
+        },
+        {
+            "id": "KW-0131",
+            "category": "Biological process",
+            "name": "Cell cycle"
+        },
+        {
+            "id": "KW-0158",
+            "category": "Cellular component",
+            "name": "Chromosome"
+        },
+        {
+            "id": "KW-0963",
+            "category": "Cellular component",
+            "name": "Cytoplasm"
+        },
+        {
+            "id": "KW-0227",
+            "category": "Biological process",
+            "name": "DNA damage"
+        },
+        {
+            "id": "KW-0233",
+            "category": "Biological process",
+            "name": "DNA recombination"
+        },
+        {
+            "id": "KW-0234",
+            "category": "Biological process",
+            "name": "DNA repair"
+        },
+        {
+            "id": "KW-0238",
+            "category": "Molecular function",
+            "name": "DNA-binding"
+        },
+        {
+            "id": "KW-0275",
+            "category": "Biological process",
+            "name": "Fatty acid biosynthesis"
+        },
+        {
+            "id": "KW-0276",
+            "category": "Biological process",
+            "name": "Fatty acid metabolism"
+        },
+        {
+            "id": "KW-1017",
+            "category": "PTM",
+            "name": "Isopeptide bond"
+        },
+        {
+            "id": "KW-0444",
+            "category": "Biological process",
+            "name": "Lipid biosynthesis"
+        },
+        {
+            "id": "KW-0443",
+            "category": "Biological process",
+            "name": "Lipid metabolism"
+        },
+        {
+            "id": "KW-0479",
+            "category": "Ligand",
+            "name": "Metal-binding"
+        },
+        {
+            "id": "KW-0539",
+            "category": "Cellular component",
+            "name": "Nucleus"
+        },
+        {
+            "id": "KW-0597",
+            "category": "PTM",
+            "name": "Phosphoprotein"
+        },
+        {
+            "id": "KW-1185",
+            "category": "Technical term",
+            "name": "Reference proteome"
+        },
+        {
+            "id": "KW-0677",
+            "category": "Domain",
+            "name": "Repeat"
+        },
+        {
+            "id": "KW-0804",
+            "category": "Biological process",
+            "name": "Transcription"
+        },
+        {
+            "id": "KW-0805",
+            "category": "Biological process",
+            "name": "Transcription regulation"
+        },
+        {
+            "id": "KW-0808",
+            "category": "Molecular function",
+            "name": "Transferase"
+        },
+        {
+            "id": "KW-0043",
+            "category": "Disease",
+            "name": "Tumor suppressor"
+        },
+        {
+            "id": "KW-0832",
+            "category": "PTM",
+            "name": "Ubl conjugation"
+        },
+        {
+            "id": "KW-0833",
+            "category": "Biological process",
+            "name": "Ubl conjugation pathway"
+        },
+        {
+            "id": "KW-0862",
+            "category": "Ligand",
+            "name": "Zinc"
+        },
+        {
+            "id": "KW-0863",
+            "category": "Domain",
+            "name": "Zinc-finger"
+        }
+    ],
+    "references": [
+        {
+            "referenceNumber": 1,
+            "citation": {
+                "id": "15385441",
+                "citationType": "journal article",
+                "authors": [
+                    "Pavlicek A.",
+                    "Noskov V.N.",
+                    "Kouprina N.",
+                    "Barrett J.C.",
+                    "Jurka J.",
+                    "Larionov V."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "15385441"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1093/hmg/ddh301"
+                    }
+                ],
+                "title": "Evolution of the tumor suppressor BRCA1 locus in primates: implications for cancer predisposition.",
+                "publicationDate": "2004",
+                "journal": "Hum. Mol. Genet.",
+                "firstPage": "2737",
+                "lastPage": "2751",
+                "volume": "13"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [GENOMIC DNA]"
+            ]
+        },
+        {
+            "referenceNumber": 2,
+            "citation": {
+                "id": "9462745",
+                "citationType": "journal article",
+                "authors": [
+                    "Hacia J.G.",
+                    "Makalowski W.",
+                    "Edgemon K.",
+                    "Erdos M.R.",
+                    "Robbins C.M.",
+                    "Fodor S.P.A.",
+                    "Brody L.C.",
+                    "Collins F.S."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "9462745"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1038/ng0298-155"
+                    }
+                ],
+                "title": "Evolutionary sequence comparisons using high-density oligonucleotide arrays.",
+                "publicationDate": "1998",
+                "journal": "Nat. Genet.",
+                "firstPage": "155",
+                "lastPage": "158",
+                "volume": "18"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 225-1365"
+            ]
+        },
+        {
+            "referenceNumber": 3,
+            "citation": {
+                "id": "CI-3THCEVPNJ0325",
+                "citationType": "submission",
+                "authors": [
+                    "Thompson M.E.",
+                    "Holt J.T."
+                ],
+                "publicationDate": "JAN-1996",
+                "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1189-1253"
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "EMBL",
+            "id": "AY589041",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAT44833.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AF019078",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAC39586.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "U44730",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAB03212.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "PIR",
+            "id": "G02999",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "G02999"
+                }
+            ]
+        },
+        {
+            "database": "RefSeq",
+            "id": "NP_001108421.1",
+            "properties": [
+                {
+                    "key": "NucleotideSequenceId",
+                    "value": "NM_001114949.1"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "Q6J6I9",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "BMRB",
+            "id": "Q6J6I9",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "Q6J6I9",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "STRING",
+            "id": "9544.ENSMMUP00000034386",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PaxDb",
+            "id": "9544-ENSMMUP00000034386",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GeneID",
+            "id": "712634",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "KEGG",
+            "id": "mcc:712634",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "CTD",
+            "id": "672",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "eggNOG",
+            "id": "KOG4362",
+            "properties": [
+                {
+                    "key": "ToxonomicScope",
+                    "value": "Eukaryota"
+                }
+            ]
+        },
+        {
+            "database": "InParanoid",
+            "id": "Q6J6I9",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OrthoDB",
+            "id": "6105938at2759",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "UniPathway",
+            "id": "UPA00143",
+            "properties": [
+                {
+                    "key": "RectionId",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Proteomes",
+            "id": "UP000006718",
+            "properties": [
+                {
+                    "key": "Component",
+                    "value": "Unassembled WGS sequence"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0070531",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:BRCA1-A complex"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0031436",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:BRCA1-BARD1 complex"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005694",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:chromosome"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005737",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:cytoplasm"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005634",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:nucleus"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0003677",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:DNA binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0070063",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:RNA polymerase binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0003713",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:transcription coactivator activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0004842",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:ubiquitin-protein transferase activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0008270",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:zinc ion binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:InterPro"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0043009",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:chordate embryonic development"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0000724",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:double-strand break repair via homologous recombination"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0006633",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:fatty acid biosynthetic process"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0007095",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:mitotic G2 DNA damage checkpoint signaling"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0045717",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:negative regulation of fatty acid biosynthetic process"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0045893",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:positive regulation of DNA-templated transcription"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0045944",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:positive regulation of transcription by RNA polymerase II"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0051865",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:protein autoubiquitination"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0085020",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:protein K6-linked ubiquitination"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0006357",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:regulation of transcription by RNA polymerase II"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0007549",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:sex-chromosome dosage compensation"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd17735",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "BRCT_BRCA1_rpt1"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd17721",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "BRCT_BRCA1_rpt2"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd16498",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "RING-HC_BRCA1"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "FunFam",
+            "id": "3.30.40.10:FF:000213",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Breast cancer type 1 susceptibility protein homolog"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "FunFam",
+            "id": "3.40.50.10190:FF:000006",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Breast cancer type 1 susceptibility protein homolog"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "FunFam",
+            "id": "3.40.50.10190:FF:000025",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Breast cancer type 1 susceptibility protein homolog"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "3.40.50.10190",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "BRCT domain"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "2"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "3.30.40.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Zinc/RING finger domain, C3HC4 (zinc finger)"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR011364",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "BRCA1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR031099",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "BRCA1-associated"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR025994",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "BRCA1_serine_dom"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR001357",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "BRCT_dom"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR036420",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "BRCT_dom_sf"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR018957",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Znf_C3HC4_RING-type"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR001841",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Znf_RING"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR013083",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Znf_RING/FYVE/PHD"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR017907",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Znf_RING_CS"
+                }
+            ]
+        },
+        {
+            "database": "PANTHER",
+            "id": "PTHR13763:SF0",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "BREAST CANCER TYPE 1 SUSCEPTIBILITY PROTEIN"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PANTHER",
+            "id": "PTHR13763",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "BREAST CANCER TYPE 1 SUSCEPTIBILITY PROTEIN BRCA1"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF00533",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "BRCT"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "2"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF12820",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "BRCT_assoc"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF00097",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "zf-C3HC4"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PIRSF",
+            "id": "PIRSF001734",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "BRCA1"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PRINTS",
+            "id": "PR00493",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "BRSTCANCERI"
+                }
+            ]
+        },
+        {
+            "database": "SMART",
+            "id": "SM00292",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "BRCT"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "2"
+                }
+            ]
+        },
+        {
+            "database": "SMART",
+            "id": "SM00184",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "RING"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF52113",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "BRCT domain"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "2"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF57850",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "RING/U-box"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PROSITE",
+            "id": "PS50172",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "BRCT"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "2"
+                }
+            ]
+        },
+        {
+            "database": "PROSITE",
+            "id": "PS00518",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "ZF_RING_1"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PROSITE",
+            "id": "PS50089",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "ZF_RING_2"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MDLSAVRVEEVQNVINAMQKILECPICLELIKEPVSTKCDHIFCRFCMLKLLNQKKGPSQCPLCKNDITKRSLQESTRFSQLVEELLKIIHAFQLDTGLQFANSYNFAKKENHSPEHLKDEVSIIQSMGYRNRAKRLLQSEPENPSLQETSLSVPLSNLGIVRTLRTKQQIQPQKKSVYIELGSDSSEDTVNKATYCSVGDQELLQITPQGTRDETSLDSAKKAACEFSEKDITNTEHHQSSNNDLNTTEKHATERHPEKYQGSSVSNLHVEPCGTNTHASSLQHENSLLLTKDRMNVEKAEFCNKSKQPGLARSQHNRWTGSKETCNDRQTPSTEKKVDLNANALYERKEWNKQKLPCSENPRDAEDVPWITLNSSIQKVNEWFSRSDELLSSDDSHDGGSESNAKVADVLDVLNEVDEYSGSSEKIDLLASDPHEPLICKSERVHSSSVESNIKDKIFGKTYRRKANLPNLSHVTENLIIGALVTESQIMQERPLTNKLKRKRRTTSGLHPEDFIKKADLAVQKTPEIINQGTNQMEQNGQVMNITNSAHENKTKGDSIQNEKNPNAIESLEEESAFKTKAEPISSSINNMELELNIHNSKAPKKNRLRRKSSTRHIHALELVVSRNLSPPNCTELQIDSCSSSEEIKKKNYNQMPVRHSRNLQLMEDKESATGAKKSNKPNEQTSKRHASDTFPELKLTKVPGSFTNCSNTSELKEFVNPSLSREEKEEKLETVKVSNNAKDPKDLMLSGERVLQTERSVESSSISLVPDTDYGTQESISLLEVSTLGKAKTERNKCMSQCAAFENPKELIHGCSEDTRNDTEGFKYPLGSEVNHSQETSIEIEESELDTQYLQNTFKVSKRQSFALFSNPGNPEEECATFSAHSRSLKKQSPKVTSECEQKEENQGKKESNIKPVQTVNITAGFSVVCQKDKPVDNAKCSIKGGSRFCLSSQFRGNETGLITPNKHGLLQNPYHIPPLFPVKSFVKTKCNKNLLEENSEEHSVSPERAVGNENIIPSTVSTISHNNIRENAFKEASSSNINEVGSSTNEVGSSINEVGPSDENIQAELGRNRGPKLNAVLRLGLLQPEVCKQSLPISNCKHPEIKKQEHEELVQTVNTDFSPCLISDNLEQPMGSSHASEVCSETPDDLLDDGEIKEDTSFAANDIKESSAVFSKSIQRGELSRSPSPFTHTHLAQGYQKEAKKLESSEENLSSEDEELPCFQHLLFGKVSNIPSQTTRHSTVATECLSKNTEENLLSLKNSLTDCSNQVILAKASQEHHLSEETKCSGSLFSSQCSELEDLTANTNTQDPFLIGSSKRMRHQSESQGVGLSDKELVSDDEERGTGLEEDNQEEQSVDSNLGEAASGYESETSVSEDCSRLSSQSEILTTQQRDTMQDNLIKLQQEMAELEAVLEQHGSQPSNSYPSIITDSSALEDLRNPEQSTSEKAVLTSQKSSEYPINQNPEGLSADKFEVSADSSTSKNKEPGVERSSPSKCQSLEDRWYVHSSSGSLQNGNYPSQEELIKVVDVETQQLEKSGPHDLMEPSYLPRQDLDGTPYLESGISLFSDDPESDPSEDRAPESAHVGSIPSSTSALKVPQWQVAESAQSPAAAHNTNTAGYNAMEESVSRENPKLTASTERVNKRMSLVVSGLTPEEFMLVYKFARRYHIALTNLISEETTHVVMKTDAEFVCERTLKYFLGIAGGKWVVSYFWVTQSIKERKMLNEHDFEVRGDVVNGRNHQGPKRARESPDRKIFRGLEICCYGPFTNMPTDQLEWMVQLCGASVVKELSSFTLGTGFHPIVVVQPDAWTEDNGFHAIGQMCEAPVVTREWVLDSVALYQCQELDTYLIPQIPHSHY",
+        "length": 1863,
+        "molWeight": 207790,
+        "crc64": "6AA0DE2AA9A983BC",
+        "md5": "9CBC7C2809FDEBD4884A94B533C89F87"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "CATALYTIC ACTIVITY": 1,
+            "PATHWAY": 1,
+            "SUBUNIT": 1,
+            "SUBCELLULAR LOCATION": 1,
+            "DOMAIN": 2,
+            "PTM": 2
+        },
+        "countByFeatureType": {
+            "Chain": 1,
+            "Domain": 2,
+            "Zinc finger": 1,
+            "Region": 9,
+            "Compositional bias": 9,
+            "Modified residue": 30,
+            "Cross-link": 12,
+            "Sequence conflict": 10
+        },
+        "uniParcId": "UPI00003B02E2"
+    }
+}

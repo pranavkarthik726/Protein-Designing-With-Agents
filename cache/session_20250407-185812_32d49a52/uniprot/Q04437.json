@@ -1,0 +1,3702 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q04437",
+    "secondaryAccessions": [
+        "D6VZS9",
+        "Q0P737",
+        "Q0P738",
+        "Q0P741",
+        "Q0P749"
+    ],
+    "uniProtkbId": "KU80_YEAST",
+    "entryAudit": {
+        "firstPublicDate": "1997-11-01",
+        "lastAnnotationUpdateDate": "2025-02-05",
+        "lastSequenceUpdateDate": "1997-11-01",
+        "entryVersion": 189,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 5.0,
+    "organism": {
+        "scientificName": "Saccharomyces cerevisiae (strain ATCC 204508 / S288c)",
+        "commonName": "Baker's yeast",
+        "taxonId": 559292,
+        "lineage": [
+            "Eukaryota",
+            "Fungi",
+            "Dikarya",
+            "Ascomycota",
+            "Saccharomycotina",
+            "Saccharomycetes",
+            "Saccharomycetales",
+            "Saccharomycetaceae",
+            "Saccharomyces"
+        ]
+    },
+    "proteinExistence": "1: Evidence at protein level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "value": "ATP-dependent DNA helicase II subunit 2"
+            },
+            "ecNumbers": [
+                {
+                    "value": "3.6.4.12"
+                }
+            ]
+        },
+        "alternativeNames": [
+            {
+                "fullName": {
+                    "value": "ATP-dependent DNA helicase II subunit Ku80"
+                }
+            },
+            {
+                "fullName": {
+                    "value": "High affinity DNA-binding factor subunit 2"
+                }
+            },
+            {
+                "fullName": {
+                    "value": "Yeast Ku80"
+                }
+            }
+        ]
+    },
+    "genes": [
+        {
+            "geneName": {
+                "value": "YKU80"
+            },
+            "synonyms": [
+                {
+                    "value": "HDF2"
+                }
+            ],
+            "orderedLocusNames": [
+                {
+                    "value": "YMR106C"
+                }
+            ],
+            "orfNames": [
+                {
+                    "value": "YM9718.05C"
+                }
+            ]
+        }
+    ],
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "10675560"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "11046137"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "12138180"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "12975323"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "14551211"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "14585978"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "16166630"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "8910371"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "8972848"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "9563951"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "9635192"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "9635193"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "9663392"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "9914366"
+                        }
+                    ],
+                    "value": "Single-stranded DNA-dependent ATP-dependent helicase. Involved in non-homologous end joining (NHEJ) DNA double strand break repair. DNA-binding is sequence-independent but has a high affinity to nicks in double-stranded DNA and to the ends of duplex DNA. Binds to naturally occurring chromosomal ends, and therefore provides chromosomal end protection. Appears to have a role in recruitment of telomerase and CDC13 to the telomere and the subsequent telomere elongation. Required also for telomere recombination to repair telomeric ends in the absence of telomerase. KU70, of the KU70/KU80 heterodimer, binds to the stem loop of TLC1, the RNA component of telomerase. Involved in telomere maintenance. Interacts with telomeric repeats and subtelomeric sequences thereby controlling telomere length and protecting against subtelomeric rearrangement. Maintains telomeric chromatin, which is involved in silencing the expression of genes located at the telomere. Required for mating-type switching"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "commentType": "CATALYTIC ACTIVITY",
+            "reaction": {
+                "name": "ATP + H2O = ADP + phosphate + H(+)",
+                "reactionCrossReferences": [
+                    {
+                        "database": "Rhea",
+                        "id": "RHEA:13065"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:15377"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:15378"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:30616"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:43474"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:456216"
+                    }
+                ],
+                "ecNumber": "3.6.4.12"
+            }
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "14551211"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "8509423"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "8910371"
+                        }
+                    ],
+                    "value": "Heterodimer of YKU70/HDF1 and YKU80/HDF2. Interacts with SIR4"
+                }
+            ],
+            "commentType": "SUBUNIT"
+        },
+        {
+            "commentType": "INTERACTION",
+            "interactions": [
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q04437",
+                        "intActId": "EBI-8224"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "P22336",
+                        "geneName": "RFA1",
+                        "intActId": "EBI-14971"
+                    },
+                    "numberOfExperiments": 2,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q04437",
+                        "intActId": "EBI-8224"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "P11978",
+                        "geneName": "SIR4",
+                        "intActId": "EBI-17237"
+                    },
+                    "numberOfExperiments": 2,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q04437",
+                        "intActId": "EBI-8224"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q12306",
+                        "geneName": "SMT3",
+                        "intActId": "EBI-17490"
+                    },
+                    "numberOfExperiments": 2,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q04437",
+                        "intActId": "EBI-8224"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "P32807",
+                        "geneName": "YKU70",
+                        "intActId": "EBI-8214"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                }
+            ]
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "9635192"
+                            }
+                        ],
+                        "value": "Nucleus",
+                        "id": "SL-0191"
+                    }
+                },
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "9635192"
+                            }
+                        ],
+                        "value": "Chromosome, telomere",
+                        "id": "SL-0276"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "14562106"
+                        }
+                    ],
+                    "value": "Present with 358 molecules/cell in log phase SD medium"
+                }
+            ],
+            "commentType": "MISCELLANEOUS"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Belongs to the ku80 family"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        }
+    ],
+    "features": [
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 629,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "ATP-dependent DNA helicase II subunit 2",
+            "featureId": "PRO_0000084339"
+        },
+        {
+            "type": "Domain",
+            "location": {
+                "start": {
+                    "value": 254,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 476,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Ku"
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 608,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 629,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Disordered",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Compositional bias",
+            "location": {
+                "start": {
+                    "value": 608,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 620,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Basic and acidic residues",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 149,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 149,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in strain: DBVPG6044, SK1 and YPS128",
+            "featureId": "",
+            "alternativeSequence": {
+                "originalSequence": "L",
+                "alternativeSequences": [
+                    "V"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 301,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 301,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in strain: DBVPG1853",
+            "featureId": "",
+            "alternativeSequence": {
+                "originalSequence": "S",
+                "alternativeSequences": [
+                    "L"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 349,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 349,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in strain: DBVPG6044, SK1 and YPS128",
+            "featureId": "",
+            "alternativeSequence": {
+                "originalSequence": "N",
+                "alternativeSequences": [
+                    "D"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 499,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 499,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in strain: DBVPG1853",
+            "featureId": "",
+            "alternativeSequence": {
+                "originalSequence": "G",
+                "alternativeSequences": [
+                    "D"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 518,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 518,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in strain: DBVPG6044, SK1 and YPS128",
+            "featureId": "",
+            "alternativeSequence": {
+                "originalSequence": "E",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 528,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 528,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in strain: DBVPG1853",
+            "featureId": "",
+            "alternativeSequence": {
+                "originalSequence": "T",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 585,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 585,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in strain: DBVPG6763",
+            "featureId": "",
+            "alternativeSequence": {
+                "originalSequence": "I",
+                "alternativeSequences": [
+                    "S"
+                ]
+            }
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 4,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 11,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y59"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 14,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 18,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y59"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 21,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 34,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y59"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 38,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 41,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y59"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 45,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 52,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y59"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 66,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 72,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y59"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 77,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 94,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y59"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 106,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 121,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y59"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 127,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 135,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y59"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 137,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 139,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y58"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 146,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 153,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y59"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 156,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 162,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y59"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 175,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 182,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y59"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 187,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 190,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y59"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 191,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 193,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y59"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 212,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 219,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y58"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 222,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 225,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y58"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 226,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 229,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y58"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 233,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 235,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y58"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 239,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 250,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y58"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 259,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 264,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y58"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 270,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 275,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y58"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 277,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 287,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y58"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 303,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 308,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y58"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 310,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 312,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y58"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 313,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 319,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y58"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 322,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 324,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y58"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 328,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 333,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y58"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 341,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 349,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y58"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 350,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 352,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y58"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 355,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 357,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y58"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 363,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 367,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y58"
+                }
+            ]
+        },
+        {
+            "type": "Turn",
+            "location": {
+                "start": {
+                    "value": 369,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 371,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y58"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 374,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 389,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y58"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 392,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 399,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y58"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 407,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 418,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y58"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 421,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 424,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y58"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 426,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 436,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y58"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 439,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 441,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y58"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 450,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 452,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y58"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 467,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 480,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y58"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 498,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 501,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y58"
+                }
+            ]
+        },
+        {
+            "type": "Turn",
+            "location": {
+                "start": {
+                    "value": 514,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 518,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y58"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 529,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 545,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y58"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 560,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 563,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y58"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 564,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 566,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y58"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 577,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 583,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "5Y58"
+                }
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0002",
+            "category": "Technical term",
+            "name": "3D-structure"
+        },
+        {
+            "id": "KW-0067",
+            "category": "Ligand",
+            "name": "ATP-binding"
+        },
+        {
+            "id": "KW-0158",
+            "category": "Cellular component",
+            "name": "Chromosome"
+        },
+        {
+            "id": "KW-0903",
+            "category": "Technical term",
+            "name": "Direct protein sequencing"
+        },
+        {
+            "id": "KW-0227",
+            "category": "Biological process",
+            "name": "DNA damage"
+        },
+        {
+            "id": "KW-0233",
+            "category": "Biological process",
+            "name": "DNA recombination"
+        },
+        {
+            "id": "KW-0234",
+            "category": "Biological process",
+            "name": "DNA repair"
+        },
+        {
+            "id": "KW-0238",
+            "category": "Molecular function",
+            "name": "DNA-binding"
+        },
+        {
+            "id": "KW-0347",
+            "category": "Molecular function",
+            "name": "Helicase"
+        },
+        {
+            "id": "KW-0378",
+            "category": "Molecular function",
+            "name": "Hydrolase"
+        },
+        {
+            "id": "KW-0547",
+            "category": "Ligand",
+            "name": "Nucleotide-binding"
+        },
+        {
+            "id": "KW-0539",
+            "category": "Cellular component",
+            "name": "Nucleus"
+        },
+        {
+            "id": "KW-1185",
+            "category": "Technical term",
+            "name": "Reference proteome"
+        },
+        {
+            "id": "KW-0779",
+            "category": "Cellular component",
+            "name": "Telomere"
+        }
+    ],
+    "references": [
+        {
+            "referenceNumber": 1,
+            "citation": {
+                "id": "16951060",
+                "citationType": "journal article",
+                "authors": [
+                    "Liti G.",
+                    "Barton D.B.",
+                    "Louis E.J."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "16951060"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1534/genetics.106.062166"
+                    }
+                ],
+                "title": "Sequence diversity, reproductive isolation and species concepts in Saccharomyces.",
+                "publicationDate": "2006",
+                "journal": "Genetics",
+                "firstPage": "839",
+                "lastPage": "850",
+                "volume": "174"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [GENOMIC DNA]"
+            ],
+            "referenceComments": [
+                {
+                    "value": "DBVPG1135",
+                    "type": "STRAIN"
+                },
+                {
+                    "value": "DBVPG1373",
+                    "type": "STRAIN"
+                },
+                {
+                    "value": "DBVPG1378",
+                    "type": "STRAIN"
+                },
+                {
+                    "value": "DBVPG1788",
+                    "type": "STRAIN"
+                },
+                {
+                    "value": "DBVPG1794",
+                    "type": "STRAIN"
+                },
+                {
+                    "value": "DBVPG1853",
+                    "type": "STRAIN"
+                },
+                {
+                    "value": "DBVPG3051",
+                    "type": "STRAIN"
+                },
+                {
+                    "value": "DBVPG6044",
+                    "type": "STRAIN"
+                },
+                {
+                    "value": "DBVPG6763",
+                    "type": "STRAIN"
+                },
+                {
+                    "value": "DBVPG6765",
+                    "type": "STRAIN"
+                },
+                {
+                    "value": "SK1",
+                    "type": "STRAIN"
+                },
+                {
+                    "value": "Y55",
+                    "type": "STRAIN"
+                },
+                {
+                    "value": "YPS128",
+                    "type": "STRAIN"
+                }
+            ]
+        },
+        {
+            "referenceNumber": 2,
+            "citation": {
+                "id": "9169872",
+                "citationType": "journal article",
+                "authors": [
+                    "Bowman S.",
+                    "Churcher C.M.",
+                    "Badcock K.",
+                    "Brown D.",
+                    "Chillingworth T.",
+                    "Connor R.",
+                    "Dedman K.",
+                    "Devlin K.",
+                    "Gentles S.",
+                    "Hamlin N.",
+                    "Hunt S.",
+                    "Jagels K.",
+                    "Lye G.",
+                    "Moule S.",
+                    "Odell C.",
+                    "Pearson D.",
+                    "Rajandream M.A.",
+                    "Rice P.",
+                    "Skelton J.",
+                    "Walsh S.V.",
+                    "Whitehead S.",
+                    "Barrell B.G."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "9169872"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1038/387s090"
+                    }
+                ],
+                "title": "The nucleotide sequence of Saccharomyces cerevisiae chromosome XIII.",
+                "publicationDate": "1997",
+                "journal": "Nature",
+                "firstPage": "90",
+                "lastPage": "93",
+                "volume": "387"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ],
+            "referenceComments": [
+                {
+                    "value": "ATCC 204508 / S288c",
+                    "type": "STRAIN"
+                }
+            ]
+        },
+        {
+            "referenceNumber": 3,
+            "citation": {
+                "id": "24374639",
+                "citationType": "journal article",
+                "authors": [
+                    "Engel S.R.",
+                    "Dietrich F.S.",
+                    "Fisk D.G.",
+                    "Binkley G.",
+                    "Balakrishnan R.",
+                    "Costanzo M.C.",
+                    "Dwight S.S.",
+                    "Hitz B.C.",
+                    "Karra K.",
+                    "Nash R.S.",
+                    "Weng S.",
+                    "Wong E.D.",
+                    "Lloyd P.",
+                    "Skrzypek M.S.",
+                    "Miyasato S.R.",
+                    "Simison M.",
+                    "Cherry J.M."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "24374639"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1534/g3.113.008995"
+                    }
+                ],
+                "title": "The reference genome sequence of Saccharomyces cerevisiae: Then and now.",
+                "publicationDate": "2014",
+                "journal": "G3 (Bethesda)",
+                "firstPage": "389",
+                "lastPage": "398",
+                "volume": "4"
+            },
+            "referencePositions": [
+                "GENOME REANNOTATION"
+            ],
+            "referenceComments": [
+                {
+                    "value": "ATCC 204508 / S288c",
+                    "type": "STRAIN"
+                }
+            ]
+        },
+        {
+            "referenceNumber": 4,
+            "citation": {
+                "id": "8910371",
+                "citationType": "journal article",
+                "authors": [
+                    "Feldmann H.",
+                    "Driller L.",
+                    "Meier B.",
+                    "Mages G.",
+                    "Kellermann J.",
+                    "Winnacker E.-L."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "8910371"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1074/jbc.271.44.27765"
+                    }
+                ],
+                "title": "HDF2, the second subunit of the Ku homologue from Saccharomyces cerevisiae.",
+                "publicationDate": "1996",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "27765",
+                "lastPage": "27769",
+                "volume": "271"
+            },
+            "referencePositions": [
+                "PARTIAL PROTEIN SEQUENCE",
+                "FUNCTION IN TELOMERE MAINTENANCE",
+                "SUBUNIT"
+            ]
+        },
+        {
+            "referenceNumber": 5,
+            "citation": {
+                "id": "8509423",
+                "citationType": "journal article",
+                "authors": [
+                    "Feldmann H.",
+                    "Winnacker E.L."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "8509423"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/s0021-9258(18)31470-4"
+                    }
+                ],
+                "title": "A putative homologue of the human autoantigen Ku from Saccharomyces cerevisiae.",
+                "publicationDate": "1993",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "12895",
+                "lastPage": "12900",
+                "volume": "268"
+            },
+            "referencePositions": [
+                "SUBUNIT"
+            ]
+        },
+        {
+            "referenceNumber": 6,
+            "citation": {
+                "id": "8972848",
+                "citationType": "journal article",
+                "authors": [
+                    "Boulton S.J.",
+                    "Jackson S.P."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "8972848"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1093/nar/24.23.4639"
+                    }
+                ],
+                "title": "Identification of a Saccharomyces cerevisiae Ku80 homologue: roles in DNA double strand break rejoining and in telomeric maintenance.",
+                "publicationDate": "1996",
+                "journal": "Nucleic Acids Res.",
+                "firstPage": "4639",
+                "lastPage": "4648",
+                "volume": "24"
+            },
+            "referencePositions": [
+                "FUNCTION IN TELOMERE MAINTENANCE"
+            ]
+        },
+        {
+            "referenceNumber": 7,
+            "citation": {
+                "id": "9914366",
+                "citationType": "journal article",
+                "authors": [
+                    "Evans S.K.",
+                    "Sistrunk M.L.",
+                    "Nugent C.I.",
+                    "Lundblad V."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "9914366"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1007/s004120050318"
+                    }
+                ],
+                "title": "Telomerase, Ku, and telomeric silencing in Saccharomyces cerevisiae.",
+                "publicationDate": "1998",
+                "journal": "Chromosoma",
+                "firstPage": "352",
+                "lastPage": "358",
+                "volume": "107"
+            },
+            "referencePositions": [
+                "FUNCTION IN TELOMERIC GENE SILENCING"
+            ]
+        },
+        {
+            "referenceNumber": 8,
+            "citation": {
+                "id": "9635192",
+                "citationType": "journal article",
+                "authors": [
+                    "Laroche T.",
+                    "Martin S.G.",
+                    "Gotta M.",
+                    "Gorham H.C.",
+                    "Pryde F.E.",
+                    "Louis E.J.",
+                    "Gasser S.M."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "9635192"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/s0960-9822(98)70252-0"
+                    }
+                ],
+                "title": "Mutation of yeast Ku genes disrupts the subnuclear organization of telomeres.",
+                "publicationDate": "1998",
+                "journal": "Curr. Biol.",
+                "firstPage": "653",
+                "lastPage": "656",
+                "volume": "8"
+            },
+            "referencePositions": [
+                "FUNCTION IN TELOMERE MAINTENANCE",
+                "SUBCELLULAR LOCATION"
+            ]
+        },
+        {
+            "referenceNumber": 9,
+            "citation": {
+                "id": "9635193",
+                "citationType": "journal article",
+                "authors": [
+                    "Nugent C.I.",
+                    "Bosco G.",
+                    "Ross L.O.",
+                    "Evans S.K.",
+                    "Salinger A.P.",
+                    "Moore J.K.",
+                    "Haber J.E.",
+                    "Lundblad V."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "9635193"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/s0960-9822(98)70253-2"
+                    }
+                ],
+                "title": "Telomere maintenance is dependent on activities required for end repair of double-strand breaks.",
+                "publicationDate": "1998",
+                "journal": "Curr. Biol.",
+                "firstPage": "657",
+                "lastPage": "660",
+                "volume": "8"
+            },
+            "referencePositions": [
+                "FUNCTION IN DOUBLE-STRAND DNA REPAIR AND TELOMERE MAINTENANCE"
+            ]
+        },
+        {
+            "referenceNumber": 10,
+            "citation": {
+                "id": "9663392",
+                "citationType": "journal article",
+                "authors": [
+                    "Polotnianka R.M.",
+                    "Li J.",
+                    "Lustig A.J."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "9663392"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/s0960-9822(98)70325-2"
+                    }
+                ],
+                "title": "The yeast Ku heterodimer is essential for protection of the telomere against nucleolytic and recombinational activities.",
+                "publicationDate": "1998",
+                "journal": "Curr. Biol.",
+                "firstPage": "831",
+                "lastPage": "834",
+                "volume": "8"
+            },
+            "referencePositions": [
+                "FUNCTION IN TELOMERE MAINTENANCE"
+            ]
+        },
+        {
+            "referenceNumber": 11,
+            "citation": {
+                "id": "9563951",
+                "citationType": "journal article",
+                "authors": [
+                    "Gravel S.",
+                    "Larrivee M.",
+                    "Labrecque P.",
+                    "Wellinger R.J."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "9563951"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1126/science.280.5364.741"
+                    }
+                ],
+                "title": "Yeast Ku as a regulator of chromosomal DNA end structure.",
+                "publicationDate": "1998",
+                "journal": "Science",
+                "firstPage": "741",
+                "lastPage": "744",
+                "volume": "280"
+            },
+            "referencePositions": [
+                "FUNCTION IN CHROMOSOME END PROTECTION AND TELOMERE MAINTENANCE"
+            ]
+        },
+        {
+            "referenceNumber": 12,
+            "citation": {
+                "id": "10675560",
+                "citationType": "journal article",
+                "authors": [
+                    "de la Torre-Ruiz M.",
+                    "Lowndes N.F."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "10675560"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/s0014-5793(00)01180-7"
+                    }
+                ],
+                "title": "The Saccharomyces cerevisiae DNA damage checkpoint is required for efficient repair of double strand breaks by non-homologous end joining.",
+                "publicationDate": "2000",
+                "journal": "FEBS Lett.",
+                "firstPage": "311",
+                "lastPage": "315",
+                "volume": "467"
+            },
+            "referencePositions": [
+                "FUNCTION IN NON-HOMOLOGOUS END JOINING DNA REPAIR"
+            ]
+        },
+        {
+            "referenceNumber": 13,
+            "citation": {
+                "id": "11046137",
+                "citationType": "journal article",
+                "authors": [
+                    "Grandin N.",
+                    "Damon C.",
+                    "Charbonneau M."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "11046137"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1128/mcb.20.22.8397-8408.2000"
+                    }
+                ],
+                "title": "Cdc13 cooperates with the yeast Ku proteins and Stn1 to regulate telomerase recruitment.",
+                "publicationDate": "2000",
+                "journal": "Mol. Cell. Biol.",
+                "firstPage": "8397",
+                "lastPage": "8408",
+                "volume": "20"
+            },
+            "referencePositions": [
+                "FUNCTION IN TELOMERASE AND CDC13 TELOMERE RECRUITMENT"
+            ]
+        },
+        {
+            "referenceNumber": 14,
+            "citation": {
+                "id": "12138180",
+                "citationType": "journal article",
+                "authors": [
+                    "Tsai Y.-L.",
+                    "Tseng S.-F.",
+                    "Chang S.-H.",
+                    "Lin C.-C.",
+                    "Teng S.-C."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "12138180"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1128/mcb.22.16.5679-5687.2002"
+                    }
+                ],
+                "title": "Involvement of replicative polymerases, Tel1p, Mec1p, Cdc13p, and the Ku complex in telomere-telomere recombination.",
+                "publicationDate": "2002",
+                "journal": "Mol. Cell. Biol.",
+                "firstPage": "5679",
+                "lastPage": "5687",
+                "volume": "22"
+            },
+            "referencePositions": [
+                "FUNCTION IN TELOMERE RECOMBINATION"
+            ]
+        },
+        {
+            "referenceNumber": 15,
+            "citation": {
+                "id": "12975323",
+                "citationType": "journal article",
+                "authors": [
+                    "Stellwagen A.E.",
+                    "Haimberger Z.W.",
+                    "Veatch J.R.",
+                    "Gottschling D.E."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "12975323"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1101/gad.1125903"
+                    }
+                ],
+                "title": "Ku interacts with telomerase RNA to promote telomere addition at native and broken chromosome ends.",
+                "publicationDate": "2003",
+                "journal": "Genes Dev.",
+                "firstPage": "2384",
+                "lastPage": "2395",
+                "volume": "17"
+            },
+            "referencePositions": [
+                "FUNCTION IN TELOMERIC REPAIR AND BINDING TO TLC1 STEM LOOP"
+            ]
+        },
+        {
+            "referenceNumber": 16,
+            "citation": {
+                "id": "14585978",
+                "citationType": "journal article",
+                "authors": [
+                    "Bertuch A.A.",
+                    "Lundblad V."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "14585978"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1128/mcb.23.22.8202-8215.2003"
+                    }
+                ],
+                "title": "The Ku heterodimer performs separable activities at double-strand breaks and chromosome termini.",
+                "publicationDate": "2003",
+                "journal": "Mol. Cell. Biol.",
+                "firstPage": "8202",
+                "lastPage": "8215",
+                "volume": "23"
+            },
+            "referencePositions": [
+                "FUNCTION IN DOUBLE-STRAND DNA REPAIR AND TELOMERE MAINTENANCE"
+            ]
+        },
+        {
+            "referenceNumber": 17,
+            "citation": {
+                "id": "14562106",
+                "citationType": "journal article",
+                "authors": [
+                    "Ghaemmaghami S.",
+                    "Huh W.-K.",
+                    "Bower K.",
+                    "Howson R.W.",
+                    "Belle A.",
+                    "Dephoure N.",
+                    "O'Shea E.K.",
+                    "Weissman J.S."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "14562106"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1038/nature02046"
+                    }
+                ],
+                "title": "Global analysis of protein expression in yeast.",
+                "publicationDate": "2003",
+                "journal": "Nature",
+                "firstPage": "737",
+                "lastPage": "741",
+                "volume": "425"
+            },
+            "referencePositions": [
+                "LEVEL OF PROTEIN EXPRESSION [LARGE SCALE ANALYSIS]"
+            ]
+        },
+        {
+            "referenceNumber": 18,
+            "citation": {
+                "id": "14551211",
+                "citationType": "journal article",
+                "authors": [
+                    "Roy R.",
+                    "Meier B.",
+                    "McAinsh A.D.",
+                    "Feldmann H.M.",
+                    "Jackson S.P."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "14551211"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1074/jbc.m306841200"
+                    }
+                ],
+                "title": "Separation-of-function mutants of yeast Ku80 reveal a Yku80p-Sir4p interaction involved in telomeric silencing.",
+                "publicationDate": "2004",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "86",
+                "lastPage": "94",
+                "volume": "279"
+            },
+            "referencePositions": [
+                "FUNCTION IN TELOMERIC SILENCING",
+                "INTERACTION WITH SIR4"
+            ]
+        },
+        {
+            "referenceNumber": 19,
+            "citation": {
+                "id": "16166630",
+                "citationType": "journal article",
+                "authors": [
+                    "Ruan C.",
+                    "Workman J.L.",
+                    "Simpson R.T."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "16166630"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1128/mcb.25.19.8476-8485.2005"
+                    }
+                ],
+                "title": "The DNA repair protein yKu80 regulates the function of recombination enhancer during yeast mating type switching.",
+                "publicationDate": "2005",
+                "journal": "Mol. Cell. Biol.",
+                "firstPage": "8476",
+                "lastPage": "8485",
+                "volume": "25"
+            },
+            "referencePositions": [
+                "FUNCTION IN MATING-TYPE SWITCHING"
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "EMBL",
+            "id": "AM296333",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "CAL35984.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AM296334",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "CAL35983.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AM296335",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "CAL35982.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AM296336",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "CAL35981.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AM296337",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "CAL35980.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AM296338",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "CAL35979.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AM296339",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "CAL35978.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AM296340",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "CAL35977.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AM296341",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "CAL35976.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AM296342",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "CAL35975.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AM296343",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "CAL35974.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AM296344",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "CAL35973.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AM296345",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "CAL35972.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "Z49702",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "CAA89742.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "BK006946",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "DAA10003.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "PIR",
+            "id": "S54567",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "S54567"
+                }
+            ]
+        },
+        {
+            "database": "RefSeq",
+            "id": "NP_013824.1",
+            "properties": [
+                {
+                    "key": "NucleotideSequenceId",
+                    "value": "NM_001182606.1"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "5Y58",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "2.80 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "B/D/F=2-629"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "5Y59",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "2.40 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "B=2-200"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "5Y58",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "5Y59",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "Q04437",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "Q04437",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "BioGRID",
+            "id": "35281",
+            "properties": [
+                {
+                    "key": "Interactions",
+                    "value": "308"
+                }
+            ]
+        },
+        {
+            "database": "ComplexPortal",
+            "id": "CPX-1732",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Ku70:Ku80 complex"
+                }
+            ]
+        },
+        {
+            "database": "DIP",
+            "id": "DIP-2757N",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "IntAct",
+            "id": "Q04437",
+            "properties": [
+                {
+                    "key": "Interactions",
+                    "value": "116"
+                }
+            ]
+        },
+        {
+            "database": "MINT",
+            "id": "Q04437",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "STRING",
+            "id": "4932.YMR106C",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "iPTMnet",
+            "id": "Q04437",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PaxDb",
+            "id": "4932-YMR106C",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PeptideAtlas",
+            "id": "Q04437",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "EnsemblFungi",
+            "id": "YMR106C_mRNA",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "YMR106C"
+                },
+                {
+                    "key": "GeneId",
+                    "value": "YMR106C"
+                }
+            ]
+        },
+        {
+            "database": "GeneID",
+            "id": "855132",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "KEGG",
+            "id": "sce:YMR106C",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "AGR",
+            "id": "SGD:S000004712",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SGD",
+            "id": "S000004712",
+            "properties": [
+                {
+                    "key": "GeneName",
+                    "value": "YKU80"
+                }
+            ]
+        },
+        {
+            "database": "VEuPathDB",
+            "id": "FungiDB:YMR106C",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "eggNOG",
+            "id": "KOG2326",
+            "properties": [
+                {
+                    "key": "ToxonomicScope",
+                    "value": "Eukaryota"
+                }
+            ]
+        },
+        {
+            "database": "GeneTree",
+            "id": "ENSGT00940000153239",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "HOGENOM",
+            "id": "CLU_029650_0_0_1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "InParanoid",
+            "id": "Q04437",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OMA",
+            "id": "DIRGFMD",
+            "properties": [
+                {
+                    "key": "Fingerprint",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OrthoDB",
+            "id": "30826at2759",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "BioCyc",
+            "id": "YEAST:G3O-32803-MONOMER",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-SCE-6798695",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Neutrophil degranulation"
+                }
+            ]
+        },
+        {
+            "database": "BioGRID-ORCS",
+            "id": "855132",
+            "properties": [
+                {
+                    "key": "hits",
+                    "value": "0 hits in 10 CRISPR screens"
+                }
+            ]
+        },
+        {
+            "database": "PRO",
+            "id": "PR:Q04437",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Proteomes",
+            "id": "UP000002311",
+            "properties": [
+                {
+                    "key": "Component",
+                    "value": "Chromosome XIII"
+                }
+            ]
+        },
+        {
+            "database": "RNAct",
+            "id": "Q04437",
+            "properties": [
+                {
+                    "key": "moleculeType",
+                    "value": "protein"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0000781",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:chromosome, telomeric region"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IMP:SGD"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "27122604"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0043564",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:Ku70:Ku80 complex"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:SGD"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "8754818"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005524",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:ATP binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0016887",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:ATP hydrolysis activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:RHEA"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0140849",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:ATP-dependent H2AZ histone chaperone activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:RHEA"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0140665",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:ATP-dependent H3-H4 histone complex chaperone activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:RHEA"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0140584",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:chromatin extrusion motor activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:RHEA"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0061775",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:cohesin loader activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:RHEA"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0003684",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:damaged DNA binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:InterPro"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0003677",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:DNA binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:SGD"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "16166630"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0003689",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:DNA clamp loader activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:RHEA"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0036121",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:double-stranded DNA helicase activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-EC"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0061749",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:forked DNA-dependent helicase activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-EC"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0009378",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:four-way junction helicase activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-EC"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:1990518",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:single-stranded 3'-5' DNA helicase activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-EC"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0070034",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:telomerase RNA binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:SGD"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "12975323"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0042162",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:telomeric DNA binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:SGD"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "17656141"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0006325",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:chromatin organization"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:SGD"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "11553718"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0007535",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:donor selection"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:SGD"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "16166630"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0000724",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:double-strand break repair via homologous recombination"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IMP:SGD"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "11016833"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0006303",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:double-strand break repair via nonhomologous end joining"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IMP:SGD"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "9501103"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0097695",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:establishment of protein-containing complex localization to telomere"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IMP:SGD"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "15531893"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0034502",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:protein localization to chromosome"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IGI:SGD"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000316",
+                    "source": "PubMed",
+                    "id": "18716325"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0000725",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:recombinational repair"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "NAS:ComplexPortal"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000303",
+                    "source": "PubMed",
+                    "id": "17351632"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0031509",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:subtelomeric heterochromatin formation"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IMP:SGD"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "9501103"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0000723",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:telomere maintenance"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IMP:SGD"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "9501103"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd00873",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "KU80"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd01458",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "vWA_ku"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "FunFam",
+            "id": "2.40.290.10:FF:000009",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "ATP-dependent DNA helicase II subunit 2"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.40.290.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "3.40.50.410",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "von Willebrand factor, type A domain"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR006164",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Ku70/Ku80_beta-barrel_dom"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR024193",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Ku80"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR005161",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Ku_N"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR016194",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "SPOC-like_C_dom_sf"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR036465",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "vWFA_dom_sf"
+                }
+            ]
+        },
+        {
+            "database": "PANTHER",
+            "id": "PTHR12604",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "KU AUTOANTIGEN DNA HELICASE"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PANTHER",
+            "id": "PTHR12604:SF4",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "X-RAY REPAIR CROSS-COMPLEMENTING PROTEIN 5"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF02735",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Ku"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF03731",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Ku_N"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PIRSF",
+            "id": "PIRSF016570",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Ku80"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SMART",
+            "id": "SM00559",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Ku78"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF100939",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "SPOC domain-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF53300",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "vWA-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MSSESTTFIVDVSPSMMKNNNVSKSMAYLEYTLLNKSKKSRKTDWISCYLANCPVSENSQEIPNVFQIQSFLAPVTTTATIGFIKRLKQYCDQHSHDSSNEGLQSMIQCLLVVSLDIKQQFQARKILKQIVVFTDNLDDLDITDEEIDLLTEELSTRIILIDCGKDTQEERKKSNWLKLVEAIPNSRIYNMNELLVEITSPATSVVKPVRVFSGELRLGADILSTQTSNPSGSMQDENCLCIKVEAFPATKAVSGLNRKTAVEVEDSQKKERYVGVKSIIEYEIHNEGNKKNVSEDDQSGSSYIPVTISKDSVTKAYRYGADYVVLPSVLVDQTVYESFPGLDLRGFLNREALPRYFLTSESSFITADTRLGCQSDLMAFSALVDVMLENRKIAVARYVSKKDSEVNMCALCPVLIEHSNINSEKKFVKSLTLCRLPFAEDERVTDFPKLLDRTTTSGVPLKKETDGHQIDELMEQFVDSMDTDELPEIPLGNYYQPIGEVTTDTTLPLPSLNKDQEENKKDPLRIPTVFVYRQQQVLLEWIHQLMINDSREFEIPELPDSLKNKISPYTHKKFDSTKLVEVLGIKKVDKLKLDSELKTELEREKIPDLETLLKRGEQHSRGSPNNSNN",
+        "length": 629,
+        "molWeight": 71241,
+        "crc64": "58126164EE375643",
+        "md5": "0066F1CAF73A55142B6E1AE0DCD8F0A1"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "CATALYTIC ACTIVITY": 1,
+            "SUBUNIT": 1,
+            "INTERACTION": 4,
+            "SUBCELLULAR LOCATION": 1,
+            "MISCELLANEOUS": 1,
+            "SIMILARITY": 1
+        },
+        "countByFeatureType": {
+            "Chain": 1,
+            "Domain": 1,
+            "Region": 1,
+            "Compositional bias": 1,
+            "Natural variant": 7,
+            "Beta strand": 23,
+            "Helix": 22,
+            "Turn": 2
+        },
+        "uniParcId": "UPI0000034135"
+    }
+}
