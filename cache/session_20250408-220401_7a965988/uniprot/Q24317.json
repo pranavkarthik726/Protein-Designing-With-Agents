@@ -1,0 +1,1885 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q24317",
+    "secondaryAccessions": [
+        "Q9VSI0"
+    ],
+    "uniProtkbId": "PRI1_DROME",
+    "entryAudit": {
+        "firstPublicDate": "1997-11-01",
+        "lastAnnotationUpdateDate": "2025-02-05",
+        "lastSequenceUpdateDate": "2004-03-15",
+        "entryVersion": 167,
+        "sequenceVersion": 2
+    },
+    "annotationScore": 5.0,
+    "organism": {
+        "scientificName": "Drosophila melanogaster",
+        "commonName": "Fruit fly",
+        "taxonId": 7227,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Ecdysozoa",
+            "Arthropoda",
+            "Hexapoda",
+            "Insecta",
+            "Pterygota",
+            "Neoptera",
+            "Endopterygota",
+            "Diptera",
+            "Brachycera",
+            "Muscomorpha",
+            "Ephydroidea",
+            "Drosophilidae",
+            "Drosophila",
+            "Sophophora"
+        ]
+    },
+    "proteinExistence": "1: Evidence at protein level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000305"
+                    }
+                ],
+                "value": "DNA primase small subunit"
+            },
+            "ecNumbers": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "6409898"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "6806812"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "6812052"
+                        }
+                    ],
+                    "value": "2.7.7.-"
+                }
+            ]
+        },
+        "alternativeNames": [
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "6773966"
+                        }
+                    ],
+                    "value": "DNA polymerase subunit A"
+                }
+            },
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "6409898"
+                        }
+                    ],
+                    "value": "DNA polymerase subunit gamma"
+                }
+            },
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "7929411"
+                        }
+                    ],
+                    "value": "DNA primase 50 kDa subunit"
+                },
+                "shortNames": [
+                    {
+                        "value": "dPRI50"
+                    }
+                ]
+            }
+        ]
+    },
+    "genes": [
+        {
+            "geneName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000312",
+                        "source": "FlyBase",
+                        "id": "FBgn0011762"
+                    }
+                ],
+                "value": "Prim1"
+            },
+            "synonyms": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "7929411"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000312",
+                            "source": "FlyBase",
+                            "id": "FBgn0011762"
+                        }
+                    ],
+                    "value": "DNApol-alpha50"
+                },
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000312",
+                            "source": "FlyBase",
+                            "id": "FBgn0011762"
+                        }
+                    ],
+                    "value": "Pri50"
+                }
+            ],
+            "orfNames": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000312",
+                            "source": "FlyBase",
+                            "id": "FBgn0011762"
+                        }
+                    ],
+                    "value": "CG7108"
+                }
+            ]
+        }
+    ],
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "P09884"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "P20664"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "6403945"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "6409898"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "6773966"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "6806812"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "6812052"
+                        }
+                    ],
+                    "value": "Catalytic subunit of the DNA primase complex and component of the DNA polymerase alpha complex (also known as the alpha DNA polymerase-primase complex) which play an essential role in the initiation of DNA synthesis (PubMed:6403945, PubMed:6409898, PubMed:6773966, PubMed:6806812, PubMed:6812052). During the S phase of the cell cycle, the DNA polymerase alpha complex (composed of a catalytic subunit PolA1, an accessory subunit PolA2 and two primase subunits, the catalytic subunit Prim1 and the regulatory subunit Prim2) is recruited to DNA at the replicative forks (By similarity). The primase subunit of the polymerase alpha complex initiates DNA synthesis by oligomerising short RNA primers on both leading and lagging strands (By similarity). These primers are initially extended by the polymerase alpha catalytic subunit and subsequently transferred to polymerase delta and polymerase epsilon for processive synthesis on the lagging and leading strand, respectively (By similarity). In the primase complex, both subunits are necessary for the initial di-nucleotide formation, but the extension of the primer depends only on the catalytic subunit (By similarity). Can add both ribo- and deoxynucleotides during elongation of the primers (PubMed:6812052). Binds single stranded DNA (By similarity)"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "commentType": "COFACTOR",
+            "cofactors": [
+                {
+                    "name": "Mg(2+)",
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "P49642"
+                        }
+                    ],
+                    "cofactorCrossReference": {
+                        "database": "ChEBI",
+                        "id": "CHEBI:18420"
+                    }
+                },
+                {
+                    "name": "Mn(2+)",
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "P49642"
+                        }
+                    ],
+                    "cofactorCrossReference": {
+                        "database": "ChEBI",
+                        "id": "CHEBI:29035"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "P20664"
+                        }
+                    ],
+                    "value": "The presence of the regulatory subunit Prim2 accelerates the kinetics of initiation and primer extension"
+                }
+            ],
+            "commentType": "ACTIVITY REGULATION"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "6403945"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "6409898"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "6773966"
+                        }
+                    ],
+                    "value": "Heterodimer of a catalytic subunit Prim1 and a regulatory subunit Prim2, also known as the DNA primase complex (PubMed:6403945, PubMed:6409898). Component of the alpha DNA polymerase complex (also known as the alpha DNA polymerase-primase complex) consisting of four subunits: the catalytic subunit PolA1, the regulatory subunit PolA2, and the primase complex subunits Prim1 and Prim2 respectively (PubMed:6403945, PubMed:6409898, PubMed:6773966). PolA1 associates with the DNA primase complex before association with PolA2 (PubMed:6409898)"
+                }
+            ],
+            "commentType": "SUBUNIT"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "6403945"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "6409898"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "6773966"
+                        }
+                    ],
+                    "value": "Expressed in embryos (at protein level)"
+                }
+            ],
+            "commentType": "TISSUE SPECIFICITY"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "7929411"
+                        }
+                    ],
+                    "value": "Expressed both maternally and zygotically. Expression is very low in late embryos, larvae, pupae and adult males"
+                }
+            ],
+            "commentType": "DEVELOPMENTAL STAGE"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250"
+                        }
+                    ],
+                    "value": "The bound zinc ion is not a cofactor. It is bound to a zinc knuckle motif that may be involved in sequence recognition and the binding of ssDNA (By similarity)"
+                }
+            ],
+            "commentType": "MISCELLANEOUS"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Belongs to the eukaryotic-type primase small subunit family"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        }
+    ],
+    "features": [
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 438,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "DNA primase small subunit",
+            "featureId": "PRO_0000046733"
+        },
+        {
+            "type": "Motif",
+            "location": {
+                "start": {
+                    "value": 139,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 149,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Zinc knuckle motif"
+        },
+        {
+            "type": "Active site",
+            "location": {
+                "start": {
+                    "value": 63,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 63,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255"
+                }
+            ]
+        },
+        {
+            "type": "Active site",
+            "location": {
+                "start": {
+                    "value": 127,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 127,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255"
+                }
+            ]
+        },
+        {
+            "type": "Active site",
+            "location": {
+                "start": {
+                    "value": 129,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 129,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255"
+                }
+            ]
+        },
+        {
+            "type": "Sequence conflict",
+            "location": {
+                "start": {
+                    "value": 165,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 165,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in Ref. 1; CAA56196",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "R",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Sequence conflict",
+            "location": {
+                "start": {
+                    "value": 203,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 203,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in Ref. 1; CAA56196",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "V",
+                "alternativeSequences": [
+                    "E"
+                ]
+            }
+        },
+        {
+            "type": "Sequence conflict",
+            "location": {
+                "start": {
+                    "value": 233,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 233,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in Ref. 1; CAA56196",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "L",
+                "alternativeSequences": [
+                    "I"
+                ]
+            }
+        },
+        {
+            "type": "Sequence conflict",
+            "location": {
+                "start": {
+                    "value": 431,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 431,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in Ref. 1; CAA56196",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "Q",
+                "alternativeSequences": [
+                    "E"
+                ]
+            }
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0235",
+            "category": "Biological process",
+            "name": "DNA replication"
+        },
+        {
+            "id": "KW-0240",
+            "category": "Cellular component",
+            "name": "DNA-directed RNA polymerase"
+        },
+        {
+            "id": "KW-0479",
+            "category": "Ligand",
+            "name": "Metal-binding"
+        },
+        {
+            "id": "KW-0548",
+            "category": "Molecular function",
+            "name": "Nucleotidyltransferase"
+        },
+        {
+            "id": "KW-0639",
+            "category": "Cellular component",
+            "name": "Primosome"
+        },
+        {
+            "id": "KW-1185",
+            "category": "Technical term",
+            "name": "Reference proteome"
+        },
+        {
+            "id": "KW-0804",
+            "category": "Biological process",
+            "name": "Transcription"
+        },
+        {
+            "id": "KW-0808",
+            "category": "Molecular function",
+            "name": "Transferase"
+        },
+        {
+            "id": "KW-0862",
+            "category": "Ligand",
+            "name": "Zinc"
+        }
+    ],
+    "references": [
+        {
+            "referenceNumber": 1,
+            "citation": {
+                "id": "7929411",
+                "citationType": "journal article",
+                "authors": [
+                    "Bakkenist C.J.",
+                    "Cotterill S."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "7929411"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/s0021-9258(18)47084-6"
+                    }
+                ],
+                "title": "The 50-kDa primase subunit of Drosophila melanogaster DNA polymerase alpha. Molecular characterization of the gene and functional analysis of the overexpressed protein.",
+                "publicationDate": "1994",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "26759",
+                "lastPage": "26766",
+                "volume": "269"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [MRNA]",
+                "FUNCTION",
+                "DEVELOPMENTAL STAGE"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Embryo",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "referenceNumber": 2,
+            "citation": {
+                "id": "10731132",
+                "citationType": "journal article",
+                "authors": [
+                    "Adams M.D.",
+                    "Celniker S.E.",
+                    "Holt R.A.",
+                    "Evans C.A.",
+                    "Gocayne J.D.",
+                    "Amanatides P.G.",
+                    "Scherer S.E.",
+                    "Li P.W.",
+                    "Hoskins R.A.",
+                    "Galle R.F.",
+                    "George R.A.",
+                    "Lewis S.E.",
+                    "Richards S.",
+                    "Ashburner M.",
+                    "Henderson S.N.",
+                    "Sutton G.G.",
+                    "Wortman J.R.",
+                    "Yandell M.D.",
+                    "Zhang Q.",
+                    "Chen L.X.",
+                    "Brandon R.C.",
+                    "Rogers Y.-H.C.",
+                    "Blazej R.G.",
+                    "Champe M.",
+                    "Pfeiffer B.D.",
+                    "Wan K.H.",
+                    "Doyle C.",
+                    "Baxter E.G.",
+                    "Helt G.",
+                    "Nelson C.R.",
+                    "Miklos G.L.G.",
+                    "Abril J.F.",
+                    "Agbayani A.",
+                    "An H.-J.",
+                    "Andrews-Pfannkoch C.",
+                    "Baldwin D.",
+                    "Ballew R.M.",
+                    "Basu A.",
+                    "Baxendale J.",
+                    "Bayraktaroglu L.",
+                    "Beasley E.M.",
+                    "Beeson K.Y.",
+                    "Benos P.V.",
+                    "Berman B.P.",
+                    "Bhandari D.",
+                    "Bolshakov S.",
+                    "Borkova D.",
+                    "Botchan M.R.",
+                    "Bouck J.",
+                    "Brokstein P.",
+                    "Brottier P.",
+                    "Burtis K.C.",
+                    "Busam D.A.",
+                    "Butler H.",
+                    "Cadieu E.",
+                    "Center A.",
+                    "Chandra I.",
+                    "Cherry J.M.",
+                    "Cawley S.",
+                    "Dahlke C.",
+                    "Davenport L.B.",
+                    "Davies P.",
+                    "de Pablos B.",
+                    "Delcher A.",
+                    "Deng Z.",
+                    "Mays A.D.",
+                    "Dew I.",
+                    "Dietz S.M.",
+                    "Dodson K.",
+                    "Doup L.E.",
+                    "Downes M.",
+                    "Dugan-Rocha S.",
+                    "Dunkov B.C.",
+                    "Dunn P.",
+                    "Durbin K.J.",
+                    "Evangelista C.C.",
+                    "Ferraz C.",
+                    "Ferriera S.",
+                    "Fleischmann W.",
+                    "Fosler C.",
+                    "Gabrielian A.E.",
+                    "Garg N.S.",
+                    "Gelbart W.M.",
+                    "Glasser K.",
+                    "Glodek A.",
+                    "Gong F.",
+                    "Gorrell J.H.",
+                    "Gu Z.",
+                    "Guan P.",
+                    "Harris M.",
+                    "Harris N.L.",
+                    "Harvey D.A.",
+                    "Heiman T.J.",
+                    "Hernandez J.R.",
+                    "Houck J.",
+                    "Hostin D.",
+                    "Houston K.A.",
+                    "Howland T.J.",
+                    "Wei M.-H.",
+                    "Ibegwam C.",
+                    "Jalali M.",
+                    "Kalush F.",
+                    "Karpen G.H.",
+                    "Ke Z.",
+                    "Kennison J.A.",
+                    "Ketchum K.A.",
+                    "Kimmel B.E.",
+                    "Kodira C.D.",
+                    "Kraft C.L.",
+                    "Kravitz S.",
+                    "Kulp D.",
+                    "Lai Z.",
+                    "Lasko P.",
+                    "Lei Y.",
+                    "Levitsky A.A.",
+                    "Li J.H.",
+                    "Li Z.",
+                    "Liang Y.",
+                    "Lin X.",
+                    "Liu X.",
+                    "Mattei B.",
+                    "McIntosh T.C.",
+                    "McLeod M.P.",
+                    "McPherson D.",
+                    "Merkulov G.",
+                    "Milshina N.V.",
+                    "Mobarry C.",
+                    "Morris J.",
+                    "Moshrefi A.",
+                    "Mount S.M.",
+                    "Moy M.",
+                    "Murphy B.",
+                    "Murphy L.",
+                    "Muzny D.M.",
+                    "Nelson D.L.",
+                    "Nelson D.R.",
+                    "Nelson K.A.",
+                    "Nixon K.",
+                    "Nusskern D.R.",
+                    "Pacleb J.M.",
+                    "Palazzolo M.",
+                    "Pittman G.S.",
+                    "Pan S.",
+                    "Pollard J.",
+                    "Puri V.",
+                    "Reese M.G.",
+                    "Reinert K.",
+                    "Remington K.",
+                    "Saunders R.D.C.",
+                    "Scheeler F.",
+                    "Shen H.",
+                    "Shue B.C.",
+                    "Siden-Kiamos I.",
+                    "Simpson M.",
+                    "Skupski M.P.",
+                    "Smith T.J.",
+                    "Spier E.",
+                    "Spradling A.C.",
+                    "Stapleton M.",
+                    "Strong R.",
+                    "Sun E.",
+                    "Svirskas R.",
+                    "Tector C.",
+                    "Turner R.",
+                    "Venter E.",
+                    "Wang A.H.",
+                    "Wang X.",
+                    "Wang Z.-Y.",
+                    "Wassarman D.A.",
+                    "Weinstock G.M.",
+                    "Weissenbach J.",
+                    "Williams S.M.",
+                    "Woodage T.",
+                    "Worley K.C.",
+                    "Wu D.",
+                    "Yang S.",
+                    "Yao Q.A.",
+                    "Ye J.",
+                    "Yeh R.-F.",
+                    "Zaveri J.S.",
+                    "Zhan M.",
+                    "Zhang G.",
+                    "Zhao Q.",
+                    "Zheng L.",
+                    "Zheng X.H.",
+                    "Zhong F.N.",
+                    "Zhong W.",
+                    "Zhou X.",
+                    "Zhu S.C.",
+                    "Zhu X.",
+                    "Smith H.O.",
+                    "Gibbs R.A.",
+                    "Myers E.W.",
+                    "Rubin G.M.",
+                    "Venter J.C."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "10731132"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1126/science.287.5461.2185"
+                    }
+                ],
+                "title": "The genome sequence of Drosophila melanogaster.",
+                "publicationDate": "2000",
+                "journal": "Science",
+                "firstPage": "2185",
+                "lastPage": "2195",
+                "volume": "287"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Berkeley",
+                    "type": "STRAIN"
+                }
+            ]
+        },
+        {
+            "referenceNumber": 3,
+            "citation": {
+                "id": "12537572",
+                "citationType": "journal article",
+                "authors": [
+                    "Misra S.",
+                    "Crosby M.A.",
+                    "Mungall C.J.",
+                    "Matthews B.B.",
+                    "Campbell K.S.",
+                    "Hradecky P.",
+                    "Huang Y.",
+                    "Kaminker J.S.",
+                    "Millburn G.H.",
+                    "Prochnik S.E.",
+                    "Smith C.D.",
+                    "Tupy J.L.",
+                    "Whitfield E.J.",
+                    "Bayraktaroglu L.",
+                    "Berman B.P.",
+                    "Bettencourt B.R.",
+                    "Celniker S.E.",
+                    "de Grey A.D.N.J.",
+                    "Drysdale R.A.",
+                    "Harris N.L.",
+                    "Richter J.",
+                    "Russo S.",
+                    "Schroeder A.J.",
+                    "Shu S.Q.",
+                    "Stapleton M.",
+                    "Yamada C.",
+                    "Ashburner M.",
+                    "Gelbart W.M.",
+                    "Rubin G.M.",
+                    "Lewis S.E."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "12537572"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1186/gb-2002-3-12-research0083"
+                    }
+                ],
+                "title": "Annotation of the Drosophila melanogaster euchromatic genome: a systematic review.",
+                "publicationDate": "2002",
+                "journal": "Genome Biol.",
+                "firstPage": "RESEARCH0083.1",
+                "lastPage": "RESEARCH0083.22",
+                "volume": "3"
+            },
+            "referencePositions": [
+                "GENOME REANNOTATION"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Berkeley",
+                    "type": "STRAIN"
+                }
+            ]
+        },
+        {
+            "referenceNumber": 4,
+            "citation": {
+                "id": "12537569",
+                "citationType": "journal article",
+                "authors": [
+                    "Stapleton M.",
+                    "Carlson J.W.",
+                    "Brokstein P.",
+                    "Yu C.",
+                    "Champe M.",
+                    "George R.A.",
+                    "Guarin H.",
+                    "Kronmiller B.",
+                    "Pacleb J.M.",
+                    "Park S.",
+                    "Wan K.H.",
+                    "Rubin G.M.",
+                    "Celniker S.E."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "12537569"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1186/gb-2002-3-12-research0080"
+                    }
+                ],
+                "title": "A Drosophila full-length cDNA resource.",
+                "publicationDate": "2002",
+                "journal": "Genome Biol.",
+                "firstPage": "RESEARCH0080.1",
+                "lastPage": "RESEARCH0080.8",
+                "volume": "3"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Berkeley",
+                    "type": "STRAIN"
+                },
+                {
+                    "value": "Embryo",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "referenceNumber": 5,
+            "citation": {
+                "id": "6773966",
+                "citationType": "journal article",
+                "authors": [
+                    "Villani G.",
+                    "Sauer B.",
+                    "Lehman I.R."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "6773966"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/s0021-9258(19)70587-0"
+                    }
+                ],
+                "title": "DNA polymerase alpha from Drosophila melanogaster embryos. Subunit structure.",
+                "publicationDate": "1980",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "9479",
+                "lastPage": "9483",
+                "volume": "255"
+            },
+            "referencePositions": [
+                "FUNCTION",
+                "IDENTIFICATION IN THE DNA POLYMERASE ALPHA COMPLEX",
+                "TISSUE SPECIFICITY"
+            ]
+        },
+        {
+            "referenceNumber": 6,
+            "citation": {
+                "id": "6806812",
+                "citationType": "journal article",
+                "authors": [
+                    "Conaway R.C.",
+                    "Lehman I.R."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "6806812"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1073/pnas.79.8.2523"
+                    }
+                ],
+                "title": "A DNA primase activity associated with DNA polymerase alpha from Drosophila melanogaster embryos.",
+                "publicationDate": "1982",
+                "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+                "firstPage": "2523",
+                "lastPage": "2527",
+                "volume": "79"
+            },
+            "referencePositions": [
+                "FUNCTION",
+                "CATALYTIC ACTIVITY"
+            ]
+        },
+        {
+            "referenceNumber": 7,
+            "citation": {
+                "id": "6812052",
+                "citationType": "journal article",
+                "authors": [
+                    "Conaway R.C.",
+                    "Lehman I.R."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "6812052"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1073/pnas.79.15.4585"
+                    }
+                ],
+                "title": "Synthesis by the DNA primase of Drosophila melanogaster of a primer with a unique chain length.",
+                "publicationDate": "1982",
+                "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+                "firstPage": "4585",
+                "lastPage": "4588",
+                "volume": "79"
+            },
+            "referencePositions": [
+                "FUNCTION",
+                "CATALYTIC ACTIVITY"
+            ]
+        },
+        {
+            "referenceNumber": 8,
+            "citation": {
+                "id": "6409898",
+                "citationType": "journal article",
+                "authors": [
+                    "Kaguni L.S.",
+                    "Rossignol J.M.",
+                    "Conaway R.C.",
+                    "Banks G.R.",
+                    "Lehman I.R."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "6409898"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/s0021-9258(17)44626-6"
+                    }
+                ],
+                "title": "Association of DNA primase with the beta/gamma subunits of DNA polymerase alpha from Drosophila melanogaster embryos.",
+                "publicationDate": "1983",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "9037",
+                "lastPage": "9039",
+                "volume": "258"
+            },
+            "referencePositions": [
+                "FUNCTION",
+                "CATALYTIC ACTIVITY",
+                "IDENTIFICATION IN THE DNA POLYMERASE ALPHA COMPLEX",
+                "IDENTIFICATION IN DNA PRIMASE COMPLEX",
+                "TISSUE SPECIFICITY"
+            ]
+        },
+        {
+            "referenceNumber": 9,
+            "citation": {
+                "id": "6403945",
+                "citationType": "journal article",
+                "authors": [
+                    "Kaguni L.S.",
+                    "Rossignol J.M.",
+                    "Conaway R.C.",
+                    "Lehman I.R."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "6403945"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1073/pnas.80.8.2221"
+                    }
+                ],
+                "title": "Isolation of an intact DNA polymerase-primase from embryos of Drosophila melanogaster.",
+                "publicationDate": "1983",
+                "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+                "firstPage": "2221",
+                "lastPage": "2225",
+                "volume": "80"
+            },
+            "referencePositions": [
+                "FUNCTION",
+                "IDENTIFICATION IN THE DNA POLYMERASE ALPHA COMPLEX",
+                "IDENTIFICATION IN DNA PRIMASE COMPLEX",
+                "TISSUE SPECIFICITY"
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "EMBL",
+            "id": "X79801",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "CAA56196.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AE014296",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAF50439.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AY071217",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAL48839.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "PIR",
+            "id": "A55070",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "A55070"
+                }
+            ]
+        },
+        {
+            "database": "RefSeq",
+            "id": "NP_523972.2",
+            "properties": [
+                {
+                    "key": "NucleotideSequenceId",
+                    "value": "NM_079248.4"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "Q24317",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "Q24317",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "BioGRID",
+            "id": "64360",
+            "properties": [
+                {
+                    "key": "Interactions",
+                    "value": "8"
+                }
+            ]
+        },
+        {
+            "database": "ComplexPortal",
+            "id": "CPX-2090",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA polymerase alpha:primase complex"
+                }
+            ]
+        },
+        {
+            "database": "DIP",
+            "id": "DIP-20251N",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "IntAct",
+            "id": "Q24317",
+            "properties": [
+                {
+                    "key": "Interactions",
+                    "value": "4"
+                }
+            ]
+        },
+        {
+            "database": "STRING",
+            "id": "7227.FBpp0076330",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PaxDb",
+            "id": "7227-FBpp0076330",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "DNASU",
+            "id": "38942",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "EnsemblMetazoa",
+            "id": "FBtr0076603",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "FBpp0076330"
+                },
+                {
+                    "key": "GeneId",
+                    "value": "FBgn0011762"
+                }
+            ]
+        },
+        {
+            "database": "GeneID",
+            "id": "38942",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "KEGG",
+            "id": "dme:Dmel_CG7108",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "AGR",
+            "id": "FB:FBgn0011762",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "CTD",
+            "id": "5557",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "FlyBase",
+            "id": "FBgn0011762",
+            "properties": [
+                {
+                    "key": "GeneName",
+                    "value": "Prim1"
+                }
+            ]
+        },
+        {
+            "database": "VEuPathDB",
+            "id": "VectorBase:FBgn0011762",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "eggNOG",
+            "id": "KOG2851",
+            "properties": [
+                {
+                    "key": "ToxonomicScope",
+                    "value": "Eukaryota"
+                }
+            ]
+        },
+        {
+            "database": "GeneTree",
+            "id": "ENSGT00390000011466",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "HOGENOM",
+            "id": "CLU_028288_3_2_1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "InParanoid",
+            "id": "Q24317",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OMA",
+            "id": "NVTRGFN",
+            "properties": [
+                {
+                    "key": "Fingerprint",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OrthoDB",
+            "id": "19606at2759",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PhylomeDB",
+            "id": "Q24317",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-DME-113501",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Inhibition of replication initiation of damaged DNA by RB1/E2F1"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-DME-68952",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "DNA replication initiation"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-DME-68962",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Activation of the pre-replicative complex"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-DME-69091",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Polymerase switching"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-DME-69166",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Removal of the Flap Intermediate"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-DME-69183",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Processive synthesis on the lagging strand"
+                }
+            ]
+        },
+        {
+            "database": "BioGRID-ORCS",
+            "id": "38942",
+            "properties": [
+                {
+                    "key": "hits",
+                    "value": "0 hits in 1 CRISPR screen"
+                }
+            ]
+        },
+        {
+            "database": "ChiTaRS",
+            "id": "DNApol-alpha50",
+            "properties": [
+                {
+                    "key": "OrganismName",
+                    "value": "fly"
+                }
+            ]
+        },
+        {
+            "database": "GenomeRNAi",
+            "id": "38942",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PRO",
+            "id": "PR:Q24317",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Proteomes",
+            "id": "UP000000803",
+            "properties": [
+                {
+                    "key": "Component",
+                    "value": "Chromosome 3L"
+                }
+            ]
+        },
+        {
+            "database": "Bgee",
+            "id": "FBgn0011762",
+            "properties": [
+                {
+                    "key": "ExpressionPatterns",
+                    "value": "Expressed in secondary oocyte and 29 other cell types or tissues"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005658",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:alpha DNA polymerase:primase complex"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:FlyBase"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "2128488"
+                },
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "3119584"
+                },
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "6403945"
+                },
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "6409898"
+                },
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "6773966"
+                },
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "7929411"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0003896",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:DNA primase activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:FlyBase"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "7929411"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0046872",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:metal ion binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0006270",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:DNA replication initiation"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:ComplexPortal"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "2128488"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0006269",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:DNA replication, synthesis of primer"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:FlyBase"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "2128488"
+                },
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "3119584"
+                },
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "6409898"
+                },
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "7929411"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0006261",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:DNA-templated DNA replication"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:FlyBase"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "2128488"
+                },
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "6403945"
+                },
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "6773966"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd04860",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "AE_Prim_S"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "FunFam",
+            "id": "3.90.920.10:FF:000001",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA primase"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "3.90.920.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA primase, PRIM domain"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR002755",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA_primase_S"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR014052",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA_primase_ssu_euk/arc"
+                }
+            ]
+        },
+        {
+            "database": "NCBIfam",
+            "id": "TIGR00335",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "primase_sml"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PANTHER",
+            "id": "PTHR10536",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA PRIMASE SMALL SUBUNIT"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF01896",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA_primase_S"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF56747",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Prim-pol domain"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MPEQVTDQENQAPQQQTTAVHAYNPEVLQDMLPVYYRRLFPHLPFYRWLSYGSSEDAIFSNREISFTLQDDIYIRYLCFDTQAELEKEICSRNPIKIDIGPVMHSKPKNHRSIPGGLTPVQRELVFDIDMTDYDEVRTCCSGAGVCLKCWKFMVLAARVLDVALREDFGFEHIIWIFSGRRGIHCWVCDYQARHLDGRGRYAVAEYLNIITYASFAGGNSPRCSMGDRPHHSLKRALKIVEPMFEEIVLEDQNLFGTPKGVTKLLNMVHDDAARGELESYMQKNLEDGAHSRLVWESFIKYANSMRTSTTSAWSRKLKNIVAEIQLGLLYPRLDINVTRGFNHLLKAPFCIHPATGKVCVPFSVSAVAKFDPTTVPTITQLLHEINAFDDKSKSYMEAPEDKSRIKDHKKTSMFKGVVVFEEFLRKLERSQKSASLQF",
+        "length": 438,
+        "molWeight": 50222,
+        "crc64": "5A396DF27F040F42",
+        "md5": "D650CE9E96903D395306AC85E0FB021E"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "COFACTOR": 1,
+            "ACTIVITY REGULATION": 1,
+            "SUBUNIT": 1,
+            "TISSUE SPECIFICITY": 1,
+            "DEVELOPMENTAL STAGE": 1,
+            "MISCELLANEOUS": 1,
+            "SIMILARITY": 1
+        },
+        "countByFeatureType": {
+            "Chain": 1,
+            "Motif": 1,
+            "Active site": 3,
+            "Sequence conflict": 4
+        },
+        "uniParcId": "UPI0000075B78"
+    }
+}

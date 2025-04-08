@@ -1,0 +1,2037 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "B8YB56",
+    "secondaryAccessions": [
+        "A0A8F5BL81"
+    ],
+    "uniProtkbId": "RPO3_SACSH",
+    "entryAudit": {
+        "firstPublicDate": "2021-09-29",
+        "lastAnnotationUpdateDate": "2025-02-05",
+        "lastSequenceUpdateDate": "2009-03-03",
+        "entryVersion": 78,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 5.0,
+    "organism": {
+        "scientificName": "Saccharolobus shibatae (strain ATCC 51178 / DSM 5389 / JCM 8931 / NBRC 15437 / B12)",
+        "commonName": "Sulfolobus shibatae",
+        "taxonId": 523848,
+        "lineage": [
+            "Archaea",
+            "Thermoproteota",
+            "Thermoprotei",
+            "Sulfolobales",
+            "Sulfolobaceae",
+            "Saccharolobus"
+        ]
+    },
+    "proteinExistence": "1: Evidence at protein level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000255",
+                        "source": "HAMAP-Rule",
+                        "id": "MF_00320"
+                    },
+                    {
+                        "evidenceCode": "ECO:0000303",
+                        "source": "PubMed",
+                        "id": "19419240"
+                    }
+                ],
+                "value": "DNA-directed RNA polymerase subunit Rpo3"
+            },
+            "ecNumbers": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000255",
+                            "source": "HAMAP-Rule",
+                            "id": "MF_00320"
+                        }
+                    ],
+                    "value": "2.7.7.6"
+                }
+            ]
+        },
+        "alternativeNames": [
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000255",
+                            "source": "HAMAP-Rule",
+                            "id": "MF_00320"
+                        }
+                    ],
+                    "value": "DNA-directed RNA polymerase subunit D"
+                }
+            }
+        ]
+    },
+    "genes": [
+        {
+            "geneName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000255",
+                        "source": "HAMAP-Rule",
+                        "id": "MF_00320"
+                    },
+                    {
+                        "evidenceCode": "ECO:0000303",
+                        "source": "PubMed",
+                        "id": "19419240"
+                    }
+                ],
+                "value": "rpo3"
+            },
+            "synonyms": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000255",
+                            "source": "HAMAP-Rule",
+                            "id": "MF_00320"
+                        }
+                    ],
+                    "value": "rpoD"
+                }
+            ],
+            "orfNames": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000312",
+                            "source": "EMBL",
+                            "id": "QXJ27312.1"
+                        }
+                    ],
+                    "value": "J5U23_00176"
+                }
+            ]
+        }
+    ],
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000255",
+                            "source": "HAMAP-Rule",
+                            "id": "MF_00320"
+                        }
+                    ],
+                    "value": "DNA-dependent RNA polymerase (RNAP) catalyzes the transcription of DNA into RNA using the four ribonucleoside triphosphates as substrates"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "commentType": "CATALYTIC ACTIVITY",
+            "reaction": {
+                "name": "RNA(n) + a ribonucleoside 5'-triphosphate = RNA(n+1) + diphosphate",
+                "reactionCrossReferences": [
+                    {
+                        "database": "Rhea",
+                        "id": "RHEA:21248"
+                    },
+                    {
+                        "database": "Rhea",
+                        "id": "RHEA-COMP:14527"
+                    },
+                    {
+                        "database": "Rhea",
+                        "id": "RHEA-COMP:17342"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:33019"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:61557"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:140395"
+                    }
+                ],
+                "ecNumber": "2.7.7.6",
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000255",
+                        "source": "HAMAP-Rule",
+                        "id": "MF_00320"
+                    }
+                ]
+            }
+        },
+        {
+            "commentType": "COFACTOR",
+            "cofactors": [
+                {
+                    "name": "[3Fe-4S] cluster",
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000255",
+                            "source": "HAMAP-Rule",
+                            "id": "MF_00320"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "19419240"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "21265742"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "22848102"
+                        }
+                    ],
+                    "cofactorCrossReference": {
+                        "database": "ChEBI",
+                        "id": "CHEBI:21137"
+                    }
+                }
+            ],
+            "note": {
+                "texts": [
+                    {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000255",
+                                "source": "HAMAP-Rule",
+                                "id": "MF_00320"
+                            },
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "19419240"
+                            },
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "21265742"
+                            },
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "22848102"
+                            }
+                        ],
+                        "value": "Binds 1 [3Fe-4S] cluster."
+                    }
+                ]
+            }
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "19419240"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "21265742"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "22848102"
+                        }
+                    ],
+                    "value": "Part of the 13-subunit RNA polymerase complex"
+                }
+            ],
+            "commentType": "SUBUNIT"
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000255",
+                                "source": "HAMAP-Rule",
+                                "id": "MF_00320"
+                            },
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "22848102"
+                            }
+                        ],
+                        "value": "Cytoplasm",
+                        "id": "SL-0086"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000255",
+                            "source": "HAMAP-Rule",
+                            "id": "MF_00320"
+                        }
+                    ],
+                    "value": "Belongs to the archaeal Rpo3/eukaryotic RPB3 RNA polymerase subunit family"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "19419240"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "21265742"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "22848102"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "X-ray crystallography in this and other archaea shows this protein binds a 3Fe-4S cluster, although a 4Fe-4S cluster has been suggested to be present in this protein"
+                }
+            ],
+            "commentType": "CAUTION"
+        }
+    ],
+    "features": [
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 265,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "DNA-directed RNA polymerase subunit Rpo3",
+            "featureId": "PRO_0000453787"
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 203,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 203,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:21137"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "HAMAP-Rule",
+                    "id": "MF_00320"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "19419240"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "2WAQ"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "2WB1"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "2Y0S"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "4AYB"
+                }
+            ],
+            "ligand": {
+                "name": "[3Fe-4S] cluster",
+                "id": "ChEBI:CHEBI:21137"
+            }
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 206,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 206,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:21137"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "HAMAP-Rule",
+                    "id": "MF_00320"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "19419240"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "2WAQ"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "2WB1"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "2Y0S"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "4AYB"
+                }
+            ],
+            "ligand": {
+                "name": "[3Fe-4S] cluster",
+                "id": "ChEBI:CHEBI:21137"
+            }
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 209,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 209,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:21137"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "HAMAP-Rule",
+                    "id": "MF_00320"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "19419240"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "2WAQ"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "2WB1"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "2Y0S"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "4AYB"
+                }
+            ],
+            "ligand": {
+                "name": "[3Fe-4S] cluster",
+                "id": "ChEBI:CHEBI:21137"
+            }
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 3,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 8,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "4AYB"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 10,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 20,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "4AYB"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 22,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 33,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "4AYB"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 34,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 48,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "4AYB"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 51,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 53,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "4AYB"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 55,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 64,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "4AYB"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 72,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 75,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "4AYB"
+                }
+            ]
+        },
+        {
+            "type": "Turn",
+            "location": {
+                "start": {
+                    "value": 79,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 81,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "4AYB"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 82,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 84,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "4AYB"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 91,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 101,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "4AYB"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 108,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 110,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "4AYB"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 111,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 113,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "4AYB"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 129,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 132,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "4AYB"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 138,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 149,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "4AYB"
+                }
+            ]
+        },
+        {
+            "type": "Turn",
+            "location": {
+                "start": {
+                    "value": 150,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 152,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "4AYB"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 153,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 156,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "4AYB"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 159,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 168,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "4AYB"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 171,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 174,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "4AYB"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 177,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 182,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "4AYB"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 184,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 186,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "2WAQ"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 191,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 194,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "4AYB"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 208,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 212,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "4AYB"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 213,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 215,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "4AYB"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 221,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 232,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "4AYB"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 234,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 236,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "4AYB"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 238,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 261,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "4AYB"
+                }
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0002",
+            "category": "Technical term",
+            "name": "3D-structure"
+        },
+        {
+            "id": "KW-0003",
+            "category": "Ligand",
+            "name": "3Fe-4S"
+        },
+        {
+            "id": "KW-0963",
+            "category": "Cellular component",
+            "name": "Cytoplasm"
+        },
+        {
+            "id": "KW-0240",
+            "category": "Cellular component",
+            "name": "DNA-directed RNA polymerase"
+        },
+        {
+            "id": "KW-0408",
+            "category": "Ligand",
+            "name": "Iron"
+        },
+        {
+            "id": "KW-0411",
+            "category": "Ligand",
+            "name": "Iron-sulfur"
+        },
+        {
+            "id": "KW-0479",
+            "category": "Ligand",
+            "name": "Metal-binding"
+        },
+        {
+            "id": "KW-0548",
+            "category": "Molecular function",
+            "name": "Nucleotidyltransferase"
+        },
+        {
+            "id": "KW-0804",
+            "category": "Biological process",
+            "name": "Transcription"
+        },
+        {
+            "id": "KW-0808",
+            "category": "Molecular function",
+            "name": "Transferase"
+        }
+    ],
+    "references": [
+        {
+            "referenceNumber": 1,
+            "citation": {
+                "id": "19419240",
+                "citationType": "journal article",
+                "authors": [
+                    "Korkhin Y.",
+                    "Unligil U.M.",
+                    "Littlefield O.",
+                    "Nelson P.J.",
+                    "Stuart D.I.",
+                    "Sigler P.B.",
+                    "Bell S.D.",
+                    "Abrescia N.G."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "19419240"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1371/journal.pbio.1000102"
+                    }
+                ],
+                "title": "Evolution of complex RNA polymerases: the complete archaeal RNA polymerase structure.",
+                "publicationDate": "2009",
+                "journal": "PLoS Biol.",
+                "firstPage": "e1000102",
+                "lastPage": "e1000102",
+                "volume": "7"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [GENOMIC DNA]",
+                "X-RAY CRYSTALLOGRAPHY (3.35 ANGSTROMS) OF THE RNA POLYMERASE COMPLEX IN COMPLEX WITH IRON-SULFUR (3FE-4S)",
+                "COFACTOR",
+                "SUBUNIT",
+                "NOMENCLATURE"
+            ],
+            "referenceComments": [
+                {
+                    "value": "ATCC 51178 / DSM 5389 / JCM 8931 / NBRC 15437 / B12",
+                    "type": "STRAIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "2WAQ"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "2WB1"
+                }
+            ]
+        },
+        {
+            "referenceNumber": 2,
+            "citation": {
+                "id": "34190379",
+                "citationType": "journal article",
+                "authors": [
+                    "Medvedeva S.",
+                    "Brandt D.",
+                    "Cvirkaite-Krupovic V.",
+                    "Liu Y.",
+                    "Severinov K.",
+                    "Ishino S.",
+                    "Ishino Y.",
+                    "Prangishvili D.",
+                    "Kalinowski J.",
+                    "Krupovic M."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "34190379"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1111/1462-2920.15654"
+                    }
+                ],
+                "title": "New insights into the diversity and evolution of the archaeal mobilome from three complete genomes of Saccharolobus shibatae.",
+                "publicationDate": "2021",
+                "journal": "Environ. Microbiol.",
+                "firstPage": "4612",
+                "lastPage": "4630",
+                "volume": "23"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ],
+            "referenceComments": [
+                {
+                    "value": "ATCC 51178 / DSM 5389 / JCM 8931 / NBRC 15437 / B12",
+                    "type": "STRAIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000312",
+                    "source": "EMBL",
+                    "id": "QXJ27312.1"
+                }
+            ]
+        },
+        {
+            "referenceNumber": 3,
+            "citation": {
+                "id": "21265742",
+                "citationType": "journal article",
+                "authors": [
+                    "Wojtas M.",
+                    "Peralta B.",
+                    "Ondiviela M.",
+                    "Mogni M.",
+                    "Bell S.D.",
+                    "Abrescia N.G."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "21265742"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1042/bst0390025"
+                    }
+                ],
+                "title": "Archaeal RNA polymerase: the influence of the protruding stalk in crystal packing and preliminary biophysical analysis of the Rpo13 subunit.",
+                "publicationDate": "2011",
+                "journal": "Biochem. Soc. Trans.",
+                "firstPage": "25",
+                "lastPage": "30",
+                "volume": "39"
+            },
+            "referencePositions": [
+                "X-RAY CRYSTALLOGRAPHY (3.80 ANGSTROMS) OF THE RNA POLYMERASE COMPLEX IN COMPLEX WITH IRON-SULFUR (3FE-4S)",
+                "COFACTOR",
+                "SUBUNIT"
+            ],
+            "referenceComments": [
+                {
+                    "value": "ATCC 51178 / DSM 5389 / JCM 8931 / NBRC 15437 / B12",
+                    "type": "STRAIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "2Y0S"
+                }
+            ]
+        },
+        {
+            "referenceNumber": 4,
+            "citation": {
+                "id": "22848102",
+                "citationType": "journal article",
+                "authors": [
+                    "Wojtas M.N.",
+                    "Mogni M.",
+                    "Millet O.",
+                    "Bell S.D.",
+                    "Abrescia N.G."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "22848102"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1093/nar/gks692"
+                    }
+                ],
+                "title": "Structural and functional analyses of the interaction of archaeal RNA polymerase with DNA.",
+                "publicationDate": "2012",
+                "journal": "Nucleic Acids Res.",
+                "firstPage": "9941",
+                "lastPage": "9952",
+                "volume": "40"
+            },
+            "referencePositions": [
+                "X-RAY CRYSTALLOGRAPHY (3.20 ANGSTROMS) OF THE RNA POLYMERASE COMPLEX IN COMPLEX WITH IRON-SULFUR (3FE-4S) WITH AND WITHOUT DNA",
+                "COFACTOR",
+                "SUBUNIT",
+                "SUBCELLULAR LOCATION"
+            ],
+            "referenceComments": [
+                {
+                    "value": "ATCC 51178 / DSM 5389 / JCM 8931 / NBRC 15437 / B12",
+                    "type": "STRAIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "4AYB"
+                },
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PDB",
+                    "id": "4V8S"
+                }
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "EMBL",
+            "id": "FJ515668",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "ACL36491.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "CP077717",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "QXJ27312.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "2WAQ",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "3.35 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "D=1-265"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "2WB1",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "3.52 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "D/S=1-265"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "2Y0S",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "3.80 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "D/S=1-265"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "4AYB",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "3.20 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "D=1-265"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "4V8S",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "X-ray"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "4.32 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "AS/BD=1-265"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "2WAQ",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "2WB1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "2Y0S",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "4AYB",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "4V8S",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "B8YB56",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "B8YB56",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "KEGG",
+            "id": "sshi:J5U23_00176",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OrthoDB",
+            "id": "84933at2157",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "BRENDA",
+            "id": "2.7.7.6",
+            "properties": [
+                {
+                    "key": "OrganismId",
+                    "value": "6162"
+                }
+            ]
+        },
+        {
+            "database": "EvolutionaryTrace",
+            "id": "B8YB56",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Proteomes",
+            "id": "UP000694018",
+            "properties": [
+                {
+                    "key": "Component",
+                    "value": "Chromosome"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005737",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:cytoplasm"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-SubCell"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0000428",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:DNA-directed RNA polymerase complex"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:UniProtKB"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "19419240"
+                },
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "21265742"
+                },
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "22848102"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0051538",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:3 iron, 4 sulfur cluster binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0003677",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:DNA binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-UniRule"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0046872",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:metal ion binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0001066",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:plastid single subunit type RNA polymerase activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-EC"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0046983",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:protein dimerization activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:InterPro"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0001054",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:RNA polymerase I activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-EC"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0001055",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:RNA polymerase II activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-EC"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0001056",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:RNA polymerase III activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-EC"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0001057",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:RNA polymerase IV activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-EC"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0001058",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:RNA polymerase V activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-EC"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd07030",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "RNAP_D"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "3.30.70.20",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.170.120.12",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA-directed RNA polymerase, insert domain"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "3.30.1360.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "RNA polymerase, RBP11-like subunit"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "HAMAP",
+            "id": "MF_00320",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "RNApol_arch_Rpo3"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR001514",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA-dir_RNA_pol_30-40kDasu_CS"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR011262",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA-dir_RNA_pol_insert"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR011263",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA-dir_RNA_pol_RpoA/D/Rpb3"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR036603",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "RBP11-like"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR022842",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "RNAP_Rpo3/Rpb3/RPAC1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR036643",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "RNApol_insert_sf"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR050518",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Rpo3/RPB3_RNA_Pol_subunit"
+                }
+            ]
+        },
+        {
+            "database": "PANTHER",
+            "id": "PTHR11800",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA-DIRECTED RNA POLYMERASE"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PANTHER",
+            "id": "PTHR11800:SF2",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA-DIRECTED RNA POLYMERASE II SUBUNIT RPB3"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF01000",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "RNA_pol_A_bac"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF01193",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "RNA_pol_L"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SMART",
+            "id": "SM00662",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "RPOLD"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF56553",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Insert subdomain of RNA polymerase alpha subunit"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF55257",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "RBP11-like subunits of RNA polymerase"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PROSITE",
+            "id": "PS00446",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "RNA_POL_D_30KD"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MSINLLHKDDKRIDLVFEGYPLEFVNAIRRAAMLYVPVMSIDDVYFIENNSPLYDEILAHRLALIPFTSEEALDTYRWPEECIDCTENCEKCYTKIYIEAEALNEPKMLYSKDIKSEDPSIVPISGDIPIVLLGANQKISLEARLRLGYGKEHAKFIPVSLAIVRYYPKVEILGNCEKGATVCPEGVFELKDGKLSVKNELACTLCEECLRYCNGLIRISSVEDKYILELESVGSLKPERILLEAGKSIIRKIEELEKKLVEVIK",
+        "length": 265,
+        "molWeight": 30142,
+        "crc64": "C9B868DD3DE305D0",
+        "md5": "4AB6851C41332DE00301E4B5D116D35D"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "CATALYTIC ACTIVITY": 1,
+            "COFACTOR": 1,
+            "SUBUNIT": 1,
+            "SUBCELLULAR LOCATION": 1,
+            "SIMILARITY": 1,
+            "CAUTION": 1
+        },
+        "countByFeatureType": {
+            "Chain": 1,
+            "Binding site": 3,
+            "Beta strand": 17,
+            "Helix": 7,
+            "Turn": 2
+        },
+        "uniParcId": "UPI00019220B0"
+    }
+}

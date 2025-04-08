@@ -1,0 +1,1554 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P36608",
+    "secondaryAccessions": [
+        "Q18608"
+    ],
+    "uniProtkbId": "NCS1_CAEEL",
+    "entryAudit": {
+        "firstPublicDate": "1995-11-01",
+        "lastAnnotationUpdateDate": "2025-02-05",
+        "lastSequenceUpdateDate": "2007-01-23",
+        "entryVersion": 146,
+        "sequenceVersion": 2
+    },
+    "annotationScore": 4.0,
+    "organism": {
+        "scientificName": "Caenorhabditis elegans",
+        "taxonId": 6239,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Ecdysozoa",
+            "Nematoda",
+            "Chromadorea",
+            "Rhabditida",
+            "Rhabditina",
+            "Rhabditomorpha",
+            "Rhabditoidea",
+            "Rhabditidae",
+            "Peloderinae",
+            "Caenorhabditis"
+        ]
+    },
+    "proteinExistence": "2: Evidence at transcript level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "value": "Neuronal calcium sensor 1"
+            },
+            "shortNames": [
+                {
+                    "value": "NCS-1"
+                }
+            ]
+        }
+    },
+    "genes": [
+        {
+            "geneName": {
+                "value": "ncs-1"
+            },
+            "orfNames": [
+                {
+                    "value": "C44C1.3"
+                }
+            ]
+        }
+    ],
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "11343658"
+                        }
+                    ],
+                    "value": "Neuronal calcium sensor, regulator of G protein-coupled receptor phosphorylation in a calcium dependent manner. Can substitute for calmodulin and directly activate PDE, NO synthase, and calcineurin. Regulates associative learning and memory in a calcium dependent manner"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000250",
+                                "source": "UniProtKB",
+                                "id": "P62166"
+                            },
+                            {
+                                "evidenceCode": "ECO:0000250",
+                                "source": "UniProtKB",
+                                "id": "P62168"
+                            }
+                        ],
+                        "value": "Membrane",
+                        "id": "SL-0162"
+                    },
+                    "topology": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000250",
+                                "source": "UniProtKB",
+                                "id": "P62166"
+                            }
+                        ],
+                        "value": "Lipid-anchor",
+                        "id": "SL-9901"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250"
+                        }
+                    ],
+                    "value": "Binds three calcium ions"
+                }
+            ],
+            "commentType": "MISCELLANEOUS"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Belongs to the recoverin family"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        }
+    ],
+    "features": [
+        {
+            "type": "Initiator methionine",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Removed",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250"
+                }
+            ]
+        },
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 2,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 191,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Neuronal calcium sensor 1",
+            "featureId": "PRO_0000073793"
+        },
+        {
+            "type": "Domain",
+            "location": {
+                "start": {
+                    "value": 24,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 59,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "EF-hand 1",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305"
+                }
+            ]
+        },
+        {
+            "type": "Domain",
+            "location": {
+                "start": {
+                    "value": 60,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 95,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "EF-hand 2",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU00448"
+                }
+            ]
+        },
+        {
+            "type": "Domain",
+            "location": {
+                "start": {
+                    "value": 96,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 131,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "EF-hand 3",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU00448"
+                }
+            ]
+        },
+        {
+            "type": "Domain",
+            "location": {
+                "start": {
+                    "value": 144,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 179,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "EF-hand 4",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU00448"
+                }
+            ]
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 73,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 73,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:29108"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU00448"
+                }
+            ],
+            "ligand": {
+                "name": "Ca(2+)",
+                "id": "ChEBI:CHEBI:29108",
+                "label": "1"
+            }
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 75,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 75,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:29108"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU00448"
+                }
+            ],
+            "ligand": {
+                "name": "Ca(2+)",
+                "id": "ChEBI:CHEBI:29108",
+                "label": "1"
+            }
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 77,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 77,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:29108"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU00448"
+                }
+            ],
+            "ligand": {
+                "name": "Ca(2+)",
+                "id": "ChEBI:CHEBI:29108",
+                "label": "1"
+            }
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 79,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 79,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:29108"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU00448"
+                }
+            ],
+            "ligand": {
+                "name": "Ca(2+)",
+                "id": "ChEBI:CHEBI:29108",
+                "label": "1"
+            }
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 84,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 84,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:29108"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU00448"
+                }
+            ],
+            "ligand": {
+                "name": "Ca(2+)",
+                "id": "ChEBI:CHEBI:29108",
+                "label": "1"
+            }
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 109,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 109,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:29108"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU00448"
+                }
+            ],
+            "ligand": {
+                "name": "Ca(2+)",
+                "id": "ChEBI:CHEBI:29108",
+                "label": "2"
+            }
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 111,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 111,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:29108"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU00448"
+                }
+            ],
+            "ligand": {
+                "name": "Ca(2+)",
+                "id": "ChEBI:CHEBI:29108",
+                "label": "2"
+            }
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 113,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 113,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:29108"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU00448"
+                }
+            ],
+            "ligand": {
+                "name": "Ca(2+)",
+                "id": "ChEBI:CHEBI:29108",
+                "label": "2"
+            }
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 115,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 115,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:29108"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU00448"
+                }
+            ],
+            "ligand": {
+                "name": "Ca(2+)",
+                "id": "ChEBI:CHEBI:29108",
+                "label": "2"
+            }
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 120,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 120,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:29108"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU00448"
+                }
+            ],
+            "ligand": {
+                "name": "Ca(2+)",
+                "id": "ChEBI:CHEBI:29108",
+                "label": "2"
+            }
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 157,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 157,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:29108"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU00448"
+                }
+            ],
+            "ligand": {
+                "name": "Ca(2+)",
+                "id": "ChEBI:CHEBI:29108",
+                "label": "3"
+            }
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 159,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 159,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:29108"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU00448"
+                }
+            ],
+            "ligand": {
+                "name": "Ca(2+)",
+                "id": "ChEBI:CHEBI:29108",
+                "label": "3"
+            }
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 161,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 161,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:29108"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU00448"
+                }
+            ],
+            "ligand": {
+                "name": "Ca(2+)",
+                "id": "ChEBI:CHEBI:29108",
+                "label": "3"
+            }
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 163,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 163,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:29108"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU00448"
+                }
+            ],
+            "ligand": {
+                "name": "Ca(2+)",
+                "id": "ChEBI:CHEBI:29108",
+                "label": "3"
+            }
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 168,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 168,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:29108"
+                }
+            ],
+            "ligand": {
+                "name": "Ca(2+)",
+                "id": "ChEBI:CHEBI:29108",
+                "label": "3"
+            }
+        },
+        {
+            "type": "Lipidation",
+            "location": {
+                "start": {
+                    "value": 2,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 2,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "N-myristoyl glycine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250"
+                }
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0106",
+            "category": "Ligand",
+            "name": "Calcium"
+        },
+        {
+            "id": "KW-0449",
+            "category": "PTM",
+            "name": "Lipoprotein"
+        },
+        {
+            "id": "KW-0472",
+            "category": "Cellular component",
+            "name": "Membrane"
+        },
+        {
+            "id": "KW-0479",
+            "category": "Ligand",
+            "name": "Metal-binding"
+        },
+        {
+            "id": "KW-0519",
+            "category": "PTM",
+            "name": "Myristate"
+        },
+        {
+            "id": "KW-1185",
+            "category": "Technical term",
+            "name": "Reference proteome"
+        },
+        {
+            "id": "KW-0677",
+            "category": "Domain",
+            "name": "Repeat"
+        }
+    ],
+    "references": [
+        {
+            "referenceNumber": 1,
+            "citation": {
+                "id": "7488079",
+                "citationType": "journal article",
+                "authors": [
+                    "de Castro E.",
+                    "Nef S.",
+                    "Fiumelli H.",
+                    "Lenz S.E.",
+                    "Kawamura S.",
+                    "Nef P."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "7488079"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1006/bbrc.1995.2601"
+                    }
+                ],
+                "title": "Regulation of rhodopsin phosphorylation by a family of neuronal calcium sensors.",
+                "publicationDate": "1995",
+                "journal": "Biochem. Biophys. Res. Commun.",
+                "firstPage": "133",
+                "lastPage": "140",
+                "volume": "216"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [MRNA]"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Bristol N2",
+                    "type": "STRAIN"
+                }
+            ]
+        },
+        {
+            "referenceNumber": 2,
+            "citation": {
+                "id": "9851916",
+                "citationType": "journal article",
+                "authoringGroup": [
+                    "The C. elegans sequencing consortium"
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "9851916"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1126/science.282.5396.2012"
+                    }
+                ],
+                "title": "Genome sequence of the nematode C. elegans: a platform for investigating biology.",
+                "publicationDate": "1998",
+                "journal": "Science",
+                "firstPage": "2012",
+                "lastPage": "2018",
+                "volume": "282"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Bristol N2",
+                    "type": "STRAIN"
+                }
+            ]
+        },
+        {
+            "referenceNumber": 3,
+            "citation": {
+                "id": "11343658",
+                "citationType": "journal article",
+                "authors": [
+                    "Gomez M.",
+                    "de Castro E.",
+                    "Guarin E.",
+                    "Sasakura H.",
+                    "Kuhara A.",
+                    "Mori I.",
+                    "Bartfai T.",
+                    "Bargmann C.I.",
+                    "Nef P."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "11343658"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/s0896-6273(01)00276-8"
+                    }
+                ],
+                "title": "Calcium-signalling via the neuron calcium sensor-1 regulates associative learning and memory in C.elegans.",
+                "publicationDate": "2001",
+                "journal": "Neuron",
+                "firstPage": "241",
+                "lastPage": "248",
+                "volume": "30"
+            },
+            "referencePositions": [
+                "FUNCTION"
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "EMBL",
+            "id": "L33680",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAA85631.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "FO080474",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "CCD63971.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "PIR",
+            "id": "T29566",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "T29566"
+                }
+            ]
+        },
+        {
+            "database": "RefSeq",
+            "id": "NP_508186.1",
+            "properties": [
+                {
+                    "key": "NucleotideSequenceId",
+                    "value": "NM_075785.1"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "P36608",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "P36608",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "STRING",
+            "id": "6239.C44C1.3.1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PaxDb",
+            "id": "6239-C44C1.3",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PeptideAtlas",
+            "id": "P36608",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "EnsemblMetazoa",
+            "id": "C44C1.3.1",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "C44C1.3.1"
+                },
+                {
+                    "key": "GeneId",
+                    "value": "WBGene00003563"
+                }
+            ]
+        },
+        {
+            "database": "GeneID",
+            "id": "180448",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "KEGG",
+            "id": "cel:CELE_C44C1.3",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "UCSC",
+            "id": "C44C1.3",
+            "properties": [
+                {
+                    "key": "OrganismName",
+                    "value": "c. elegans"
+                }
+            ]
+        },
+        {
+            "database": "AGR",
+            "id": "WB:WBGene00003563",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "CTD",
+            "id": "180448",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "WormBase",
+            "id": "C44C1.3",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "CE24845"
+                },
+                {
+                    "key": "GeneId",
+                    "value": "WBGene00003563"
+                },
+                {
+                    "key": "GeneName",
+                    "value": "ncs-1"
+                }
+            ]
+        },
+        {
+            "database": "eggNOG",
+            "id": "KOG0044",
+            "properties": [
+                {
+                    "key": "ToxonomicScope",
+                    "value": "Eukaryota"
+                }
+            ]
+        },
+        {
+            "database": "GeneTree",
+            "id": "ENSGT00940000163010",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "HOGENOM",
+            "id": "CLU_072366_1_2_1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "InParanoid",
+            "id": "P36608",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OMA",
+            "id": "EYVFNVF",
+            "properties": [
+                {
+                    "key": "Fingerprint",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OrthoDB",
+            "id": "191686at2759",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PhylomeDB",
+            "id": "P36608",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PRO",
+            "id": "PR:P36608",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Proteomes",
+            "id": "UP000001940",
+            "properties": [
+                {
+                    "key": "Component",
+                    "value": "Chromosome X"
+                }
+            ]
+        },
+        {
+            "database": "Bgee",
+            "id": "WBGene00003563",
+            "properties": [
+                {
+                    "key": "ExpressionPatterns",
+                    "value": "Expressed in larva and 3 other cell types or tissues"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0016020",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:membrane"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-SubCell"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0043025",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:neuronal cell body"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:WormBase"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "11343658"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005509",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:calcium ion binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0008048",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:calcium sensitive guanylate cyclase activator activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0007635",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:chemosensory behavior"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IMP:UniProtKB"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "23664973"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0006935",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:chemotaxis"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IMP:UniProtKB"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "23664973"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0009966",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:regulation of signal transduction"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0010446",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:response to alkaline pH"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IMP:UniProtKB"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "23664973"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd00051",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "EFh"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "2"
+                }
+            ]
+        },
+        {
+            "database": "FunFam",
+            "id": "1.10.238.10:FF:000009",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Visinin-like protein 1"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "1.10.238.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "EF-hand"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR011992",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "EF-hand-dom_pair"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR018247",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "EF_Hand_1_Ca_BS"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR002048",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "EF_hand_dom"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR028846",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Recoverin"
+                }
+            ]
+        },
+        {
+            "database": "PANTHER",
+            "id": "PTHR23055",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "CALCIUM BINDING PROTEINS"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PANTHER",
+            "id": "PTHR23055:SF198",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "NEURONAL CALCIUM SENSOR 1"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF13499",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "EF-hand_7"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF13833",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "EF-hand_8"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PRINTS",
+            "id": "PR00450",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "RECOVERIN"
+                }
+            ]
+        },
+        {
+            "database": "SMART",
+            "id": "SM00054",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "EFh"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "3"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF47473",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "EF-hand"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PROSITE",
+            "id": "PS00018",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "EF_HAND_1"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "2"
+                }
+            ]
+        },
+        {
+            "database": "PROSITE",
+            "id": "PS50222",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "EF_HAND_2"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "3"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MGKGNSKLKSSQIRDLAEQTYFTEKEIKQWYKGFVRDCPNGMLTEAGFQKIYKQFFPQGDPSDFASFVFKVFDENKDGAIEFHEFIRALSITSRGNLDEKLHWAFKLYDLDQDGFITRNEMLSIVDSIYKMVGSSVQLPEEENTPEKRVDRIFRMMDKNNDAQLTLEEFKEGAKADPSIVHALSLYEGLSS",
+        "length": 191,
+        "molWeight": 22022,
+        "crc64": "66D2A71BAAC2C044",
+        "md5": "59D7320F2099054B4ADA24706C027604"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "SUBCELLULAR LOCATION": 1,
+            "MISCELLANEOUS": 1,
+            "SIMILARITY": 1
+        },
+        "countByFeatureType": {
+            "Initiator methionine": 1,
+            "Chain": 1,
+            "Domain": 4,
+            "Binding site": 15,
+            "Lipidation": 1
+        },
+        "uniParcId": "UPI00001642FD"
+    }
+}

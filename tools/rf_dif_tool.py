@@ -46,9 +46,9 @@ def run_rf_diffusion(script_str, pdb_file_path):
     except subprocess.CalledProcessError as e:
         os.unlink(script_temp_path)
         raise Exception(f"Script execution failed: {e}") from e
-
+    return "SUCECSS"
     # Define the expected output path
-    output_pdb = os.path.join(WORKING_DIR, "example_outputs/C6_oligo_0000.pdb")
+'''    output_pdb = os.path.join(WORKING_DIR, "example_outputs/C6_oligo_0000.pdb")
 
     # Check if the output file was generated
     if not os.path.exists(output_pdb):
@@ -56,6 +56,6 @@ def run_rf_diffusion(script_str, pdb_file_path):
         raise Exception("Output file not found")
 
     # Remove the temporary script file
-    os.unlink(script_temp_path)
+    os.unlink(script_temp_path)'''
 
-    return output_pdb
+    

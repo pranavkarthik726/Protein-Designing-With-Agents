@@ -9,6 +9,7 @@ class PyRosettaWrapper:
         """
         self.dir = dir
         print(f"PyRosettaWrapper initialized with directory: {self.dir}")
+        
     
     def initialize_pyrosetta(self,extra_flags=""):
         """
@@ -77,8 +78,8 @@ class PyRosettaWrapper:
     
     def run(self,pdb_file):
             # Initialize PyRosetta
-        initialize_pyrosetta("-ex1 -ex2aro")
-        
+ 
+        self.initialize_pyrosetta("-ex1 -ex2aro")
         # Load protein structure (update path as needed)
         pose = self.load_protein(pdb_file)
         if pose is None:

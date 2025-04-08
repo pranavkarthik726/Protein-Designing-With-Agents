@@ -24,7 +24,7 @@ class toolset:
         params = {
             "query": query,
             "format": "json",
-            "size": 5 #adjust as needed.
+            "size": 20 #adjust as needed.
         }
 
         try:

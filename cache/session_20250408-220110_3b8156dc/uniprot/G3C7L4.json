@@ -1,0 +1,1313 @@
+{
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "G3C7L4",
+    "uniProtkbId": "G3C7L4_HRSV",
+    "entryAudit": {
+        "firstPublicDate": "2011-11-16",
+        "lastAnnotationUpdateDate": "2025-02-05",
+        "lastSequenceUpdateDate": "2011-11-16",
+        "entryVersion": 77,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 4.0,
+    "organism": {
+        "scientificName": "Human respiratory syncytial virus",
+        "taxonId": 11250,
+        "evidences": [
+            {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "AEO45852.1"
+            },
+            {
+                "evidenceCode": "ECO:0000313",
+                "source": "Proteomes",
+                "id": "UP000108641"
+            }
+        ],
+        "lineage": [
+            "Viruses",
+            "Riboviria",
+            "Orthornavirae",
+            "Negarnaviricota",
+            "Haploviricotina",
+            "Monjiviricetes",
+            "Mononegavirales",
+            "Pneumoviridae",
+            "Orthopneumovirus",
+            "Orthopneumovirus hominis"
+        ]
+    },
+    "organismHosts": [
+        {
+            "scientificName": "Homo sapiens",
+            "commonName": "Human",
+            "taxonId": 9606
+        }
+    ],
+    "proteinExistence": "3: Inferred from homology",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000256",
+                        "source": "PIRNR",
+                        "id": "PIRNR000830"
+                    }
+                ],
+                "value": "RNA-directed RNA polymerase L"
+            },
+            "shortNames": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "PIRNR",
+                            "id": "PIRNR000830"
+                        }
+                    ],
+                    "value": "Protein L"
+                }
+            ]
+        },
+        "alternativeNames": [
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "PIRNR",
+                            "id": "PIRNR000830"
+                        }
+                    ],
+                    "value": "Large structural protein"
+                }
+            },
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "PIRNR",
+                            "id": "PIRNR000830"
+                        }
+                    ],
+                    "value": "Replicase"
+                }
+            },
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "PIRNR",
+                            "id": "PIRNR000830"
+                        }
+                    ],
+                    "value": "Transcriptase"
+                }
+            }
+        ],
+        "includes": [
+            {
+                "recommendedName": {
+                    "fullName": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000256",
+                                "source": "PIRNR",
+                                "id": "PIRNR000830"
+                            }
+                        ],
+                        "value": "RNA-directed RNA polymerase"
+                    },
+                    "ecNumbers": [
+                        {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000256",
+                                    "source": "PIRNR",
+                                    "id": "PIRNR000830"
+                                }
+                            ],
+                            "value": "2.7.7.48"
+                        }
+                    ]
+                }
+            },
+            {
+                "recommendedName": {
+                    "fullName": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000256",
+                                "source": "PIRNR",
+                                "id": "PIRNR000830"
+                            }
+                        ],
+                        "value": "GTP phosphohydrolase"
+                    },
+                    "ecNumbers": [
+                        {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000256",
+                                    "source": "PIRNR",
+                                    "id": "PIRNR000830"
+                                }
+                            ],
+                            "value": "3.6.1.-"
+                        }
+                    ]
+                }
+            },
+            {
+                "recommendedName": {
+                    "fullName": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000256",
+                                "source": "PIRNR",
+                                "id": "PIRNR000830"
+                            }
+                        ],
+                        "value": "GDP polyribonucleotidyltransferase"
+                    },
+                    "ecNumbers": [
+                        {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000256",
+                                    "source": "PIRNR",
+                                    "id": "PIRNR000830"
+                                }
+                            ],
+                            "value": "2.7.7.88"
+                        }
+                    ]
+                },
+                "alternativeNames": [
+                    {
+                        "fullName": {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000256",
+                                    "source": "PIRNR",
+                                    "id": "PIRNR000830"
+                                }
+                            ],
+                            "value": "PRNTase"
+                        }
+                    }
+                ]
+            },
+            {
+                "recommendedName": {
+                    "fullName": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000256",
+                                "source": "PIRNR",
+                                "id": "PIRNR000830"
+                            }
+                        ],
+                        "value": "mRNA (nucleoside-2'-O-)-methyltransferase"
+                    },
+                    "shortNames": [
+                        {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000256",
+                                    "source": "PIRNR",
+                                    "id": "PIRNR000830"
+                                }
+                            ],
+                            "value": "N1-2'-O-MTase"
+                        }
+                    ],
+                    "ecNumbers": [
+                        {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000256",
+                                    "source": "PIRNR",
+                                    "id": "PIRNR000830"
+                                }
+                            ],
+                            "value": "2.1.1.-"
+                        }
+                    ]
+                }
+            },
+            {
+                "recommendedName": {
+                    "fullName": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000256",
+                                "source": "PIRNR",
+                                "id": "PIRNR000830"
+                            }
+                        ],
+                        "value": "mRNA (guanine-N(7)-)-methyltransferase"
+                    },
+                    "shortNames": [
+                        {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000256",
+                                    "source": "PIRNR",
+                                    "id": "PIRNR000830"
+                                }
+                            ],
+                            "value": "G-N7-MTase"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "genes": [
+        {
+            "geneName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000313",
+                        "source": "EMBL",
+                        "id": "AEO45852.1"
+                    }
+                ],
+                "value": "L viral polymerase"
+            }
+        }
+    ],
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "PIRNR",
+                            "id": "PIRNR000830"
+                        }
+                    ],
+                    "value": "Responsible for RNA synthesis (replicase and transcriptase), cap addition, and cap methylation. Performs also the polyadenylation of subgenomic mRNAs by a stuttering mechanism at a slipery stop site present at the end of viral genes. The template is composed of the viral RNA tightly encapsidated by the nucleoprotein (N). The viral polymerase binds to the genomic RNA at two different sites in the 3' leader promoter thereby initiating either genome replication or mRNA transcription. In the transcription mode, the polymerase performs the sequential transcription of all mRNAs using a termination-reinitiation mechanism responding to gene start and gene end signals. Some polymerase disengage from the template at each gene junction, resulting in a decreasing abundance of transcripts from the 3' to the 5' end of the genome. The first gene is the most transcribed, and the last the least transcribed. Needs as cofactors the phosphoprotein for processivity and the M2-1 anti-termination protein. Polyribonucleotidyl transferase (PRNTase) adds the cap structure when the nascent RNA chain length has reached few nucleotides Ribose 2'-O methylation of viral mRNA cap precedes and facilitates subsequent guanine-N-7 methylation. In the replication mode, the polymerase replicates the whole viral genome without recognizing the gene end transcriptional signals. The ability of the polymerase to override the gene end signals as it is producing the antigenome is probably due to replicative RNA becoming encapsidated with nucleoprotein as it is synthesized"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "commentType": "CATALYTIC ACTIVITY",
+            "reaction": {
+                "name": "GTP + H2O = GDP + phosphate + H(+)",
+                "reactionCrossReferences": [
+                    {
+                        "database": "Rhea",
+                        "id": "RHEA:19669"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:15377"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:15378"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:37565"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:43474"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:58189"
+                    }
+                ],
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000256",
+                        "source": "ARBA",
+                        "id": "ARBA00048548"
+                    },
+                    {
+                        "evidenceCode": "ECO:0000256",
+                        "source": "PIRNR",
+                        "id": "PIRNR000830"
+                    }
+                ]
+            }
+        },
+        {
+            "commentType": "CATALYTIC ACTIVITY",
+            "reaction": {
+                "name": "RNA(n) + a ribonucleoside 5'-triphosphate = RNA(n+1) + diphosphate",
+                "reactionCrossReferences": [
+                    {
+                        "database": "Rhea",
+                        "id": "RHEA:21248"
+                    },
+                    {
+                        "database": "Rhea",
+                        "id": "RHEA-COMP:14527"
+                    },
+                    {
+                        "database": "Rhea",
+                        "id": "RHEA-COMP:17342"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:33019"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:61557"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:140395"
+                    }
+                ],
+                "ecNumber": "2.7.7.48",
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000256",
+                        "source": "PIRNR",
+                        "id": "PIRNR000830"
+                    }
+                ]
+            }
+        },
+        {
+            "commentType": "CATALYTIC ACTIVITY",
+            "reaction": {
+                "name": "a 5'-end (5'-triphosphoguanosine)-(2'-O-methyladenylyl)-adenylyl-cytidylyl-adenosine in mRNA + S-adenosyl-L-methionine = a 5'-end (N(7)-methyl 5'-triphosphoguanosine)-(2'-O-methyladenylyl)-adenylyl-cytidylyl-adenosine in mRNA + S-adenosyl-L-homocysteine",
+                "reactionCrossReferences": [
+                    {
+                        "database": "Rhea",
+                        "id": "RHEA:65440"
+                    },
+                    {
+                        "database": "Rhea",
+                        "id": "RHEA-COMP:16798"
+                    },
+                    {
+                        "database": "Rhea",
+                        "id": "RHEA-COMP:16801"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:57856"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:59789"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:156482"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:156483"
+                    }
+                ],
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000256",
+                        "source": "ARBA",
+                        "id": "ARBA00024499"
+                    },
+                    {
+                        "evidenceCode": "ECO:0000256",
+                        "source": "PIRNR",
+                        "id": "PIRNR000830"
+                    }
+                ]
+            }
+        },
+        {
+            "commentType": "CATALYTIC ACTIVITY",
+            "reaction": {
+                "name": "a 5'-end (5'-triphosphoguanosine)-adenylyl-adenylyl-cytidylyl-adenosine in mRNA + 2 S-adenosyl-L-methionine = a 5'-end (N(7)-methyl 5'-triphosphoguanosine)-(2'-O-methyladenylyl)-adenylyl-cytidylyl-adenosine in mRNA + 2 S-adenosyl-L-homocysteine + H(+)",
+                "reactionCrossReferences": [
+                    {
+                        "database": "Rhea",
+                        "id": "RHEA:65376"
+                    },
+                    {
+                        "database": "Rhea",
+                        "id": "RHEA-COMP:16797"
+                    },
+                    {
+                        "database": "Rhea",
+                        "id": "RHEA-COMP:16798"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:15378"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:57856"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:59789"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:156483"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:156484"
+                    }
+                ],
+                "ecNumber": "2.1.1.375",
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000256",
+                        "source": "ARBA",
+                        "id": "ARBA00047370"
+                    }
+                ]
+            }
+        },
+        {
+            "commentType": "CATALYTIC ACTIVITY",
+            "reaction": {
+                "name": "a 5'-end (5'-triphosphoguanosine)-adenylyl-adenylyl-cytidylyl-adenosine in mRNA + S-adenosyl-L-methionine = a 5'-end (5'-triphosphoguanosine)-(2'-O-methyladenylyl)-adenylyl-cytidylyl-adenosine in mRNA + S-adenosyl-L-homocysteine + H(+)",
+                "reactionCrossReferences": [
+                    {
+                        "database": "Rhea",
+                        "id": "RHEA:65380"
+                    },
+                    {
+                        "database": "Rhea",
+                        "id": "RHEA-COMP:16797"
+                    },
+                    {
+                        "database": "Rhea",
+                        "id": "RHEA-COMP:16801"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:15378"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:57856"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:59789"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:156482"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:156484"
+                    }
+                ],
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000256",
+                        "source": "ARBA",
+                        "id": "ARBA00047332"
+                    },
+                    {
+                        "evidenceCode": "ECO:0000256",
+                        "source": "PIRNR",
+                        "id": "PIRNR000830"
+                    }
+                ]
+            }
+        },
+        {
+            "commentType": "CATALYTIC ACTIVITY",
+            "reaction": {
+                "name": "a 5'-end triphospho-adenylyl-adenylyl-cytidylyl-adenosine in mRNA + GDP + H(+) = a 5'-end (5'-triphosphoguanosine)-adenylyl-adenylyl-cytidylyl-adenosine in mRNA + diphosphate",
+                "reactionCrossReferences": [
+                    {
+                        "database": "Rhea",
+                        "id": "RHEA:65436"
+                    },
+                    {
+                        "database": "Rhea",
+                        "id": "RHEA-COMP:16797"
+                    },
+                    {
+                        "database": "Rhea",
+                        "id": "RHEA-COMP:16799"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:15378"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:33019"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:58189"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:156484"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:156503"
+                    }
+                ],
+                "ecNumber": "2.7.7.88",
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000256",
+                        "source": "ARBA",
+                        "id": "ARBA00024494"
+                    }
+                ]
+            }
+        },
+        {
+            "commentType": "COFACTOR",
+            "cofactors": [
+                {
+                    "name": "Mg(2+)",
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "ARBA",
+                            "id": "ARBA00001946"
+                        }
+                    ],
+                    "cofactorCrossReference": {
+                        "database": "ChEBI",
+                        "id": "CHEBI:18420"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "ARBA",
+                            "id": "ARBA00024052"
+                        }
+                    ],
+                    "value": "Interacts with the phosphoprotein (via C-terminus); the association of P and L forms the polymerase complex"
+                }
+            ],
+            "commentType": "SUBUNIT"
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000256",
+                                "source": "PIRNR",
+                                "id": "PIRNR000830"
+                            }
+                        ],
+                        "value": "Virion",
+                        "id": "SL-0274"
+                    }
+                },
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000256",
+                                "source": "PIRNR",
+                                "id": "PIRNR000830"
+                            }
+                        ],
+                        "value": "Host cytoplasm",
+                        "id": "SL-0381"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "ARBA",
+                            "id": "ARBA00007934"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000256",
+                            "source": "PIRNR",
+                            "id": "PIRNR000830"
+                        }
+                    ],
+                    "value": "Belongs to the paramyxovirus L protein family"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        }
+    ],
+    "features": [
+        {
+            "type": "Domain",
+            "location": {
+                "start": {
+                    "value": 693,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 877,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "RdRp catalytic",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000259",
+                    "source": "PROSITE",
+                    "id": "PS50526"
+                }
+            ]
+        },
+        {
+            "type": "Domain",
+            "location": {
+                "start": {
+                    "value": 1820,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 2008,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Mononegavirus-type SAM-dependent 2'-O-MTase",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000259",
+                    "source": "PROSITE",
+                    "id": "PS51590"
+                }
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "PIRNR",
+                    "id": "PIRNR000830"
+                }
+            ],
+            "id": "KW-0067",
+            "category": "Ligand",
+            "name": "ATP-binding"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "ARBA",
+                    "id": "ARBA00023200"
+                },
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "PIRNR",
+                    "id": "PIRNR000830"
+                }
+            ],
+            "id": "KW-1035",
+            "category": "Cellular component",
+            "name": "Host cytoplasm"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "ARBA",
+                    "id": "ARBA00022801"
+                }
+            ],
+            "id": "KW-0378",
+            "category": "Molecular function",
+            "name": "Hydrolase"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "ARBA",
+                    "id": "ARBA00022842"
+                }
+            ],
+            "id": "KW-0460",
+            "category": "Ligand",
+            "name": "Magnesium"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "ARBA",
+                    "id": "ARBA00022723"
+                }
+            ],
+            "id": "KW-0479",
+            "category": "Ligand",
+            "name": "Metal-binding"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "ARBA",
+                    "id": "ARBA00022603"
+                },
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "PIRNR",
+                    "id": "PIRNR000830"
+                }
+            ],
+            "id": "KW-0489",
+            "category": "Molecular function",
+            "name": "Methyltransferase"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "ARBA",
+                    "id": "ARBA00023042"
+                },
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "PIRNR",
+                    "id": "PIRNR000830"
+                }
+            ],
+            "id": "KW-0506",
+            "category": "Biological process",
+            "name": "mRNA capping"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "ARBA",
+                    "id": "ARBA00022664"
+                },
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "PIRNR",
+                    "id": "PIRNR000830"
+                }
+            ],
+            "id": "KW-0507",
+            "category": "Biological process",
+            "name": "mRNA processing"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "ARBA",
+                    "id": "ARBA00023268"
+                }
+            ],
+            "id": "KW-0511",
+            "category": "Molecular function",
+            "name": "Multifunctional enzyme"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "PIRNR",
+                    "id": "PIRNR000830"
+                }
+            ],
+            "id": "KW-0547",
+            "category": "Ligand",
+            "name": "Nucleotide-binding"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "ARBA",
+                    "id": "ARBA00022695"
+                },
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "PIRNR",
+                    "id": "PIRNR000830"
+                }
+            ],
+            "id": "KW-0548",
+            "category": "Molecular function",
+            "name": "Nucleotidyltransferase"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "ARBA",
+                    "id": "ARBA00022484"
+                },
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "PIRNR",
+                    "id": "PIRNR000830"
+                }
+            ],
+            "id": "KW-0696",
+            "category": "Molecular function",
+            "name": "RNA-directed RNA polymerase"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "ARBA",
+                    "id": "ARBA00022691"
+                },
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "PIRNR",
+                    "id": "PIRNR000830"
+                }
+            ],
+            "id": "KW-0949",
+            "category": "Ligand",
+            "name": "S-adenosyl-L-methionine"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "PIRNR",
+                    "id": "PIRNR000830"
+                }
+            ],
+            "id": "KW-0808",
+            "category": "Molecular function",
+            "name": "Transferase"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "ARBA",
+                    "id": "ARBA00022953"
+                },
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "PIRNR",
+                    "id": "PIRNR000830"
+                }
+            ],
+            "id": "KW-0693",
+            "category": "Biological process",
+            "name": "Viral RNA replication"
+        },
+        {
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "ARBA",
+                    "id": "ARBA00022844"
+                },
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "PIRNR",
+                    "id": "PIRNR000830"
+                }
+            ],
+            "id": "KW-0946",
+            "category": "Cellular component",
+            "name": "Virion"
+        }
+    ],
+    "references": [
+        {
+            "referenceNumber": 1,
+            "citation": {
+                "id": "21794174",
+                "citationType": "journal article",
+                "authors": [
+                    "Kumaria R.",
+                    "Iyer L.R.",
+                    "Hibberd M.L.",
+                    "Simoes E.A.",
+                    "Sugrue R.J."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "21794174"
+                    }
+                ],
+                "title": "Whole genome characterization of non-tissue culture adapted HRSV strains in severely infected children.",
+                "publicationDate": "2011",
+                "journal": "Virol. J.",
+                "firstPage": "372",
+                "lastPage": "372",
+                "volume": "8"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ],
+            "referenceComments": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000313",
+                            "source": "EMBL",
+                            "id": "AEO45852.1"
+                        }
+                    ],
+                    "value": "RSV-4",
+                    "type": "STRAIN"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "EMBL",
+                    "id": "AEO45852.1"
+                },
+                {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "Proteomes",
+                    "id": "UP000108641"
+                }
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "EMBL",
+            "id": "GU591761",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AEO45852.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Viral_cRNA"
+                }
+            ]
+        },
+        {
+            "database": "Proteomes",
+            "id": "UP000108641",
+            "properties": [
+                {
+                    "key": "Component",
+                    "value": "Genome"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0030430",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:host cell cytoplasm"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-SubCell"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0044423",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:virion component"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005524",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:ATP binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:1990606",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:membrane scission GTPase motor activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:RHEA"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0046872",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:metal ion binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0004482",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:mRNA 5'-cap (guanine-N7-)-methyltransferase activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:InterPro"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0003968",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:RNA-dependent RNA polymerase activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR039530",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "L_methyltransferase_rhabdo"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR039736",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "L_poly_C"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR026890",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Mononeg_mRNAcap"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR014023",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Mononeg_RNA_pol_cat"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR025786",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Mononega_L_MeTrfase"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR016269",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "RNA-dir_pol_paramyxovirus"
+                }
+            ]
+        },
+        {
+            "database": "NCBIfam",
+            "id": "TIGR04198",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "paramyx_RNAcap"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF14314",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Methyltrans_Mon_2nd"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF14318",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Mononeg_mRNAcap"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF00946",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Mononeg_RNA_pol"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PIRSF",
+            "id": "PIRSF000830",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "RNA_pol_ParamyxoV"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "3"
+                }
+            ]
+        },
+        {
+            "database": "PROSITE",
+            "id": "PS50526",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "RDRP_SSRNA_NEG_NONSEG"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PROSITE",
+            "id": "PS51590",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "SAM_MT_MNV_L"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MDPIINGNSANVYLTDSYLKGVISFSECNALGSYIFNGPYLKNDYTNLISRQNPLIEHINLKKLNITQSLISKYHKGEIKIEEPTYFQSLLMTYKSMTSSEQITTTNLLKKIIRRAIEISDVKVYAILNKLGLKEKDKIKSNNGQDENNSVITTIIKDDILLAVKDNQSHLKAGKNHSTKQKDTIKTTLLKKLMCSMQHPPSWLIHWFNLYTKLNNILTQYRSNEVKNHGFILIDNHTLNGFQFILNQYGCIVYHKELKRITVTTYNQFLTWKDISLSRLNVCLITWISNCLNTLNKSLGLRWGFNNVILTQLFLYGDCILKLFHNEGFYIIKEVEGFIMSLILNITEEDQFRKRFYNSMLNNITDAANKAQKNLLSRVCHTLLDKTVSDNIINGRWIILLSKFLKLIKLAGDNNLNNLSELYFLFRIFGHPMVDERQAMDAVKINCNETKFYLLSSLSMLRGAFIYRIIKGFVNNYNRWPTLRNAIVLPLRWLTYYKLNTYPSLLELTERDLIVLSGLRFYREFRLPKKVDLEMIINDKAISPPKNLIWTSFPRNYMPSHIQNYIEHEKLKFSESDKSRRVLEYYLRDNKFNECDLYNCVVNQSYLNNPNHVVSLTGKERELSVGRMFAMQPGMFRQVQILAEKMIAENILQFFPESLTRYGDLELQKILELKAGISNKSNRYNDNYNNYISKCSIITDLSKFNQAFRYETSCICSDVLDELHGVQSLFSWLHLTIPHVTIICTYRHAPPYIRDHIVDLNNVDEQSGLYRYHMGGIEGWCQKLWTIEAISLLDLISLKGKFSITALINGDNQSIDISKPVRLMEGQTHAQADYLLALNSLKLLYKEYAGIGHKLKGTETYISRDMQFMSKTIQHNGVYYPASIKKVLRVGPWINTILDDFKVSLESIGSLTQELEYRGESLLCSLIFRNVWLYNQIALQLKNHALCNNKLYLDILKVLKHLKTFFNLDNIDTALTLYMNLPMLFGGGDPNLLYRSFYRRTPDFLTEAIVHSVFILSYYTNHDLKDKLQDLSDDRLNKFLTCIITFDKNPNAEFVTLMRDPQALGSERQAKITSEINRLAVTEVLSTAPNKIFSKSAQHYTTTEIDLNDIMQNIEPTYPHGLRVVYESLPFYKAEKIVNLISGTKSITNILEKTSAIDLTDIDRATEMMRKNITLLIRILPLDCNRDKREILSMENLSITELSKYVRERSWSLSNIVGVTSPSIMYTMDIKYTTSTISSGIIIEKYNVNSLTRGERGPTKPWVGSSTQEKKTMPVYNRQVLTKKQRDQIDLLAKLDWVYASIDNKDEFMEELSIGTLGLTYEKAKKLFPQYLSVNYLHRLTVSSRPCEFPASIPAYRTTNYHFDTSPINRILTEKYGDEDIDIVFQNCISFGLSLMSVVEQFTNVCPNRIILIPKLNEIHLMKPPIFTGDVDIHKLKQVIQKQHMFLPDKISLTQYVELFLSNKTLKSGSHVNSNLILAHKISDYFHNTYILSTNLAGHWILIIQLMKDSKGIFEKDWGEGYITDHMFINLKVFFNAYKTYLLCFHKGYGKAKLECDMNTSDLLCVLELIDSSYWKSMSKVFLEQKVIKYILSQDASLHRVKGCHSFKLWFLKRLNVAEFTVCPWVVNIDYHPTHMKAILTYIDLVRMGLINIDRIHIKNKHKFNDEFYTSNLFYINYNFSDNTHLLTKHIRIANSELENNYNKLYHPTPETLENILANPIKSNDKKTLNDYCIGKNVDSIMLPLLSNKKLIKSSAMIRTNYSKQDLYNLFPMVVIDRIIDHSGNTAKSNQLYTTTSHQISLVHNSTSLYCMLPWHHINRFNFVFSSTGCKISIEYILKDLKIKDPNCIAFIGEGAGNLLLRTVVELHPDIRYIYRSLKDCNDHSLPIEFLRLYNGHINIDYGENLTIPATDATNNIHWSYLHIKFAEPISLFVCDAELPVTVNWSKIIIEWSKHVRKCKYCSSVNKCTLIVKYHAQDDIDFKLDNITILKTYVCLGSKLKGSEVYLVLTIGPANVFPVFNVVQNAKLILSRTKNFIMPKKADKESIDANIKSLIPFLCYPITKKGINTALSKLKSVVSGDILSYSIAGRNEVFSNKLINHKHMNILKWFNHVLNFRSTELNYNHLYMVESTYPYLSELLNSLTTNELKKLIKITGSLLYNFHNE",
+        "length": 2165,
+        "molWeight": 250547,
+        "crc64": "E744139A10DA53D4",
+        "md5": "55AAFD3F9CDF4EC3A1E2CD641DBBC996"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "CATALYTIC ACTIVITY": 6,
+            "COFACTOR": 1,
+            "SUBUNIT": 1,
+            "SUBCELLULAR LOCATION": 1,
+            "SIMILARITY": 1
+        },
+        "countByFeatureType": {
+            "Domain": 2
+        },
+        "uniParcId": "UPI00022A2D73"
+    }
+}
