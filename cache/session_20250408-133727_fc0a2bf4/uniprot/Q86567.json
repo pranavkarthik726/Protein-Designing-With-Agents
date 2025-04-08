@@ -1,0 +1,1047 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q86567",
+    "uniProtkbId": "MREP_BBTVA",
+    "entryAudit": {
+        "firstPublicDate": "2009-07-28",
+        "lastAnnotationUpdateDate": "2025-02-05",
+        "lastSequenceUpdateDate": "1996-11-01",
+        "entryVersion": 87,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 5.0,
+    "organism": {
+        "scientificName": "Banana bunchy top virus (isolate Autralia)",
+        "commonName": "BBTV",
+        "taxonId": 645099,
+        "lineage": [
+            "Viruses",
+            "Monodnaviria",
+            "Shotokuvirae",
+            "Cressdnaviricota",
+            "Arfiviricetes",
+            "Mulpavirales",
+            "Nanoviridae",
+            "Babuvirus",
+            "Babuvirus musae",
+            "Banana bunchy top virus"
+        ]
+    },
+    "organismHosts": [
+        {
+            "scientificName": "Musa",
+            "taxonId": 4640
+        }
+    ],
+    "proteinExistence": "3: Inferred from homology",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "value": "Master replication protein"
+            },
+            "shortNames": [
+                {
+                    "value": "M-Rep"
+                }
+            ],
+            "ecNumbers": [
+                {
+                    "value": "2.7.7.-"
+                },
+                {
+                    "value": "3.1.21.-"
+                },
+                {
+                    "value": "3.6.1.-"
+                }
+            ]
+        }
+    },
+    "genes": [
+        {
+            "geneName": {
+                "value": "DNA-R"
+            },
+            "synonyms": [
+                {
+                    "value": "C1"
+                }
+            ]
+        }
+    ],
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250"
+                        }
+                    ],
+                    "value": "Essential for the replication of all genomic viral ssDNA (trans-replication). The closed circular ssDNA genome is first converted to a superhelical dsDNA. Rep binds a specific hairpin at the genome origin of replication. Introduces an endonucleolytic nick within the conserved sequence 5'-A[GT]TATTAC-3' in the intergenic region of the genome, thereby initiating the rolling circle replication (RCR). Following cleavage, binds covalently to the 5'-phosphate of DNA as a tyrosyl ester. The cleavage gives rise to a free 3'-OH that serves as a primer for the cellular DNA polymerase. The polymerase synthesizes the (+) strand DNA by rolling circle mechanism. After one round of replication, a Rep-catalyzed nucleotidyl transfer reaction releases a circular single-stranded virus genome, thereby terminating the replication. Displays origin-specific DNA cleavage, nucleotidyl transferase, ATPase and helicase activities (By similarity)"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "commentType": "CATALYTIC ACTIVITY",
+            "reaction": {
+                "name": "ATP + H2O = ADP + phosphate + H(+)",
+                "reactionCrossReferences": [
+                    {
+                        "database": "Rhea",
+                        "id": "RHEA:13065"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:15377"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:15378"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:30616"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:43474"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:456216"
+                    }
+                ]
+            }
+        },
+        {
+            "commentType": "COFACTOR",
+            "cofactors": [
+                {
+                    "name": "Mg(2+)",
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250"
+                        }
+                    ],
+                    "cofactorCrossReference": {
+                        "database": "ChEBI",
+                        "id": "CHEBI:18420"
+                    }
+                },
+                {
+                    "name": "Mn(2+)",
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250"
+                        }
+                    ],
+                    "cofactorCrossReference": {
+                        "database": "ChEBI",
+                        "id": "CHEBI:29035"
+                    }
+                }
+            ],
+            "note": {
+                "texts": [
+                    {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000250"
+                            }
+                        ],
+                        "value": "Divalent metal cations, possibly Mg(2+) or Mn(2+)."
+                    }
+                ]
+            }
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Homooligomer (Potential). Rep binds to repeated DNA motifs (iterons) (By similarity)"
+                }
+            ],
+            "commentType": "SUBUNIT"
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000305"
+                            }
+                        ],
+                        "value": "Host nucleus",
+                        "id": "SL-0414"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250"
+                        }
+                    ],
+                    "value": "There are 3 rolling circle replication (RCR) motifs. RCR-2 is probably involved in metal coordination. RCR-3 is required for phosphodiester bond cleavage for initiation of RCR (By similarity)"
+                }
+            ],
+            "commentType": "DOMAIN"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Belongs to the nanoviridea/circoviridae replication-associated protein family"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        }
+    ],
+    "features": [
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 286,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Master replication protein",
+            "featureId": "PRO_0000379898"
+        },
+        {
+            "type": "Domain",
+            "location": {
+                "start": {
+                    "value": 2,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 96,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "CRESS-DNA virus Rep endonuclease",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU01364"
+                }
+            ]
+        },
+        {
+            "type": "Motif",
+            "location": {
+                "start": {
+                    "value": 9,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 12,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "RCR-1",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU01364"
+                }
+            ]
+        },
+        {
+            "type": "Motif",
+            "location": {
+                "start": {
+                    "value": 41,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 43,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "RCR-2",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU01364"
+                }
+            ]
+        },
+        {
+            "type": "Motif",
+            "location": {
+                "start": {
+                    "value": 50,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 70,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Nuclear localization signal",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255"
+                }
+            ]
+        },
+        {
+            "type": "Motif",
+            "location": {
+                "start": {
+                    "value": 79,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 82,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "RCR-3",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU01364"
+                }
+            ]
+        },
+        {
+            "type": "Motif",
+            "location": {
+                "start": {
+                    "value": 96,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 102,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Nuclear localization signal",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255"
+                }
+            ]
+        },
+        {
+            "type": "Active site",
+            "location": {
+                "start": {
+                    "value": 79,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 79,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "For DNA cleavage activity",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU01364"
+                }
+            ]
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 33,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 33,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:60240"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255"
+                }
+            ],
+            "ligand": {
+                "name": "a divalent metal cation",
+                "id": "ChEBI:CHEBI:60240"
+            }
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 41,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 41,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:60240"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255"
+                }
+            ],
+            "ligand": {
+                "name": "a divalent metal cation",
+                "id": "ChEBI:CHEBI:60240"
+            }
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 84,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 84,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:60240"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255"
+                }
+            ],
+            "ligand": {
+                "name": "a divalent metal cation",
+                "id": "ChEBI:CHEBI:60240"
+            }
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 180,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 188,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:30616"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250"
+                }
+            ],
+            "ligand": {
+                "name": "ATP",
+                "id": "ChEBI:CHEBI:30616"
+            }
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0067",
+            "category": "Ligand",
+            "name": "ATP-binding"
+        },
+        {
+            "id": "KW-0190",
+            "category": "PTM",
+            "name": "Covalent protein-DNA linkage"
+        },
+        {
+            "id": "KW-0235",
+            "category": "Biological process",
+            "name": "DNA replication"
+        },
+        {
+            "id": "KW-0238",
+            "category": "Molecular function",
+            "name": "DNA-binding"
+        },
+        {
+            "id": "KW-0255",
+            "category": "Molecular function",
+            "name": "Endonuclease"
+        },
+        {
+            "id": "KW-0347",
+            "category": "Molecular function",
+            "name": "Helicase"
+        },
+        {
+            "id": "KW-1048",
+            "category": "Cellular component",
+            "name": "Host nucleus"
+        },
+        {
+            "id": "KW-0378",
+            "category": "Molecular function",
+            "name": "Hydrolase"
+        },
+        {
+            "id": "KW-0479",
+            "category": "Ligand",
+            "name": "Metal-binding"
+        },
+        {
+            "id": "KW-0511",
+            "category": "Molecular function",
+            "name": "Multifunctional enzyme"
+        },
+        {
+            "id": "KW-0540",
+            "category": "Molecular function",
+            "name": "Nuclease"
+        },
+        {
+            "id": "KW-0547",
+            "category": "Ligand",
+            "name": "Nucleotide-binding"
+        },
+        {
+            "id": "KW-0548",
+            "category": "Molecular function",
+            "name": "Nucleotidyltransferase"
+        },
+        {
+            "id": "KW-1185",
+            "category": "Technical term",
+            "name": "Reference proteome"
+        },
+        {
+            "id": "KW-0808",
+            "category": "Molecular function",
+            "name": "Transferase"
+        }
+    ],
+    "references": [
+        {
+            "referenceNumber": 1,
+            "citation": {
+                "id": "8445361",
+                "citationType": "journal article",
+                "authors": [
+                    "Harding R.M.",
+                    "Burns T.M.",
+                    "Hafner G.J.",
+                    "Dietzgen R.G.",
+                    "Dale J.L."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "8445361"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1099/0022-1317-74-3-323"
+                    }
+                ],
+                "title": "Nucleotide sequence of one component of the banana bunchy top virus genome contains a putative replicase gene.",
+                "publicationDate": "1993",
+                "journal": "J. Gen. Virol.",
+                "firstPage": "323",
+                "lastPage": "328",
+                "volume": "74"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [GENOMIC DNA]"
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "EMBL",
+            "id": "S56276",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAB25544.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "PIR",
+            "id": "JQ1960",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "JQ1960"
+                }
+            ]
+        },
+        {
+            "database": "RefSeq",
+            "id": "NP_604483.1",
+            "properties": [
+                {
+                    "key": "NucleotideSequenceId",
+                    "value": "NC_003479.1"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "Q86567",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GeneID",
+            "id": "963871",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "KEGG",
+            "id": "vg:963871",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Proteomes",
+            "id": "UP000002339",
+            "properties": [
+                {
+                    "key": "Component",
+                    "value": "Genome"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0042025",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:host cell nucleus"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-SubCell"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005524",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:ATP binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0016887",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:ATP hydrolysis activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:RHEA"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0140849",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:ATP-dependent H2AZ histone chaperone activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:RHEA"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0140665",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:ATP-dependent H3-H4 histone complex chaperone activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:RHEA"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0140584",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:chromatin extrusion motor activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:RHEA"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0061775",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:cohesin loader activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:RHEA"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0003677",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:DNA binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0003689",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:DNA clamp loader activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:RHEA"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0004519",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:endonuclease activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0046872",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:metal ion binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0016779",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:nucleotidyltransferase activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0003723",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:RNA binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:InterPro"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0003724",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:RNA helicase activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:InterPro"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0006260",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:DNA replication"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0039684",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:rolling circle single-stranded viral DNA replication"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:UniProtKB"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "11161286"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd01983",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "SIMIBI"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "FunFam",
+            "id": "3.40.1310.20:FF:000002",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Master replication protein"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "3.40.1310.20",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR049912",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "CRESS_DNA_REP"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR000605",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Helicase_SF3_ssDNA/RNA_vir"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF00910",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "RNA_helicase"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF02407",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Viral_Rep"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PROSITE",
+            "id": "PS52020",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "CRESS_DNA_REP"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MARYVVCWMFTINNPTTLPVMRDEIKYMVYQVERGQEGTRHVQGYVEMKRRSSLKQMRGFFPGAHLEKRKGSQEEARSYCMKEDTRIEGPFEFGSFKLSCNDNLFDVIQDMRETHKRPLEYLYDCPNTFDRSKDTLYRVQAEMNKTKAMNSWRTSFSAWTSEVENIMAQPCHRRIIWVYGPNGGEGKTTYAKHLMKTRNAFYSPGGKSLDICRLYNYEDIVIFDIPRCKEDYLNYGLLEEFKNGIIQSGKYEPVLKIVEYVEVIVMANFLPKEGIFSEDRIKLVSC",
+        "length": 286,
+        "molWeight": 33604,
+        "crc64": "2508FC37F1AEB013",
+        "md5": "F1BE1469BDDBD085EF82342B60DB3D2C"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "CATALYTIC ACTIVITY": 1,
+            "COFACTOR": 1,
+            "SUBUNIT": 1,
+            "SUBCELLULAR LOCATION": 1,
+            "DOMAIN": 1,
+            "SIMILARITY": 1
+        },
+        "countByFeatureType": {
+            "Chain": 1,
+            "Domain": 1,
+            "Motif": 5,
+            "Active site": 1,
+            "Binding site": 4
+        },
+        "uniParcId": "UPI00000F8F5E"
+    }
+}

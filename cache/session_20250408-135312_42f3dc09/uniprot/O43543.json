@@ -1,0 +1,4624 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "O43543",
+    "secondaryAccessions": [
+        "B2R925"
+    ],
+    "uniProtkbId": "XRCC2_HUMAN",
+    "entryAudit": {
+        "firstPublicDate": "2002-04-03",
+        "lastAnnotationUpdateDate": "2025-02-05",
+        "lastSequenceUpdateDate": "1998-06-01",
+        "entryVersion": 186,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 5.0,
+    "organism": {
+        "scientificName": "Homo sapiens",
+        "commonName": "Human",
+        "taxonId": 9606,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Mammalia",
+            "Eutheria",
+            "Euarchontoglires",
+            "Primates",
+            "Haplorrhini",
+            "Catarrhini",
+            "Hominidae",
+            "Homo"
+        ]
+    },
+    "proteinExistence": "1: Evidence at protein level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "value": "DNA repair protein XRCC2"
+            }
+        },
+        "alternativeNames": [
+            {
+                "fullName": {
+                    "value": "X-ray repair cross-complementing protein 2"
+                }
+            }
+        ]
+    },
+    "genes": [
+        {
+            "geneName": {
+                "value": "XRCC2"
+            }
+        }
+    ],
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "11751635"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "11834724"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "21276791"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "23149936"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "27233470"
+                        }
+                    ],
+                    "value": "Involved in the homologous recombination repair (HRR) pathway of double-stranded DNA, thought to repair chromosomal fragmentation, translocations and deletions. Part of the RAD51 paralog protein complex BCDX2 which acts in the BRCA1-BRCA2-dependent HR pathway. Upon DNA damage, BCDX2 acts downstream of BRCA2 recruitment and upstream of RAD51 recruitment. BCDX2 binds predominantly to the intersection of the four duplex arms of the Holliday junction and to junction of replication forks. The BCDX2 complex was originally reported to bind single-stranded DNA, single-stranded gaps in duplex DNA and specifically to nicks in duplex DNA"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "11744692"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "11751635"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "11834724"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "11842112"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "11842113"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "14704354"
+                        }
+                    ],
+                    "value": "Interacts with RAD51D. Part of the BCDX2 complex consisting of RAD51B, RAD51C, RAD51D and XRCC2; the complex has a ring-like structure arranged into a flat disk around a central channel. In the absence of DNA, the BCDX2 subcomplex XRCC2:RAD51D formed a multimeric ring structure; in the presence of single-stranded DNA it formed a filamentous structure with the ssDNA"
+                }
+            ],
+            "commentType": "SUBUNIT"
+        },
+        {
+            "commentType": "INTERACTION",
+            "interactions": [
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "O43543",
+                        "intActId": "EBI-3918457"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "P50222",
+                        "geneName": "MEOX2",
+                        "intActId": "EBI-748397"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "O43543",
+                        "intActId": "EBI-3918457"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "O43502",
+                        "geneName": "RAD51C",
+                        "intActId": "EBI-2267048"
+                    },
+                    "numberOfExperiments": 4,
+                    "organismDiffer": false
+                },
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "O43543",
+                        "intActId": "EBI-3918457"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "O75771",
+                        "geneName": "RAD51D",
+                        "intActId": "EBI-1055693"
+                    },
+                    "numberOfExperiments": 41,
+                    "organismDiffer": false
+                }
+            ]
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "21276791"
+                            }
+                        ],
+                        "value": "Nucleus",
+                        "id": "SL-0191"
+                    }
+                },
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "21276791"
+                            }
+                        ],
+                        "value": "Cytoplasm, cytoskeleton, microtubule organizing center, centrosome",
+                        "id": "SL-0048"
+                    }
+                }
+            ]
+        },
+        {
+            "commentType": "DISEASE",
+            "disease": {
+                "diseaseId": "Fanconi anemia, complementation group U",
+                "diseaseAccession": "DI-04905",
+                "acronym": "FANCU",
+                "description": "A disorder affecting all bone marrow elements and resulting in anemia, leukopenia and thrombopenia. It is associated with cardiac, renal and limb malformations, dermal pigmentary changes, and a predisposition to the development of malignancies. At the cellular level it is associated with hypersensitivity to DNA-damaging agents, chromosomal instability (increased chromosome breakage) and defective DNA repair.",
+                "diseaseCrossReference": {
+                    "database": "MIM",
+                    "id": "617247"
+                },
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000269",
+                        "source": "PubMed",
+                        "id": "22232082"
+                    }
+                ]
+            },
+            "note": {
+                "texts": [
+                    {
+                        "value": "The disease is caused by variants affecting the gene represented in this entry"
+                    }
+                ]
+            }
+        },
+        {
+            "commentType": "DISEASE",
+            "disease": {
+                "diseaseId": "Spermatogenic failure 50",
+                "diseaseAccession": "DI-05977",
+                "acronym": "SPGF50",
+                "description": "An autosomal recessive infertility disorder characterized by azoospermia due to meiotic arrest at the zygotene stage of prophase I.",
+                "diseaseCrossReference": {
+                    "database": "MIM",
+                    "id": "619145"
+                },
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000269",
+                        "source": "PubMed",
+                        "id": "30042186"
+                    }
+                ]
+            },
+            "note": {
+                "texts": [
+                    {
+                        "value": "The disease is caused by variants affecting the gene represented in this entry"
+                    }
+                ]
+            }
+        },
+        {
+            "commentType": "DISEASE",
+            "disease": {
+                "diseaseId": "Premature ovarian failure 17",
+                "diseaseAccession": "DI-05974",
+                "acronym": "POF17",
+                "description": "A form of premature ovarian failure, an ovarian disorder defined as the cessation of ovarian function under the age of 40 years. It is characterized by oligomenorrhea or amenorrhea, in the presence of elevated levels of serum gonadotropins and low estradiol. POF17 transmission pattern is consistent with autosomal recessive inheritance.",
+                "diseaseCrossReference": {
+                    "database": "MIM",
+                    "id": "619146"
+                },
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000269",
+                        "source": "PubMed",
+                        "id": "30489636"
+                    }
+                ]
+            },
+            "note": {
+                "texts": [
+                    {
+                        "value": "The disease is caused by variants affecting the gene represented in this entry"
+                    }
+                ]
+            }
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Belongs to the RecA family. RAD51 subfamily"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        }
+    ],
+    "features": [
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 280,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "DNA repair protein XRCC2",
+            "featureId": "PRO_0000122948"
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 10,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 10,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007744",
+                    "source": "PubMed",
+                    "id": "23186163"
+                }
+            ]
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 14,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 14,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in SPGF50 and POF17; due to a nucleotide substitution that causes partial exon 2 skipping; patient cells contain both normally spliced transcripts and transcripts lacking exon 2; dbSNP:rs757140620",
+            "featureCrossReferences": [
+                {
+                    "database": "dbSNP",
+                    "id": "rs757140620"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "30042186"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "30489636"
+                }
+            ],
+            "featureId": "VAR_085247",
+            "alternativeSequence": {
+                "originalSequence": "L",
+                "alternativeSequences": [
+                    "P"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 16,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 16,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "does not affect function in double-strand break repair via homologous recombination as shown in rescue assays of XRCC2-deficient cells; dbSNP:rs4987090",
+            "featureCrossReferences": [
+                {
+                    "database": "dbSNP",
+                    "id": "rs4987090"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "22464251"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "27233470"
+                }
+            ],
+            "featureId": "VAR_020403",
+            "alternativeSequence": {
+                "originalSequence": "A",
+                "alternativeSequences": [
+                    "S"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 47,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 47,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "does not affect function in double-strand break repair via homologous recombination as shown in rescue assays of XRCC2-deficient cells; dbSNP:rs587780126",
+            "featureCrossReferences": [
+                {
+                    "database": "dbSNP",
+                    "id": "rs587780126"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "23054243"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "27233470"
+                }
+            ],
+            "featureId": "VAR_077167",
+            "alternativeSequence": {
+                "originalSequence": "H",
+                "alternativeSequences": [
+                    "R"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 61,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 61,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "does not affect function in double-strand break repair via homologous recombination as shown in rescue assays of XRCC2-deficient cells; dbSNP:rs569810249",
+            "featureCrossReferences": [
+                {
+                    "database": "dbSNP",
+                    "id": "rs569810249"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "22464251"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "27233470"
+                }
+            ],
+            "featureId": "VAR_077168",
+            "alternativeSequence": {
+                "originalSequence": "L",
+                "alternativeSequences": [
+                    "I"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 75,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 75,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "does not affect function in double-strand break repair via homologous recombination as shown in rescue assays of XRCC2-deficient cells; dbSNP:rs1327414828",
+            "featureCrossReferences": [
+                {
+                    "database": "dbSNP",
+                    "id": "rs1327414828"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "23054243"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "27233470"
+                }
+            ],
+            "featureId": "VAR_077169",
+            "alternativeSequence": {
+                "originalSequence": "E",
+                "alternativeSequences": [
+                    "Q"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 91,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 91,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "rare variant; found in breast cancer; uncertain significance; moderately decreased function in double-strand break repair via homologous recombination as shown in rescue assays of XRCC2-deficient cells; dbSNP:rs730882043",
+            "featureCrossReferences": [
+                {
+                    "database": "dbSNP",
+                    "id": "rs730882043"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "22464251"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "27233470"
+                }
+            ],
+            "featureId": "VAR_077170",
+            "alternativeSequence": {
+                "originalSequence": "R",
+                "alternativeSequences": [
+                    "W"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 95,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 95,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "does not affect function in double-strand break repair via homologous recombination as shown in rescue assays of XRCC2-deficient cells; dbSNP:rs140214637",
+            "featureCrossReferences": [
+                {
+                    "database": "dbSNP",
+                    "id": "rs140214637"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "22464251"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "23054243"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "27233470"
+                }
+            ],
+            "featureId": "VAR_077171",
+            "alternativeSequence": {
+                "originalSequence": "I",
+                "alternativeSequences": [
+                    "V"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 118,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 118,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "does not affect function in double-strand break repair via homologous recombination as shown in rescue assays of XRCC2-deficient cells; dbSNP:rs185815454",
+            "featureCrossReferences": [
+                {
+                    "database": "dbSNP",
+                    "id": "rs185815454"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "23054243"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "27233470"
+                }
+            ],
+            "featureId": "VAR_077172",
+            "alternativeSequence": {
+                "originalSequence": "V",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 120,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 120,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "rare variant; found in breast cancer; uncertain significance; moderately decreased function in double-strand break repair via homologous recombination as shown in rescue assays of XRCC2-deficient cells; dbSNP:rs1432878196",
+            "featureCrossReferences": [
+                {
+                    "database": "dbSNP",
+                    "id": "rs1432878196"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "23054243"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "27233470"
+                }
+            ],
+            "featureId": "VAR_077173",
+            "alternativeSequence": {
+                "originalSequence": "C",
+                "alternativeSequences": [
+                    "Y"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 133,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 133,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "rare variant; found in breast cancer; uncertain significance; moderately decreased function in double-strand break repair via homologous recombination as shown in rescue assays of XRCC2-deficient cells; dbSNP:rs765276614",
+            "featureCrossReferences": [
+                {
+                    "database": "dbSNP",
+                    "id": "rs765276614"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "23054243"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "27233470"
+                }
+            ],
+            "featureId": "VAR_077174",
+            "alternativeSequence": {
+                "originalSequence": "L",
+                "alternativeSequences": [
+                    "P"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 164,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 164,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "does not affect function in double-strand break repair via homologous recombination as shown in rescue assays of XRCC2-deficient cells; dbSNP:rs1215678098",
+            "featureCrossReferences": [
+                {
+                    "database": "dbSNP",
+                    "id": "rs1215678098"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "23054243"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "27233470"
+                }
+            ],
+            "featureId": "VAR_077175",
+            "alternativeSequence": {
+                "originalSequence": "E",
+                "alternativeSequences": [
+                    "Q"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 170,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 170,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "does not affect function in double-strand break repair via homologous recombination as shown in rescue assays of XRCC2-deficient cells; dbSNP:rs778143946",
+            "featureCrossReferences": [
+                {
+                    "database": "dbSNP",
+                    "id": "rs778143946"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "23054243"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "27233470"
+                }
+            ],
+            "featureId": "VAR_077176",
+            "alternativeSequence": {
+                "originalSequence": "E",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 188,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 188,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "does not affect function in double-strand break repair via homologous recombination as shown in rescue assays of XRCC2-deficient cells; dbSNP:rs139219364",
+            "featureCrossReferences": [
+                {
+                    "database": "dbSNP",
+                    "id": "rs139219364"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "23054243"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "27233470"
+                }
+            ],
+            "featureId": "VAR_077177",
+            "alternativeSequence": {
+                "originalSequence": "R",
+                "alternativeSequences": [
+                    "C"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 188,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 188,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "does not affect function in double-strand break repair via homologous recombination as shown in rescue assays of XRCC2-deficient cells; dbSNP:rs3218536",
+            "featureCrossReferences": [
+                {
+                    "database": "dbSNP",
+                    "id": "rs3218536"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "27233470"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "Reference",
+                    "id": "Ref.4"
+                }
+            ],
+            "featureId": "VAR_020404",
+            "alternativeSequence": {
+                "originalSequence": "R",
+                "alternativeSequences": [
+                    "H"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 194,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 194,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "does not affect function in double-strand break repair via homologous recombination as shown in rescue assays of XRCC2-deficient cells; dbSNP:rs775565256",
+            "featureCrossReferences": [
+                {
+                    "database": "dbSNP",
+                    "id": "rs775565256"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "23054243"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "27233470"
+                }
+            ],
+            "featureId": "VAR_077178",
+            "alternativeSequence": {
+                "originalSequence": "T",
+                "alternativeSequences": [
+                    "M"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 199,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 199,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "found in patients with breast cancer; likely benign; does not affect function in double-strand break repair via homologous recombination as shown in rescue assays of XRCC2-deficient cells; dbSNP:rs2098027257",
+            "featureCrossReferences": [
+                {
+                    "database": "dbSNP",
+                    "id": "rs2098027257"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "23054243"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "27233470"
+                }
+            ],
+            "featureId": "VAR_077179",
+            "alternativeSequence": {
+                "originalSequence": "M",
+                "alternativeSequences": [
+                    "L"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 207,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 207,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "does not affect function in double-strand break repair via homologous recombination as shown in rescue assays of XRCC2-deficient cells; dbSNP:rs61762969",
+            "featureCrossReferences": [
+                {
+                    "database": "dbSNP",
+                    "id": "rs61762969"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "23054243"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "27233470"
+                }
+            ],
+            "featureId": "VAR_077180",
+            "alternativeSequence": {
+                "originalSequence": "E",
+                "alternativeSequences": [
+                    "G"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 215,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 280,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "found in a patient with borderline microcephaly, bilateral hypoplastic thumb, multiple cafe late spots, strabismus and dysmorphic facial features; uncertain significance",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "30237576"
+                }
+            ],
+            "featureId": "VAR_082157",
+            "alternativeSequence": {}
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 220,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 220,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "does not affect function in double-strand break repair via homologous recombination as shown in rescue assays of XRCC2-deficient cells; dbSNP:rs765021741",
+            "featureCrossReferences": [
+                {
+                    "database": "dbSNP",
+                    "id": "rs765021741"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "23054243"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "27233470"
+                }
+            ],
+            "featureId": "VAR_077181",
+            "alternativeSequence": {
+                "originalSequence": "D",
+                "alternativeSequences": [
+                    "V"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 221,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 221,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in dbSNP:rs3218537",
+            "featureCrossReferences": [
+                {
+                    "database": "dbSNP",
+                    "id": "rs3218537"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "Reference",
+                    "id": "Ref.4"
+                }
+            ],
+            "featureId": "VAR_029294",
+            "alternativeSequence": {
+                "originalSequence": "I",
+                "alternativeSequences": [
+                    "T"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 231,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 231,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "does not affect function in double-strand break repair via homologous recombination as shown in rescue assays of XRCC2-deficient cells; dbSNP:rs1267462913",
+            "featureCrossReferences": [
+                {
+                    "database": "dbSNP",
+                    "id": "rs1267462913"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "22464251"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "27233470"
+                }
+            ],
+            "featureId": "VAR_077182",
+            "alternativeSequence": {
+                "originalSequence": "W",
+                "alternativeSequences": [
+                    "C"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 238,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 238,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "does not affect function in double-strand break repair via homologous recombination as shown in rescue assays of XRCC2-deficient cells; dbSNP:rs534746330",
+            "featureCrossReferences": [
+                {
+                    "database": "dbSNP",
+                    "id": "rs534746330"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "23054243"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "27233470"
+                }
+            ],
+            "featureId": "VAR_077183",
+            "alternativeSequence": {
+                "originalSequence": "R",
+                "alternativeSequences": [
+                    "S"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 248,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 248,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "does not affect function in double-strand break repair via homologous recombination as shown in rescue assays of XRCC2-deficient cells; dbSNP:rs190900560",
+            "featureCrossReferences": [
+                {
+                    "database": "dbSNP",
+                    "id": "rs190900560"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "23054243"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "27233470"
+                }
+            ],
+            "featureId": "VAR_077184",
+            "alternativeSequence": {
+                "originalSequence": "Q",
+                "alternativeSequences": [
+                    "E"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 258,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 258,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "does not affect function in double-strand break repair via homologous recombination as shown in rescue assays of XRCC2-deficient cells; dbSNP:rs759300252",
+            "featureCrossReferences": [
+                {
+                    "database": "dbSNP",
+                    "id": "rs759300252"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "23054243"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "27233470"
+                }
+            ],
+            "featureId": "VAR_077185",
+            "alternativeSequence": {
+                "originalSequence": "R",
+                "alternativeSequences": [
+                    "C"
+                ]
+            }
+        },
+        {
+            "type": "Natural variant",
+            "location": {
+                "start": {
+                    "value": 270,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 270,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "does not affect function in double-strand break repair via homologous recombination as shown in rescue assays of XRCC2-deficient cells; dbSNP:rs145085742",
+            "featureCrossReferences": [
+                {
+                    "database": "dbSNP",
+                    "id": "rs145085742"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "22464251"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "23054243"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "27233470"
+                }
+            ],
+            "featureId": "VAR_077186",
+            "alternativeSequence": {
+                "originalSequence": "F",
+                "alternativeSequences": [
+                    "V"
+                ]
+            }
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 24,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 27,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "8OUZ"
+                }
+            ]
+        },
+        {
+            "type": "Turn",
+            "location": {
+                "start": {
+                    "value": 29,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 31,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "8OUZ"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 40,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 48,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "8OUZ"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 50,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 53,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "8OUY"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 54,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 66,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "8OUZ"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 69,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 71,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "8OUZ"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 77,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 85,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "8OUZ"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 89,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 99,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "8OUZ"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 100,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 102,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "8GBJ"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 105,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 112,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "8OUZ"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 115,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 119,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "8OUZ"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 123,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 139,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "8OUZ"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 143,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 149,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "8OUZ"
+                }
+            ]
+        },
+        {
+            "type": "Turn",
+            "location": {
+                "start": {
+                    "value": 151,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 154,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "8OUZ"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 155,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 162,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "8OUZ"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 166,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 169,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "8OUZ"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 171,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 186,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "8OUZ"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 190,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 196,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "8OUZ"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 229,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 232,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "8OUZ"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 237,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 243,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "8OUZ"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 253,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 259,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "8OUZ"
+                }
+            ]
+        },
+        {
+            "type": "Turn",
+            "location": {
+                "start": {
+                    "value": 260,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 262,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "8OUZ"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 265,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 273,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "8OUZ"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 276,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 279,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "8OUZ"
+                }
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0002",
+            "category": "Technical term",
+            "name": "3D-structure"
+        },
+        {
+            "id": "KW-0963",
+            "category": "Cellular component",
+            "name": "Cytoplasm"
+        },
+        {
+            "id": "KW-0206",
+            "category": "Cellular component",
+            "name": "Cytoskeleton"
+        },
+        {
+            "id": "KW-0225",
+            "category": "Disease",
+            "name": "Disease variant"
+        },
+        {
+            "id": "KW-0227",
+            "category": "Biological process",
+            "name": "DNA damage"
+        },
+        {
+            "id": "KW-0233",
+            "category": "Biological process",
+            "name": "DNA recombination"
+        },
+        {
+            "id": "KW-0234",
+            "category": "Biological process",
+            "name": "DNA repair"
+        },
+        {
+            "id": "KW-0238",
+            "category": "Molecular function",
+            "name": "DNA-binding"
+        },
+        {
+            "id": "KW-0923",
+            "category": "Disease",
+            "name": "Fanconi anemia"
+        },
+        {
+            "id": "KW-0539",
+            "category": "Cellular component",
+            "name": "Nucleus"
+        },
+        {
+            "id": "KW-0597",
+            "category": "PTM",
+            "name": "Phosphoprotein"
+        },
+        {
+            "id": "KW-1066",
+            "category": "Disease",
+            "name": "Premature ovarian failure"
+        },
+        {
+            "id": "KW-1267",
+            "category": "Technical term",
+            "name": "Proteomics identification"
+        },
+        {
+            "id": "KW-1185",
+            "category": "Technical term",
+            "name": "Reference proteome"
+        }
+    ],
+    "references": [
+        {
+            "referenceNumber": 1,
+            "citation": {
+                "id": "9660962",
+                "citationType": "journal article",
+                "authors": [
+                    "Liu N.",
+                    "Lamerdin J.E.",
+                    "Tebbs R.S.",
+                    "Schild D.",
+                    "Tucker J.D.",
+                    "Shen M.R.",
+                    "Brookman K.W.",
+                    "Siciliano M.J.",
+                    "Walter C.A.",
+                    "Fan W.",
+                    "Narayana L.S.",
+                    "Zhou Z.-Q.",
+                    "Adamson A.W.",
+                    "Sorensen K.J.",
+                    "Chen D.J.",
+                    "Jones N.J.",
+                    "Thompson L.H."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "9660962"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/s1097-2765(00)80078-7"
+                    }
+                ],
+                "title": "XRCC2 and XRCC3, new human Rad51-family members, promote chromosome stability and protect against DNA cross-links and other damages.",
+                "publicationDate": "1998",
+                "journal": "Mol. Cell",
+                "firstPage": "783",
+                "lastPage": "793",
+                "volume": "1"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA]"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Cervix carcinoma",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "referenceNumber": 2,
+            "citation": {
+                "id": "9126486",
+                "citationType": "journal article",
+                "authors": [
+                    "Tambini C.E.",
+                    "George A.M.",
+                    "Rommens J.M.",
+                    "Tsui L.-C.",
+                    "Scherer S.W.",
+                    "Thacker J."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "9126486"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1006/geno.1997.4636"
+                    }
+                ],
+                "title": "The XRCC2 DNA repair gene: identification of a positional candidate.",
+                "publicationDate": "1997",
+                "journal": "Genomics",
+                "firstPage": "84",
+                "lastPage": "92",
+                "volume": "41"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [MRNA]"
+            ]
+        },
+        {
+            "referenceNumber": 3,
+            "citation": {
+                "id": "9628903",
+                "citationType": "journal article",
+                "authors": [
+                    "Cartwright R.",
+                    "Tambini C.E.",
+                    "Simpson P.J.",
+                    "Thacker J."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "9628903"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1093/nar/26.13.3084"
+                    }
+                ],
+                "title": "The XRCC2 DNA repair gene from human and mouse encodes a novel member of the recA/RAD51 family.",
+                "publicationDate": "1998",
+                "journal": "Nucleic Acids Res.",
+                "firstPage": "3084",
+                "lastPage": "3089",
+                "volume": "26"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA]"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Cervix carcinoma",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "referenceNumber": 4,
+            "citation": {
+                "id": "CI-6QAL9IGFBCC0B",
+                "citationType": "submission",
+                "authoringGroup": [
+                    "NIEHS SNPs program"
+                ],
+                "publicationDate": "JUN-2002",
+                "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [GENOMIC DNA]",
+                "VARIANTS HIS-188 AND THR-221"
+            ]
+        },
+        {
+            "referenceNumber": 5,
+            "citation": {
+                "id": "14702039",
+                "citationType": "journal article",
+                "authors": [
+                    "Ota T.",
+                    "Suzuki Y.",
+                    "Nishikawa T.",
+                    "Otsuki T.",
+                    "Sugiyama T.",
+                    "Irie R.",
+                    "Wakamatsu A.",
+                    "Hayashi K.",
+                    "Sato H.",
+                    "Nagai K.",
+                    "Kimura K.",
+                    "Makita H.",
+                    "Sekine M.",
+                    "Obayashi M.",
+                    "Nishi T.",
+                    "Shibahara T.",
+                    "Tanaka T.",
+                    "Ishii S.",
+                    "Yamamoto J.",
+                    "Saito K.",
+                    "Kawai Y.",
+                    "Isono Y.",
+                    "Nakamura Y.",
+                    "Nagahari K.",
+                    "Murakami K.",
+                    "Yasuda T.",
+                    "Iwayanagi T.",
+                    "Wagatsuma M.",
+                    "Shiratori A.",
+                    "Sudo H.",
+                    "Hosoiri T.",
+                    "Kaku Y.",
+                    "Kodaira H.",
+                    "Kondo H.",
+                    "Sugawara M.",
+                    "Takahashi M.",
+                    "Kanda K.",
+                    "Yokoi T.",
+                    "Furuya T.",
+                    "Kikkawa E.",
+                    "Omura Y.",
+                    "Abe K.",
+                    "Kamihara K.",
+                    "Katsuta N.",
+                    "Sato K.",
+                    "Tanikawa M.",
+                    "Yamazaki M.",
+                    "Ninomiya K.",
+                    "Ishibashi T.",
+                    "Yamashita H.",
+                    "Murakawa K.",
+                    "Fujimori K.",
+                    "Tanai H.",
+                    "Kimata M.",
+                    "Watanabe M.",
+                    "Hiraoka S.",
+                    "Chiba Y.",
+                    "Ishida S.",
+                    "Ono Y.",
+                    "Takiguchi S.",
+                    "Watanabe S.",
+                    "Yosida M.",
+                    "Hotuta T.",
+                    "Kusano J.",
+                    "Kanehori K.",
+                    "Takahashi-Fujii A.",
+                    "Hara H.",
+                    "Tanase T.-O.",
+                    "Nomura Y.",
+                    "Togiya S.",
+                    "Komai F.",
+                    "Hara R.",
+                    "Takeuchi K.",
+                    "Arita M.",
+                    "Imose N.",
+                    "Musashino K.",
+                    "Yuuki H.",
+                    "Oshima A.",
+                    "Sasaki N.",
+                    "Aotsuka S.",
+                    "Yoshikawa Y.",
+                    "Matsunawa H.",
+                    "Ichihara T.",
+                    "Shiohata N.",
+                    "Sano S.",
+                    "Moriya S.",
+                    "Momiyama H.",
+                    "Satoh N.",
+                    "Takami S.",
+                    "Terashima Y.",
+                    "Suzuki O.",
+                    "Nakagawa S.",
+                    "Senoh A.",
+                    "Mizoguchi H.",
+                    "Goto Y.",
+                    "Shimizu F.",
+                    "Wakebe H.",
+                    "Hishigaki H.",
+                    "Watanabe T.",
+                    "Sugiyama A.",
+                    "Takemoto M.",
+                    "Kawakami B.",
+                    "Yamazaki M.",
+                    "Watanabe K.",
+                    "Kumagai A.",
+                    "Itakura S.",
+                    "Fukuzumi Y.",
+                    "Fujimori Y.",
+                    "Komiyama M.",
+                    "Tashiro H.",
+                    "Tanigami A.",
+                    "Fujiwara T.",
+                    "Ono T.",
+                    "Yamada K.",
+                    "Fujii Y.",
+                    "Ozaki K.",
+                    "Hirao M.",
+                    "Ohmori Y.",
+                    "Kawabata A.",
+                    "Hikiji T.",
+                    "Kobatake N.",
+                    "Inagaki H.",
+                    "Ikema Y.",
+                    "Okamoto S.",
+                    "Okitani R.",
+                    "Kawakami T.",
+                    "Noguchi S.",
+                    "Itoh T.",
+                    "Shigeta K.",
+                    "Senba T.",
+                    "Matsumura K.",
+                    "Nakajima Y.",
+                    "Mizuno T.",
+                    "Morinaga M.",
+                    "Sasaki M.",
+                    "Togashi T.",
+                    "Oyama M.",
+                    "Hata H.",
+                    "Watanabe M.",
+                    "Komatsu T.",
+                    "Mizushima-Sugano J.",
+                    "Satoh T.",
+                    "Shirai Y.",
+                    "Takahashi Y.",
+                    "Nakagawa K.",
+                    "Okumura K.",
+                    "Nagase T.",
+                    "Nomura N.",
+                    "Kikuchi H.",
+                    "Masuho Y.",
+                    "Yamashita R.",
+                    "Nakai K.",
+                    "Yada T.",
+                    "Nakamura Y.",
+                    "Ohara O.",
+                    "Isogai T.",
+                    "Sugano S."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "14702039"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1038/ng1285"
+                    }
+                ],
+                "title": "Complete sequencing and characterization of 21,243 full-length human cDNAs.",
+                "publicationDate": "2004",
+                "journal": "Nat. Genet.",
+                "firstPage": "40",
+                "lastPage": "45",
+                "volume": "36"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Testis",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "referenceNumber": 6,
+            "citation": {
+                "id": "CI-5GBD0VIIJ7C63",
+                "citationType": "submission",
+                "authors": [
+                    "Mural R.J.",
+                    "Istrail S.",
+                    "Sutton G.G.",
+                    "Florea L.",
+                    "Halpern A.L.",
+                    "Mobarry C.M.",
+                    "Lippert R.",
+                    "Walenz B.",
+                    "Shatkay H.",
+                    "Dew I.",
+                    "Miller J.R.",
+                    "Flanigan M.J.",
+                    "Edwards N.J.",
+                    "Bolanos R.",
+                    "Fasulo D.",
+                    "Halldorsson B.V.",
+                    "Hannenhalli S.",
+                    "Turner R.",
+                    "Yooseph S.",
+                    "Lu F.",
+                    "Nusskern D.R.",
+                    "Shue B.C.",
+                    "Zheng X.H.",
+                    "Zhong F.",
+                    "Delcher A.L.",
+                    "Huson D.H.",
+                    "Kravitz S.A.",
+                    "Mouchard L.",
+                    "Reinert K.",
+                    "Remington K.A.",
+                    "Clark A.G.",
+                    "Waterman M.S.",
+                    "Eichler E.E.",
+                    "Adams M.D.",
+                    "Hunkapiller M.W.",
+                    "Myers E.W.",
+                    "Venter J.C."
+                ],
+                "publicationDate": "SEP-2005",
+                "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ]
+        },
+        {
+            "referenceNumber": 7,
+            "citation": {
+                "id": "15489334",
+                "citationType": "journal article",
+                "authoringGroup": [
+                    "The MGC Project Team"
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "15489334"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1101/gr.2596504"
+                    }
+                ],
+                "title": "The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).",
+                "publicationDate": "2004",
+                "journal": "Genome Res.",
+                "firstPage": "2121",
+                "lastPage": "2127",
+                "volume": "14"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Brain",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "referenceNumber": 8,
+            "citation": {
+                "id": "11751635",
+                "citationType": "journal article",
+                "authors": [
+                    "Masson J.Y.",
+                    "Tarsounas M.C.",
+                    "Stasiak A.Z.",
+                    "Stasiak A.",
+                    "Shah R.",
+                    "McIlwraith M.J.",
+                    "Benson F.E.",
+                    "West S.C."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "11751635"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1101/gad.947001"
+                    }
+                ],
+                "title": "Identification and purification of two distinct complexes containing the five RAD51 paralogs.",
+                "publicationDate": "2001",
+                "journal": "Genes Dev.",
+                "firstPage": "3296",
+                "lastPage": "3307",
+                "volume": "15"
+            },
+            "referencePositions": [
+                "FUNCTION",
+                "IDENTIFICATION IN THE BCDX2 COMPLEX WITH RAD51C; RAD51D AND XRCC2"
+            ]
+        },
+        {
+            "referenceNumber": 9,
+            "citation": {
+                "id": "11744692",
+                "citationType": "journal article",
+                "authors": [
+                    "Miller K.A.",
+                    "Yoshikawa D.M.",
+                    "McConnell I.R.",
+                    "Clark R.",
+                    "Schild D.",
+                    "Albala J.S."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "11744692"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1074/jbc.m108306200"
+                    }
+                ],
+                "title": "RAD51C interacts with RAD51B and is central to a larger protein complex in vivo exclusive of RAD51.",
+                "publicationDate": "2002",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "8406",
+                "lastPage": "8411",
+                "volume": "277"
+            },
+            "referencePositions": [
+                "SUBUNIT"
+            ]
+        },
+        {
+            "referenceNumber": 10,
+            "citation": {
+                "id": "11834724",
+                "citationType": "journal article",
+                "authors": [
+                    "Kurumizaka H.",
+                    "Ikawa S.",
+                    "Nakada M.",
+                    "Enomoto R.",
+                    "Kagawa W.",
+                    "Kinebuchi T.",
+                    "Yamazoe M.",
+                    "Yokoyama S.",
+                    "Shibata T."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "11834724"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1074/jbc.m105719200"
+                    }
+                ],
+                "title": "Homologous pairing and ring and filament structure formation activities of the human Xrcc2*Rad51D complex.",
+                "publicationDate": "2002",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "14315",
+                "lastPage": "14320",
+                "volume": "277"
+            },
+            "referencePositions": [
+                "FUNCTION",
+                "SUBUNIT"
+            ]
+        },
+        {
+            "referenceNumber": 11,
+            "citation": {
+                "id": "11842112",
+                "citationType": "journal article",
+                "authors": [
+                    "Wiese C.",
+                    "Collins D.W.",
+                    "Albala J.S.",
+                    "Thompson L.H.",
+                    "Kronenberg A.",
+                    "Schild D."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "11842112"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1093/nar/30.4.1001"
+                    }
+                ],
+                "title": "Interactions involving the Rad51 paralogs Rad51C and XRCC3 in human cells.",
+                "publicationDate": "2002",
+                "journal": "Nucleic Acids Res.",
+                "firstPage": "1001",
+                "lastPage": "1008",
+                "volume": "30"
+            },
+            "referencePositions": [
+                "IDENTIFICATION IN A COMPLEX WITH RAD51B; RAD51C AND RAD51D"
+            ]
+        },
+        {
+            "referenceNumber": 12,
+            "citation": {
+                "id": "11842113",
+                "citationType": "journal article",
+                "authors": [
+                    "Liu N.",
+                    "Schild D.",
+                    "Thelen M.P.",
+                    "Thompson L.H."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "11842113"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1093/nar/30.4.1009"
+                    }
+                ],
+                "title": "Involvement of Rad51C in two distinct protein complexes of Rad51 paralogs in human cells.",
+                "publicationDate": "2002",
+                "journal": "Nucleic Acids Res.",
+                "firstPage": "1009",
+                "lastPage": "1015",
+                "volume": "30"
+            },
+            "referencePositions": [
+                "IDENTIFICATION IN A COMPLEX WITH RAD51B; RAD51C AND RAD51D"
+            ]
+        },
+        {
+            "referenceNumber": 13,
+            "citation": {
+                "id": "14704354",
+                "citationType": "journal article",
+                "authors": [
+                    "Miller K.A.",
+                    "Sawicka D.",
+                    "Barsky D.",
+                    "Albala J.S."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "14704354"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1093/nar/gkg925"
+                    }
+                ],
+                "title": "Domain mapping of the Rad51 paralog protein complexes.",
+                "publicationDate": "2004",
+                "journal": "Nucleic Acids Res.",
+                "firstPage": "169",
+                "lastPage": "178",
+                "volume": "32"
+            },
+            "referencePositions": [
+                "INTERACTION WITH RAD51D"
+            ]
+        },
+        {
+            "referenceNumber": 14,
+            "citation": {
+                "id": "21276791",
+                "citationType": "journal article",
+                "authors": [
+                    "Cappelli E.",
+                    "Townsend S.",
+                    "Griffin C.",
+                    "Thacker J."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "21276791"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/j.yexcr.2011.01.021"
+                    }
+                ],
+                "title": "Homologous recombination proteins are associated with centrosomes and are required for mitotic stability.",
+                "publicationDate": "2011",
+                "journal": "Exp. Cell Res.",
+                "firstPage": "1203",
+                "lastPage": "1213",
+                "volume": "317"
+            },
+            "referencePositions": [
+                "FUNCTION",
+                "SUBCELLULAR LOCATION"
+            ]
+        },
+        {
+            "referenceNumber": 15,
+            "citation": {
+                "id": "23186163",
+                "citationType": "journal article",
+                "authors": [
+                    "Zhou H.",
+                    "Di Palma S.",
+                    "Preisinger C.",
+                    "Peng M.",
+                    "Polat A.N.",
+                    "Heck A.J.",
+                    "Mohammed S."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "23186163"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1021/pr300630k"
+                    }
+                ],
+                "title": "Toward a comprehensive characterization of a human cancer cell phosphoproteome.",
+                "publicationDate": "2013",
+                "journal": "J. Proteome Res.",
+                "firstPage": "260",
+                "lastPage": "271",
+                "volume": "12"
+            },
+            "referencePositions": [
+                "PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-10",
+                "IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Cervix carcinoma",
+                    "type": "TISSUE"
+                },
+                {
+                    "value": "Erythroleukemia",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "referenceNumber": 16,
+            "citation": {
+                "id": "23149936",
+                "citationType": "journal article",
+                "authors": [
+                    "Chun J.",
+                    "Buechelmaier E.S.",
+                    "Powell S.N."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "23149936"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1128/mcb.00465-12"
+                    }
+                ],
+                "title": "Rad51 paralog complexes BCDX2 and CX3 act at different stages in the BRCA1-BRCA2-dependent homologous recombination pathway.",
+                "publicationDate": "2013",
+                "journal": "Mol. Cell. Biol.",
+                "firstPage": "387",
+                "lastPage": "395",
+                "volume": "33"
+            },
+            "referencePositions": [
+                "FUNCTION OF THE BCDX2 COMPLEX"
+            ]
+        },
+        {
+            "referenceNumber": 17,
+            "citation": {
+                "id": "20207730",
+                "citationType": "journal article",
+                "authors": [
+                    "Compton S.A.",
+                    "Ozgur S.",
+                    "Griffith J.D."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "20207730"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1074/jbc.m109.074286"
+                    }
+                ],
+                "title": "Ring-shaped Rad51 paralog protein complexes bind Holliday junctions and replication forks as visualized by electron microscopy.",
+                "publicationDate": "2010",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "13349",
+                "lastPage": "13356",
+                "volume": "285"
+            },
+            "referencePositions": [
+                "ELECTRON MICROSCOPY OF THE BCDX2 COMPLEX",
+                "DNA-BINDING OF THE BCDX2 COMPLEX"
+            ]
+        },
+        {
+            "referenceNumber": 18,
+            "citation": {
+                "id": "22464251",
+                "citationType": "journal article",
+                "authoringGroup": [
+                    "Breast Cancer Family Registry",
+                    "Kathleen Cuningham Foundation Consortium for Research into Familial Breast Cancer"
+                ],
+                "authors": [
+                    "Park D.J.",
+                    "Lesueur F.",
+                    "Nguyen-Dumont T.",
+                    "Pertesi M.",
+                    "Odefrey F.",
+                    "Hammet F.",
+                    "Neuhausen S.L.",
+                    "John E.M.",
+                    "Andrulis I.L.",
+                    "Terry M.B.",
+                    "Daly M.",
+                    "Buys S.",
+                    "Le Calvez-Kelm F.",
+                    "Lonie A.",
+                    "Pope B.J.",
+                    "Tsimiklis H.",
+                    "Voegele C.",
+                    "Hilbers F.M.",
+                    "Hoogerbrugge N.",
+                    "Barroso A.",
+                    "Osorio A.",
+                    "Giles G.G.",
+                    "Devilee P.",
+                    "Benitez J.",
+                    "Hopper J.L.",
+                    "Tavtigian S.V.",
+                    "Goldgar D.E.",
+                    "Southey M.C."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "22464251"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/j.ajhg.2012.02.027"
+                    }
+                ],
+                "title": "Rare mutations in XRCC2 increase the risk of breast cancer.",
+                "publicationDate": "2012",
+                "journal": "Am. J. Hum. Genet.",
+                "firstPage": "734",
+                "lastPage": "739",
+                "volume": "90"
+            },
+            "referencePositions": [
+                "VARIANTS SER-16; ILE-61; TRP-91; VAL-95; CYS-231 AND VAL-270"
+            ]
+        },
+        {
+            "referenceNumber": 19,
+            "citation": {
+                "id": "22232082",
+                "citationType": "journal article",
+                "authors": [
+                    "Shamseldin H.E.",
+                    "Elfaki M.",
+                    "Alkuraya F.S."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "22232082"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1136/jmedgenet-2011-100585"
+                    }
+                ],
+                "title": "Exome sequencing reveals a novel Fanconi group defined by XRCC2 mutation.",
+                "publicationDate": "2012",
+                "journal": "J. Med. Genet.",
+                "firstPage": "184",
+                "lastPage": "186",
+                "volume": "49"
+            },
+            "referencePositions": [
+                "INVOLVEMENT IN FANCU"
+            ]
+        },
+        {
+            "referenceNumber": 20,
+            "citation": {
+                "id": "23054243",
+                "citationType": "journal article",
+                "authors": [
+                    "Hilbers F.S.",
+                    "Wijnen J.T.",
+                    "Hoogerbrugge N.",
+                    "Oosterwijk J.C.",
+                    "Collee M.J.",
+                    "Peterlongo P.",
+                    "Radice P.",
+                    "Manoukian S.",
+                    "Feroce I.",
+                    "Capra F.",
+                    "Couch F.J.",
+                    "Wang X.",
+                    "Guidugli L.",
+                    "Offit K.",
+                    "Shah S.",
+                    "Campbell I.G.",
+                    "Thompson E.R.",
+                    "James P.A.",
+                    "Trainer A.H.",
+                    "Gracia J.",
+                    "Benitez J.",
+                    "van Asperen C.J.",
+                    "Devilee P."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "23054243"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1136/jmedgenet-2012-101191"
+                    }
+                ],
+                "title": "Rare variants in XRCC2 as breast cancer susceptibility alleles.",
+                "publicationDate": "2012",
+                "journal": "J. Med. Genet.",
+                "firstPage": "618",
+                "lastPage": "620",
+                "volume": "49"
+            },
+            "referencePositions": [
+                "VARIANTS ARG-47; GLN-75; VAL-95; ALA-118; TYR-120; PRO-133; GLN-164; ALA-170; CYS-188; MET-194; LEU-199; GLY-207; VAL-220; SER-238; GLU-248; CYS-258 AND VAL-270"
+            ]
+        },
+        {
+            "referenceNumber": 21,
+            "citation": {
+                "id": "27233470",
+                "citationType": "journal article",
+                "authors": [
+                    "Hilbers F.S.",
+                    "Luijsterburg M.S.",
+                    "Wiegant W.W.",
+                    "Meijers C.M.",
+                    "Voelker-Albert M.",
+                    "Boonen R.A.",
+                    "van Asperen C.J.",
+                    "Devilee P.",
+                    "van Attikum H."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "27233470"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1002/humu.23019"
+                    }
+                ],
+                "title": "Functional analysis of missense variants in the putative breast cancer susceptibility gene XRCC2.",
+                "publicationDate": "2016",
+                "journal": "Hum. Mutat.",
+                "firstPage": "914",
+                "lastPage": "925",
+                "volume": "37"
+            },
+            "referencePositions": [
+                "VARIANTS SER-16; ARG-47; ILE-61; GLN-75; TRP-91; VAL-95; ALA-118; TYR-120; PRO-133; GLN-164; ALA-170; CYS-188; HIS-188; MET-194; LEU-199; GLY-207; VAL-220; CYS-231; SER-238; GLU-248; CYS-258 AND VAL-270",
+                "FUNCTION",
+                "CHARACTERIZATION OF VARIANTS SER-16; ARG-47; ILE-61; GLN-75; TRP-91; VAL-95; ALA-118; TYR-120; PRO-133; GLN-164; ALA-170; CYS-188; HIS-188; MET-194; LEU-199; GLY-207; VAL-220; CYS-231; SER-238; GLU-248; CYS-258 AND VAL-270"
+            ]
+        },
+        {
+            "referenceNumber": 22,
+            "citation": {
+                "id": "30042186",
+                "citationType": "journal article",
+                "authors": [
+                    "Yang Y.",
+                    "Guo J.",
+                    "Dai L.",
+                    "Zhu Y.",
+                    "Hu H.",
+                    "Tan L.",
+                    "Chen W.",
+                    "Liang D.",
+                    "He J.",
+                    "Tu M.",
+                    "Wang K.",
+                    "Wu L."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "30042186"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1136/jmedgenet-2017-105145"
+                    }
+                ],
+                "title": "XRCC2 mutation causes meiotic arrest, azoospermia and infertility.",
+                "publicationDate": "2018",
+                "journal": "J. Med. Genet.",
+                "firstPage": "628",
+                "lastPage": "636",
+                "volume": "55"
+            },
+            "referencePositions": [
+                "VARIANT SPGF50 PRO-14",
+                "INVOLVEMENT IN SPGF50"
+            ]
+        },
+        {
+            "referenceNumber": 23,
+            "citation": {
+                "id": "30489636",
+                "citationType": "journal article",
+                "authors": [
+                    "Zhang Y.X.",
+                    "Li H.Y.",
+                    "He W.B.",
+                    "Tu C.",
+                    "Du J.",
+                    "Li W.",
+                    "Lu G.X.",
+                    "Lin G.",
+                    "Yang Y.",
+                    "Tan Y.Q."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "30489636"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1111/cge.13475"
+                    }
+                ],
+                "title": "XRCC2 mutation causes premature ovarian insufficiency as well as non-obstructive azoospermia in humans.",
+                "publicationDate": "2019",
+                "journal": "Clin. Genet.",
+                "firstPage": "442",
+                "lastPage": "443",
+                "volume": "95"
+            },
+            "referencePositions": [
+                "VARIANT POF17 PRO-14",
+                "INVOLVEMENT IN POF17"
+            ]
+        },
+        {
+            "referenceNumber": 24,
+            "citation": {
+                "id": "30237576",
+                "citationType": "journal article",
+                "authors": [
+                    "Maddirevula S.",
+                    "Alzahrani F.",
+                    "Al-Owain M.",
+                    "Al Muhaizea M.A.",
+                    "Kayyali H.R.",
+                    "AlHashem A.",
+                    "Rahbeeni Z.",
+                    "Al-Otaibi M.",
+                    "Alzaidan H.I.",
+                    "Balobaid A.",
+                    "El Khashab H.Y.",
+                    "Bubshait D.K.",
+                    "Faden M.",
+                    "Yamani S.A.",
+                    "Dabbagh O.",
+                    "Al-Mureikhi M.",
+                    "Jasser A.A.",
+                    "Alsaif H.S.",
+                    "Alluhaydan I.",
+                    "Seidahmed M.Z.",
+                    "Alabbasi B.H.",
+                    "Almogarri I.",
+                    "Kurdi W.",
+                    "Akleh H.",
+                    "Qari A.",
+                    "Al Tala S.M.",
+                    "Alhomaidi S.",
+                    "Kentab A.Y.",
+                    "Salih M.A.",
+                    "Chedrawi A.",
+                    "Alameer S.",
+                    "Tabarki B.",
+                    "Shamseldin H.E.",
+                    "Patel N.",
+                    "Ibrahim N.",
+                    "Abdulwahab F.",
+                    "Samira M.",
+                    "Goljan E.",
+                    "Abouelhoda M.",
+                    "Meyer B.F.",
+                    "Hashem M.",
+                    "Shaheen R.",
+                    "AlShahwan S.",
+                    "Alfadhel M.",
+                    "Ben-Omran T.",
+                    "Al-Qattan M.M.",
+                    "Monies D.",
+                    "Alkuraya F.S."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "30237576"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1038/s41436-018-0138-x"
+                    }
+                ],
+                "title": "Autozygome and high throughput confirmation of disease genes candidacy.",
+                "publicationDate": "2019",
+                "journal": "Genet. Med.",
+                "firstPage": "736",
+                "lastPage": "742",
+                "volume": "21"
+            },
+            "referencePositions": [
+                "VARIANT 215-ARG--CYS-280 DEL"
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "EMBL",
+            "id": "AF035587",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAC05369.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AC003109",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAC05802.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "Y08837",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "CAA70065.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "Y17033",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "CAA76597.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AF520762",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAM55241.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AK313607",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "BAG36372.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "CH471173",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "EAW53968.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "BC042137",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAH42137.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "CCDS",
+            "id": "CCDS5933.1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "RefSeq",
+            "id": "NP_005422.1",
+            "properties": [
+                {
+                    "key": "NucleotideSequenceId",
+                    "value": "NM_005431.1"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "8FAZ",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "EM"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "2.30 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "X=1-280"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "8GBJ",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "EM"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "3.11 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "X=1-280"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "8OUY",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "EM"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "3.40 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "D=1-280"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "8OUZ",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "EM"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "2.20 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "D=2-280"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "8FAZ",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "8GBJ",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "8OUY",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "8OUZ",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "O43543",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "EMDB",
+            "id": "EMD-17205",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "EMDB",
+            "id": "EMD-17206",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "EMDB",
+            "id": "EMD-28961",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "EMDB",
+            "id": "EMD-29917",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "O43543",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "BioGRID",
+            "id": "113350",
+            "properties": [
+                {
+                    "key": "Interactions",
+                    "value": "28"
+                }
+            ]
+        },
+        {
+            "database": "ComplexPortal",
+            "id": "CPX-2363",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "BCDX2 complex"
+                }
+            ]
+        },
+        {
+            "database": "CORUM",
+            "id": "O43543",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "DIP",
+            "id": "DIP-24242N",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "IntAct",
+            "id": "O43543",
+            "properties": [
+                {
+                    "key": "Interactions",
+                    "value": "19"
+                }
+            ]
+        },
+        {
+            "database": "MINT",
+            "id": "O43543",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "STRING",
+            "id": "9606.ENSP00000352271",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "iPTMnet",
+            "id": "O43543",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PhosphoSitePlus",
+            "id": "O43543",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "BioMuta",
+            "id": "XRCC2",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "jPOST",
+            "id": "O43543",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "MassIVE",
+            "id": "O43543",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PaxDb",
+            "id": "9606-ENSP00000352271",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PeptideAtlas",
+            "id": "O43543",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "ProteomicsDB",
+            "id": "49042",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Pumba",
+            "id": "O43543",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Antibodypedia",
+            "id": "18833",
+            "properties": [
+                {
+                    "key": "antibodies",
+                    "value": "415 antibodies from 36 providers"
+                }
+            ]
+        },
+        {
+            "database": "DNASU",
+            "id": "7516",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Ensembl",
+            "id": "ENST00000359321.2",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "ENSP00000352271.1"
+                },
+                {
+                    "key": "GeneId",
+                    "value": "ENSG00000196584.4"
+                }
+            ]
+        },
+        {
+            "database": "GeneID",
+            "id": "7516",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "KEGG",
+            "id": "hsa:7516",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "MANE-Select",
+            "id": "ENST00000359321.2",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "ENSP00000352271.1"
+                },
+                {
+                    "key": "RefSeqNucleotideId",
+                    "value": "NM_005431.2"
+                },
+                {
+                    "key": "RefSeqProteinId",
+                    "value": "NP_005422.1"
+                }
+            ]
+        },
+        {
+            "database": "UCSC",
+            "id": "uc003wld.4",
+            "properties": [
+                {
+                    "key": "OrganismName",
+                    "value": "human"
+                }
+            ]
+        },
+        {
+            "database": "AGR",
+            "id": "HGNC:12829",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "CTD",
+            "id": "7516",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "DisGeNET",
+            "id": "7516",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GeneCards",
+            "id": "XRCC2",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GeneReviews",
+            "id": "XRCC2",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "HGNC",
+            "id": "HGNC:12829",
+            "properties": [
+                {
+                    "key": "GeneName",
+                    "value": "XRCC2"
+                }
+            ]
+        },
+        {
+            "database": "HPA",
+            "id": "ENSG00000196584",
+            "properties": [
+                {
+                    "key": "ExpressionPatterns",
+                    "value": "Tissue enhanced (bone)"
+                }
+            ]
+        },
+        {
+            "database": "MalaCards",
+            "id": "XRCC2",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "MIM",
+            "id": "600375",
+            "properties": [
+                {
+                    "key": "Type",
+                    "value": "gene"
+                }
+            ]
+        },
+        {
+            "database": "MIM",
+            "id": "617247",
+            "properties": [
+                {
+                    "key": "Type",
+                    "value": "phenotype"
+                }
+            ]
+        },
+        {
+            "database": "MIM",
+            "id": "619145",
+            "properties": [
+                {
+                    "key": "Type",
+                    "value": "phenotype"
+                }
+            ]
+        },
+        {
+            "database": "MIM",
+            "id": "619146",
+            "properties": [
+                {
+                    "key": "Type",
+                    "value": "phenotype"
+                }
+            ]
+        },
+        {
+            "database": "neXtProt",
+            "id": "NX_O43543",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OpenTargets",
+            "id": "ENSG00000196584",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Orphanet",
+            "id": "84",
+            "properties": [
+                {
+                    "key": "Disease",
+                    "value": "Fanconi anemia"
+                }
+            ]
+        },
+        {
+            "database": "Orphanet",
+            "id": "227535",
+            "properties": [
+                {
+                    "key": "Disease",
+                    "value": "Hereditary breast cancer"
+                }
+            ]
+        },
+        {
+            "database": "Orphanet",
+            "id": "399805",
+            "properties": [
+                {
+                    "key": "Disease",
+                    "value": "Male infertility with azoospermia or oligozoospermia due to single gene mutation"
+                }
+            ]
+        },
+        {
+            "database": "PharmGKB",
+            "id": "PA37421",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "VEuPathDB",
+            "id": "HostDB:ENSG00000196584",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "eggNOG",
+            "id": "KOG2859",
+            "properties": [
+                {
+                    "key": "ToxonomicScope",
+                    "value": "Eukaryota"
+                }
+            ]
+        },
+        {
+            "database": "GeneTree",
+            "id": "ENSGT00390000020445",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "HOGENOM",
+            "id": "CLU_059815_1_0_1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "InParanoid",
+            "id": "O43543",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OMA",
+            "id": "THRIFFS",
+            "properties": [
+                {
+                    "key": "Fingerprint",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OrthoDB",
+            "id": "420422at2759",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PhylomeDB",
+            "id": "O43543",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "TreeFam",
+            "id": "TF101202",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PathwayCommons",
+            "id": "O43543",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-HSA-5685942",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "HDR through Homologous Recombination (HRR)"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-HSA-5693554",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Resolution of D-loop Structures through Synthesis-Dependent Strand Annealing (SDSA)"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-HSA-5693568",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Resolution of D-loop Structures through Holliday Junction Intermediates"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-HSA-5693579",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Homologous DNA Pairing and Strand Exchange"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-HSA-5693616",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Presynaptic phase of homologous DNA pairing and strand exchange"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-HSA-9701192",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Defective homologous recombination repair (HRR) due to BRCA1 loss of function"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-HSA-9704331",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Defective HDR through Homologous Recombination Repair (HRR) due to PALB2 loss of BRCA1 binding function"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-HSA-9704646",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Defective HDR through Homologous Recombination Repair (HRR) due to PALB2 loss of BRCA2/RAD51/RAD51C binding function"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-HSA-9709603",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Impaired BRCA2 binding to PALB2"
+                }
+            ]
+        },
+        {
+            "database": "SignaLink",
+            "id": "O43543",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "BioGRID-ORCS",
+            "id": "7516",
+            "properties": [
+                {
+                    "key": "hits",
+                    "value": "411 hits in 1169 CRISPR screens"
+                }
+            ]
+        },
+        {
+            "database": "ChiTaRS",
+            "id": "XRCC2",
+            "properties": [
+                {
+                    "key": "OrganismName",
+                    "value": "human"
+                }
+            ]
+        },
+        {
+            "database": "GeneWiki",
+            "id": "XRCC2",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GenomeRNAi",
+            "id": "7516",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Pharos",
+            "id": "O43543",
+            "properties": [
+                {
+                    "key": "DevelopmentLevel",
+                    "value": "Tbio"
+                }
+            ]
+        },
+        {
+            "database": "PRO",
+            "id": "PR:O43543",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Proteomes",
+            "id": "UP000005640",
+            "properties": [
+                {
+                    "key": "Component",
+                    "value": "Chromosome 7"
+                }
+            ]
+        },
+        {
+            "database": "RNAct",
+            "id": "O43543",
+            "properties": [
+                {
+                    "key": "moleculeType",
+                    "value": "protein"
+                }
+            ]
+        },
+        {
+            "database": "Bgee",
+            "id": "ENSG00000196584",
+            "properties": [
+                {
+                    "key": "ExpressionPatterns",
+                    "value": "Expressed in buccal mucosa cell and 208 other cell types or tissues"
+                }
+            ]
+        },
+        {
+            "database": "ExpressionAtlas",
+            "id": "O43543",
+            "properties": [
+                {
+                    "key": "ExpressionPatterns",
+                    "value": "baseline and differential"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005813",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:centrosome"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:UniProtKB"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "21276791"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005737",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:cytoplasm"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0043231",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:intracellular membrane-bounded organelle"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:HPA"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005654",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:nucleoplasm"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:HPA"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0033063",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:Rad51B-Rad51C-Rad51D-XRCC2 complex"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:UniProtKB"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "11751635"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005657",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:replication fork"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:UniProtKB"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "20207730"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005524",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:ATP binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:InterPro"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0140664",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:ATP-dependent DNA damage sensor activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:InterPro"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0003677",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:DNA binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0007098",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:centrosome cycle"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IMP:UniProtKB"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "21276791"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0006281",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:DNA repair"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IGI:BHF-UCL"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000316",
+                    "source": "PubMed",
+                    "id": "10422536"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0042148",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:DNA strand invasion"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:UniProtKB"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "11834724"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0000724",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:double-strand break repair via homologous recombination"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IMP:UniProtKB"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "23149936"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0001701",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:in utero embryonic development"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:Ensembl"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0051321",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:meiotic cell cycle"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "TAS:ProtInc"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000304",
+                    "source": "PubMed",
+                    "id": "9628903"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0000278",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:mitotic cell cycle"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IMP:UniProtKB"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "21276791"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0035264",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:multicellular organism growth"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:Ensembl"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0043524",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:negative regulation of neuron apoptotic process"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:Ensembl"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0022008",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:neurogenesis"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:Ensembl"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0050769",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:positive regulation of neurogenesis"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:Ensembl"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:2000269",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:regulation of fibroblast apoptotic process"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:Ensembl"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0010332",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:response to gamma radiation"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:Ensembl"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0010165",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:response to X-ray"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:Ensembl"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0001756",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:somitogenesis"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:Ensembl"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd19490",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "XRCC2"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "FunFam",
+            "id": "3.40.50.300:FF:001507",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "X-ray repair cross complementing 2"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "3.40.50.300",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "P-loop containing nucleotide triphosphate hydrolases"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR013632",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA_recomb/repair_Rad51_C"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR027417",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "P-loop_NTPase"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR020588",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "RecA_ATP-bd"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR030547",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "XRCC2"
+                }
+            ]
+        },
+        {
+            "database": "PANTHER",
+            "id": "PTHR46644",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA REPAIR PROTEIN XRCC2"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PANTHER",
+            "id": "PTHR46644:SF2",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA REPAIR PROTEIN XRCC2"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF08423",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Rad51"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF52540",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "P-loop containing nucleoside triphosphate hydrolases"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PROSITE",
+            "id": "PS50162",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "RECA_2"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MCSAFHRAESGTELLARLEGRSSLKEIEPNLFADEDSPVHGDILEFHGPEGTGKTEMLYHLTARCILPKSEGGLEVEVLFIDTDYHFDMLRLVTILEHRLSQSSEEIIKYCLGRFFLVYCSSSTHLLLTLYSLESMFCSHPSLCLLILDSLSAFYWIDRVNGGESVNLQESTLRKCSQCLEKLVNDYRLVLFATTQTIMQKASSSSEEPSHASRRLCDVDIDYRPYLCKAWQQLVKHRMFFSKQDDSQSSNQFSLVSRCLKSNSLKKHFFIIGESGVEFC",
+        "length": 280,
+        "molWeight": 31956,
+        "crc64": "5656277E74C06074",
+        "md5": "CBF0CF0C2B75D33A1219AC12EB538A70"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "SUBUNIT": 1,
+            "INTERACTION": 3,
+            "SUBCELLULAR LOCATION": 1,
+            "DISEASE": 3,
+            "SIMILARITY": 1
+        },
+        "countByFeatureType": {
+            "Chain": 1,
+            "Modified residue": 1,
+            "Natural variant": 25,
+            "Helix": 10,
+            "Turn": 3,
+            "Beta strand": 11
+        },
+        "uniParcId": "UPI000000D9C8"
+    }
+}

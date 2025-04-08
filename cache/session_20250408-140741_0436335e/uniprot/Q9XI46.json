@@ -1,0 +1,1424 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q9XI46",
+    "uniProtkbId": "CCMH_ARATH",
+    "entryAudit": {
+        "firstPublicDate": "2015-04-29",
+        "lastAnnotationUpdateDate": "2025-02-05",
+        "lastSequenceUpdateDate": "1999-11-01",
+        "entryVersion": 151,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 5.0,
+    "organism": {
+        "scientificName": "Arabidopsis thaliana",
+        "commonName": "Mouse-ear cress",
+        "taxonId": 3702,
+        "lineage": [
+            "Eukaryota",
+            "Viridiplantae",
+            "Streptophyta",
+            "Embryophyta",
+            "Tracheophyta",
+            "Spermatophyta",
+            "Magnoliopsida",
+            "eudicotyledons",
+            "Gunneridae",
+            "Pentapetalae",
+            "rosids",
+            "malvids",
+            "Brassicales",
+            "Brassicaceae",
+            "Camelineae",
+            "Arabidopsis"
+        ]
+    },
+    "proteinExistence": "1: Evidence at protein level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000305"
+                    }
+                ],
+                "value": "Cytochrome c-type biogenesis CcmH-like mitochondrial protein"
+            },
+            "shortNames": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "16236729"
+                        }
+                    ],
+                    "value": "AtCCMH"
+                }
+            ]
+        }
+    },
+    "genes": [
+        {
+            "geneName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000303",
+                        "source": "PubMed",
+                        "id": "16236729"
+                    }
+                ],
+                "value": "CCMH"
+            },
+            "orderedLocusNames": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000312",
+                            "source": "Araport",
+                            "id": "AT1G15220"
+                        }
+                    ],
+                    "value": "At1g15220"
+                }
+            ],
+            "orfNames": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000312",
+                            "source": "EMBL",
+                            "id": "AAD39651.1"
+                        }
+                    ],
+                    "value": "F9L1.17"
+                }
+            ]
+        }
+    ],
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "16236729"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "18644794"
+                        }
+                    ],
+                    "value": "Plays a central role in mitochondrial cytochrome c maturation. Probable component of a heme lyase complex involved in the reduction of apocytochrome c (PubMed:16236729). Forms a complex with CCMF proteins (CCMFC, CCMFN1 and CCMFN2) that performs the assembly of heme with c-type apocytochromes in mitochondria (PubMed:18644794)"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "16236729"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "18644794"
+                        }
+                    ],
+                    "value": "Interacts (via N-terminus) with CYTC-1 (PubMed:16236729). Interacts with CCMFN1 and CCMFN2 (PubMed:18644794)"
+                }
+            ],
+            "commentType": "SUBUNIT"
+        },
+        {
+            "commentType": "INTERACTION",
+            "interactions": [
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "Q9XI46",
+                        "intActId": "EBI-763363"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "Q33884",
+                        "geneName": "CCMFN2",
+                        "intActId": "EBI-763400"
+                    },
+                    "numberOfExperiments": 3,
+                    "organismDiffer": false
+                }
+            ]
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "16236729"
+                            }
+                        ],
+                        "value": "Mitochondrion inner membrane",
+                        "id": "SL-0168"
+                    },
+                    "topology": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000255"
+                            }
+                        ],
+                        "value": "Single-pass membrane protein",
+                        "id": "SL-9904"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "16236729"
+                        }
+                    ],
+                    "value": "Embryonic lethality when homozygous. Arrest of embryo development at the torpedo stage"
+                }
+            ],
+            "commentType": "DISRUPTION PHENOTYPE"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Belongs to the CcmH/CycL/Ccl2/NrfF family"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        }
+    ],
+    "features": [
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 159,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Cytochrome c-type biogenesis CcmH-like mitochondrial protein",
+            "featureId": "PRO_0000432846"
+        },
+        {
+            "type": "Topological domain",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 82,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Mitochondrial intermembrane",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305",
+                    "source": "PubMed",
+                    "id": "16236729"
+                }
+            ]
+        },
+        {
+            "type": "Transmembrane",
+            "location": {
+                "start": {
+                    "value": 83,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 105,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Helical",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255"
+                }
+            ]
+        },
+        {
+            "type": "Topological domain",
+            "location": {
+                "start": {
+                    "value": 106,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 159,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Mitochondrial matrix",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305",
+                    "source": "PubMed",
+                    "id": "16236729"
+                }
+            ]
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 27,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 27,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "covalent",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:30413"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305",
+                    "source": "PubMed",
+                    "id": "16236729"
+                }
+            ],
+            "ligand": {
+                "name": "heme",
+                "id": "ChEBI:CHEBI:30413"
+            }
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 30,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 30,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "covalent",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:30413"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305",
+                    "source": "PubMed",
+                    "id": "16236729"
+                }
+            ],
+            "ligand": {
+                "name": "heme",
+                "id": "ChEBI:CHEBI:30413"
+            }
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0201",
+            "category": "Biological process",
+            "name": "Cytochrome c-type biogenesis"
+        },
+        {
+            "id": "KW-0349",
+            "category": "Ligand",
+            "name": "Heme"
+        },
+        {
+            "id": "KW-0408",
+            "category": "Ligand",
+            "name": "Iron"
+        },
+        {
+            "id": "KW-0472",
+            "category": "Cellular component",
+            "name": "Membrane"
+        },
+        {
+            "id": "KW-0479",
+            "category": "Ligand",
+            "name": "Metal-binding"
+        },
+        {
+            "id": "KW-0496",
+            "category": "Cellular component",
+            "name": "Mitochondrion"
+        },
+        {
+            "id": "KW-0999",
+            "category": "Cellular component",
+            "name": "Mitochondrion inner membrane"
+        },
+        {
+            "id": "KW-1185",
+            "category": "Technical term",
+            "name": "Reference proteome"
+        },
+        {
+            "id": "KW-0812",
+            "category": "Domain",
+            "name": "Transmembrane"
+        },
+        {
+            "id": "KW-1133",
+            "category": "Domain",
+            "name": "Transmembrane helix"
+        }
+    ],
+    "references": [
+        {
+            "referenceNumber": 1,
+            "citation": {
+                "id": "11130712",
+                "citationType": "journal article",
+                "authors": [
+                    "Theologis A.",
+                    "Ecker J.R.",
+                    "Palm C.J.",
+                    "Federspiel N.A.",
+                    "Kaul S.",
+                    "White O.",
+                    "Alonso J.",
+                    "Altafi H.",
+                    "Araujo R.",
+                    "Bowman C.L.",
+                    "Brooks S.Y.",
+                    "Buehler E.",
+                    "Chan A.",
+                    "Chao Q.",
+                    "Chen H.",
+                    "Cheuk R.F.",
+                    "Chin C.W.",
+                    "Chung M.K.",
+                    "Conn L.",
+                    "Conway A.B.",
+                    "Conway A.R.",
+                    "Creasy T.H.",
+                    "Dewar K.",
+                    "Dunn P.",
+                    "Etgu P.",
+                    "Feldblyum T.V.",
+                    "Feng J.-D.",
+                    "Fong B.",
+                    "Fujii C.Y.",
+                    "Gill J.E.",
+                    "Goldsmith A.D.",
+                    "Haas B.",
+                    "Hansen N.F.",
+                    "Hughes B.",
+                    "Huizar L.",
+                    "Hunter J.L.",
+                    "Jenkins J.",
+                    "Johnson-Hopson C.",
+                    "Khan S.",
+                    "Khaykin E.",
+                    "Kim C.J.",
+                    "Koo H.L.",
+                    "Kremenetskaia I.",
+                    "Kurtz D.B.",
+                    "Kwan A.",
+                    "Lam B.",
+                    "Langin-Hooper S.",
+                    "Lee A.",
+                    "Lee J.M.",
+                    "Lenz C.A.",
+                    "Li J.H.",
+                    "Li Y.-P.",
+                    "Lin X.",
+                    "Liu S.X.",
+                    "Liu Z.A.",
+                    "Luros J.S.",
+                    "Maiti R.",
+                    "Marziali A.",
+                    "Militscher J.",
+                    "Miranda M.",
+                    "Nguyen M.",
+                    "Nierman W.C.",
+                    "Osborne B.I.",
+                    "Pai G.",
+                    "Peterson J.",
+                    "Pham P.K.",
+                    "Rizzo M.",
+                    "Rooney T.",
+                    "Rowley D.",
+                    "Sakano H.",
+                    "Salzberg S.L.",
+                    "Schwartz J.R.",
+                    "Shinn P.",
+                    "Southwick A.M.",
+                    "Sun H.",
+                    "Tallon L.J.",
+                    "Tambunga G.",
+                    "Toriumi M.J.",
+                    "Town C.D.",
+                    "Utterback T.",
+                    "Van Aken S.",
+                    "Vaysberg M.",
+                    "Vysotskaia V.S.",
+                    "Walker M.",
+                    "Wu D.",
+                    "Yu G.",
+                    "Fraser C.M.",
+                    "Venter J.C.",
+                    "Davis R.W."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "11130712"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1038/35048500"
+                    }
+                ],
+                "title": "Sequence and analysis of chromosome 1 of the plant Arabidopsis thaliana.",
+                "publicationDate": "2000",
+                "journal": "Nature",
+                "firstPage": "816",
+                "lastPage": "820",
+                "volume": "408"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ],
+            "referenceComments": [
+                {
+                    "value": "cv. Columbia",
+                    "type": "STRAIN"
+                }
+            ]
+        },
+        {
+            "referenceNumber": 2,
+            "citation": {
+                "id": "27862469",
+                "citationType": "journal article",
+                "authors": [
+                    "Cheng C.Y.",
+                    "Krishnakumar V.",
+                    "Chan A.P.",
+                    "Thibaud-Nissen F.",
+                    "Schobel S.",
+                    "Town C.D."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "27862469"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1111/tpj.13415"
+                    }
+                ],
+                "title": "Araport11: a complete reannotation of the Arabidopsis thaliana reference genome.",
+                "publicationDate": "2017",
+                "journal": "Plant J.",
+                "firstPage": "789",
+                "lastPage": "804",
+                "volume": "89"
+            },
+            "referencePositions": [
+                "GENOME REANNOTATION"
+            ],
+            "referenceComments": [
+                {
+                    "value": "cv. Columbia",
+                    "type": "STRAIN"
+                }
+            ]
+        },
+        {
+            "referenceNumber": 3,
+            "citation": {
+                "id": "14593172",
+                "citationType": "journal article",
+                "authors": [
+                    "Yamada K.",
+                    "Lim J.",
+                    "Dale J.M.",
+                    "Chen H.",
+                    "Shinn P.",
+                    "Palm C.J.",
+                    "Southwick A.M.",
+                    "Wu H.C.",
+                    "Kim C.J.",
+                    "Nguyen M.",
+                    "Pham P.K.",
+                    "Cheuk R.F.",
+                    "Karlin-Newmann G.",
+                    "Liu S.X.",
+                    "Lam B.",
+                    "Sakano H.",
+                    "Wu T.",
+                    "Yu G.",
+                    "Miranda M.",
+                    "Quach H.L.",
+                    "Tripp M.",
+                    "Chang C.H.",
+                    "Lee J.M.",
+                    "Toriumi M.J.",
+                    "Chan M.M.",
+                    "Tang C.C.",
+                    "Onodera C.S.",
+                    "Deng J.M.",
+                    "Akiyama K.",
+                    "Ansari Y.",
+                    "Arakawa T.",
+                    "Banh J.",
+                    "Banno F.",
+                    "Bowser L.",
+                    "Brooks S.Y.",
+                    "Carninci P.",
+                    "Chao Q.",
+                    "Choy N.",
+                    "Enju A.",
+                    "Goldsmith A.D.",
+                    "Gurjal M.",
+                    "Hansen N.F.",
+                    "Hayashizaki Y.",
+                    "Johnson-Hopson C.",
+                    "Hsuan V.W.",
+                    "Iida K.",
+                    "Karnes M.",
+                    "Khan S.",
+                    "Koesema E.",
+                    "Ishida J.",
+                    "Jiang P.X.",
+                    "Jones T.",
+                    "Kawai J.",
+                    "Kamiya A.",
+                    "Meyers C.",
+                    "Nakajima M.",
+                    "Narusaka M.",
+                    "Seki M.",
+                    "Sakurai T.",
+                    "Satou M.",
+                    "Tamse R.",
+                    "Vaysberg M.",
+                    "Wallender E.K.",
+                    "Wong C.",
+                    "Yamamura Y.",
+                    "Yuan S.",
+                    "Shinozaki K.",
+                    "Davis R.W.",
+                    "Theologis A.",
+                    "Ecker J.R."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "14593172"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1126/science.1088305"
+                    }
+                ],
+                "title": "Empirical analysis of transcriptional activity in the Arabidopsis genome.",
+                "publicationDate": "2003",
+                "journal": "Science",
+                "firstPage": "842",
+                "lastPage": "846",
+                "volume": "302"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]"
+            ],
+            "referenceComments": [
+                {
+                    "value": "cv. Columbia",
+                    "type": "STRAIN"
+                }
+            ]
+        },
+        {
+            "referenceNumber": 4,
+            "citation": {
+                "id": "CI-3TH3AFLAVIRO9",
+                "citationType": "submission",
+                "authors": [
+                    "Brover V.V.",
+                    "Troukhan M.E.",
+                    "Alexandrov N.A.",
+                    "Lu Y.-P.",
+                    "Flavell R.B.",
+                    "Feldmann K.A."
+                ],
+                "title": "Full-length cDNA from Arabidopsis thaliana.",
+                "publicationDate": "MAR-2002",
+                "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]"
+            ]
+        },
+        {
+            "referenceNumber": 5,
+            "citation": {
+                "id": "16236729",
+                "citationType": "journal article",
+                "authors": [
+                    "Meyer E.H.",
+                    "Giege P.",
+                    "Gelhaye E.",
+                    "Rayapuram N.",
+                    "Ahuja U.",
+                    "Thony-Meyer L.",
+                    "Grienenberger J.M.",
+                    "Bonnard G."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "16236729"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1073/pnas.0503473102"
+                    }
+                ],
+                "title": "AtCCMH, an essential component of the c-type cytochrome maturation pathway in Arabidopsis mitochondria, interacts with apocytochrome c.",
+                "publicationDate": "2005",
+                "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+                "firstPage": "16113",
+                "lastPage": "16118",
+                "volume": "102"
+            },
+            "referencePositions": [
+                "FUNCTION",
+                "INTERACTION WITH CYTC-1",
+                "SUBCELLULAR LOCATION",
+                "TOPOLOGY",
+                "DISRUPTION PHENOTYPE"
+            ]
+        },
+        {
+            "referenceNumber": 6,
+            "citation": {
+                "id": "18644794",
+                "citationType": "journal article",
+                "authors": [
+                    "Rayapuram N.",
+                    "Hagenmuller J.",
+                    "Grienenberger J.M.",
+                    "Bonnard G.",
+                    "Giege P."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "18644794"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1074/jbc.m802621200"
+                    }
+                ],
+                "title": "The three mitochondrial encoded CcmF proteins form a complex that interacts with CCMH and c-type apocytochromes in Arabidopsis.",
+                "publicationDate": "2008",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "25200",
+                "lastPage": "25208",
+                "volume": "283"
+            },
+            "referencePositions": [
+                "FUNCTION",
+                "INTERACTION WITH CCMFN1 AND CCMFN2"
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "EMBL",
+            "id": "AC007591",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAD39651.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "CP002684",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AEE29289.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "CP002684",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AEE29290.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AY050392",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAK91409.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AY097355",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAM19871.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AY085498",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAM62723.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "PIR",
+            "id": "D86286",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "D86286"
+                }
+            ]
+        },
+        {
+            "database": "RefSeq",
+            "id": "NP_563966.1",
+            "properties": [
+                {
+                    "key": "NucleotideSequenceId",
+                    "value": "NM_101390.2"
+                }
+            ]
+        },
+        {
+            "database": "RefSeq",
+            "id": "NP_973834.1",
+            "properties": [
+                {
+                    "key": "NucleotideSequenceId",
+                    "value": "NM_202105.2"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "Q9XI46",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "Q9XI46",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "IntAct",
+            "id": "Q9XI46",
+            "properties": [
+                {
+                    "key": "Interactions",
+                    "value": "4"
+                }
+            ]
+        },
+        {
+            "database": "STRING",
+            "id": "3702.Q9XI46",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PaxDb",
+            "id": "3702-AT1G15220.2",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "ProteomicsDB",
+            "id": "223918",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "EnsemblPlants",
+            "id": "AT1G15220.1",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AT1G15220.1"
+                },
+                {
+                    "key": "GeneId",
+                    "value": "AT1G15220"
+                }
+            ]
+        },
+        {
+            "database": "EnsemblPlants",
+            "id": "AT1G15220.2",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AT1G15220.2"
+                },
+                {
+                    "key": "GeneId",
+                    "value": "AT1G15220"
+                }
+            ]
+        },
+        {
+            "database": "GeneID",
+            "id": "838089",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Gramene",
+            "id": "AT1G15220.1",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AT1G15220.1"
+                },
+                {
+                    "key": "GeneId",
+                    "value": "AT1G15220"
+                }
+            ]
+        },
+        {
+            "database": "Gramene",
+            "id": "AT1G15220.2",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AT1G15220.2"
+                },
+                {
+                    "key": "GeneId",
+                    "value": "AT1G15220"
+                }
+            ]
+        },
+        {
+            "database": "KEGG",
+            "id": "ath:AT1G15220",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Araport",
+            "id": "AT1G15220",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "TAIR",
+            "id": "AT1G15220",
+            "properties": [
+                {
+                    "key": "GeneName",
+                    "value": "CCMH"
+                }
+            ]
+        },
+        {
+            "database": "eggNOG",
+            "id": "ENOG502RXFW",
+            "properties": [
+                {
+                    "key": "ToxonomicScope",
+                    "value": "Eukaryota"
+                }
+            ]
+        },
+        {
+            "database": "HOGENOM",
+            "id": "CLU_107187_1_0_1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "InParanoid",
+            "id": "Q9XI46",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OMA",
+            "id": "AGIWAYN",
+            "properties": [
+                {
+                    "key": "Fingerprint",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OrthoDB",
+            "id": "2020000at2759",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PhylomeDB",
+            "id": "Q9XI46",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PRO",
+            "id": "PR:Q9XI46",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Proteomes",
+            "id": "UP000006548",
+            "properties": [
+                {
+                    "key": "Component",
+                    "value": "Chromosome 1"
+                }
+            ]
+        },
+        {
+            "database": "ExpressionAtlas",
+            "id": "Q9XI46",
+            "properties": [
+                {
+                    "key": "ExpressionPatterns",
+                    "value": "baseline and differential"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005743",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:mitochondrial inner membrane"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:TAIR"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "16236729"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005739",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:mitochondrion"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "HDA:TAIR"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007005",
+                    "source": "PubMed",
+                    "id": "14671022"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0032991",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:protein-containing complex"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:TAIR"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "16236729"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0046872",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:metal ion binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0016491",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:oxidoreductase activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:TAIR"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "16236729"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0017004",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:cytochrome complex assembly"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "TAS:UniProtKB"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000304",
+                    "source": "PubMed",
+                    "id": "18644794"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0009793",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:embryo development ending in seed dormancy"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IMP:TAIR"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000315",
+                    "source": "PubMed",
+                    "id": "16236729"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd16378",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "CcmH_N"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "FunFam",
+            "id": "1.10.8.640:FF:000001",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Cytochrome c-type biogenesis protein"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "1.10.8.640",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Cytochrome C biogenesis protein"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR005616",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "CcmH/CycL/Ccl2/NrfF_N"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR038297",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "CcmH/CycL/NrfF/Ccl2_sf"
+                }
+            ]
+        },
+        {
+            "database": "PANTHER",
+            "id": "PTHR47601",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PANTHER",
+            "id": "PTHR47601:SF1",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "CYTOCHROME C-TYPE BIOGENESIS CCMH-LIKE MITOCHONDRIAL PROTEIN"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF03918",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "CcmH"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MEKTDEERKKAQMLDARARNISHNVRCTECGSQSIEDSQADIAILLRQLIRNEIGAGKTDKEIYSKLEDEFGETVLYAPKFDLQTAALWLTPVIIAGGTAAGIVYQKHRLRKNVDIMALNLIRGVPLTPKERVTILDVLIPPSPPPQGVVSRLRRWLNR",
+        "length": 159,
+        "molWeight": 17885,
+        "crc64": "51637FB6AFD683F7",
+        "md5": "624892D00B2F81DF175913C3860ACF38"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "SUBUNIT": 1,
+            "INTERACTION": 1,
+            "SUBCELLULAR LOCATION": 1,
+            "DISRUPTION PHENOTYPE": 1,
+            "SIMILARITY": 1
+        },
+        "countByFeatureType": {
+            "Chain": 1,
+            "Topological domain": 2,
+            "Transmembrane": 1,
+            "Binding site": 2
+        },
+        "uniParcId": "UPI00000A15E6"
+    }
+}

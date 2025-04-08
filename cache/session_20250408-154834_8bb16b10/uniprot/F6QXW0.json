@@ -1,0 +1,1359 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "F6QXW0",
+    "uniProtkbId": "DNA2_XENTR",
+    "entryAudit": {
+        "firstPublicDate": "2012-10-03",
+        "lastAnnotationUpdateDate": "2025-02-05",
+        "lastSequenceUpdateDate": "2011-07-27",
+        "entryVersion": 73,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 5.0,
+    "organism": {
+        "scientificName": "Xenopus tropicalis",
+        "commonName": "Western clawed frog",
+        "synonyms": [
+            "Silurana tropicalis"
+        ],
+        "taxonId": 8364,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Chordata",
+            "Craniata",
+            "Vertebrata",
+            "Euteleostomi",
+            "Amphibia",
+            "Batrachia",
+            "Anura",
+            "Pipoidea",
+            "Pipidae",
+            "Xenopodinae",
+            "Xenopus",
+            "Silurana"
+        ]
+    },
+    "proteinExistence": "3: Inferred from homology",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "value": "DNA replication ATP-dependent helicase/nuclease DNA2"
+            }
+        },
+        "alternativeNames": [
+            {
+                "fullName": {
+                    "value": "DNA replication ATP-dependent helicase-like homolog"
+                }
+            }
+        ],
+        "includes": [
+            {
+                "recommendedName": {
+                    "fullName": {
+                        "value": "DNA replication nuclease DNA2"
+                    },
+                    "ecNumbers": [
+                        {
+                            "value": "3.1.-.-"
+                        }
+                    ]
+                }
+            },
+            {
+                "recommendedName": {
+                    "fullName": {
+                        "value": "DNA replication ATP-dependent helicase DNA2"
+                    },
+                    "ecNumbers": [
+                        {
+                            "value": "3.6.4.12"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "genes": [
+        {
+            "geneName": {
+                "value": "dna2"
+            }
+        }
+    ],
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250",
+                            "source": "UniProtKB",
+                            "id": "P51530"
+                        }
+                    ],
+                    "value": "Key enzyme involved in DNA replication and DNA repair in nucleus and mitochondrion. Involved in Okazaki fragments processing by cleaving long flaps that escape fen1: flaps that are longer than 27 nucleotides are coated by replication protein A complex (RPA), leading to recruit dna2 which cleaves the flap until it is too short to bind RPA and becomes a substrate for FEN1. Also involved in 5'-end resection of DNA during double-strand break (DSB) repair by mediating the cleavage of 5'-ssDNA, while the 3'-ssDNA cleavage is prevented by the presence of RPA. Also involved in DNA replication checkpoint independently of Okazaki fragments processing. Possesses different enzymatic activities, such as single-stranded DNA (ssDNA)-dependent ATPase, 5'-3' helicase and endonuclease activities. While the ATPase and endonuclease activities are well-defined and play a key role in Okazaki fragments processing and DSB repair, the 5'-3' DNA helicase activity is subject to debate. According to various reports, the helicase activity is weak and its function remains largely unclear. Helicase activity may promote the motion of dna2 on the flap, helping the nuclease function (By similarity)"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "commentType": "CATALYTIC ACTIVITY",
+            "reaction": {
+                "name": "ATP + H2O = ADP + phosphate + H(+)",
+                "reactionCrossReferences": [
+                    {
+                        "database": "Rhea",
+                        "id": "RHEA:13065"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:15377"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:15378"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:30616"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:43474"
+                    },
+                    {
+                        "database": "ChEBI",
+                        "id": "CHEBI:456216"
+                    }
+                ],
+                "ecNumber": "3.6.4.12"
+            }
+        },
+        {
+            "commentType": "COFACTOR",
+            "cofactors": [
+                {
+                    "name": "[4Fe-4S] cluster",
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250"
+                        }
+                    ],
+                    "cofactorCrossReference": {
+                        "database": "ChEBI",
+                        "id": "CHEBI:49883"
+                    }
+                }
+            ],
+            "note": {
+                "texts": [
+                    {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000250"
+                            }
+                        ],
+                        "value": "Binds 1 [4Fe-4S] cluster."
+                    }
+                ]
+            }
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000250",
+                                "source": "UniProtKB",
+                                "id": "P51530"
+                            }
+                        ],
+                        "value": "Nucleus",
+                        "id": "SL-0191"
+                    }
+                },
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000250",
+                                "source": "UniProtKB",
+                                "id": "P51530"
+                            }
+                        ],
+                        "value": "Mitochondrion",
+                        "id": "SL-0173"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Belongs to the DNA2/NAM7 helicase family"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        }
+    ],
+    "features": [
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1048,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "DNA replication ATP-dependent helicase/nuclease DNA2",
+            "featureId": "PRO_0000419467"
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 86,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 521,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Nuclease activity",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 522,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 1048,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Helicase activity",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 683,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 724,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Disordered",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Compositional bias",
+            "location": {
+                "start": {
+                    "value": 707,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 717,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Polar residues",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 142,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 142,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:49883"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250"
+                }
+            ],
+            "ligand": {
+                "name": "[4Fe-4S] cluster",
+                "id": "ChEBI:CHEBI:49883"
+            }
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 395,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 395,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:49883"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250"
+                }
+            ],
+            "ligand": {
+                "name": "[4Fe-4S] cluster",
+                "id": "ChEBI:CHEBI:49883"
+            }
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 398,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 398,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:49883"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250"
+                }
+            ],
+            "ligand": {
+                "name": "[4Fe-4S] cluster",
+                "id": "ChEBI:CHEBI:49883"
+            }
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 404,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 404,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:49883"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000250"
+                }
+            ],
+            "ligand": {
+                "name": "[4Fe-4S] cluster",
+                "id": "ChEBI:CHEBI:49883"
+            }
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 649,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 656,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:30616"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255"
+                }
+            ],
+            "ligand": {
+                "name": "ATP",
+                "id": "ChEBI:CHEBI:30616"
+            }
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0004",
+            "category": "Ligand",
+            "name": "4Fe-4S"
+        },
+        {
+            "id": "KW-0067",
+            "category": "Ligand",
+            "name": "ATP-binding"
+        },
+        {
+            "id": "KW-0227",
+            "category": "Biological process",
+            "name": "DNA damage"
+        },
+        {
+            "id": "KW-0234",
+            "category": "Biological process",
+            "name": "DNA repair"
+        },
+        {
+            "id": "KW-0235",
+            "category": "Biological process",
+            "name": "DNA replication"
+        },
+        {
+            "id": "KW-0238",
+            "category": "Molecular function",
+            "name": "DNA-binding"
+        },
+        {
+            "id": "KW-0255",
+            "category": "Molecular function",
+            "name": "Endonuclease"
+        },
+        {
+            "id": "KW-0347",
+            "category": "Molecular function",
+            "name": "Helicase"
+        },
+        {
+            "id": "KW-0378",
+            "category": "Molecular function",
+            "name": "Hydrolase"
+        },
+        {
+            "id": "KW-0408",
+            "category": "Ligand",
+            "name": "Iron"
+        },
+        {
+            "id": "KW-0411",
+            "category": "Ligand",
+            "name": "Iron-sulfur"
+        },
+        {
+            "id": "KW-0479",
+            "category": "Ligand",
+            "name": "Metal-binding"
+        },
+        {
+            "id": "KW-0496",
+            "category": "Cellular component",
+            "name": "Mitochondrion"
+        },
+        {
+            "id": "KW-0511",
+            "category": "Molecular function",
+            "name": "Multifunctional enzyme"
+        },
+        {
+            "id": "KW-0540",
+            "category": "Molecular function",
+            "name": "Nuclease"
+        },
+        {
+            "id": "KW-0547",
+            "category": "Ligand",
+            "name": "Nucleotide-binding"
+        },
+        {
+            "id": "KW-0539",
+            "category": "Cellular component",
+            "name": "Nucleus"
+        },
+        {
+            "id": "KW-1185",
+            "category": "Technical term",
+            "name": "Reference proteome"
+        }
+    ],
+    "references": [
+        {
+            "referenceNumber": 1,
+            "citation": {
+                "id": "20431018",
+                "citationType": "journal article",
+                "authors": [
+                    "Hellsten U.",
+                    "Harland R.M.",
+                    "Gilchrist M.J.",
+                    "Hendrix D.",
+                    "Jurka J.",
+                    "Kapitonov V.",
+                    "Ovcharenko I.",
+                    "Putnam N.H.",
+                    "Shu S.",
+                    "Taher L.",
+                    "Blitz I.L.",
+                    "Blumberg B.",
+                    "Dichmann D.S.",
+                    "Dubchak I.",
+                    "Amaya E.",
+                    "Detter J.C.",
+                    "Fletcher R.",
+                    "Gerhard D.S.",
+                    "Goodstein D.",
+                    "Graves T.",
+                    "Grigoriev I.V.",
+                    "Grimwood J.",
+                    "Kawashima T.",
+                    "Lindquist E.",
+                    "Lucas S.M.",
+                    "Mead P.E.",
+                    "Mitros T.",
+                    "Ogino H.",
+                    "Ohta Y.",
+                    "Poliakov A.V.",
+                    "Pollet N.",
+                    "Robert J.",
+                    "Salamov A.",
+                    "Sater A.K.",
+                    "Schmutz J.",
+                    "Terry A.",
+                    "Vize P.D.",
+                    "Warren W.C.",
+                    "Wells D.",
+                    "Wills A.",
+                    "Wilson R.K.",
+                    "Zimmerman L.B.",
+                    "Zorn A.M.",
+                    "Grainger R.",
+                    "Grammer T.",
+                    "Khokha M.K.",
+                    "Richardson P.M.",
+                    "Rokhsar D.S."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "20431018"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1126/science.1183670"
+                    }
+                ],
+                "title": "The genome of the Western clawed frog Xenopus tropicalis.",
+                "publicationDate": "2010",
+                "journal": "Science",
+                "firstPage": "633",
+                "lastPage": "636",
+                "volume": "328"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "EMBL",
+            "id": "AAMC01051984",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "-"
+                },
+                {
+                    "key": "Status",
+                    "value": "NOT_ANNOTATED_CDS"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AAMC01051985",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "-"
+                },
+                {
+                    "key": "Status",
+                    "value": "NOT_ANNOTATED_CDS"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AAMC01051986",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "-"
+                },
+                {
+                    "key": "Status",
+                    "value": "NOT_ANNOTATED_CDS"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "F6QXW0",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "F6QXW0",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "STRING",
+            "id": "8364.ENSXETP00000016317",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PaxDb",
+            "id": "8364-ENSXETP00000016310",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "eggNOG",
+            "id": "KOG1805",
+            "properties": [
+                {
+                    "key": "ToxonomicScope",
+                    "value": "Eukaryota"
+                }
+            ]
+        },
+        {
+            "database": "HOGENOM",
+            "id": "CLU_001666_2_0_1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "InParanoid",
+            "id": "F6QXW0",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "TreeFam",
+            "id": "TF314903",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Proteomes",
+            "id": "UP000008143",
+            "properties": [
+                {
+                    "key": "Component",
+                    "value": "Unplaced"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005739",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:mitochondrion"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-SubCell"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005634",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:nucleus"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-SubCell"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0051539",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:4 iron, 4 sulfur cluster binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0043139",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:5'-3' DNA helicase activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0017108",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:5'-flap endonuclease activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005524",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:ATP binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0016887",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:ATP hydrolysis activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0140849",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:ATP-dependent H2AZ histone chaperone activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:RHEA"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0140665",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:ATP-dependent H3-H4 histone complex chaperone activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:RHEA"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0140584",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:chromatin extrusion motor activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:RHEA"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0061775",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:cohesin loader activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:RHEA"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0003677",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:DNA binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0003689",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:DNA clamp loader activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:RHEA"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0046872",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:metal ion binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0004518",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:nuclease activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0017116",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:single-stranded DNA helicase activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0006284",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:base-excision repair"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0000729",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:DNA double-strand break processing"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0006260",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:DNA replication"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0000076",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:DNA replication checkpoint signaling"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0033567",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:DNA replication, Okazaki fragment processing"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "ISS:UniProtKB"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd22318",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA2_N-like"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd18808",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "SF1_C_Upf1"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "FunFam",
+            "id": "2.40.30.270:FF:000002",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA replication ATP-dependent helicase/nuclease DNA2"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "FunFam",
+            "id": "3.40.50.300:FF:000789",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA replication ATP-dependent helicase/nuclease DNA2"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.40.30.270",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "3.90.320.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "3.40.50.300",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "P-loop containing nucleotide triphosphate hydrolases"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "2"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR051827",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Cas4_exonuclease"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR041679",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA2/NAM7-like_C"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR041677",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA2/NAM7_AAA_11"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR048459",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA2_Rift"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR014808",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA_replication_fac_Dna2_N"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR027417",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "P-loop_NTPase"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR011604",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "PDDEXK-like_dom_sf"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR047187",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "SF1_C_Upf1"
+                }
+            ]
+        },
+        {
+            "database": "PANTHER",
+            "id": "PTHR36531",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "CRISPR-ASSOCIATED EXONUCLEASE CAS4"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PANTHER",
+            "id": "PTHR36531:SF6",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA REPLICATION ATP-DEPENDENT HELICASE_NUCLEASE DNA2"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF13086",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "AAA_11"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF13087",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "AAA_12"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF08696",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Dna2"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF21123",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Dna2_Rift"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF52540",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "P-loop containing nucleoside triphosphate hydrolases"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MEPVSAECQLPPEDDLLEMMMEQSFTEPEEKSKDKSTRKIIPKTKLCRGLNNRYCVLNVKEVYAQGEEKHLTITASQEGDDLELCILKDDWVALHIKPGDIIHLEGNCAFDNTWTISRDTGYLILYPDLLISGTSIANGIRCLRRSVLSEKFKVCDKGSRQMLIGTMLHDIFQRATTRGFTDSVLQELAHHTVHGPKYLKEMYQLKLNQTDVMGEVQEYLPSFAKWAIDFMTHPLNQHQINVTRPTAGDPTEATKVSEFLDIEENIWSPRFGLKGKIDVTARVKIHQKSKSHLKIMPLELKTGKESNSIEHRSQVVLYTLLSQERREDPEAGLLLYLKTGNMYSVPGNRLDRRELLKIRNELSYYLTNVVHKSDNGSKEITLASLPALIADRQACKFCSQMRNCALYSRSVEQQIENCYIPAEMIPVVQKETEHLNKDHLQYFRLWYLMCTLEGNSKDSKMGRKNIWMMSSSEREEDGQCIGNLIRTGPVQTISDGQHLHSFQRKSGTVPATNLMSGDRVVVSGEDKFLALSSGYIKEVKHNNITCILDRSLGKLPEDLLFRLDHEEGGGGLESHLGNLSRLMENSPVSDKLRKLIIDFSKPNFVQHLSSVLPSDAKDIVANILKGLNKPQKQAMKRVLLSKDYTLIVGMPGTGKTTTICTLVSTLHLKTCTSCLVDDHREAAGTHRSHRHSKGTVNLGKQKRQHRVTSTTSSTSAKCRSKTEPAVSAENKKLQKLISGSHVCIMVNGHKTFSQNNYIIFFDNILLLKKLPLHYMCAFALIHHQCFKGCVKSVSLVRELGMSESLFKRLERNQEAVVQLTVQYRMNSQIMALSNKLVYEGRLECASDRVSNAVVKLPHIKTLLLELEFRESQESMWIKDVLEPSNPVCFLNTEKIPALETEEKGGISNWIEAKLVFCLTKLFLKAGCRPSDIGIIAPYRQQLKVISNYFNSLSASAVEVNTVDKYQGRDKSVIIVSFVRSNIDGKLGDLLKDWRRLNVALTRAKHKLIMLGCVPTLSRFLCLEQLICHLKSKNHIYDLPAGAHEHMPV",
+        "length": 1048,
+        "molWeight": 118558,
+        "crc64": "49BDCEC35E9FC942",
+        "md5": "5B410277ACDA2B287741B34671B44E76"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "CATALYTIC ACTIVITY": 1,
+            "COFACTOR": 1,
+            "SUBCELLULAR LOCATION": 1,
+            "SIMILARITY": 1
+        },
+        "countByFeatureType": {
+            "Chain": 1,
+            "Region": 3,
+            "Compositional bias": 1,
+            "Binding site": 5
+        },
+        "uniParcId": "UPI0002065FE9"
+    }
+}

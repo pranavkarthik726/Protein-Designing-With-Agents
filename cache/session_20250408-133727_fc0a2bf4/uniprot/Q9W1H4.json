@@ -1,0 +1,2041 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "Q9W1H4",
+    "secondaryAccessions": [
+        "Q960P4"
+    ],
+    "uniProtkbId": "DNLI1_DROME",
+    "entryAudit": {
+        "firstPublicDate": "2009-05-05",
+        "lastAnnotationUpdateDate": "2025-02-05",
+        "lastSequenceUpdateDate": "2002-10-01",
+        "entryVersion": 185,
+        "sequenceVersion": 2
+    },
+    "annotationScore": 5.0,
+    "organism": {
+        "scientificName": "Drosophila melanogaster",
+        "commonName": "Fruit fly",
+        "taxonId": 7227,
+        "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Ecdysozoa",
+            "Arthropoda",
+            "Hexapoda",
+            "Insecta",
+            "Pterygota",
+            "Neoptera",
+            "Endopterygota",
+            "Diptera",
+            "Brachycera",
+            "Muscomorpha",
+            "Ephydroidea",
+            "Drosophilidae",
+            "Drosophila",
+            "Sophophora"
+        ]
+    },
+    "proteinExistence": "1: Evidence at protein level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "value": "DNA ligase 1"
+            },
+            "ecNumbers": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000255",
+                            "source": "PROSITE-ProRule",
+                            "id": "PRU10135"
+                        }
+                    ],
+                    "value": "6.5.1.1"
+                }
+            ]
+        },
+        "alternativeNames": [
+            {
+                "fullName": {
+                    "value": "DNA ligase I"
+                },
+                "shortNames": [
+                    {
+                        "value": "DmDNA Lig I"
+                    }
+                ]
+            }
+        ]
+    },
+    "genes": [
+        {
+            "geneName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000312",
+                        "source": "FlyBase",
+                        "id": "FBgn0262619"
+                    }
+                ],
+                "value": "DNAlig1"
+            },
+            "synonyms": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000303",
+                            "source": "PubMed",
+                            "id": "17937809"
+                        }
+                    ],
+                    "value": "DNA-ligI"
+                }
+            ],
+            "orfNames": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000312",
+                            "source": "FlyBase",
+                            "id": "FBgn0262619"
+                        }
+                    ],
+                    "value": "CG5602"
+                }
+            ]
+        }
+    ],
+    "comments": [
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000250"
+                        }
+                    ],
+                    "value": "DNA ligase that seals nicks in double-stranded DNA during DNA replication, DNA recombination and DNA repair"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "commentType": "CATALYTIC ACTIVITY",
+            "reaction": {
+                "name": "ATP + (deoxyribonucleotide)n-3'-hydroxyl + 5'-phospho-(deoxyribonucleotide)m = (deoxyribonucleotide)n+m + AMP + diphosphate.",
+                "ecNumber": "6.5.1.1",
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000255",
+                        "source": "PROSITE-ProRule",
+                        "id": "PRU10135"
+                    }
+                ]
+            }
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "note": {
+                "texts": [
+                    {
+                        "value": "Does not accumulate at the replication foci (RF)"
+                    }
+                ]
+            },
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000269",
+                                "source": "PubMed",
+                                "id": "17937809"
+                            }
+                        ],
+                        "value": "Nucleus",
+                        "id": "SL-0191"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ],
+                    "value": "Belongs to the ATP-dependent DNA ligase family"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        }
+    ],
+    "features": [
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 747,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "DNA ligase 1",
+            "featureId": "PRO_0000372657"
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 84,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Disordered",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 725,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 747,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Disordered",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Compositional bias",
+            "location": {
+                "start": {
+                    "value": 26,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 42,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Basic and acidic residues",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Compositional bias",
+            "location": {
+                "start": {
+                    "value": 60,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 84,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Basic and acidic residues",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Compositional bias",
+            "location": {
+                "start": {
+                    "value": 725,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 740,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Polar residues",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Active site",
+            "location": {
+                "start": {
+                    "value": 395,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 395,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "N6-AMP-lysine intermediate",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "PROSITE-ProRule",
+                    "id": "PRU10135"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 18,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 18,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "18327897"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 20,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 20,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "18327897"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 42,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 42,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "18327897"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 44,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 44,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "18327897"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 46,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 46,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "18327897"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 60,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 60,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "18327897"
+                }
+            ]
+        },
+        {
+            "type": "Modified residue",
+            "location": {
+                "start": {
+                    "value": 65,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 65,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Phosphoserine",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "17372656"
+                },
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "18327897"
+                }
+            ]
+        },
+        {
+            "type": "Sequence conflict",
+            "location": {
+                "start": {
+                    "value": 361,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 387,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "in Ref. 3; AAK93363",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000305"
+                }
+            ],
+            "alternativeSequence": {}
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0067",
+            "category": "Ligand",
+            "name": "ATP-binding"
+        },
+        {
+            "id": "KW-0131",
+            "category": "Biological process",
+            "name": "Cell cycle"
+        },
+        {
+            "id": "KW-0132",
+            "category": "Biological process",
+            "name": "Cell division"
+        },
+        {
+            "id": "KW-0227",
+            "category": "Biological process",
+            "name": "DNA damage"
+        },
+        {
+            "id": "KW-0233",
+            "category": "Biological process",
+            "name": "DNA recombination"
+        },
+        {
+            "id": "KW-0234",
+            "category": "Biological process",
+            "name": "DNA repair"
+        },
+        {
+            "id": "KW-0235",
+            "category": "Biological process",
+            "name": "DNA replication"
+        },
+        {
+            "id": "KW-0436",
+            "category": "Molecular function",
+            "name": "Ligase"
+        },
+        {
+            "id": "KW-0547",
+            "category": "Ligand",
+            "name": "Nucleotide-binding"
+        },
+        {
+            "id": "KW-0539",
+            "category": "Cellular component",
+            "name": "Nucleus"
+        },
+        {
+            "id": "KW-0597",
+            "category": "PTM",
+            "name": "Phosphoprotein"
+        },
+        {
+            "id": "KW-1185",
+            "category": "Technical term",
+            "name": "Reference proteome"
+        }
+    ],
+    "references": [
+        {
+            "referenceNumber": 1,
+            "citation": {
+                "id": "10731132",
+                "citationType": "journal article",
+                "authors": [
+                    "Adams M.D.",
+                    "Celniker S.E.",
+                    "Holt R.A.",
+                    "Evans C.A.",
+                    "Gocayne J.D.",
+                    "Amanatides P.G.",
+                    "Scherer S.E.",
+                    "Li P.W.",
+                    "Hoskins R.A.",
+                    "Galle R.F.",
+                    "George R.A.",
+                    "Lewis S.E.",
+                    "Richards S.",
+                    "Ashburner M.",
+                    "Henderson S.N.",
+                    "Sutton G.G.",
+                    "Wortman J.R.",
+                    "Yandell M.D.",
+                    "Zhang Q.",
+                    "Chen L.X.",
+                    "Brandon R.C.",
+                    "Rogers Y.-H.C.",
+                    "Blazej R.G.",
+                    "Champe M.",
+                    "Pfeiffer B.D.",
+                    "Wan K.H.",
+                    "Doyle C.",
+                    "Baxter E.G.",
+                    "Helt G.",
+                    "Nelson C.R.",
+                    "Miklos G.L.G.",
+                    "Abril J.F.",
+                    "Agbayani A.",
+                    "An H.-J.",
+                    "Andrews-Pfannkoch C.",
+                    "Baldwin D.",
+                    "Ballew R.M.",
+                    "Basu A.",
+                    "Baxendale J.",
+                    "Bayraktaroglu L.",
+                    "Beasley E.M.",
+                    "Beeson K.Y.",
+                    "Benos P.V.",
+                    "Berman B.P.",
+                    "Bhandari D.",
+                    "Bolshakov S.",
+                    "Borkova D.",
+                    "Botchan M.R.",
+                    "Bouck J.",
+                    "Brokstein P.",
+                    "Brottier P.",
+                    "Burtis K.C.",
+                    "Busam D.A.",
+                    "Butler H.",
+                    "Cadieu E.",
+                    "Center A.",
+                    "Chandra I.",
+                    "Cherry J.M.",
+                    "Cawley S.",
+                    "Dahlke C.",
+                    "Davenport L.B.",
+                    "Davies P.",
+                    "de Pablos B.",
+                    "Delcher A.",
+                    "Deng Z.",
+                    "Mays A.D.",
+                    "Dew I.",
+                    "Dietz S.M.",
+                    "Dodson K.",
+                    "Doup L.E.",
+                    "Downes M.",
+                    "Dugan-Rocha S.",
+                    "Dunkov B.C.",
+                    "Dunn P.",
+                    "Durbin K.J.",
+                    "Evangelista C.C.",
+                    "Ferraz C.",
+                    "Ferriera S.",
+                    "Fleischmann W.",
+                    "Fosler C.",
+                    "Gabrielian A.E.",
+                    "Garg N.S.",
+                    "Gelbart W.M.",
+                    "Glasser K.",
+                    "Glodek A.",
+                    "Gong F.",
+                    "Gorrell J.H.",
+                    "Gu Z.",
+                    "Guan P.",
+                    "Harris M.",
+                    "Harris N.L.",
+                    "Harvey D.A.",
+                    "Heiman T.J.",
+                    "Hernandez J.R.",
+                    "Houck J.",
+                    "Hostin D.",
+                    "Houston K.A.",
+                    "Howland T.J.",
+                    "Wei M.-H.",
+                    "Ibegwam C.",
+                    "Jalali M.",
+                    "Kalush F.",
+                    "Karpen G.H.",
+                    "Ke Z.",
+                    "Kennison J.A.",
+                    "Ketchum K.A.",
+                    "Kimmel B.E.",
+                    "Kodira C.D.",
+                    "Kraft C.L.",
+                    "Kravitz S.",
+                    "Kulp D.",
+                    "Lai Z.",
+                    "Lasko P.",
+                    "Lei Y.",
+                    "Levitsky A.A.",
+                    "Li J.H.",
+                    "Li Z.",
+                    "Liang Y.",
+                    "Lin X.",
+                    "Liu X.",
+                    "Mattei B.",
+                    "McIntosh T.C.",
+                    "McLeod M.P.",
+                    "McPherson D.",
+                    "Merkulov G.",
+                    "Milshina N.V.",
+                    "Mobarry C.",
+                    "Morris J.",
+                    "Moshrefi A.",
+                    "Mount S.M.",
+                    "Moy M.",
+                    "Murphy B.",
+                    "Murphy L.",
+                    "Muzny D.M.",
+                    "Nelson D.L.",
+                    "Nelson D.R.",
+                    "Nelson K.A.",
+                    "Nixon K.",
+                    "Nusskern D.R.",
+                    "Pacleb J.M.",
+                    "Palazzolo M.",
+                    "Pittman G.S.",
+                    "Pan S.",
+                    "Pollard J.",
+                    "Puri V.",
+                    "Reese M.G.",
+                    "Reinert K.",
+                    "Remington K.",
+                    "Saunders R.D.C.",
+                    "Scheeler F.",
+                    "Shen H.",
+                    "Shue B.C.",
+                    "Siden-Kiamos I.",
+                    "Simpson M.",
+                    "Skupski M.P.",
+                    "Smith T.J.",
+                    "Spier E.",
+                    "Spradling A.C.",
+                    "Stapleton M.",
+                    "Strong R.",
+                    "Sun E.",
+                    "Svirskas R.",
+                    "Tector C.",
+                    "Turner R.",
+                    "Venter E.",
+                    "Wang A.H.",
+                    "Wang X.",
+                    "Wang Z.-Y.",
+                    "Wassarman D.A.",
+                    "Weinstock G.M.",
+                    "Weissenbach J.",
+                    "Williams S.M.",
+                    "Woodage T.",
+                    "Worley K.C.",
+                    "Wu D.",
+                    "Yang S.",
+                    "Yao Q.A.",
+                    "Ye J.",
+                    "Yeh R.-F.",
+                    "Zaveri J.S.",
+                    "Zhan M.",
+                    "Zhang G.",
+                    "Zhao Q.",
+                    "Zheng L.",
+                    "Zheng X.H.",
+                    "Zhong F.N.",
+                    "Zhong W.",
+                    "Zhou X.",
+                    "Zhu S.C.",
+                    "Zhu X.",
+                    "Smith H.O.",
+                    "Gibbs R.A.",
+                    "Myers E.W.",
+                    "Rubin G.M.",
+                    "Venter J.C."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "10731132"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1126/science.287.5461.2185"
+                    }
+                ],
+                "title": "The genome sequence of Drosophila melanogaster.",
+                "publicationDate": "2000",
+                "journal": "Science",
+                "firstPage": "2185",
+                "lastPage": "2195",
+                "volume": "287"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Berkeley",
+                    "type": "STRAIN"
+                }
+            ]
+        },
+        {
+            "referenceNumber": 2,
+            "citation": {
+                "id": "12537572",
+                "citationType": "journal article",
+                "authors": [
+                    "Misra S.",
+                    "Crosby M.A.",
+                    "Mungall C.J.",
+                    "Matthews B.B.",
+                    "Campbell K.S.",
+                    "Hradecky P.",
+                    "Huang Y.",
+                    "Kaminker J.S.",
+                    "Millburn G.H.",
+                    "Prochnik S.E.",
+                    "Smith C.D.",
+                    "Tupy J.L.",
+                    "Whitfield E.J.",
+                    "Bayraktaroglu L.",
+                    "Berman B.P.",
+                    "Bettencourt B.R.",
+                    "Celniker S.E.",
+                    "de Grey A.D.N.J.",
+                    "Drysdale R.A.",
+                    "Harris N.L.",
+                    "Richter J.",
+                    "Russo S.",
+                    "Schroeder A.J.",
+                    "Shu S.Q.",
+                    "Stapleton M.",
+                    "Yamada C.",
+                    "Ashburner M.",
+                    "Gelbart W.M.",
+                    "Rubin G.M.",
+                    "Lewis S.E."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "12537572"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1186/gb-2002-3-12-research0083"
+                    }
+                ],
+                "title": "Annotation of the Drosophila melanogaster euchromatic genome: a systematic review.",
+                "publicationDate": "2002",
+                "journal": "Genome Biol.",
+                "firstPage": "RESEARCH0083.1",
+                "lastPage": "RESEARCH0083.22",
+                "volume": "3"
+            },
+            "referencePositions": [
+                "GENOME REANNOTATION"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Berkeley",
+                    "type": "STRAIN"
+                }
+            ]
+        },
+        {
+            "referenceNumber": 3,
+            "citation": {
+                "id": "12537569",
+                "citationType": "journal article",
+                "authors": [
+                    "Stapleton M.",
+                    "Carlson J.W.",
+                    "Brokstein P.",
+                    "Yu C.",
+                    "Champe M.",
+                    "George R.A.",
+                    "Guarin H.",
+                    "Kronmiller B.",
+                    "Pacleb J.M.",
+                    "Park S.",
+                    "Wan K.H.",
+                    "Rubin G.M.",
+                    "Celniker S.E."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "12537569"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1186/gb-2002-3-12-research0080"
+                    }
+                ],
+                "title": "A Drosophila full-length cDNA resource.",
+                "publicationDate": "2002",
+                "journal": "Genome Biol.",
+                "firstPage": "RESEARCH0080.1",
+                "lastPage": "RESEARCH0080.8",
+                "volume": "3"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Berkeley",
+                    "type": "STRAIN"
+                },
+                {
+                    "value": "Embryo",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "referenceNumber": 4,
+            "citation": {
+                "id": "CI-BJAF7TF0PNAEV",
+                "citationType": "submission",
+                "authors": [
+                    "Stapleton M.",
+                    "Carlson J.W.",
+                    "Chavez C.",
+                    "Frise E.",
+                    "George R.A.",
+                    "Pacleb J.M.",
+                    "Park S.",
+                    "Wan K.H.",
+                    "Yu C.",
+                    "Rubin G.M.",
+                    "Celniker S.E."
+                ],
+                "publicationDate": "OCT-2004",
+                "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Berkeley",
+                    "type": "STRAIN"
+                },
+                {
+                    "value": "Embryo",
+                    "type": "TISSUE"
+                }
+            ]
+        },
+        {
+            "referenceNumber": 5,
+            "citation": {
+                "id": "17937809",
+                "citationType": "journal article",
+                "authors": [
+                    "Easwaran H.P.",
+                    "Leonhardt H.",
+                    "Cardoso M.C."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "17937809"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1186/1471-2121-8-42"
+                    }
+                ],
+                "title": "Distribution of DNA replication proteins in Drosophila cells.",
+                "publicationDate": "2007",
+                "journal": "BMC Cell Biol.",
+                "firstPage": "42",
+                "lastPage": "42",
+                "volume": "8"
+            },
+            "referencePositions": [
+                "SUBCELLULAR LOCATION"
+            ]
+        },
+        {
+            "referenceNumber": 6,
+            "citation": {
+                "id": "17372656",
+                "citationType": "journal article",
+                "authors": [
+                    "Bodenmiller B.",
+                    "Mueller L.N.",
+                    "Pedrioli P.G.A.",
+                    "Pflieger D.",
+                    "Juenger M.A.",
+                    "Eng J.K.",
+                    "Aebersold R.",
+                    "Tao W.A."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "17372656"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1039/b617545g"
+                    }
+                ],
+                "title": "An integrated chemical, mass spectrometric and computational strategy for (quantitative) phosphoproteomics: application to Drosophila melanogaster Kc167 cells.",
+                "publicationDate": "2007",
+                "journal": "Mol. Biosyst.",
+                "firstPage": "275",
+                "lastPage": "286",
+                "volume": "3"
+            },
+            "referencePositions": [
+                "PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-65",
+                "IDENTIFICATION BY MASS SPECTROMETRY"
+            ]
+        },
+        {
+            "referenceNumber": 7,
+            "citation": {
+                "id": "18327897",
+                "citationType": "journal article",
+                "authors": [
+                    "Zhai B.",
+                    "Villen J.",
+                    "Beausoleil S.A.",
+                    "Mintseris J.",
+                    "Gygi S.P."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "18327897"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1021/pr700696a"
+                    }
+                ],
+                "title": "Phosphoproteome analysis of Drosophila melanogaster embryos.",
+                "publicationDate": "2008",
+                "journal": "J. Proteome Res.",
+                "firstPage": "1675",
+                "lastPage": "1682",
+                "volume": "7"
+            },
+            "referencePositions": [
+                "PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-18; SER-20; SER-42; SER-44; SER-46; SER-60 AND SER-65",
+                "IDENTIFICATION BY MASS SPECTROMETRY"
+            ],
+            "referenceComments": [
+                {
+                    "value": "Embryo",
+                    "type": "TISSUE"
+                }
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "EMBL",
+            "id": "AE013599",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAF47090.3"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AY051939",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAK93363.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "BT016103",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAV36988.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "mRNA"
+                }
+            ]
+        },
+        {
+            "database": "RefSeq",
+            "id": "NP_611843.2",
+            "properties": [
+                {
+                    "key": "NucleotideSequenceId",
+                    "value": "NM_137999.3"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "Q9W1H4",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "Q9W1H4",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "BioGRID",
+            "id": "63384",
+            "properties": [
+                {
+                    "key": "Interactions",
+                    "value": "2"
+                }
+            ]
+        },
+        {
+            "database": "IntAct",
+            "id": "Q9W1H4",
+            "properties": [
+                {
+                    "key": "Interactions",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "STRING",
+            "id": "7227.FBpp0072041",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "iPTMnet",
+            "id": "Q9W1H4",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PaxDb",
+            "id": "7227-FBpp0072041",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "DNASU",
+            "id": "37791",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "EnsemblMetazoa",
+            "id": "FBtr0072132",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "FBpp0072041"
+                },
+                {
+                    "key": "GeneId",
+                    "value": "FBgn0262619"
+                }
+            ]
+        },
+        {
+            "database": "GeneID",
+            "id": "37791",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "KEGG",
+            "id": "dme:Dmel_CG5602",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "UCSC",
+            "id": "CG5602-RA",
+            "properties": [
+                {
+                    "key": "OrganismName",
+                    "value": "d. melanogaster"
+                }
+            ]
+        },
+        {
+            "database": "AGR",
+            "id": "FB:FBgn0262619",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "CTD",
+            "id": "37791",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "FlyBase",
+            "id": "FBgn0262619",
+            "properties": [
+                {
+                    "key": "GeneName",
+                    "value": "DNAlig1"
+                }
+            ]
+        },
+        {
+            "database": "VEuPathDB",
+            "id": "VectorBase:FBgn0262619",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "eggNOG",
+            "id": "KOG0967",
+            "properties": [
+                {
+                    "key": "ToxonomicScope",
+                    "value": "Eukaryota"
+                }
+            ]
+        },
+        {
+            "database": "GeneTree",
+            "id": "ENSGT00940000157783",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "HOGENOM",
+            "id": "CLU_005138_4_2_1",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "InParanoid",
+            "id": "Q9W1H4",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OMA",
+            "id": "WIKYKRD",
+            "properties": [
+                {
+                    "key": "Fingerprint",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OrthoDB",
+            "id": "206088at2759",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PhylomeDB",
+            "id": "Q9W1H4",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-DME-5358565",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Mismatch repair (MMR) directed by MSH2:MSH6 (MutSalpha)"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-DME-5358606",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Mismatch repair (MMR) directed by MSH2:MSH3 (MutSbeta)"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-DME-5651801",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "PCNA-Dependent Long Patch Base Excision Repair"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-DME-6782210",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Gap-filling DNA repair synthesis and ligation in TC-NER"
+                }
+            ]
+        },
+        {
+            "database": "Reactome",
+            "id": "R-DME-69183",
+            "properties": [
+                {
+                    "key": "PathwayName",
+                    "value": "Processive synthesis on the lagging strand"
+                }
+            ]
+        },
+        {
+            "database": "BioGRID-ORCS",
+            "id": "37791",
+            "properties": [
+                {
+                    "key": "hits",
+                    "value": "0 hits in 3 CRISPR screens"
+                }
+            ]
+        },
+        {
+            "database": "GenomeRNAi",
+            "id": "37791",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PRO",
+            "id": "PR:Q9W1H4",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Proteomes",
+            "id": "UP000000803",
+            "properties": [
+                {
+                    "key": "Component",
+                    "value": "Chromosome 2R"
+                }
+            ]
+        },
+        {
+            "database": "Bgee",
+            "id": "FBgn0262619",
+            "properties": [
+                {
+                    "key": "ExpressionPatterns",
+                    "value": "Expressed in secondary oocyte and 23 other cell types or tissues"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005737",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:cytoplasm"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:FlyBase"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "3104089"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005739",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:mitochondrion"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005634",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:nucleus"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0005524",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:ATP binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0003677",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:DNA binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:InterPro"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0003910",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:DNA ligase (ATP) activity"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:FlyBase"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "3090038"
+                },
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "3104089"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0051301",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:cell division"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0071897",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:DNA biosynthetic process"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:InterPro"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0006266",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:DNA ligation"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0006310",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:DNA recombination"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0006281",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:DNA repair"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0006273",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:lagging strand elongation"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:1903461",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:Okazaki fragment processing involved in mitotic DNA replication"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IBA:GO_Central"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd07900",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Adenylation_DNA_ligase_I_Euk"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "CDD",
+            "id": "cd07969",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "OBF_DNA_ligase_I"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "FunFam",
+            "id": "1.10.3260.10:FF:000001",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA ligase"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "FunFam",
+            "id": "2.40.50.140:FF:000062",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA ligase"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "FunFam",
+            "id": "3.30.470.30:FF:000016",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA ligase"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "3.30.1490.70",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "-"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "1.10.3260.10",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA ligase, ATP-dependent, N-terminal domain"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "3.30.470.30",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA ligase/mRNA capping enzyme"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.40.50.140",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Nucleic acid-binding proteins"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR050191",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "ATP-dep_DNA_ligase"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR000977",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA_ligase_ATP-dep"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR012309",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA_ligase_ATP-dep_C"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR012310",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA_ligase_ATP-dep_cent"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR016059",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA_ligase_ATP-dep_CS"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR012308",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA_ligase_ATP-dep_N"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR036599",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA_ligase_N_sf"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR012340",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "NA-bd_OB-fold"
+                }
+            ]
+        },
+        {
+            "database": "NCBIfam",
+            "id": "TIGR00574",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "dnl1"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PANTHER",
+            "id": "PTHR45674:SF4",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA LIGASE 1"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PANTHER",
+            "id": "PTHR45674",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA LIGASE 1/3 FAMILY MEMBER"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF04679",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA_ligase_A_C"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF01068",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA_ligase_A_M"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF04675",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA_ligase_A_N"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF117018",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "ATP-dependent DNA ligase DNA-binding domain"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF56091",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA ligase/mRNA capping enzyme, catalytic domain"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF50249",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Nucleic acid-binding proteins"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PROSITE",
+            "id": "PS00697",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA_LIGASE_A1"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PROSITE",
+            "id": "PS00333",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA_LIGASE_A2"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PROSITE",
+            "id": "PS50160",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "DNA_LIGASE_A3"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MQKSITSFFKKKSDATDSPSPPKKVPKIDAKTELPDEPHIKSESASPETKPKVEPMSVDSEEKTSPVKNVKKEPKEVDDKTTDKKVTTIGLNSTAATKEDVENYDPSADSYHPLKNAYWKDKKVTPYLALARTFQVIEETKGRLKMIDTLSNFFCSVMLVSPEDLVPSVYLSINQLAPAYEGLELGVAETTLMKAICKATGRNLAHIKSQTQLTGDLGIVAEQSRVSQRMMFQPAPLNVRDVFRKLREIAKLSGQSKMDLVYNMFVACRSSEARFFIRSLIGKLRIGIAEQSLLTALAIGLVKKNHIDDCKASKVPDVYKDEIVDTTLLLKTAYCQCPNYDIIIPAILKYDIKELQERCPMHPGMPLRPMLAQPTKGVHEVFERFGGMQITCEWKYDGERAQIHRNEKGEISIFSRNSENNTAKYPDLIARSTALLKGDVKSYIIDSEIVAWDVERKQILPFQVLSTRKRKNVDIEEIKVQVCVYIFDLLYINGTALVTKNLSERRKLLLEHFQEVEGEWKFATALDTNDIDEVQQFLEESIKGNCEGLMVKTLDEEATYEIAKRSRNWLKLKKDYLSNVGDSLDLVVIGGYKGKGRRTGTYGGFLLACYDTENEEYQSICKIGTGFTDEDLQTHSEFLGKHVTSAAKSYYRYDPSLEPDHWFEPVQVWEVKCADLSLSPIHRAAIGIVDGERGISLRFPRFIRIRDDKNSENATDANQVAHMYQSQDQVKNNQKSSTQMEMEDEFY",
+        "length": 747,
+        "molWeight": 84719,
+        "crc64": "9203F51CFFE3EF1D",
+        "md5": "0B59CD846CCA37C95DCBC8986706F07D"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "CATALYTIC ACTIVITY": 1,
+            "SUBCELLULAR LOCATION": 1,
+            "SIMILARITY": 1
+        },
+        "countByFeatureType": {
+            "Chain": 1,
+            "Region": 2,
+            "Compositional bias": 3,
+            "Active site": 1,
+            "Modified residue": 7,
+            "Sequence conflict": 1
+        },
+        "uniParcId": "UPI000007BA72"
+    }
+}

@@ -1,0 +1,1811 @@
+{
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "primaryAccession": "P69490",
+    "secondaryAccessions": [
+        "P33928",
+        "Q2MAP6"
+    ],
+    "uniProtkbId": "CCME_ECOLI",
+    "entryAudit": {
+        "firstPublicDate": "2005-03-15",
+        "lastAnnotationUpdateDate": "2025-02-05",
+        "lastSequenceUpdateDate": "2005-03-15",
+        "entryVersion": 138,
+        "sequenceVersion": 1
+    },
+    "annotationScore": 5.0,
+    "organism": {
+        "scientificName": "Escherichia coli (strain K12)",
+        "taxonId": 83333,
+        "lineage": [
+            "Bacteria",
+            "Pseudomonadota",
+            "Gammaproteobacteria",
+            "Enterobacterales",
+            "Enterobacteriaceae",
+            "Escherichia"
+        ]
+    },
+    "proteinExistence": "1: Evidence at protein level",
+    "proteinDescription": {
+        "recommendedName": {
+            "fullName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000255",
+                        "source": "HAMAP-Rule",
+                        "id": "MF_01959"
+                    }
+                ],
+                "value": "Cytochrome c-type biogenesis protein CcmE"
+            }
+        },
+        "alternativeNames": [
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000255",
+                            "source": "HAMAP-Rule",
+                            "id": "MF_01959"
+                        }
+                    ],
+                    "value": "Cytochrome c maturation protein E"
+                }
+            },
+            {
+                "fullName": {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000255",
+                            "source": "HAMAP-Rule",
+                            "id": "MF_01959"
+                        }
+                    ],
+                    "value": "Heme chaperone CcmE"
+                }
+            }
+        ]
+    },
+    "genes": [
+        {
+            "geneName": {
+                "evidences": [
+                    {
+                        "evidenceCode": "ECO:0000255",
+                        "source": "HAMAP-Rule",
+                        "id": "MF_01959"
+                    }
+                ],
+                "value": "ccmE"
+            },
+            "synonyms": [
+                {
+                    "value": "yejS"
+                }
+            ],
+            "orderedLocusNames": [
+                {
+                    "value": "b2197"
+                },
+                {
+                    "value": "JW2185"
+                }
+            ]
+        }
+    ],
+    "comments": [
+        {
+            "texts": [
+                {
+                    "value": "Heme chaperone required for the biogenesis of c-type cytochromes. Transiently binds heme delivered by CcmC and transfers the heme to apo-cytochromes in a process facilitated by CcmF and CcmH"
+                }
+            ],
+            "commentType": "FUNCTION"
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "11384983"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "11744735"
+                        },
+                        {
+                            "evidenceCode": "ECO:0000269",
+                            "source": "PubMed",
+                            "id": "15513913"
+                        }
+                    ],
+                    "value": "Forms a ternary complex with CcmC and CcmD. Interacts with CcmF. Shuttles between CcmC and CcmF for heme delivery"
+                }
+            ],
+            "commentType": "SUBUNIT"
+        },
+        {
+            "commentType": "INTERACTION",
+            "interactions": [
+                {
+                    "interactantOne": {
+                        "uniProtKBAccession": "P69490",
+                        "intActId": "EBI-1128007"
+                    },
+                    "interactantTwo": {
+                        "uniProtKBAccession": "P0ABM1",
+                        "geneName": "ccmC",
+                        "intActId": "EBI-2123469"
+                    },
+                    "numberOfExperiments": 7,
+                    "organismDiffer": false
+                }
+            ]
+        },
+        {
+            "commentType": "SUBCELLULAR LOCATION",
+            "note": {
+                "texts": [
+                    {
+                        "value": "Stabilized by CcmD in the membrane"
+                    }
+                ]
+            },
+            "subcellularLocations": [
+                {
+                    "location": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000255",
+                                "source": "HAMAP-Rule",
+                                "id": "MF_01959"
+                            }
+                        ],
+                        "value": "Cell inner membrane",
+                        "id": "SL-0037"
+                    },
+                    "topology": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000255",
+                                "source": "HAMAP-Rule",
+                                "id": "MF_01959"
+                            }
+                        ],
+                        "value": "Single-pass type II membrane protein",
+                        "id": "SL-9906"
+                    },
+                    "orientation": {
+                        "evidences": [
+                            {
+                                "evidenceCode": "ECO:0000255",
+                                "source": "HAMAP-Rule",
+                                "id": "MF_01959"
+                            }
+                        ],
+                        "value": "Periplasmic side",
+                        "id": "SL-9916"
+                    }
+                }
+            ]
+        },
+        {
+            "texts": [
+                {
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000255",
+                            "source": "HAMAP-Rule",
+                            "id": "MF_01959"
+                        }
+                    ],
+                    "value": "Belongs to the CcmE/CycJ family"
+                }
+            ],
+            "commentType": "SIMILARITY"
+        }
+    ],
+    "features": [
+        {
+            "type": "Chain",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 159,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Cytochrome c-type biogenesis protein CcmE",
+            "featureId": "PRO_0000201575"
+        },
+        {
+            "type": "Topological domain",
+            "location": {
+                "start": {
+                    "value": 1,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 8,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Cytoplasmic",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "HAMAP-Rule",
+                    "id": "MF_01959"
+                }
+            ]
+        },
+        {
+            "type": "Transmembrane",
+            "location": {
+                "start": {
+                    "value": 9,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 29,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Helical; Signal-anchor for type II membrane protein",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "HAMAP-Rule",
+                    "id": "MF_01959"
+                }
+            ]
+        },
+        {
+            "type": "Topological domain",
+            "location": {
+                "start": {
+                    "value": 30,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 159,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Periplasmic",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000255",
+                    "source": "HAMAP-Rule",
+                    "id": "MF_01959"
+                }
+            ]
+        },
+        {
+            "type": "Region",
+            "location": {
+                "start": {
+                    "value": 132,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 159,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Disordered",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Compositional bias",
+            "location": {
+                "start": {
+                    "value": 132,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 147,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Basic and acidic residues",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000256",
+                    "source": "SAM",
+                    "id": "MobiDB-lite"
+                }
+            ]
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 130,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 130,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "covalent",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:30413"
+                }
+            ],
+            "ligand": {
+                "name": "heme",
+                "id": "ChEBI:CHEBI:30413"
+            }
+        },
+        {
+            "type": "Binding site",
+            "location": {
+                "start": {
+                    "value": 134,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 134,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "axial binding residue",
+            "featureCrossReferences": [
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:30413"
+                },
+                {
+                    "database": "ChEBI",
+                    "id": "CHEBI:18248"
+                }
+            ],
+            "ligand": {
+                "name": "heme",
+                "id": "ChEBI:CHEBI:30413"
+            },
+            "ligandPart": {
+                "name": "Fe",
+                "id": "ChEBI:CHEBI:18248"
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 130,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 130,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Abolishes heme binding.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "12486054"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "H",
+                "alternativeSequences": [
+                    "A"
+                ]
+            }
+        },
+        {
+            "type": "Mutagenesis",
+            "location": {
+                "start": {
+                    "value": 130,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 130,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "Can still form a covalent bond with heme, but blocks heme release transfer to cytochrome c.",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "12486054"
+                }
+            ],
+            "alternativeSequence": {
+                "originalSequence": "H",
+                "alternativeSequences": [
+                    "C"
+                ]
+            }
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 33,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 35,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1SR3"
+                }
+            ]
+        },
+        {
+            "type": "Turn",
+            "location": {
+                "start": {
+                    "value": 40,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 44,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1SR3"
+                }
+            ]
+        },
+        {
+            "type": "Turn",
+            "location": {
+                "start": {
+                    "value": 48,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 50,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1SR3"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 58,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 66,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1SR3"
+                }
+            ]
+        },
+        {
+            "type": "Turn",
+            "location": {
+                "start": {
+                    "value": 68,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 70,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1SR3"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 75,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 85,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1SR3"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 90,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 97,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1SR3"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 107,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 115,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1SR3"
+                }
+            ]
+        },
+        {
+            "type": "Beta strand",
+            "location": {
+                "start": {
+                    "value": 117,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 125,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1SR3"
+                }
+            ]
+        },
+        {
+            "type": "Helix",
+            "location": {
+                "start": {
+                    "value": 137,
+                    "modifier": "EXACT"
+                },
+                "end": {
+                    "value": 140,
+                    "modifier": "EXACT"
+                }
+            },
+            "description": "",
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0007829",
+                    "source": "PDB",
+                    "id": "1SR3"
+                }
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "id": "KW-0002",
+            "category": "Technical term",
+            "name": "3D-structure"
+        },
+        {
+            "id": "KW-0997",
+            "category": "Cellular component",
+            "name": "Cell inner membrane"
+        },
+        {
+            "id": "KW-1003",
+            "category": "Cellular component",
+            "name": "Cell membrane"
+        },
+        {
+            "id": "KW-0201",
+            "category": "Biological process",
+            "name": "Cytochrome c-type biogenesis"
+        },
+        {
+            "id": "KW-0903",
+            "category": "Technical term",
+            "name": "Direct protein sequencing"
+        },
+        {
+            "id": "KW-0349",
+            "category": "Ligand",
+            "name": "Heme"
+        },
+        {
+            "id": "KW-0408",
+            "category": "Ligand",
+            "name": "Iron"
+        },
+        {
+            "id": "KW-0472",
+            "category": "Cellular component",
+            "name": "Membrane"
+        },
+        {
+            "id": "KW-0479",
+            "category": "Ligand",
+            "name": "Metal-binding"
+        },
+        {
+            "id": "KW-1185",
+            "category": "Technical term",
+            "name": "Reference proteome"
+        },
+        {
+            "id": "KW-0735",
+            "category": "Domain",
+            "name": "Signal-anchor"
+        },
+        {
+            "id": "KW-0812",
+            "category": "Domain",
+            "name": "Transmembrane"
+        },
+        {
+            "id": "KW-1133",
+            "category": "Domain",
+            "name": "Transmembrane helix"
+        }
+    ],
+    "references": [
+        {
+            "referenceNumber": 1,
+            "citation": {
+                "id": "CI-139DDD83DAEOV",
+                "citationType": "submission",
+                "authors": [
+                    "Richterich P.",
+                    "Lakey N.",
+                    "Gryan G.",
+                    "Jaehn L.",
+                    "Mintz L.",
+                    "Robison K.",
+                    "Church G.M."
+                ],
+                "title": "Automated multiplex sequencing of the E.coli genome.",
+                "publicationDate": "OCT-1993",
+                "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ],
+            "referenceComments": [
+                {
+                    "value": "K12 / BHB2600",
+                    "type": "STRAIN"
+                }
+            ]
+        },
+        {
+            "referenceNumber": 2,
+            "citation": {
+                "id": "9278503",
+                "citationType": "journal article",
+                "authors": [
+                    "Blattner F.R.",
+                    "Plunkett G. III",
+                    "Bloch C.A.",
+                    "Perna N.T.",
+                    "Burland V.",
+                    "Riley M.",
+                    "Collado-Vides J.",
+                    "Glasner J.D.",
+                    "Rode C.K.",
+                    "Mayhew G.F.",
+                    "Gregor J.",
+                    "Davis N.W.",
+                    "Kirkpatrick H.A.",
+                    "Goeden M.A.",
+                    "Rose D.J.",
+                    "Mau B.",
+                    "Shao Y."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "9278503"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1126/science.277.5331.1453"
+                    }
+                ],
+                "title": "The complete genome sequence of Escherichia coli K-12.",
+                "publicationDate": "1997",
+                "journal": "Science",
+                "firstPage": "1453",
+                "lastPage": "1462",
+                "volume": "277"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ],
+            "referenceComments": [
+                {
+                    "value": "K12 / MG1655 / ATCC 47076",
+                    "type": "STRAIN"
+                }
+            ]
+        },
+        {
+            "referenceNumber": 3,
+            "citation": {
+                "id": "16738553",
+                "citationType": "journal article",
+                "authors": [
+                    "Hayashi K.",
+                    "Morooka N.",
+                    "Yamamoto Y.",
+                    "Fujita K.",
+                    "Isono K.",
+                    "Choi S.",
+                    "Ohtsubo E.",
+                    "Baba T.",
+                    "Wanner B.L.",
+                    "Mori H.",
+                    "Horiuchi T."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "16738553"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1038/msb4100049"
+                    }
+                ],
+                "title": "Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110.",
+                "publicationDate": "2006",
+                "journal": "Mol. Syst. Biol.",
+                "firstPage": "E1",
+                "lastPage": "E5",
+                "volume": "2"
+            },
+            "referencePositions": [
+                "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+            ],
+            "referenceComments": [
+                {
+                    "value": "K12 / W3110 / ATCC 27325 / DSM 5911",
+                    "type": "STRAIN"
+                }
+            ]
+        },
+        {
+            "referenceNumber": 4,
+            "citation": {
+                "id": "9712585",
+                "citationType": "journal article",
+                "authors": [
+                    "Schulz H.",
+                    "Hennecke H.",
+                    "Thoeny-Meyer L."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "9712585"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1126/science.281.5380.1197"
+                    }
+                ],
+                "title": "Prototype of a heme chaperone essential for cytochrome c maturation.",
+                "publicationDate": "1998",
+                "journal": "Science",
+                "firstPage": "1197",
+                "lastPage": "1200",
+                "volume": "281"
+            },
+            "referencePositions": [
+                "PROTEIN SEQUENCE OF 131-140",
+                "HEME-BINDING"
+            ]
+        },
+        {
+            "referenceNumber": 5,
+            "citation": {
+                "id": "7635817",
+                "citationType": "journal article",
+                "authors": [
+                    "Thoeny-Meyer L.",
+                    "Fischer F.",
+                    "Kunzler P.",
+                    "Ritz D.",
+                    "Hennecke H."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "7635817"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1128/jb.177.15.4321-4326.1995"
+                    }
+                ],
+                "title": "Escherichia coli genes required for cytochrome c maturation.",
+                "publicationDate": "1995",
+                "journal": "J. Bacteriol.",
+                "firstPage": "4321",
+                "lastPage": "4326",
+                "volume": "177"
+            },
+            "referencePositions": [
+                "CHARACTERIZATION",
+                "GENE NAME"
+            ]
+        },
+        {
+            "referenceNumber": 6,
+            "citation": {
+                "id": "11384983",
+                "citationType": "journal article",
+                "authors": [
+                    "Ren Q.",
+                    "Thoeny-Meyer L."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "11384983"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1074/jbc.m103058200"
+                    }
+                ],
+                "title": "Physical interaction of CcmC with heme and the heme chaperone CcmE during cytochrome c maturation.",
+                "publicationDate": "2001",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "32591",
+                "lastPage": "32596",
+                "volume": "276"
+            },
+            "referencePositions": [
+                "INTERACTION WITH CCMC"
+            ]
+        },
+        {
+            "referenceNumber": 7,
+            "citation": {
+                "id": "11744735",
+                "citationType": "journal article",
+                "authors": [
+                    "Ren Q.",
+                    "Ahuja U.",
+                    "Thoeny-Meyer L."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "11744735"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1074/jbc.m110979200"
+                    }
+                ],
+                "title": "A bacterial cytochrome c heme lyase. CcmF forms a complex with the heme chaperone CcmE and CcmH but not with apocytochrome c.",
+                "publicationDate": "2002",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "7657",
+                "lastPage": "7663",
+                "volume": "277"
+            },
+            "referencePositions": [
+                "INTERACTION WITH CCMF"
+            ]
+        },
+        {
+            "referenceNumber": 8,
+            "citation": {
+                "id": "12486054",
+                "citationType": "journal article",
+                "authors": [
+                    "Enggist E.",
+                    "Schneider M.J.",
+                    "Schulz H.",
+                    "Thoeny-Meyer L."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "12486054"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1128/jb.185.1.175-183.2003"
+                    }
+                ],
+                "title": "Biochemical and mutational characterization of the heme chaperone CcmE reveals a heme binding site.",
+                "publicationDate": "2003",
+                "journal": "J. Bacteriol.",
+                "firstPage": "175",
+                "lastPage": "183",
+                "volume": "185"
+            },
+            "referencePositions": [
+                "HEME-BINDING",
+                "MUTAGENESIS OF HIS-130"
+            ]
+        },
+        {
+            "referenceNumber": 9,
+            "citation": {
+                "id": "15513913",
+                "citationType": "journal article",
+                "authors": [
+                    "Ahuja U.",
+                    "Thoeny-Meyer L."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "15513913"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1074/jbc.m410912200"
+                    }
+                ],
+                "title": "CcmD is involved in complex formation between CcmC and the heme chaperone CcmE during cytochrome c maturation.",
+                "publicationDate": "2005",
+                "journal": "J. Biol. Chem.",
+                "firstPage": "236",
+                "lastPage": "243",
+                "volume": "280"
+            },
+            "referencePositions": [
+                "INTERACTION WITH CCMD"
+            ]
+        },
+        {
+            "referenceNumber": 10,
+            "citation": {
+                "id": "12429096",
+                "citationType": "journal article",
+                "authors": [
+                    "Enggist E.",
+                    "Thoeny-Meyer L.",
+                    "Guntert P.",
+                    "Pervushin K."
+                ],
+                "citationCrossReferences": [
+                    {
+                        "database": "PubMed",
+                        "id": "12429096"
+                    },
+                    {
+                        "database": "DOI",
+                        "id": "10.1016/s0969-2126(02)00885-7"
+                    }
+                ],
+                "title": "NMR structure of the heme chaperone CcmE reveals a novel functional motif.",
+                "publicationDate": "2002",
+                "journal": "Structure",
+                "firstPage": "1551",
+                "lastPage": "1557",
+                "volume": "10"
+            },
+            "referencePositions": [
+                "STRUCTURE BY NMR OF 30-159"
+            ]
+        }
+    ],
+    "uniProtKBCrossReferences": [
+        {
+            "database": "EMBL",
+            "id": "U00008",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAA16389.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "U00096",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAC75257.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "EMBL",
+            "id": "AP009048",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "BAE76660.1"
+                },
+                {
+                    "key": "Status",
+                    "value": "-"
+                },
+                {
+                    "key": "MoleculeType",
+                    "value": "Genomic_DNA"
+                }
+            ]
+        },
+        {
+            "database": "PIR",
+            "id": "C64989",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "C64989"
+                }
+            ]
+        },
+        {
+            "database": "RefSeq",
+            "id": "NP_416701.1",
+            "properties": [
+                {
+                    "key": "NucleotideSequenceId",
+                    "value": "NC_000913.3"
+                }
+            ]
+        },
+        {
+            "database": "RefSeq",
+            "id": "WP_001026418.1",
+            "properties": [
+                {
+                    "key": "NucleotideSequenceId",
+                    "value": "NZ_STEB01000002.1"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "1SR3",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "NMR"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "-"
+                },
+                {
+                    "key": "Chains",
+                    "value": "A=30-159"
+                }
+            ]
+        },
+        {
+            "database": "PDB",
+            "id": "8CE8",
+            "properties": [
+                {
+                    "key": "Method",
+                    "value": "EM"
+                },
+                {
+                    "key": "Resolution",
+                    "value": "3.81 A"
+                },
+                {
+                    "key": "Chains",
+                    "value": "E=1-159"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "1SR3",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PDBsum",
+            "id": "8CE8",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "AlphaFoldDB",
+            "id": "P69490",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "EMDB",
+            "id": "EMD-16601",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "SMR",
+            "id": "P69490",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "BioGRID",
+            "id": "4260483",
+            "properties": [
+                {
+                    "key": "Interactions",
+                    "value": "137"
+                }
+            ]
+        },
+        {
+            "database": "ComplexPortal",
+            "id": "CPX-3568",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "CcmABCDE system I cytochrome c biogenesis complex"
+                }
+            ]
+        },
+        {
+            "database": "DIP",
+            "id": "DIP-9255N",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "IntAct",
+            "id": "P69490",
+            "properties": [
+                {
+                    "key": "Interactions",
+                    "value": "8"
+                }
+            ]
+        },
+        {
+            "database": "MINT",
+            "id": "P69490",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "STRING",
+            "id": "511145.b2197",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "jPOST",
+            "id": "P69490",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PaxDb",
+            "id": "511145-b2197",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "EnsemblBacteria",
+            "id": "AAC75257",
+            "properties": [
+                {
+                    "key": "ProteinId",
+                    "value": "AAC75257"
+                },
+                {
+                    "key": "GeneId",
+                    "value": "b2197"
+                }
+            ]
+        },
+        {
+            "database": "GeneID",
+            "id": "86860369",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "GeneID",
+            "id": "946697",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "KEGG",
+            "id": "ecj:JW2185",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "KEGG",
+            "id": "eco:b2197",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "KEGG",
+            "id": "ecoc:C3026_12280",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PATRIC",
+            "id": "fig|1411691.4.peg.39",
+            "properties": [
+                {
+                    "key": "GeneDesignation",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "EchoBASE",
+            "id": "EB1986",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "eggNOG",
+            "id": "COG2332",
+            "properties": [
+                {
+                    "key": "ToxonomicScope",
+                    "value": "Bacteria"
+                }
+            ]
+        },
+        {
+            "database": "HOGENOM",
+            "id": "CLU_079503_1_0_6",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "InParanoid",
+            "id": "P69490",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OMA",
+            "id": "HVEFAVH",
+            "properties": [
+                {
+                    "key": "Fingerprint",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "OrthoDB",
+            "id": "9793584at2",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PhylomeDB",
+            "id": "P69490",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "BioCyc",
+            "id": "EcoCyc:CCME-MONOMER",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "BioCyc",
+            "id": "MetaCyc:CCME-MONOMER",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "EvolutionaryTrace",
+            "id": "P69490",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "PRO",
+            "id": "PR:P69490",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "Proteomes",
+            "id": "UP000000318",
+            "properties": [
+                {
+                    "key": "Component",
+                    "value": "Chromosome"
+                }
+            ]
+        },
+        {
+            "database": "Proteomes",
+            "id": "UP000000625",
+            "properties": [
+                {
+                    "key": "Component",
+                    "value": "Chromosome"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0043190",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "C:ATP-binding cassette (ABC) transporter complex"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "NAS:ComplexPortal"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000303",
+                    "source": "PubMed",
+                    "id": "24044352"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0020037",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:heme binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:EcoCyc"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "9712585"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0046872",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "F:metal ion binding"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IEA:UniProtKB-KW"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:1903607",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:cytochrome c biosynthetic process"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "IDA:EcoCyc"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000314",
+                    "source": "PubMed",
+                    "id": "19629033"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:0017004",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:cytochrome complex assembly"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "NAS:ComplexPortal"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000303",
+                    "source": "PubMed",
+                    "id": "24044352"
+                }
+            ]
+        },
+        {
+            "database": "GO",
+            "id": "GO:1904334",
+            "properties": [
+                {
+                    "key": "GoTerm",
+                    "value": "P:heme import across plasma membrane"
+                },
+                {
+                    "key": "GoEvidenceType",
+                    "value": "NAS:ComplexPortal"
+                }
+            ],
+            "evidences": [
+                {
+                    "evidenceCode": "ECO:0000303",
+                    "source": "PubMed",
+                    "id": "24044352"
+                }
+            ]
+        },
+        {
+            "database": "DisProt",
+            "id": "DP01729",
+            "properties": [
+                {
+                    "key": "Description",
+                    "value": "-"
+                }
+            ]
+        },
+        {
+            "database": "FunFam",
+            "id": "2.40.50.140:FF:000104",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Cytochrome c-type biogenesis protein CcmE"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Gene3D",
+            "id": "2.40.50.140",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Nucleic acid-binding proteins"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "HAMAP",
+            "id": "MF_01959",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "CcmE"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR004329",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "CcmE"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR036127",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "CcmE-like_sf"
+                }
+            ]
+        },
+        {
+            "database": "InterPro",
+            "id": "IPR012340",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "NA-bd_OB-fold"
+                }
+            ]
+        },
+        {
+            "database": "PANTHER",
+            "id": "PTHR34128",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "CYTOCHROME C-TYPE BIOGENESIS PROTEIN CCME HOMOLOG, MITOCHONDRIAL"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "PANTHER",
+            "id": "PTHR34128:SF2",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "CYTOCHROME C-TYPE BIOGENESIS PROTEIN CCME HOMOLOG, MITOCHONDRIAL"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "Pfam",
+            "id": "PF03100",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "CcmE"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "database": "SUPFAM",
+            "id": "SSF82093",
+            "properties": [
+                {
+                    "key": "EntryName",
+                    "value": "Heme chaperone CcmE"
+                },
+                {
+                    "key": "MatchStatus",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "sequence": {
+        "value": "MNIRRKNRLWIACAVLAGLALTIGLVLYALRSNIDLFYTPGEILYGKRETQQMPEVGQRLRVGGMVMPGSVQRDPNSLKVTFTIYDAEGSVDVSYEGILPDLFREGQGVVVQGELEKGNHILAKEVLAKHDENYTPPEVEKAMEANHRRPASVYKDPAS",
+        "length": 159,
+        "molWeight": 17698,
+        "crc64": "FA0585B8CD6446FC",
+        "md5": "C75BFF5D958D3809695D48D596226A11"
+    },
+    "extraAttributes": {
+        "countByCommentType": {
+            "FUNCTION": 1,
+            "SUBUNIT": 1,
+            "INTERACTION": 1,
+            "SUBCELLULAR LOCATION": 1,
+            "SIMILARITY": 1
+        },
+        "countByFeatureType": {
+            "Chain": 1,
+            "Topological domain": 2,
+            "Transmembrane": 1,
+            "Region": 1,
+            "Compositional bias": 1,
+            "Binding site": 2,
+            "Mutagenesis": 2,
+            "Beta strand": 6,
+            "Turn": 3,
+            "Helix": 1
+        },
+        "uniParcId": "UPI00001272E1"
+    }
+}

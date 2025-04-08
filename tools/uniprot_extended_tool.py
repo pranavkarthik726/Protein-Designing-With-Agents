@@ -90,7 +90,7 @@ class toolset:
     def Multiple_sequence_alignment(self) -> str:
         """Performs multiple sequence alignment using Clustal Omega."""
         proteins = self.get_all_sequence()
-    def rfdifcom(self,script, pdb_id):
+    def rfdifcom(self,script, pdb_id=None) -> str:
         """
         This function sends a request to the server to run a script with a PDB file.
         The server is expected to be running on localhost at port 5000.
@@ -100,12 +100,13 @@ class toolset:
             pdb_file_path = r"{parent}/pdb/{pdb_id}.pdb".format(parent=self.dir, pdb_id=pdb_id)
 
 
-            with open(pdb_file_path, 'rb') as pdb_file:
-                files = {
-                    'script': script,
-                    'pdb_file': pdb_file
-                }
-                response = requests.post(SERVER_URL, files=files)
+            #with open(pdb_file_path, 'rb') as pdb_file:
+            files = {
+                'script': script,
+                #'pdb_file': pdb_file
+            }
+            #response = requests.post(SERVER_URL, files=files)
+            response = requests.post(SERVER_URL, json={"script_path": script})
 
             if response.status_code == 200:
                 with open("output.pdb", "wb") as f:
