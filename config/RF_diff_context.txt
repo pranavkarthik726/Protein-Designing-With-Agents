@@ -1,0 +1,75 @@
+Below is a minimal “motif‐scaffolding” bash script you can drop into your RFdiffusion clone and run. It uses the built‑in scripts/run_inference.py entry point and the contigmap.contigs hydra flag to hold your motif fixed while growing new flanking scaffolds on either side.
+
+bash
+#!/usr/bin/env bash
+# examples/design_motif_scaffolding.sh
+
+# 1) path to your RFdiffusion repo
+RF_ROOT=/path/to/RFdiffusion
+
+# 2) input: a PDB containing your motif (with proper chain IDs)
+MOTIF_PDB=/full/path/to/your_motif.pdb
+
+# 3) how many designs you want
+NUM_DESIGNS=20
+
+# 4) output prefix (will create e.g. outputs/motif_scaffold*)
+OUT_PREF=outputs/motif_scaffold
+
+# 5) contig specification:
+#    [Nmin-Nmax/Astart-Aend/Cmin-Cmax]
+#    → build between Nmin–Nmax residues before Astart–Aend,
+#      then between Cmin–Cmax residues after it.
+#    e.g. here: 5–15 residues on each side of A50–A60
+CONTIG="[5-15/A50-60/5-15]"
+
+python3 $RF_ROOT/scripts/run_inference.py \
+  inference.input_pdb=$MOTIF_PDB \
+  inference.output_prefix=$OUT_PREF \
+  'contigmap.contigs='$CONTIG \
+  inference.num_designs=$NUM_DESIGNS
+How it works
+inference.input_pdb
+Points RFdiffusion at your motif PDB file.
+
+contigmap.contigs
+
+Anything prefixed by a letter (e.g. A50-60) is treated as a fixed motif (chain A, residues 50–60).
+
+Unprefixed ranges (5-15) tell RFdiffusion to build a random length (sampled each trajectory) in that window.
+
+You can fix the total length with contigmap.length=… if you want exact sizing. 
+GITHUB
+
+inference.output_prefix
+Directory prefix for all outputs.
+
+inference.num_designs
+How many independent diffusion trajectories to run.
+
+Advanced flags
+Fixed‐length scaffolds
+
+bash
+
+contigmap.length=50-50
+forces every design to be exactly 50 aa long 
+GITHUB
+.
+
+Very small motifs
+Use the “active site” model to better hold tiny motifs:
+
+bash
+
+inference.ckpt_override_path=models/ActiveSite_ckpt.pt
+Masking existing sequence
+To let RFdiffusion re‐design motif‐adjacent sidechains, add:
+
+bash
+'contigmap.inpaint_seq=[A1/A30-40]'
+Multiple chains or chain breaks
+Insert /0 to indicate a new chain:
+
+bash
+'contigmap.contigs=[5-15/A10-25/30-40/0 B1-100]'
