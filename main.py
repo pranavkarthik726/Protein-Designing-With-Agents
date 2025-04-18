@@ -17,7 +17,7 @@ from tools.rf_dif_tool import run_rf_diffusion
 from config.rf_diff_script_format import RFDiffusionScriptConfig
 def run_workflow(user_input: str):
 
-    os.environ["GEMINI_API_KEY"] = "AIzaSyCwso6IHHj7BNIOOv1PbveHd5E8pjqqUoU"
+    os.environ["GEMINI_API_KEY"] = "Paste your gemini key"
     gemini_llm = LLM(
         model="gemini/gemini-2.0-flash",
         temperature=0.7,
